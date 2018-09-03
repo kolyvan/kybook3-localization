@@ -1,0 +1,70 @@
+/* 
+  pluralized.strings
+  yar
+
+  Created by Kolyvan on 24/11/2017.
+  Copyright © 2017 Konstantin Bukreev. All rights reserved.
+*/
+
+"files.zero"    = "нет файлов";
+"files.one"     = "%zd файл";
+"files.two"     = "%zd файла";
+"files.few"     = "%zd файла";
+"files.many"    = "%zd файлов";
+"files.other"   = "%zd файлов";
+
+"folders.zero"    = "нет папок";
+"folders.one"     = "%zd папка";
+"folders.two"     = "%zd папки";
+"folders.few"     = "%zd папки";
+"folders.many"    = "%zd папок";
+"folders.other"   = "%zd папок";
+
+"pages.zero"    = "ноль страниц";
+"pages.one"     = "%zd страница";
+"pages.two"     = "%zd страницы";
+"pages.few"     = "%zd страницы";
+"pages.many"    = "%zd страниц";
+"pages.other"   = "%zd страниц";
+
+"words.zero"    = "ноль слов";
+"words.one"     = "%zd слово";
+"words.two"     = "%zd слова";
+"words.few"     = "%zd слова";
+"words.many"    = "%zd слов";
+"words.other"   = "%zd слов";
+
+"notes.zero"    = "нет заметок";
+"notes.one"     = "%zd заметка";
+"notes.two"     = "%zd заметки";
+"notes.few"     = "%zd заметки";
+"notes.many"    = "%zd заметок";
+"notes.other"   = "%zd заметок";
+
+"books.zero"    = "нет книг";
+"books.one"     = "%zd книга";
+"books.two"     = "%zd книги";
+"books.few"     = "%zd книги";
+"books.many"    = "%zd книг";
+"books.other"   = "%zd книг";
+
+"records.zero"    = "нет записей";
+"records.one"     = "%zd запись";
+"records.two"     = "%zd записи";
+"records.few"     = "%zd записи";
+"records.many"    = "%zd записей";
+"records.other"   = "%zd записей";
+
+"minutes.zero"    = "0 минут";
+"minutes.one"     = "1 минута";
+"minutes.two"     = "%zd минуты";
+"minutes.few"     = "%zd минуты";
+"minutes.many"    = "%zd минут";
+"minutes.other"   = "%zd минут";
+
+"seconds.zero"    = "0 секунд";
+"seconds.one"     = "1 секунда";
+"seconds.two"     = "%zd секунды";
+"seconds.few"     = "%zd секунды";
+"seconds.many"    = "%zd секунд";
+"seconds.other"   = "%zd секунд";

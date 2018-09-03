@@ -1,0 +1,11 @@
+/* 
+  iaptexts.strings
+  yar
+
+  Created by Konstantin on 16/08/2018.
+  Copyright © 2018 Konstantin Bukreev. All rights reserved.
+*/
+
+"iap.subscription.payment" = "Payment will be charged to your iTunes account at confirmation of purchase, or following the completion of a free-trial period.\nYour subscription will automatically renew, unless auto-renew is turned off no later that 24 hours before the end of the current subscription period.\nYour account will be charged for renewal within 24 hours prior to the end of the current subscription period.\nAutomatic renewal will cost the same price your were originally charged for the subscription.\nSubscriptions and auto-renewal can be managed and turned off in the iTunes account settings on the App Store after purchase.\nAny unused portion of a free trial period is forfeited as soon as a subscription is purchased.";
+
+"iap.subscription.info" = "Premium subscription allows users to synchronize ebook metadata, reading positions, bookmarks, notes, reviews, summaries and ebook files between devices using the KyBook synchronization server (hereinafter, the KyBook cloud).\n\nEbook metadata, reading positions, bookmarks, notes, reviews and summaries stored in the KyBook cloud without any restrictions on the size and / or quantity.\n\nBook files are uploaded to the KyBook cloud from the user's device after opening a book for reading. Book files are downloaded to the user's device from the KyBook cloud when a book is opened for reading. Only books stored on the device are uploaded into the KyBook cloud. Books located on third-party cloud storage are not saved additionally into the KyBook cloud.\n\nThe total size of the book files stored in the KyBook cloud for one user is limited up to 3 gigabytes (3000 megabytes). The maximum size of one file is limited up to 100 megabytes. Limitations on the maximum total size and the size of one file can be changed in the future.\n\nAdditionally, a premium subscription unlocks all Pro features.";

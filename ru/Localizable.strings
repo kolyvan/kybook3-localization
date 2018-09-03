@@ -1,0 +1,1272 @@
+/*
+  Localizable.strings
+  yar
+
+  Created by Kolyvan on 24/11/2017.
+  Copyright © 2017 Konstantin Bukreev. All rights reserved.
+*/
+
+// COMMON
+
+"common.empty"              = "Пусто";
+"common.close"              = "Закрыть";
+"common.cancel"             = "Отмена";
+"common.done"               = "Готово";
+"common.cancelled"          = "Отменено";
+"common.cancelling"         = "Отмена..";
+"common.loading"            = "Загрузка..";
+"common.preparing"          = "Подготовка..";
+"common.edit"               = "Правка";
+"common.delete"             = "Удалить";
+"common.add"                = "Добавить";
+"common.search"             = "Поиск";
+"common.save"               = "Сохранить";
+"common.enabled"            = "Включено";
+"common.enable"             = "Включить";
+"common.apply"              = "Применить";
+"common.more"               = "Ещё";
+"common.completed"          = "Завершено";
+"common.inprogress"         = "Выполняется..";
+"common.downloading"        = "Загружается";
+"common.unarchiving"        = "Разархивирование..";
+"common.none"               = "Нет";
+"common.configure"          = "Настроить";
+"common.confirm"            = "Подтвердить";
+"common.continue"           = "Продолжить";
+"common.yes"                = "Да";
+"common.no"                 = "Нет";
+
+// DATE
+
+"date.relation.aftertime"   = "В будущем";
+"date.relation.tomorrow"    = "Завтра";
+"date.relation.today"       = "Сегодня";
+"date.relation.yesterday"   = "Вчера";
+"date.relation.weekago"     = "Неделя";
+"date.relation.monthago"    = "Месяц";
+"date.relation.yearago"     = "Год";
+"date.relation.foretime"    = "Очень давно";
+
+// ERRORS
+
+"error"                         = "Ошибка";
+"error.critical"                = "Критическая ошибка";
+"error.oops"                    = "Кажется что-то пошло не так!";
+"error.accessdenied"            = "Доступ закрыт";
+"error.unauthorized"            = "Неавторизованно";
+"error.unexpected"              = "Непредвиденная ошибка";
+"error.unimplemented"           = "Требуемая функция еще не реализована";
+"error.cancelled"               = "Операция была отменена";
+"error.timeout"                 = "Отменено из-за таймаута";
+"error.oom"                     = "Недостаточно памяти";
+"error.notsupported"            = "Не поддерживается";
+"error.notfound"                = "Не найдено";
+"error.file.notfound"           = "Файл не найден";
+"error.file.notdirectory"       = "Файл не является каталогом";
+"error.file.alreadyexists"      = "Файл уже существует";
+"error.item.alreadyexists"      = "Элемент уже существует";
+"error.storage.alreadyexists"   = "Хранилище файлов уже существует";
+"error.bookshelf.alreadyexists" = "Книжная полка уже существует";
+"error.file.toobig"             = "Файл слишком большой";
+"error.icloud.notconnected"     = "iCloud не подключен";
+"error.cloud.notlinked"         = "Облачное хранилище не подключено";
+"error.nonetwork"               = "Нет сетевого подключения";
+"error.notresponding"           = "Хост не отвечает";
+"error.emptyresponse"           = "Пустой ответ";
+"error.invalidresponse"         = "Неверный ответ";
+"error.mimetype"                = "Недопустимый тип MIME";
+"error.emptyname"               = "Пустое имя";
+"error.badname"                 = "Недопустимое имя";
+"error.drop"                    = "Не удалось перетащить элемент";
+"error.import.file"             = "Не удалось импортировать файл";
+"error.open.file"               = "Не удалось открыть файл";
+"error.share.file.none"         = "Нет файла для обмена";
+"error.share.file.cloud"        = "Не удалось поделиться файлом из облачного хранилища, сначала необходимо загрузить файл на устройство";
+"error.book.save.review"        = "Не удалось сохранить рецензию на книгу";
+"error.book.delete.review"      = "Не удалось удалить рецензию на книгу";
+"error.book.save.metadata"      = "Не удалось сохранить метаданные книги";
+"error.book.save.tags"          = "Не удалось сохранить метки для книги";
+"error.book.delete.tags"        = "Не удалось удалить метки для книги";
+"error.open.url"                = "Не удалось открыть ссылку";
+"error.citation.already"        = "Цитата уже отмечена";
+"error.note.save"               = "Не удалось сохранить заметку";
+"error.note.delete"             = "Не удалось удалить заметку";
+"error.ebook.notsupported"      = "Формат EBook файла не поддерживается";
+"error.ebook.drm"               = "Не удалось открыть книгу из-за DRM защиты";
+"error.page.broken"             = "Испорченная страница";
+"error.password"                = "Пароль отсутствует или неверен";
+"error.imagefile"               = "Недопустимый файл изображения";
+"error.text.toolong"            = "Размер текста слишком большой";
+"error.translation.direction"   = "Направление перевода не поддерживается";
+"error.translation.unable"      = "Текст не может быть переведен";
+"error.translation.limit"       = "Превышен дневной лимит на количество переведенного текста";
+"error.apikey"                  = "Недопустимый ключ API";
+"error.stylesheet"              = "Не удалось разобрать таблицы стилей";
+"error.filebadmime.fmt"         = "У файла %@ неподдерживаемый тип MIME: %@";
+"error.opds.feed"               = "OPDS Каталог вернул плохо сформированный поток";
+"error.opds.mime.fmt"           = "OPDS Каталог вернул неправильное содержание %@";
+"error.unarchive"               = "Не удалось распаковать файл";
+"error.catalog.search"          = "Каталог не поддерживает поиск";
+"error.catalog.alreadyexists"   = "Каталог уже существует";
+"error.url"                     = "Недопустимый URL";
+"error.epub.invalid"            = "Поврежденный или некорректный EPub файл";
+"error.ebook.file.notfound"     = "Не удалось найти файл для книги";
+"error.dictionary.type"         = "Неизвестный тип словаря";
+"error.dictionary.already"      = "Словарь уже установлен";
+"error.dictionary.lingvo"       = "Поврежденный Lingvo словарь";
+"error.loadtext.encoding"       = "Невозможно загрузить текст, возможно кодировка текста указана неверно";
+"error.toomanyrequests"         = "Слишком много запросов";
+"error.toomanyrequests.fmt"     = "Слишком много запросов, повторите попытку через %zdсек.";
+"error.sync.files.off"          = "Синхронизация файлов отключена";
+"error.sync.files.quota"        = "Превышена квота хранилища файлов";
+"error.iap.requred"             = "Требуется покупка в приложении";
+"error.subscription.notfound"   = "Требуется Премиум подписка";
+"error.subscription.expired"    = "Премиум подписка истекла";
+
+// FILESTORE
+
+"filestore"                     = "Хранилище файлов";
+"filestore.browser"             = "Браузер файлов";
+"filestore.folder"              = "Папка";
+"filestore.books"               = "Книги";
+"filestore.downloads"           = "Загрузки";
+"filestore.yandexdisk"          = "Яндекс Диск";
+"filestore.googledrive"         = "Google Drive";
+"filestore.storages"            = "Хранилища файлов";
+"filestore.unlink"              = "Отсоединить";
+"filestore.add.samba"           = "Добавить SMB/CIFS подключение";
+"filestore.add.webdav"          = "Добавить WebDAV сервер";
+"filestore.current.storages"    = "Подключенные файловые хранилища";
+"filestore.available.clouds"    = "Доступные облачные хранилища";
+"filestore.attach.cloud"        = "Добавить облачное хранилище";
+"filestore.attach.samba"        = "Добавить общую папку (SMB/CIFS) в локальной сети";
+"filestore.attach.webdav"       = "Добавить WebDAV сервер в локальной сети или Интернет";
+"filestore.transfer"            = "Передача файлов";
+"filestore.done.move.fmt"       = "Перемещено %@ из %@ в %@";
+"filestore.done.deleted.fmt"    = "Удалено %@ в %@";
+"filestore.deletefiles.q"       = "Удалить файлы?";
+"filestore.deletefile"          = "Удалить файл";
+"filestore.selectfolder"        = "Выбрать папку";
+"filestore.createfolder"        = "Создать папку";
+"filestore.importfile"          = "Импортировать файл";
+"filestore.movefile"            = "Переместить файл";
+"filestore.appendfile"          = "Добавить файл";
+"filestore.enter.foldername"    = "Введите имя папки";
+"filestore.link"                = "Подключить";
+"filestore.link.account"        = "Подключить учетную запись";
+"filestore.link.none"           = "Облачное хранилище еще не подключено. Пожалуйста, подключите";
+"filestore.link.done"           = "Подключение выполнено";
+"filestore.relink"              = "Повторно подключить";
+"filestore.relink.account"      = "Повторно подключить учетную запись";
+"filestore.relink.void"         = "Кажется, предыдущая авторизация стала недействительной. Пожалуйста, переподключите";
+"filestore.report.used"         = "Занято";
+"filestore.report.free"         = "Доступно";
+"filestore.report.mirror"       = "Зеркало";
+"filestore.autounload"          = "Автовыгрузка";
+"filestore.folderpicker.copy.fmt"   = "Копировать %@ из %@";
+"filestore.folderpicker.move.fmt"   = "Переместить %@ из %@";
+"filestore.folderpicker.switch"     = "Нажмите для смены\nКопировать/Переместить";
+"filestore.filename"            = "Имя файла";
+"filestore.filesize"            = "Размер файла";
+"filestore.dialog.fileadded.fmt" = "Файл был добавлен в %@";
+
+// SORT
+
+"sort.general"          = "Сортировка";
+"sort.none"             = "Без сортировки";
+"sort.byname"           = "По названию";
+"sort.bydate"           = "По дате";
+"sort.bysize"           = "По размеру";
+"sort.byformat"         = "По формату";
+"sort.byprogress"       = "По прогрессу";
+"sort.byrating"         = "По оценке";
+"sort.byauthor"         = "По автору";
+"sort.bysubject"        = "По сюжету";
+"sort.bysequence"       = "По серии";
+"sort.bypublisher"      = "По издателю";
+
+// MENU
+
+"menu.select"           = "Выбрать";
+"menu.selectall"        = "Выбрать всё";
+"menu.move"             = "Переместить";
+"menu.rename"           = "Переименовать";
+"menu.delete"           = "Удалить";
+"menu.share"            = "Поделиться";
+"menu.info"             = "Инфо";
+"menu.tags"             = "Метки";
+"menu.read"             = "Читать";
+"menu.reorder"          = "Переставить";
+"menu.unload"           = "Выгрузить";
+"menu.download"         = "Загрузить";
+"menu.exclude"          = "Исключить";
+"menu.more"             = "Ещё";
+"menu.copy"             = "Копировать";
+"menu.search"           = "Найти";
+"menu.mark"             = "Отметить";
+"menu.note"             = "Заметка";
+"menu.sketch"           = "Рисунок";
+"menu.edit"             = "Правка";
+"menu.translate"        = "Перевести";
+"menu.recognize"        = "Распознать";
+"menu.selectimage"      = "Выделить изображение";
+"menu.sticker"          = "Стикер";
+"menu.update"           = "Обновить";
+"menu.define"           = "Определение";
+"menu.launch"           = "Запуск";
+"menu.color"            = "Цвет";
+"menu.style"            = "Стиль";
+"menu.listen"           = "Прослушать";
+"menu.speak"            = "Проговорить";
+"menu.stop"             = "Остановить";
+"menu.open"             = "Открыть";
+"menu.back"             = "Назад";
+
+// HOME
+
+"home.screen"           = "Домашний экран";
+"home.layout.cards"     = "Карточки";
+"home.layout.grid"      = "Сетка";
+"home.layout.list"      = "Список";
+"home.deck.pin"         = "Прикрепить";
+
+// BOOK
+
+"book.general"                  = "Книга";
+"book.resolving"                = "Открытие книги..";
+
+// BOOKSHELF
+
+"bookshelf"                 = "Книжная полка";
+"bookshelf.sequences"       = "Серии";
+"bookshelf.authors"         = "Авторы";
+"bookshelf.subjects"        = "Сюжеты";
+"bookshelf.publishers"      = "Издатели";
+"bookshelf.tags"            = "Метки";
+"bookshelf.recent"          = "Недавнее";
+"bookshelf.popular"         = "Популярные";
+"bookshelf.new"             = "Новинки";
+"bookshelf.unread"          = "Не прочитаны";
+"bookshelf.reading"         = "Читаются";
+"bookshelf.read"            = "Прочитанные";
+"bookshelf.rated"           = "С оценкой";
+"bookshelf.all"             = "Все книги";
+"bookshelf.cataloguer"      = "Каталогизатор";
+
+"bookshelf.add"             = "Добавить книжную полку";
+"bookshelf.add.folder"      = "Выберите папку на устройстве или в прикрепленном облачном хранилище в качестве книжной полки";
+"bookshelf.add.sequence"    = "Выберите серию книг в качестве книжной полки";
+"bookshelf.add.author"      = "Выберите автора книги для книжной полки";
+"bookshelf.add.subject"     = "Выберите сюжет книги как книжную полку";
+"bookshelf.add.publisher"   = "Выберите издателя книги для книжной полки";
+"bookshelf.add.tag"         = "Выберите метку книги как книжную полку";
+"bookshelf.add.category"    = "Выберите категорию каталогизатора как книжную полку";
+
+"bookshelf.layout"              = "Облик";
+"bookshelf.layout.covers"       = "Обложки";
+"bookshelf.layout.cards"        = "Карточки";
+"bookshelf.layout.cards.mini"   = "Малые карточки";
+"bookshelf.layout.cards.large"  = "Большие карточки";
+
+"bookshelf.clean.category"        = "Удалить пустые";
+"bookshelf.clean.category.fmt"    = "Вы уверены, что хотите очистить категорию %@ и удалить %@?";
+"bookshelf.insert.category.done"  = "Готово, добавлена категория";
+
+"bookshelf.collection"          = "Коллекция";
+"bookshelf.collections"         = "Коллекции";
+"bookshelf.collection.add"      = "Добавить коллекцию";
+"bookshelf.collection.pick"     = "Выберите коллекцию как книжную полку";
+
+"bookshelf.detail.recent"       = "Список последних книг";
+"bookshelf.detail.popular"      = "Список популярных книг";
+"bookshelf.detail.new"          = "Список новых книг";
+"bookshelf.detail.unread"       = "Список непрочитанных книг";
+"bookshelf.detail.reading"      = "Список читаемых книг";
+"bookshelf.detail.read"         = "Список прочитанных книг";
+"bookshelf.detail.rated"        = "Список книг с оценкой";
+"bookshelf.detail.sequences"    = "Список серий";
+"bookshelf.detail.authors"      = "Список авторов";
+"bookshelf.detail.subjects"     = "Список сюжетов";
+"bookshelf.detail.publishers"   = "Список издателей";
+"bookshelf.detail.tags"         = "Список меток";
+"bookshelf.detail.collections"  = "Список коллекций";
+"bookshelf.detail.cataloguer"   = "Все списки";
+
+"bookshelf.empty"               = "Пустая книжная полка";
+"bookshelf.empty.recent"        = "Нет последних книг за 30 дней";
+"bookshelf.empty.popular"       = "Список популярных книг еще не собран";
+"bookshelf.empty.new"           = "Нет новых книг за 30 дней";
+"bookshelf.empty.unread"        = "Нет непрочитанных книг";
+"bookshelf.empty.reading"       = "Нет читаемых книг";
+"bookshelf.empty.read"          = "Нет прочитанных книг";
+"bookshelf.empty.rated"         = "Нет книг с оценкой";
+"bookshelf.empty.collections"   = "Нет коллекций";
+"bookshelf.empty.collection"    = "Пустая коллекция";
+"bookshelf.empty.category"      = "Пустой список";
+
+"bookshelf.hint.read"           = "Поставьте отметку `Прочитано` в карточке книги в разделе Метрика";
+"bookshelf.hint.rated"          = "Поставьте оценку в карточке книги в разделе Рецензия";
+"bookshelf.hint.collection"     = "Коллекция может содержать книги, авторов, серии, сюжеты, метки и другие коллекции";
+
+// BOOKCARD
+
+"bookcard"                      = "Книжная карточка";
+"bookcard.title.add"            = "Добавить название";
+"bookcard.title.prompt"         = "Введите название";
+"bookcard.subtitle.add"         = "Добавить подзаголовок";
+"bookcard.subtitle.prompt"      = "Введите подзаголовок";
+"bookcard.sequence"             = "Серия";
+"bookcard.sequence.add"         = "Добавить серию";
+"bookcard.sequence.prompt"      = "Введите серию";
+"bookcard.sequence.name.prompt" = "Введите название серии";
+"bookcard.sequence.number.prompt" = "Введите порядковый номер (необязательно)";
+"bookcard.author"               = "Автор";
+"bookcard.author.add"           = "Добавить автора";
+"bookcard.author.prompt"        = "Введите автора";
+"bookcard.author.name.prompt"   = "Полное имя в свободной форме";
+"bookcard.author.norm.prompt"   = "Фамилия, Имя [Отчество]";
+"bookcard.subject"              = "Сюжет";
+"bookcard.subject.add"          = "Добавить сюжет";
+"bookcard.subject.prompt"       = "Введите сюжет";
+"bookcard.annotation"           = "Аннотация";
+"bookcard.annotation.add"       = "Добавить аннотацию";
+"bookcard.annotation.prompt"    = "Введите аннотацию";
+"bookcard.published"            = "Дата издания";
+"bookcard.published.add"        = "Добавить дату издания";
+"bookcard.published.prompt"     = "Введите дату издания";
+"bookcard.publisher"            = "Издатель";
+"bookcard.publisher.add"        = "Добавить издателя";
+"bookcard.publisher.prompt"     = "Введите издателя";
+"bookcard.language"             = "Язык";
+"bookcard.language.add"         = "Добавить язык";
+"bookcard.language.prompt"      = "Введите язык";
+"bookcard.identifiers"          = "Идентификаторы";
+"bookcard.identifier"           = "Идентификатор";
+"bookcard.identifier.add"       = "Добавить идентификатор";
+"bookcard.identifier.prompt"    = "Введите идентификатор книги (isbn, issn, doi, openlibrary, url)";
+"bookcard.keywords"             = "Ключевые слова";
+"bookcard.keywords.add"         = "Добавить ключевые слова";
+"bookcard.keywords.prompt"      = "Введите ключевые слова";
+"bookcard.source"               = "Источник";
+"bookcard.files"                = "Файлы";
+"bookcard.metrics"              = "Метрика";
+"bookcard.action.read"          = "Читать";
+"bookcard.action.listen"        = "Слушать";
+"bookcard.action.download"      = "Загрузить";
+"bookcard.action.sample"        = "Образец";
+"bookcard.mobi.pid"             = "MobiPocket PID (Kindle Серийный номер)";
+"bookcard.mobi.pid.add"         = "Добавить PID";
+"bookcard.text.encoding"        = "Кодировка текста";
+"bookcard.text.encoding.add"    = "Добавить кодировку текста";
+"bookcard.pickcover"            = "Выбрать обложку книги";
+"bookcard.restorecover"         = "Оригинальная обложка";
+"bookcard.miscinfo"             = "Разное";
+"bookcard.miscinfo.database"    = "База данных";
+"bookcard.miscinfo.usercontent" = "Пользовательский контент";
+"bookcard.miscinfo.supportfiles"= "Файлы поддержки";
+"bookcard.miscinfo.ebookformat" = "Формат Ebook";
+
+// BOOK REVIEW
+
+"book.review"           = "Рецензия";
+"book.review.prompt"    = "Введите ваше впечатление о книге";
+
+"book.review.rating.0"  = "Нет оценки";
+"book.review.rating.1"  = "Не читать";
+"book.review.rating.2"  = "Очень плохо";
+"book.review.rating.3"  = "Плохо";
+"book.review.rating.4"  = "Посредственно";
+"book.review.rating.5"  = "Терпимо";
+"book.review.rating.6"  = "Нормально";
+"book.review.rating.7"  = "Хорошо";
+"book.review.rating.8"  = "Очень хорошо";
+"book.review.rating.9"  = "Замечательно";
+"book.review.rating.X"  = "Шедевр";
+
+"book.metrics.unread"       = "Не прочитано";
+"book.metrics.finished"     = "Прочитано";
+"book.metrics.finished.fmt" = "Прочитано за %@";
+"book.metrics.read.fmt"     = "Читается, %zd%%";
+"book.metrics.read.time"    = "Читается, %zd%% за %@";
+
+// DIALOGS
+
+"dialog.prompt.language"    = "Введите код языка (ISO 639), пример: ru, en";
+"dialog.lang.ask"           = "Пожалуйста, выберите язык книги";
+"dialog.lang.choose"        = "Выбрать язык..";
+"dialog.text"               = "Текст";
+"dialog.url"                = "Ссылка";
+"dialog.open"               = "Открыть";
+"dialog.copy"               = "Копировать";
+"dialog.url.open"           = "Открыть ссылку";
+"dialog.url.copy"           = "Копировать ссылку";
+"dialog.promt.mobi.pid"     = "Введите MobiPocket PID (Kindle Серийный номер)";
+"dialog.promt.password"     = "Введите пароль для книги";
+"dialog.promt.textencoding" = "Введите кодировку текста";
+"dialog.confirm.ask"        = "Вы уверены?";
+"dialog.confirm.yes"        = "Да";
+"dialog.choose.format"      = "Выберите формат";
+"dialog.reload"             = "Обновить";
+"dialog.file.changed"       = "Кажется файл был изменен (возможно из-за синхронизации), обновить?";
+"dialog.insertlink"         = "Вставить ссылку";
+
+// DELETE
+
+"delete.areyousure"         = "Вы уверены?";
+"delete.book"               = "Удалить книгу";
+"delete.book.ask"           = "Удалить книгу?";
+"delete.book.row.0"         = "Это навсегда удалит всю информацию связанную с книгой включая:";
+"delete.book.row.1"         = "- %@ общего размера %@ на устройстве и в подключенных облачных хранилищах.";
+"delete.book.row.2"         = "- записи базы данных, заметки, рецензии и т.п.";
+"delete.book.done"          = "Готово, '%@' была удалена";
+"delete.books"              = "Удалить книги";
+"delete.books.ask"          = "Удалить %@?";
+"delete.books.row.0"        = "Это навсегда удалит всю информацию связанную с книгами, включая:";
+"delete.books.row.1"        = "- %@ общего размера %@ на устройстве и в подключенных облачных хранилищах.";
+"delete.books.row.1a"       = "- %@ на устройстве и в подключенных облачных хранилищах.";
+"delete.books.row.2"        = "- записи базы данных, заметки, рецензии и т.п.";
+"delete.books.done"         = "Удалено %@ в %@";
+"delete.bookshelf.ask"      = "Удалить книжную полку?";
+"delete.summary.ask"        = "Удалить конспект?";
+
+// SHARE
+
+"share.book.info"           = "Поделиться информацией";
+"share.book.file"           = "Поделиться файлом";
+"share.readin.kybook"       = "Читаю в #KyBook";
+"share.notes.from"          = "Заметки из";
+"share.notes.by"            = "";
+"share.notes.txt"           = "В TXT файле";
+"share.notes.html"          = "В HTML файле";
+"share.notes.markdown"      = "В Markdown файле";
+"share.notes.rtf"           = "В RTF файле";
+"share.notes.pdf"           = "В PDF файле";
+"share.notes.pdfbook"       = "Как PDF книгу";
+"share.save.tobooks"        = "Сохранить в Книги";
+
+// DASHBOARD
+
+"dashboard"                 = "Личный кабинет";
+"dashboard.notes"           = "Заметки";
+"dashboard.summary"         = "Конспект";
+"dashboard.summaries"       = "Конспекты";
+"dashboard.summary.add"     = "Добавить конспект";
+"dashboard.summary.add.hint"= "Введите название нового конспекта";
+"dashboard.summarize.run"   = "Запустить авто конспектирование";
+"dashboard.summaries.widget.detail" = "Сборник конспектов пользователя";
+
+// TAGS
+
+"tags"                      = "Метки";
+"tags.picked"               = "Выбранные метки";
+"tags.available"            = "Доступные метки";
+"tags.edit"                 = "Редактировать метки";
+"tags.create"               = "Создать метку";
+"tags.delete"               = "Удалить метку";
+"tags.delete.message"       = "Эта метка будет удалена из всех книг и базы данных! Вы уверены?";
+"tags.hint.add"             = "Нажмите на строку для добавления метки";
+"tags.hint.delete"          = "Нажмите на строку для удаления метки";
+"tags.create.dialog.name"   = "Введите имя метки";
+"tags.create.dialog.color"  = "Выберите цвет метки";
+"tags.create.dialog.icon"   = "Выберите значок метки";
+"tag.new"                   = "Новинки";
+"tag.read"                  = "Прочитано"; //"the book has been read"
+"tag.favorite"              = "Избранное";
+"tag.readLater"             = "Прочесть";
+
+// READER
+
+"reader.general"                    = "Читалка";
+"reader.outline"                    = "Содержание";
+"reader.bookmarks"                  = "Закладки";
+"reader.notes"                      = "Заметки";
+"reader.sketches"                   = "Рисунки";
+"reader.thumbnails"                 = "Эскизы";
+"reader.summary"                    = "Конспект";
+"reader.info"                       = "Инфо";
+"reader.bookmark"                   = "Закладка";
+"reader.note"                       = "Заметка";
+"reader.pageno"                     = "Номер страницы";
+"reader.outline.create"             = "Добавить оглавление";
+"reader.outline.create.auto"        = "Создать автоматически";
+"reader.outline.create.manually"    = "Создать вручную";
+"reader.layout"                     = "Вёрстка";
+"reader.backtopage.fmt"             = "Назад к стр. %zd";
+"reader.bookindex"                  = "Указатель"; // Книжный указатель
+"reader.bookindex.build"            = "Построить указатель";
+"reader.images"                     = "Картинки";
+"reader.readpos"                    = "Позиция чтения";
+"reader.readpos.changed.ask.fmt"    = "Кажется позиция чтения была недавно изменена на другом вашем устройстве. Вы желаете перейти на позицию чтения полученную из %@?";
+"reader.readpos.preserve"           = "Постоянно сохранять позицию чтения";
+"reader.readpos.preserve.hint"      = "KyBook будет сохранять позицию чтения время от времени. Эта функция полезна только если пользователь имеет привычку принудительно завершать приложение во время чтения";
+"reader.font.match.warning"         = "Невозможно подобрать шрифты, указанные в настройках. Возврат к значениям по умолчанию.";
+"reader.page.fmt"                   = "Страница %zd";
+"reader.openinbook"                 = "Открыть в книге";
+
+// READER MENU
+
+"reader.menu.fullscreen"            = "Полный экран";
+"reader.menu.fullscreen.off"        = "Оключить полный экран";
+"reader.menu.sketches"              = "Панель рисунков";
+"reader.menu.sketches.off"          = "Закрыть панель рисунков";
+"reader.menu.speak"                 = "Текст в речь";
+"reader.menu.speak.stop"            = "Остановить речь";
+"reader.menu.rapid"                 = "Скорочтение";
+"reader.menu.autoscroll"            = "Автопрокрутка";
+"reader.menu.autoscroll.off"        = "Остановить автопрокрутку";
+"reader.menu.synchronize"           = "Синхронизировать";
+"reader.menu.horzlock"              = "Запретить гориз. прокрутку";
+"reader.menu.horzunlock"            = "Разрешить гориз. прокрутку";
+"reader.menu.reflow.on"             = "Включить Reflow";
+"reader.menu.reflow.off"            = "Выключить Reflow";
+
+// READER SETTINGS
+
+"reader.settings.general"           = "Настройки";
+"reader.settings.theme"             = "Тема";
+"reader.settings.themes"            = "Темы";
+"reader.settings.font"              = "Шрифт (гарнитура)";
+"reader.settings.page.turn"         = "Режим смены страниц";
+"reader.settings.page.spread"       = "Книжный разворот";
+"reader.settings.page.spread.full"  = "Книжный разворот в альбомной ориентации";
+"reader.settings.page.margin"       = "Поля страницы";
+"reader.settings.paragraph"         = "Абзац";
+"reader.settings.lineheight"        = "Высота строки";
+"reader.settings.justification"     = "Выравнивание по ширине";
+"reader.settings.readability"       = "Читабельность";
+"reader.settings.styles"            = "Стили";
+"reader.settings.styles.hint.fmt"   = "Настройки стилей будут применены только для формата %@";
+"reader.settings.background"        = "Фон";
+"reader.settings.ex.help"           = "ex - представляет x-высоту шрифта, обычно высоту строчных букв";
+"reader.settings.alignment.help"    = "По умолчанию приложение использует выравнивание текста, определенное в стилях электронной книги";
+"reader.settings.font.name"         = "Имя шрифта";
+"reader.settings.font.serif"        = "С засечками";
+"reader.settings.font.sansserif"    = "Гротеск (без засечек)";
+"reader.settings.font.size"         = "Размер шрифта";
+"reader.settings.margin.horz"       = "Слева/Справа";
+"reader.settings.margin.top"        = "Верх";
+"reader.settings.margin.bottom"     = "Низ";
+"reader.settings.override"          = "Переопределить";
+"reader.settings.enabled"           = "Включено";
+"reader.settings.para.spacing"      = "Интервал";
+"reader.settings.para.indentation"  = "Абзацный отступ";
+"reader.settings.line.multiplier"   = "Множитель";
+"reader.settings.line.spacing"      = "Интерлиньяж";
+"reader.settings.hyphenation"       = "Мягкие переносы";
+"reader.settings.punctuation"       = "Висячая пунктуация";
+"reader.settings.nowidow"           = "Предотвратить вдовьи строки";
+"reader.settings.nobookstyle"       = "Игнорировать стили книги";
+"reader.settings.stylesheet"        = "Таблица стилей";
+"reader.settings.userstyles"        = "Стили пользователя";
+"reader.settings.userstyles.none"   = "Нет";
+"reader.settings.userstyles.used"   = "Установлены";
+"reader.settings.userstyles.browse" = "Выбрать из хранилища";
+"reader.settings.userstyles.import" = "Импорт через «Файлы»";
+"reader.settings.userstyles.edit"   = "Редактировать таблицу стилей";
+"reader.settings.userstyles.sample" = "Просмотр базовой таблицы стилей";
+"reader.settings.userstyles.reset"  = "Сбросить таблицу стилей";
+"reader.settings.userstyles.hint"   = "Пользователь может установить пользовательскую таблицу стилей, которая будет использоваться во время рендеринга и компоновки электронной книги.";
+"reader.settings.userstyles.done.fmt" = "Выполнено, установлена таблица стилей %@";
+"reader.settings.background.image"  = "Изображение";
+"reader.settings.background.installed" = "Установлено";
+"reader.settings.page.turn.roll"    = "Прокрутка";
+"reader.settings.page.turn.curl"    = "Перелистывание";
+"reader.settings.page.turn.slide"   = "Сдвиг";
+"reader.settings.theme.delete.ask"  = "Удалить тему?";
+"reader.settings.reset"             = "Сбросить к настройкам по умолчанию";
+"reader.settings.docs.fit"                  = "Режим масштабирования";
+"reader.settings.docs.fit.width"            = "По ширине страницы";
+"reader.settings.docs.fit.text"             = "По тексту с обрезкой полей";
+"reader.settings.docs.fit.page"             = "Вся страница";
+"reader.settings.docs.backg"                = "Фон страницы";
+"reader.settings.docs.backg.theme"          = "В цвет темы";
+"reader.settings.docs.backg.adaptive"       = "Адаптивный цвет";
+"reader.settings.docs.progressive"          = "Поэтапная визуализация";
+"reader.settings.docs.marklinks"            = "Подсвечивать ссылки";
+"reader.settings.docs.smoothscroll"         = "Плавная прокрутка";
+"reader.settings.docs.filterbook"           = "Книжная тема";
+"reader.settings.docs.progressive.hint"     = "Отрисовывать страницу поэтапно, от низкого до полного качества, если возможно";
+"reader.settings.docs.smoothscroll.hint"    = "Плавная прокрутка, с возможной потерей качества рендеринга при увеличении страницы";
+"reader.settings.docs.filterbook.hint"      = "Отображает страницу в цветах выбранной темы";
+"reader.settings.docs.marklinks.hint"       = "Подсвечивать интерактивные ссылки на странице";
+"reader.settings.docs.readability.upsample" = "Повысить разрешение (передискретизация)";
+"reader.settings.docs.readability.autotint" = "Автокорректировка";
+"reader.settings.docs.pagesep"              = "Разделение страниц";
+"reader.settings.docs.pagesep.hint"         = "Дополнительная настройка режима прокрутки";
+"reader.settings.audio.smartresume"         = "Умная перемотка";
+"reader.settings.audio.smartresume.hint"    = "Перемотать до 30 секунд при возобновлении воспроизведения после паузы";
+
+// THEME NAMES
+
+"theme.general"             = "Тема";
+"theme.day"                 = "День";
+"theme.sepia"               = "Сепия";
+"theme.night"               = "Ночь";
+"theme.dusk"                = "Сумрак";
+"theme.dawn"                = "Рассвет";
+"theme.pastel"              = "Пастель";
+"theme.sand"                = "Песок";
+"theme.tango"               = "Танго";
+"theme.name"                = "Название";
+"theme.name.hint"           = "Введите название темы";
+"theme.pallete"             = "Палитра";
+"theme.pallete.accent"      = "Акцент";
+"theme.pallete.text"        = "Текст";
+"theme.pallete.background"  = "Фон";
+"theme.pallete.divider"     = "Разделитель";
+"theme.pallete.grayed"      = "Серый цвет";
+"theme.pallete.control"     = "Элементы управления";
+"theme.pallete.selection"   = "Выделение";
+"theme.pallete.secondary"   = "Вторичный текст";
+"theme.warning"             = "Невозможно заменить предустановленную тему";
+
+// FONT PICKER
+
+"font.picker.general"       = "Шрифты";
+"font.picker.default"       = "Шрифт по умолчанию";
+"font.picker.favorited"     = "Избранные шрифты";
+"font.picker.user"          = "Шрифты пользователя";
+"font.picker.downlodable"   = "Загружаемые шрифты";
+"font.picker.system"        = "Cистемные шрифты";
+"font.picker.add"           = "Добавить шрифт";
+"font.picker.add.browse"    = "Выбрать из хранилища";
+"font.picker.add.import"    = "Импорт через «Файлы»";
+"font.picker.add.download"  = "Скачать шрифт";
+"font.picker.add.done.fmt"  = "Добавлен шрифт %@/%zd";
+"font.picker.add.more.hint" = "Кроме того, вы можете добавлять шрифты\n - скопировав файлы шрифтов (.ttf or .otf) в Документы приложения с помощью iTunes Общие файлы\n - на iPad перетащите файлы шрифтов на экране ниже";
+"font.picker.add.drop"      = "Перетащите и бросьте файлы шрифтов сюда";
+
+// EMPTY PLACEHOLDERS
+
+"empty.page"                    = "Пустая страница";
+"empty.outline"                 = "Нет оглавления";
+"empty.outline.hint"            = "Нажмите кнопку ‘Добавить оглавление’ для создания оглавления";
+"empty.bookmarks"               = "Нет закладок";
+"empty.bookmarks.hint"          = "Нажмите крайнюю справа кнопку на нижнем колонтитуле страницы книги для добавления закладки";
+"empty.notes"                   = "Нет заметок";
+"empty.notes.hint"              = "Используйте длительное нажатие для выбора текста на книжной странице, затем выберите меню ‘Отметить’ для добавления заметки";
+"empty.sketches"                = "Нет рисунков";
+"empty.sketches.hint"           = "Откройте панель рисунков и используйте Apple Pencil или палец для рисования на странице";
+"empty.summary"                 = "Конспектируйте книгу";
+"empty.summary.hint"            = "KyBook поддерживает Markdown форматирование и может экспортировать конспект как HTML, PDF или RTF";
+"empty.bookindex"               = "Книжный указатель пуст";
+"empty.bookindex.none"          = "Книжный указатель ещё не был построен";
+"empty.reading"                 = "Нет читаемых книг за последние тридцать дней";
+"empty.catalog.page"            = "Эта страница пуста";
+"empty.catalog.reviews"         = "Отзывов не найдено";
+"empty.summaries"               = "Нет конспектов";
+"empty.dictionaries"            = "Нет словарей";
+"empty.articles"                = "Нет статей";
+"empty.favorites"               = "Нет избранных";
+"empty.collections"             = "Нет коллекций";
+"empty.downloads"               = "Нет загрузок";
+
+// NOTE
+
+"note.citation"                 = "Цитата";
+"note.sticker"                  = "Стикер";
+"note.scrap"                    = "Вырезка";
+"note.sketch"                   = "Рисунок";
+"note.color"                    = "Цвет";
+"note.style"                    = "Стиль";
+"note.style.fill"               = "Залить";
+"note.style.strikeline"         = "Зачеркнуть";
+"note.style.underline"          = "Подчеркнуть";
+"note.style.doubleline"         = "Двойная линия";
+"note.style.wavy"               = "Волнистая линия";
+"note.style.dots"               = "Многоточие";
+"note.color.red"                = "Красный";
+"note.color.pink"               = "Розовый";
+"note.color.purple"             = "Пурпурный";
+"note.color.violet"             = "Фиолетовый";
+"note.color.blue"               = "Синий";
+"note.color.green"              = "Зеленый";
+"note.color.yellow"             = "Желтый";
+"note.color.orange"             = "Оранжевый";
+"note.color.brown"              = "Коричневый";
+
+// SKETCH
+
+"sketch.general"                = "Рисунок";
+"sketch.brush"                  = "Кисть";
+"sketch.brush.color"            = "Цвет";
+"sketch.brush.fill"             = "Цвет заливки";
+"sketch.brush.opacity"          = "Прозрачность";
+"sketch.brush.thickness"        = "Толщина";
+"sketch.brush.style"            = "Стиль";
+"sketch.arrow"                  = "Стрелка";
+"sketch.line"                   = "Линия";
+"sketch.rectangle"              = "Прямоугольник";
+"sketch.ellipse"                = "Овал";
+"sketch.polyline"               = "Ломаная";
+"sketch.text"                   = "Текст";
+"sketch.stiker"                 = "Наклейка";
+"sketch.emoji"                  = "Эмодзи";
+"brush.linestyle.solid"         = "Сплошной";
+"brush.linestyle.dotted"        = "Многоточие";
+"brush.linestyle.dashed"        = "Штрих";
+
+// SEARCH
+
+"search.scope.book"             = "Книга";
+"search.scope.dictionary"       = "Словарь";
+"search.scope.translate"        = "Перевод";
+"search.scope.internet"         = "Интернет";
+"search.scope.wikipedia"        = "Википедия";
+"search.scope.wolframalpha"     = "Wolfram|Alpha";
+"search.scope.library"          = "Библиотека";
+"search.scope.catalogs"         = "Каталоги";
+"search.executing"              = "Поиск..";
+"search.continue.fmt"           = "Поиск, найдено %zd совпадений..";
+"search.done.fmt"               = "Готово, найдено %zd совпадений";
+"search.none"                   = "Ой, мы не можем найти то, что вы ищете";
+"search.matching"               = "Режим поиска";
+"search.matching.textual"       = "Текстовый";
+"search.matching.regular"       = "Шаблон";
+"search.matching.fuzzy"         = "Нечёткий";
+"search.matching.exact"         = "Точный";
+"search.matching.substring"     = "Подстрока";
+"search.matching.pattern"       = "Шаблон";
+"search.area.in"                = "Поиск в";
+"search.area.in.title"          = "Название";
+"search.area.in.keywords"       = "Ключевые слова";
+"search.area.in.sequence"       = "Серия";
+"search.area.in.author"         = "Автор";
+"search.area.in.annotation"     = "Аннотация";
+"search.area.in.filename"       = "Имя файла";
+"search.engine.google"          = "Поиск Google";
+"search.bookshelf.promt"        = "Искать в этой книжной полке";
+"search.widget.detail"          = "Поиск в библиотеке";
+
+// TIPS
+
+"tip.reader.fullscreen.exit"    = "Нажмите сюда для выхода из полноэкранного режима";
+
+// MISC
+
+"misc.abc"                      = "Абв";
+"image.grabbing"                = "Режим захвата изображения";
+"pasteboard.copy.image"         = "Изображение было скопировано в буфер обмена";
+"misc.chapter.fmt"              = "Глава %zd";
+"misc.start.editing"            = "Начать редактирование";
+
+// MARKDOWN
+
+"markdown.conf.citation"        = "Цитирование";
+"markdown.conf.citation.hint"   = "При вставке или перетаскивании цитаты из книги";
+"markdown.conf.citation.quote"  = "Оформлять как блок";
+"markdown.conf.citation.link"   = "Вставить ссылку на источник";
+
+// APP CONTROL
+
+"app.control"                      = "Управление";
+"app.control.services"             = "Службы";
+"app.control.prefs"                = "Настройки";
+"app.control.advanced.ui"          = "Продвинутый интерфейс";
+"app.control.advanced.ui.hint"     = "Режим с несколькими активными вкладками (Safari подобный).\n\nДля активации расширенного режима интерфейса требуется PRO или PREMIUM встроенная покупка.";
+
+// APP PREFS
+
+"app.prefs.home.backg"              = "Фон в режиме списка";
+"app.prefs.home.backg.colored"      = "Цветной";
+"app.prefs.bookshelf.cover"         = "Книжная обложка";
+"app.prefs.bookshelf.tag"           = "Метка";
+"app.prefs.bookshelf.filestate"     = "Облако/Загрузка";
+"app.prefs.bookshelf.decor"         = "Отображение дополнительной информации в ячейке";
+"app.prefs.bookshelf.backg.card"    = "Цвет фона в режиме Карточки";
+"app.prefs.bookshelf.backg.mini"    = "Цвет фона в режиме Малые карточки";
+"app.prefs.bookshelf.tags"          = "Стиль меток";
+"app.prefs.bookshelf.tags.icons"    = "Иконки";
+"app.prefs.bookshelf.tags.titles"   = "Названия";
+"app.prefs.bookshelf.search"        = "Поиск";
+"app.prefs.bookshelf.search.bar"    = "Панель поиска";
+"app.prefs.bookshelf.search.hint"   = "Включить панель поиска для фильтрации книг на книжной полке";
+"app.prefs.bookshelf.default"       = "Настройки по умолчанию";
+"app.prefs.bookshelf.default.hint"  = "Изменение настроек по умолчанию также сбросит все пользовательские настройки!";
+"app.prefs.bookshelf.bookcard.open" = "Анимация открытия книжной карточки (только iPad)";
+"app.prefs.reader.fullscreen"       = "Полноэкранный режим";
+"app.prefs.reader.fullscreen.auto"  = "Автоматический переход";
+"app.prefs.reader.fullscreen.tap"   = "При нажатии по центру";
+"app.prefs.reader.fullscreen.header"= "Скрыть верхний колонтитул";
+"app.prefs.reader.fullscreen.footer"= "Скрыть нижний колонтитул";
+"app.prefs.reader.fullscreen.hint"  = "По умолчанию KyBook автоматически переключается в полноэкранный режим, когда пользователь начинает читать. Для выхода из полноэкранного режима нажмите на верхний колонтитул. Кроме того, можно задействовать нажатие по центру, для переключения полноэкранного режима";
+"app.prefs.reader.forcetouch.hint"  = "Force Touch может использоваться для выполнения предпочтительного действия над выделенным текстом";
+"app.prefs.reader.idletimer"        = "Отключить таймер простоя";
+"app.prefs.reader.idletimer.hint"   = "Пока открыта книга, экран остается включен";
+"app.prefs.cache"                   = "Кэширование";
+"app.prefs.cache.clear"             = "Освободить место";
+"app.prefs.cache.reader"            = "Кэш читалки";
+"app.prefs.cache.reader.hint"       = "Приложение хранит разархивированные и распарсенные данные электронной книги в папке кеша на устройстве. Вы можете освободить место и удалить все кэшированные данные.";
+"app.prefs.cache.covers"            = "Кэш книжных обложек";
+"app.prefs.cache.covers.hint"       = "Приложение сохраняет изображения обложек книг в папке кеша на устройстве. Вы можете освободить место и удалить все кэшированные изображения.";
+"app.prefs.misc"                    = "Разное";
+"app.prefs.spotlight"               = "Поиск Spotligh";
+"app.prefs.spotlight.hint"          = "Индексировать открытые книги, чтобы сделать их доступными для поиска, через Поиск Spotligh";
+"app.autosum.algo"                  = "Алгоритм авто реферирование текста";
+"app.autosum.algo.hint"             = "Text Rank очень ресурсоемкий, но может выдать более качественный результат. Попробуйте переключиться на алгоритм «Keyphrases», если приложение было принудительно закрыто iOS из-за истощения памяти.";
+"app.prefs.dragdrop"                = "Drag & Drop (Перетаскивание)";
+"app.prefs.dragdrop.hint"           = "Позволяет перетаскивать элементы на книжной полке, экране библиотеки и других";
+"app.prefs.dragdrop.confirm.title"  = "Переключение Drag & Drop";
+"app.prefs.dragdrop.confirm.msg"    = "Изменения Drag & Drop требует перезагрузки экранов приложений. Все экраны будут закрыты.\nВы уверены?";
+
+// CONTENT SERVER
+
+"contentserver.general"     = "Контент сервер";
+"contentserver.activate"    = "Включить";
+"contentserver.link"        = "Ссылка";
+"contentserver.username"    = "Пользователь";
+"contentserver.password"    = "Пароль";
+"contentserver.hint"        = "Включите контент сервер для доступа к вашим файлам через локальную сеть с помощью веб-браузера";
+"contentserver.visit"       = "Откройте ссылку ‘%@’ в вашем веб-браузере";
+
+// IMAGE PICKER
+
+"imagepicker.image"                 = "Изображение";
+"imagepicker.reset"                 = "Сбросить";
+"imagepicker.files"                 = "Файлы";
+"imagepicker.photo"                 = "Фото";
+"imagepicker.internet"              = "Интернет";
+"imagepicker.libraries"             = "Библиотеки";
+"imagepicker.samples"               = "Образцы";
+"imagepicker.backgrounds"           = "Фон";
+"imagepicker.photo.all"             = "Все фотографии";
+"imagepicker.photo.none"            = "Нет фотографий";
+"imagepicker.files.none"            = "Нет файлов изображений в этой папке";
+"imagepicker.photos.select"         = "Выберите из фото";
+"imagepicker.internet.search"       = "Поиск в Интернете";
+"imagepicker.libraries.search"      = "Поиск в библиотеках";
+"imagepicker.files.browse"          = "Выбрать из хранилища";
+"imagepicker.files.import"          = "Импорт через «Файлы»";
+"imagepicker.download"              = "Загрузить из каталога";
+"imagepicker.photo.fail"            = "Сбой запроса изображения из Фото";
+"imagepicker.photo.notdetermined"   = "Пользователь еще не сделал выбор в отношении приложения";
+"imagepicker.photo.restricted"      = "Приложение не имеет права доступа к Фото";
+"imagepicker.photo.denied"          = "Пользователь явно запретил приложению доступ к Фото";
+
+// TEXT 2 SPEECH
+
+"tts.general"           = "Синтез речи (текст в речь)";
+"tts.completed"         = "Текст в речь: завершено";
+"tts.unablestart"       = "Текст в речь: не удалось запустить";
+"tts.pitch"             = "Тембр";
+"tts.rate"              = "Скорость";
+"tts.volume"            = "Громкость";
+"tts.continuable"       = "Проговорить всё";
+"tts.continuable.hint"  = "При проговаривании выделенного текста через меню - проговорить весь текст до конца книги";
+"tts.voices"            = "Голоса";
+"tts.voices.headline"   = "Выберите предпочтительный голос для вашего языка. Приложение будет использовать выбранный голос для синтеза речи";
+"tts.voices.footer"     = "Для получения голосов лучшего качества откройте настройки iOS -> Общие -> Универсальный доступ -> Речь -> Голоса и загрузите улучшенный голос для Вашего языка";
+
+// AUTO SCROLLING
+
+"autoscrolling.general"     = "Автопрокрутка";
+"autoscrolling.rate"        = "Скорость";
+"autoscrolling.hideslider"  = "Скрыть слайдер скорости на экране читалки";
+"autoscrolling.tunerate"    = "Настраивать скорость при прокрутке вверх / вниз";
+
+// NETWROK
+
+"network.general"           = "Сеть";
+"network.streaming"         = "Потоковое воспроизведение";
+"network.streaming.audio"   = "Потоковое аудио";
+"network.streaming.hint"    = "По возможности потоково воспроизводить книгу напрямую с облачного хранилища не загружая преварительно весь файл на устройство";
+"network.streaming.footer"  = "поток";
+"network.local"             = "Локальная сеть";
+"network.local.neighborhood"= "Сетевое окружение";
+"network.local.discovery"   = "Искать в Локальной сети";
+"network.samba"             = "Общий доступ";
+"network.server"            = "Сервер";
+"network.sharepoint"        = "Точка подключения";
+"network.samba.add"         = "Добавить общую папку";
+"network.samba.settings"    = "Настройки подключения";
+"network.samba.hint"        = "Введите имя или адрес сервера, точку подключения (необязательно), имя пользователя (необязательно, будет использовать гостевой доступ, если нет) и пароль (необязательно). Если подключение обрывается с ошибкой 'Unauthorized' имя пользователя и пароль обязательны!";
+"network.samba.v1.info"     = "KyBook could only connect to SMB1 shares. SMB1 is disabled by default in Windows 10. To enable SMB1 in Windows 10 - go to Control Panel > Programs and Features > Turn Windows Features on > check the box for 'SMB 1.0/CIFS Server' and and reboot. Attention, SMB1 isn’t safe!";
+"network.tor"               = "Сеть Tor";
+"network.tor.conf.header"   = "Внимание! KyBook автоматически подключается к сети Тор при открытии .onion OPDS каталога.";
+"network.tor.conf.footer"   = "KyBook будет *автоматически* присоединяться к сети Tor и туннелировать трафик для .onion OPDS каталогов и веб-сайтов.\n\nПросмотр веб-страниц и загрузки через Tor сеть будут значительно медленнее по сравнению с прямым подключением.\n\nПожалуйста, примите во внимание, что KyBook не предназначен для веб-серфинга на условиях анонимности! Tor KyBook решает только проблему достижимости сети.\n\nЭто програмнное обеспечение использует Tor сеть независимо от программного обеспечения Tor anonymity software и не несет никакой гарантии от Tor Project о качестве, пригодности или о чем-нибудь еще.";
+"network.tor.bridge"        = "Мост";
+"network.tor.bridges"       = "Мосты";
+"network.tor.bridges.add"   = "Добавить мост";
+"network.tor.bridges.reset" = "Удалить мосты";
+"network.tor.bridges.hint"  = "Мосты - это ретрансляторы Tor, которые позволяют вам обходить цензуру. Мосты не обязательны! Только если вы подозреваете, что ваш доступ к сети Tor блокируется, вы можете использовать мосты. Доп. инфо на bridges.torproject.org";
+"network.status"                = "Состояние";
+"network.status.disconnected"   = "Нет соединения";
+"network.status.connecting"     = "Подключение..";
+"network.status.connected"      = "Подключён к сети";
+"network.status.authenticated"  = "Аутентифицирован";
+"network.status.bootstrap"      = "Начальная нагрузка";
+"network.status.ready"          = "Готово";
+"network.status.failure"        = "Сбой";
+"network.status.waiting"        = "Ожидание";
+"network.status.suspended"      = "Остановлено";
+"network.status.loading"        = "Загрузка";
+"network.stop"                  = "Стоп";
+"network.restart"               = "Перезапуск";
+"network.websearch.engine"      = "Веб-поисковая система";
+
+// TRANSLATION
+
+"translation.general"           = "Сервис перевода";
+"translation.running"           = "Идет перевод..";
+"translation.yandex"            = "Яндекс Переводчик";
+"translation.yandex.copyright"  = "Powered by Yandex.Translate";
+"translation.target.lang"       = "Целевой язык";
+"translation.target.lang.hint"  = "По умолчанию целевой язык равен языку устройства";
+"translation.source.lang"       = "Исходный язык";
+"translation.source.auto"       = "Автоматическое определение";
+"translation.source.auto.hint"  = "При отключённом автоматическом определении, приложение будет использовать язык, указанный в книжной карте";
+"translation.services"          = "Службы перевода";
+"translation.target.ask"        = "Пожалуйста, выберите целевой язык перевода";
+
+// MAIN
+
+"main.books"                    = "Книги";
+"main.reading"                  = "Недавние книги";
+"main.library"                  = "Библиотека";
+"main.catalogs"                 = "Каталоги";
+"main.dashboard"                = "Личный кабинет";
+
+// CLOUD
+
+"cloud.icloud.signin"           = "Войти в iCloud";
+"cloud.icloud.signin.message"   = "Войдите в свою учетную запись iCloud. На главном экране, запустите Настройки, нажмите iCloud, введите Ваш Apple ID. Включите iCloud Drive. Если у вас нет учетной записи iCloud, нажмите ‘Cоздать Apple ID’.";
+"cloud.dropbox.link.title"      = "Подключить Dropbox";
+"cloud.dropbox.link.message"    = "Выберите предпочтительный метод авторизации";
+"cloud.dropbox.link.app"        = "Запустить приложение Dropbox";
+"cloud.dropbox.link.site"       = "Открыть сайт Dropbox";
+"cloud.credential.required"     = "Необходима аутентификация";
+"cloud.credential.user"         = "Пользователь";
+"cloud.credential.password"     = "Пароль";
+"cloud.webdav.add"              = "Добавить сервер WebDAV";
+"cloud.webdav.data"             = "Настройки сервера WebDAV";
+"cloud.webdav.known"            = "Список известных серверов WebDAV";
+"cloud.webdav.hint"             = "Введите URL, имя пользователя и пароль для подключения к серверу WebDAV";
+"cloud.check.reachability"      = "Проверка достижимости ..";
+"cloud.check.fail.msg"          = "Сервер недоступен или недействителен";
+"cloud.check.fail.ask"          = "Всё равно подключить сервер?";
+
+// OPDS
+
+"catalog.general"               = "Каталог";
+"catalog.add.to"                = "Добавить в каталоги";
+"catalog.opds"                  = "OPDS Каталог";
+"catalog.opds.add"              = "Добавить OPDS Каталог";
+"catalog.opds.add.hint"         = "Введите URL в поле для добавления произвольного OPDS каталога";
+"catalog.opds.add.fix"          = "Возможно адрес OPDS каталога был указан не полностью. Адрес был исправлен на возможно правильный. Пожалуйста, проверьте внимательно.";
+"catalog.opds.localnet"         = "Поиск в локальной сети";
+"catalog.opds.localnet.hint"    = "Поиск в локальной сети пользовательских каталогов OPDS, таких как Calibre и TinyOPDS";
+"catalog.opds.known"            = "Список известных OPDS каталогов";
+"catalog.rel.related"           = "Связанный";
+"catalog.rel.alternate"         = "Альтернатива";
+"catalog.rel.subsection"        = "Подраздел";
+"catalog.rel.acquisition"       = "Приобретение";
+"catalog.rel.openaccess"        = "Открытый доступ";
+"catalog.rel.borrow"            = "Заимствовать";
+"catalog.rel.buy"               = "Купить";
+"catalog.rel.sample"            = "Образец";
+"catalog.rel.subscribe"         = "Подписка";
+"catalog.rel.new"               = "Новинки";
+"catalog.rel.popular"           = "Популярные";
+"catalog.rel.featured"          = "Подборка";
+"catalog.rel.recommended"       = "Рекомендуемые";
+"catalog.rel.shelf"             = "Полка";
+"catalog.rel.subscriptions"     = "Подписки";
+"catalog.rel.free"              = "Бесплатно";
+"catalog.rel.basket"            = "Корзина";
+"catalog.rel.download"          = "Загрузка";
+"catalog.rel.login"             = "Войти"; // Авторизация
+"catalog.rel.logout"            = "Выход";
+"catalog.rel.author"            = "Автор";
+"catalog.rel.sequence"          = "Серия";
+"catalog.rel.category"          = "Категория";
+"catalog.rel.publisher"         = "Издатель";
+"catalog.rel.web"               = "Веб";
+"catalog.rel.search"            = "Поиск";
+"catalog.rel.up"                = "Вверх";
+"catalog.rel.first"             = "Сначала";
+"catalog.rel.last"              = "В конец";
+"catalog.check.fail.msg"        = "Каталог недоступен или недействителен";
+"catalog.check.fail.ask"        = "Всё равно подключить каталог?";
+"catalog.opds.fix.path"         = "Кажется, что адрес OPDS каталога был указан не полностью. Адрес был исправлен на возможно правильный. Пожалуйста, проверьте внимательно.";
+"catalog.credentials.reset"     = "Сбросить учетные данные";
+"catalog.credentials.reset.hint"= "Сбросить сохраненные учетные данные (пароли, токены доступа)";
+"catalog.links"                 = "Ссылки";
+"catalog.rights"                = "Права";
+"catalog.source"                = "Источник";
+"catalog.reviews"               = "Отзывы";
+"catalog.googlebooks"           = "Google Книги";
+"catalog.samizdat"              = "Самиздат";
+"catalog.litres"                = "ЛитРес";
+
+// WIDGET
+
+"widget.title"                 = "Название";
+"widget.color"                 = "Цвет";
+"widget.icon"                  = "Иконка";
+
+// DICTIONARY
+
+"dictionary.general"                = "Словарь";
+"dictionary.all"                    = "Словари";
+"dictionary.install"                = "Установить словарь";
+"dictionary.install.free"           = "Добавить свободный словарь";
+"dictionary.install.system"         = "Добавить системный словарь";
+"dictionary.install.all"            = "Установленные словари";
+"dictionary.install.add"            = "Добавить словарь";
+"dictionary.install.storage"        = "Выбрать из хранилища";
+"dictionary.install.import"         = "Импорт через «Файлы»";
+"dictionary.install.download"       = "Загрузить из Интернета";
+"dictionary.install.download.hint"  = "Выберите бесплатный словарь для загрузки и установки";
+"dictionary.install.hint"           = "KyBook поддерживает словари в форматах StarDict, Lingvo DSL, Dictd";
+"dictionary.history"                = "История";
+"dictionary.favorited"              = "Избранные статьи";
+"dictionary.userdict"               = "Словарь пользователя";
+"dictionary.activate.hint"          = "Чтобы выполнить поиск по определению, выберите слово в книге, а затем нажмите пункт меню «Определить»";
+"dictionary.article"                = "Cловарная статья";
+"dictionary.article.title.prompt"   = "Название статьи";
+"dictionary.article.text.prompt"    = "Введите текст статьи";
+"dictionary.article.add"            = "Добавить словарную статью";
+"dictionary.article.markdown"       = "Поддерживается форматирование Markdown";
+
+// RELAX
+
+"relax.general"                     = "Таймер релаксации";
+"relax.screen"                      = "Экран";
+"relax.screen.black"                = "Черный";
+"relax.screen.blurred"              = "Размытый";
+"relax.screen.melange"              = "Меланж";
+"relax.screen.matrix"               = "Матрица (фильм)";
+"relax.screen.life"                 = "Игра «Жизнь»";
+"relax.screen.random"               = "Случайный";
+"relax.preparation"                 = "Подготовительные действия";
+"relax.preparation.hint"            = "Подготовительные действия будут выполнены до отображения экрана релаксации";
+"relax.final"                       = "Заключительные действия";
+"relax.final.hint"                  = "Заключительные действия будут выполнены по завершению релаксации";
+"relax.duration"                    = "Длительность чтения";
+"relax.duration.hint"               = "Продолжительность чтения при котором приложение покажет экран релаксации";
+"relax.flash"                       = "Flash";
+"relax.vibration"                   = "Вибрация";
+"relax.alert"                       = "Сигнал";
+"relax.countdown"                   = "Обратный отсчёт";
+"relax.duration.screen"             = "Длительность отдыха";
+"relax.screen.show"                 = "Показать экран";
+"relax.screen.footer"               = "Релаксация будет автоматически завершена через %@\nНажмите в любом месте, чтобы завершить ранее";
+"relax.message.relax"               = "Время отдохнуть!";
+"relax.message.read"                = "Время читать!";
+"relax.hint"                        = "Экран релаксации для отдыха после долгого чтения";
+"relax.disable"                     = "Откл. таймер релаксации";
+"relax.enable.ask"                  = "Включить таймер релаксации?";
+"relax.intime.fmt"                  = "Релаксация через %@";
+
+// TIMER
+
+"timer.sleep.general"               = "Таймер сна";
+"timer.sleep.off"                   = "Отключить таймер сна";
+"timer.sleep.off.short"             = "Отключить";
+"timer.sleep.pauseplayback"         = "Остановить воспроизведение";
+"timer.sleep.fired.message"         = "Воспроизведение остановлено таймером сна";
+"timer.sleep.induration.fmt"        = "Остановка через %@";
+"timer.sleep.induration.short.fmt"  = "Через %@";
+"timer.sleep.atendchapter"          = "В конце главы";
+
+// LOGIN
+
+"login.signin"                      = "Войти";
+"login.signup"                      = "Зарегистрироваться";
+"login.signin.welcome"              = "Добро пожаловать";
+"login.signup.join"                 = "Присоединяйтесь к KyBook";
+"login.signin.headline"             = "Войдите для просмотра и синхронизации ваших книг, заметок, рецензий и т.д.";
+"login.signup.headline"             = "Создайте учетную запись для просмотра и синхронизации ваших книг, заметок, рецензий и т.д.";
+"login.signin.toggle"               = "Нет учетной записи?";
+"login.signup.toggle"               = "У вас уже есть учетная запись?";
+"login.signin.toggle.action"        = "Создать";
+"login.signup.toggle.action"        = "Войти";
+"login.signin.password"             = "Войти с паролем";
+"login.signin.email"                = "Войти через e-mail";
+"login.signin.google"               = "Войти через Google";
+"login.signin.github"               = "Войти через  GitHub";
+"login.signin.known"                = "Войти с известным логином";
+"login.signup.password"             = "Регистрация с паролем";
+"login.signup.email"                = "Регистрация по e-mail";
+"login.signup.google"               = "Регистрация через Google";
+"login.signup.github"               = "Регистрация через GitHub";
+"login.signin.enter"                = "Введите логин и пароль для входа в учетную запись";
+"login.signup.enter"                = "Введите логин и пароль для создания учетной записи";
+"login.email.enter"                 = "При желании введите адрес электронной почты и имя";
+"login.login"                       = "Логин";
+"login.password"                    = "Пароль";
+"login.email"                       = "Электронная почта";
+"login.displayname"                 = "Имя";
+"login.login.invalid"               = "Логин должен содержать не менее 4 символов и должен состоять из цифр, латинских букв, точек или символов подчеркивания";
+"login.password.invalid"            = "Пароль должен иметь длину не менее 6 символов и должен состоять из цифр, латинских букв, точек или символов подчеркивания";
+"login.response.failure"            = "Логин или пароль недействительны";
+"login.invalid.email"               = "Электронная почта недействительна";
+"login.invalid.confirmation"        = "Код подтверждения недействительный";
+"login.email.confirm.send"          = "Введите адрес электронной почты, связанный с вашей учетной записью, и мы отправим код подтверждения на ваш почтовый ящик";
+"login.email.confirm.enter"         = "Введите код подтверждения и вы будете зарегистрированы";
+"login.email.confirm.have"          = "У меня есть код подтверждения";
+"login.email.confirm.just.fmt"      = "Мы отправили код подтверждения по электронной почте на %@.\nВведите код из письма, и вы будете зарегистрированы";
+"login.email.confirm.code"          = "Код подтверждения";
+"login.email.confirm.check"         = "Проверка кода, пожалуйста, подождите..";
+"login.ok"                          = "Успешный вход";
+"login.failed"                      = "Ошибка входа";
+"login.user.exists"                 = "Пользователь с таким логином уже зарегистрирован";
+"login.user.notfound"               = "Пользователь не найден";
+
+// ACCOUNT
+
+"account.general"                   = "Учетная запись";
+"account.authorization"             = "Авторизация";
+"account.personal"                  = "Личная информация";
+"account.social.network"            = "Социальная сеть";
+"account.website"                   = "Веб-сайт";
+"account.bio"                       = "Биография";
+"account.created"                   = "Создан в";
+"account.logout"                    = "Выйти";
+"account.logout.ask"                = "Выйти?";
+"account.logout.message"            = "Синхронизация станет недоступной после выхода. Вы уверены?";
+"account.relogin"                   = "Войти снова";
+"account.relogin.ask"               = "Войти снова?";
+"account.delete"                    = "Удалить аккаунт";
+"account.delete.ask"                = "Удалить аккаунт?";
+"account.delete.message"            = "Удаление учетной записи также вызовет удаление всей сохранненой информации о книгах и заметках в облаке. Синхронизация станет недоступной.\n\nПожалуйста, введите `УДАЛИТЬ` для подтверждения";
+"account.anonymous"                 = "Аноним";
+"account.devices"                   = "Устройства";
+"account.devices.detach"            = "Отсоединить устройство";
+
+// SYNCHRONIZATION
+
+"sync.general"                      = "Синхронизация";
+"sync.donow"                        = "Синхронизировать сейчас";
+"sync.doing"                        = "Синхронизируется..";
+"sync.automatic"                    = "Автоматическая синхронизация";
+"sync.automatic.wifi"               = "Требовать подключения WiFi";
+"sync.automatic.lowerpower"         = "Останавливать в режиме энергосбережения";
+"sync.logging"                      = "Логирование";
+"sync.logging.view"                 = "Просмотреть журнал";
+"sync.scope"                        = "Элементы, которые необходимо синхронизировать";
+"sync.scope.books"                  = "Метаданные книг";
+"sync.scope.notes"                  = "Заметки, закладки";
+"sync.scope.assets"                 = "Конспекты, обложки";
+"sync.scope.files"                  = "Файлы книг";
+"sync.restriction.hint"             = "Синхронизация требует премиальной подписки.\nМетаданные книг, заметки, конспекты и т.п. сохраняются в облаке без каких-либо ограничений по размеру и/или количеству.\nОбщий размер хранимых книжных файлов в облаке ограничен доступной квотой.";
+"sync.quota"                        = "Квота (используется)";
+"sync.quota.empty"                  = "Пусто";
+"sync.quota.used.fmt"               = "%@ из %@";
+"sync.push.notifications"           = "Push-уведомления";
+"sync.push.notifications.hint"      = "Уведомления полезны для стабильной синхронизации между вашими устройствами";
+"sync.state.none"                   = "Не синхронизирован";
+"sync.state.synced"                 = "Синхронизировано";
+
+// BIZ
+
+"biz.adman.mock.banner.title"       = "Улучшить KyBook до ПРО и отключить рекламные баннеры!";
+"biz.adman.mock.banner.title.short" = "Улучшить до ПРО и отключить рекламу!";
+"biz.adman.mock.banner.subtitle"    = "Нажмите, чтобы улучшить до Про";
+"biz.feature.noad"                  = "Нет рекламных баннеров";
+"biz.feature.djvu"                  = "Поддержка формата DjVu";
+"biz.feature.userdict"              = "Словарь пользователя";
+"biz.feature.deckui"                = "Продвинутый интерфейс (Safari подобный с вкладками)";
+"biz.feature.contentserver"         = "Контент сервер";
+"biz.feature.themes"                = "Настраиваемые темы";
+"biz.feature.tags"                  = "Метки для книг";
+"biz.feature.downloadable"          = "Загружаемый контент (шрифты, фоны, словари)";
+"biz.feature.autoscroll"            = "Автопрокрутка";
+"biz.feature.sketches"              = "Поддержка рисования на книжных страницах";
+"biz.feature.pdfreflow"             = "Режим PDF Reflow на iPhone";
+"biz.feature.export2pdf"            = "Экспорт электронной книги с аннотациями в формате PDF";
+"biz.feature.synchronization"       = "Синхронизация метаданных и файлов книг";
+"biz.feature.google"                = "Google переводчик и поиск обложек в Google";
+"biz.available.free"                = "Доступно бесплатно";
+"biz.requires.pro"                  = "Требуется Про покупка";
+"biz.requires.premium"              = "Требуется Премиум подписка";
+"biz.alert.iap.fmt"                 = "Сожалею, требуется совершить покупку в приложении для продолжения использования «%@».\nВы хотите совершить покупку в приложении сейчас?";
+"biz.buy.now"                       = "Купить сейчас";
+"biz.buy.later"                     = "Да, куплю позже";
+"biz.premium.sync.note"             = "Для синхронизации необходимо приобрести Премиум подписку.";
+"biz.trial"                         = "Пробная версия";
+"biz.trial.hint.fmt"                = "Пробуйте ПРО функции бесплатно %zd дней";
+"biz.trial.noteliglbile"            = "Не подходит для пробной версии";
+"biz.terms.title"                   = "Условия использования";
+"biz.privacy.title"                 = "Политика конфиденциальности";
+
+// IAP
+
+"iap.general"                   = "Встроенные покупки";
+"iap.restore"                   = "Восстановить покупки";
+"iap.pro.upgrade"               = "Улучшить до Про";
+"iap.premium.subscription"      = "Премиум подписка";
+"iap.dialog.completed"          = "Завершенные покупки";
+"iap.dialog.restored"           = "Восстановленные покупки";
+"iap.validation.issue"          = "Покупки в приложениях не были подтверждены!";
+"iap.validation.cancelled.fmt"  = "%@ отменено"; // e.g. 'Upgrade to Pro was cancelled'
+"iap.validation.expired.fmt"    = "%@ исктекла";
+"iap.validation.uncofirmed.fmt" = "%@ не подтверждается из-за %@"; // e.g. 'Yeary subscription unconfirmed due to some error'
+"iap.validation.note"           = "Некоторые функции будут отключены!";
+"iap.pro.title"                 = "Улучшить до Про";
+"iap.pro.subtitle"              = "Одноразовый платеж";
+"iap.pro.hint"                  = "Улучшение до Про открывает все Про функции";
+"iap.pro.allfeatures"           = "Все Про функции";
+"iap.month3.title"              = "Подписка на 3 месяца";
+"iap.month3.subtitle"           = "Каждые 3 месяца, 1 неделя бесплатной пробной версии";
+"iap.yearly.title"              = "Ежегодная подписка";
+"iap.yearly.subtitle"           = "Каждый год, 1 неделя бесплатной пробной версии";
+"iap.premium.details"           = "Информация о подписке";
+"iap.premium.hint"              = "Премиум-подписка включает в себя функцию синхронизации и все функции Pro";
+"iap.manage.subscriptions"      = "Управление подпиской";
+"iap.status.expired.fmt"        = "Истекла %@"; // subscription expired at 2018-01-01
+"iap.status.expires.fmt"        = "Истекает %@";
+"iap.status.paid.fmt"           = "Оплачено %@";
+"iap.error.title"               = "Ошибка iTunes Store";
+"iap.error.nopurchases"         = "Извините, никаких покупок не было найдено";
+"iap.error.unablepayment"       = "Извините, не удалось совершить покупку. Это устройство не может или не имеет разрешения для совершения платежей";
+"iap.error.unreachable"         = "К сожалению, сервер синхронизации недоступен. Премиум-подписка непригодна для использования без синхронизации.";
+
+// SUPPORT/ABOUT
+
+"support.report.issue"          = "Сообщить о проблеме";
+"support.about"                 = "О программе";
+"support.about.rate"            = "Поставить оценку в App Store";
+"support.about.twitter"         = "Твитнуть в Твиттере";
+"support.about.feedback"        = "Напишите нам";
+"support.about.help"            = "Помощь";
+"support.about.discuss"         = "Обсудить";
+"support.about.acknowledgement" = "Благодарность";
+
+// Abbreviation
+
+"abbr.thousand.words.fmt"       = "%zdт слов";
+
+// SMB/CIFS AND OTHERS ERRORS
+
+"INTERNAL_ERROR"            = "Внутренняя ошибка";
+"NETWORK_FAILURE"           = "Сетевая ошибка";
+"UNAUTHORIZED"              = "Неавторизованно";
+"ACCESS_DENIED"             = "Доступ закрыт";
+"UNABLE_RESOLVE"            = "Невозможно определить имя хоста / адрес";
+"UNABLE_CONNECT"            = "Невозможно подключиться к компьютеру в сети";
+"BAD_SHARE"                 = "Недействительная точка подключения";
+"BAD_PATH"                  = "Неверный путь";
+"FILE_IS_DIRECTORY"         = "Файл является каталогом";
+"FILE_ALREADY_EXISTS"       = "Файл уже существует";
+"NOT_FOUND"                 = "Не найдено";
+"UNSUPPORTED"               = "Эта функция не поддерживается";
+"FILE_IO_ERROR"             = "Ошибка файловой системы";
+"OUT_OF_MEMORY"             = "Недостаточно памяти";
+"UNKNOWN_FAILURE"           = "Неизвестная ошибка";
+
+// WebRoKit
+
+"TOR_BOOTSTRAP_ALERT"   = "Начальная загрузка сети Tor может потребовать длительного времени. Пожалуйста подождите.";
+"TOR_THREAD_IS_FINISHED" = "Сеть Тор закрыта";
+"CANCELLED"             = "Отменено";
+"FAILURE"               = "Сбой";
+"COMPLETED"             = "Завершено";
+"FINISHED"              = "Завершено";
+"READY"                 = "Готово";
+"DISCONNECTED"          = "Нет соединения";
+"CONNECTING"            = "Подключение..";
+"CONNECTED"             = "Подключён к сети";
+"BOOTSTRAP"             = "Начальная нагрузка";
+"BAD_AUTH"              = "Неавторизованно";
+"FATAL_ERROR"           = "Кажется что-то пошло не так!";

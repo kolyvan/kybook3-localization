@@ -1,0 +1,43 @@
+/* 
+  langnames.strings
+  yar
+
+  Created by Kolyvan on 24/11/2017.
+  Copyright © 2017 Konstantin Bukreev. All rights reserved.
+*/
+
+"Arabic"                = "Арабский";
+"Bulgarian"             = "Болгарский";
+"Czech"                 = "Чешский";
+"Danish"                = "Датский";
+"German"                = "Немецкий";
+"Greek"                 = "Греческий";
+"English"               = "Английский";
+"Spanish"               = "Испанский";
+"Finnish"               = "Финский";
+"French"                = "Французский";
+"Hebrew"                = "Иврит";
+"Hindi"                 = "Хинди";
+"Croatian"              = "Хорватский";
+"Hungarian"             = "Венгерский";
+"Indonesian"            = "Индонезийский";
+"Icelandic"             = "Исландский";
+"Italian"               = "Итальянский";
+"Japanese"              = "Японский";
+"Korean"                = "Корейский";
+"Norwegian"             = "Норвежский";
+"Dutch"                 = "Голландский";
+"Polish"                = "Польский";
+"Portuguese"            = "Португальский";
+"Romanian"              = "Румынский";
+"Russian"               = "Русский";
+"Slovak"                = "Словацкий";
+"Swedish"               = "Шведский";
+"Thai"                  = "Тайский";
+"Turkish"               = "Турецкий";
+"Chinese"               = "Китайский";
+"Simplified Chinese"    = "Упрощенный китайский";
+"Traditional Chinese"   = "Традиционный китайский";
+"Persian"               = "Персидский";
+"Urdu"                  = "Урду";
+"Vietnamese"            = "Вьетнамский";
