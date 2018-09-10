@@ -1092,6 +1092,7 @@
 "login.signup.github"               = "Регистрация через GitHub";
 "login.signin.enter"                = "Введите логин и пароль для входа в учетную запись";
 "login.signup.enter"                = "Введите логин и пароль для создания учетной записи";
+"login.setup.enter"                 = "Введите логин и пароль для установки учетных данных";
 "login.email.enter"                 = "При желании введите адрес электронной почты и имя";
 "login.login"                       = "Логин";
 "login.password"                    = "Пароль";
@@ -1101,17 +1102,22 @@
 "login.password.invalid"            = "Пароль должен иметь длину не менее 6 символов и должен состоять из цифр, латинских букв, точек или символов подчеркивания";
 "login.response.failure"            = "Логин или пароль недействительны";
 "login.invalid.email"               = "Электронная почта недействительна";
-"login.invalid.confirmation"        = "Код подтверждения недействительный";
+"login.invalid.confirm"             = "Код подтверждения недействительный";
 "login.email.confirm.send"          = "Введите адрес электронной почты, связанный с вашей учетной записью, и мы отправим код подтверждения на ваш почтовый ящик";
 "login.email.confirm.enter"         = "Введите код подтверждения и вы будете зарегистрированы";
 "login.email.confirm.have"          = "У меня есть код подтверждения";
 "login.email.confirm.just.fmt"      = "Мы отправили код подтверждения по электронной почте на %@.\nВведите код из письма, и вы будете зарегистрированы";
 "login.email.confirm.code"          = "Код подтверждения";
 "login.email.confirm.check"         = "Проверка кода, пожалуйста, подождите..";
+"login.email.already.inuse"         = "Этот адрес электронной почты уже используется другим пользователем";
+"login.email.confirm.fail"          = "Не удалось подтвердить адрес электронной почты";
 "login.ok"                          = "Успешный вход";
 "login.failed"                      = "Ошибка входа";
 "login.user.exists"                 = "Пользователь с таким логином уже зарегистрирован";
 "login.user.notfound"               = "Пользователь не найден";
+"login.change.email.confirm.send"       = "Введите новый адрес электронной почты, и мы отправим код подтверждения на ваш почтовый ящик";
+"login.change.email.confirm.enter"      = "Введите код подтверждения и ваш адрес электронной почты будет изменен";
+"login.change.email.confirm.just.fmt"   = "Мы отправили код подтверждения по электронной почте на %@.\nВведите код из письма, и ваш адрес электронной почты будет изменен";
 
 // ACCOUNT
 
@@ -1133,6 +1139,8 @@
 "account.anonymous"                 = "Аноним";
 "account.devices"                   = "Устройства";
 "account.devices.detach"            = "Отсоединить устройство";
+"account.profile.set"               = "Установить";
+"account.profile.change"            = "Изменить";
 
 // SYNCHRONIZATION
 
@@ -1160,8 +1168,8 @@
 
 // BIZ
 
-"biz.adman.mock.banner.title"       = "Улучшить KyBook до ПРО и отключить рекламные баннеры!";
-"biz.adman.mock.banner.title.short" = "Улучшить до ПРО и отключить рекламу!";
+"biz.adman.mock.banner.title"       = "Улучшить KyBook до ПРО и убрать рекламные баннеры!";
+"biz.adman.mock.banner.title.short" = "Улучшить до ПРО и убрать рекламу!";
 "biz.adman.mock.banner.subtitle"    = "Нажмите, чтобы улучшить до Про";
 "biz.feature.noad"                  = "Нет рекламных баннеров";
 "biz.feature.djvu"                  = "Поддержка формата DjVu";
@@ -1207,6 +1215,8 @@
 "iap.pro.subtitle"              = "Одноразовый платеж";
 "iap.pro.hint"                  = "Улучшение до Про открывает все Про функции";
 "iap.pro.allfeatures"           = "Все Про функции";
+"iap.pro.discount.title"        = "Улучшить до Про (Скидка)";
+"iap.pro.discount.subtitle"     = "Предложение для Про пользователей KyBook 2";
 "iap.month3.title"              = "Подписка на 3 месяца";
 "iap.month3.subtitle"           = "Каждые 3 месяца, 1 неделя бесплатной пробной версии";
 "iap.yearly.title"              = "Ежегодная подписка";

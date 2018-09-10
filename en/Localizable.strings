@@ -1092,6 +1092,7 @@
 "login.signup.github"               = "Sign up with GitHub";
 "login.signin.enter"                = "Enter the login and password for sign in to account";
 "login.signup.enter"                = "Enter the login and password for creating an account";
+"login.setup.enter"                 = "Enter your login and password for the credential";
 "login.email.enter"                 = "Optionally enter the email and display name";
 "login.login"                       = "Login";
 "login.password"                    = "Password";
@@ -1108,10 +1109,15 @@
 "login.email.confirm.just.fmt"      = "We just emailed a verification code to %@.\nEnter a code from the email and you'll be signed in";
 "login.email.confirm.code"          = "Verification code";
 "login.email.confirm.check"         = "Checking the code, please wait..";
+"login.email.already.inuse"         = "This email address is already in use by another user";
+"login.email.confirm.fail"          = "Unable confirm an email";
 "login.ok"                          = "Login Ok";
 "login.failed"                      = "Login Failed";
 "login.user.exists"                 = "User with the following login is already registered";
 "login.user.notfound"               = "User not found";
+"login.change.email.confirm.send"       = "Enter the new email address, and we’ll send a verification code to your inbox";
+"login.change.email.confirm.enter"      = "Enter a verification code and your email address will be changed";
+"login.change.email.confirm.just.fmt"   = "We just emailed a verification code to %@.\nEnter a code from the email and your email address will be changed";
 
 // ACCOUNT
 
@@ -1133,6 +1139,8 @@
 "account.anonymous"                 = "Anonymous";
 "account.devices"                   = "Devices";
 "account.devices.detach"            = "Detach device";
+"account.profile.set"               = "Set";
+"account.profile.change"            = "Change";
 
 // SYNCHRONIZATION
 
@@ -1207,6 +1215,8 @@
 "iap.pro.subtitle"              = "One-time payment";
 "iap.pro.hint"              	= "Upgrade to Pro unlocks all Pro features";
 "iap.pro.allfeatures"           = "All Pro features";
+"iap.pro.discount.title"        = "Upgrade to Pro (Discount)";
+"iap.pro.discount.subtitle"     = "The offer to KyBook 2 Pro users";
 "iap.month3.title"              = "3 Month Subscription";
 "iap.month3.subtitle"           = "Every 3 Month, 1 Week free trial";
 "iap.yearly.title"              = "Yearly Subscription";
