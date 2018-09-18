@@ -35,6 +35,7 @@
 "common.continue"           = "Продолжить";
 "common.yes"                = "Да";
 "common.no"                 = "Нет";
+"common.help"               = "Справка";
 
 // DATE
 
@@ -502,6 +503,8 @@
 "reader.font.match.warning"         = "Невозможно подобрать шрифты, указанные в настройках. Возврат к значениям по умолчанию.";
 "reader.page.fmt"                   = "Страница %zd";
 "reader.openinbook"                 = "Открыть в книге";
+"reader.nextpage"                   = "Следующая страница";
+"reader.prevpage"                   = "Предыдущая страница";
 
 // READER MENU
 
@@ -749,6 +752,9 @@
 "pasteboard.copy.image"         = "Изображение было скопировано в буфер обмена";
 "misc.chapter.fmt"              = "Глава %zd";
 "misc.start.editing"            = "Начать редактирование";
+"misc.add.books"                = "Добавить книги";
+"misc.some.added.fmt"           = "Добавлено %@";
+"misc.addbook.duplicate"        = "Пропущено, потому что дубликат";
 
 // MARKDOWN
 
@@ -921,7 +927,7 @@
 // MAIN
 
 "main.books"                    = "Книги";
-"main.reading"                  = "Недавние книги";
+"main.reading"                  = "Читаю";
 "main.library"                  = "Библиотека";
 "main.catalogs"                 = "Каталоги";
 "main.dashboard"                = "Личный кабинет";
@@ -1118,6 +1124,11 @@
 "login.change.email.confirm.send"       = "Введите новый адрес электронной почты, и мы отправим код подтверждения на ваш почтовый ящик";
 "login.change.email.confirm.enter"      = "Введите код подтверждения и ваш адрес электронной почты будет изменен";
 "login.change.email.confirm.just.fmt"   = "Мы отправили код подтверждения по электронной почте на %@.\nВведите код из письма, и ваш адрес электронной почты будет изменен";
+"login.change.password"             = "Изменить пароль";
+"login.set.password"                = "Установить пароль";
+"login.password.new"                = "Новый пароль";
+"login.password.old"                = "Старый пароль";
+
 
 // ACCOUNT
 

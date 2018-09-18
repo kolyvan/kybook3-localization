@@ -35,6 +35,7 @@
 "common.continue"           = "Continue";
 "common.yes"                = "Yes";
 "common.no"                 = "No";
+"common.help"               = "Help";
 
 // DATE
 
@@ -502,6 +503,8 @@
 "reader.font.match.warning"         = "Unable match fonts specified in the preferences. Fallback to defaults.";
 "reader.page.fmt"                   = "Page %zd";
 "reader.openinbook"                 = "Open in a book";
+"reader.nextpage"                   = "Next page";
+"reader.prevpage"                   = "Previous page";
 
 // READER MENU
 
@@ -749,6 +752,9 @@
 "pasteboard.copy.image"         = "Image was copied into the clipboard";
 "misc.chapter.fmt"              = "Chapter %zd";
 "misc.start.editing"            = "Start editing";
+"misc.add.books"                = "Add books";
+"misc.some.added.fmt"           = "%@ added"; // 5 books was added
+"misc.addbook.duplicate"        = "Skipped because duplicate";
 
 // MARKDOWN
 
@@ -921,7 +927,7 @@
 // MAIN
 
 "main.books"                    = "Books";
-"main.reading"                  = "Recent books";
+"main.reading"                  = "Reading Now";
 "main.library"                  = "Library";
 "main.catalogs"                 = "Catalogs";
 "main.dashboard"                = "Dashboard";
@@ -1118,6 +1124,10 @@
 "login.change.email.confirm.send"       = "Enter the new email address, and we’ll send a verification code to your inbox";
 "login.change.email.confirm.enter"      = "Enter a verification code and your email address will be changed";
 "login.change.email.confirm.just.fmt"   = "We just emailed a verification code to %@.\nEnter a code from the email and your email address will be changed";
+"login.change.password"             = "Change password";
+"login.set.password"                = "Set password";
+"login.password.new"                = "New password";
+"login.password.old"                = "Old password";
 
 // ACCOUNT
 
