@@ -935,8 +935,7 @@
 // CLOUD
 
 "cloud.icloud.signin"           = "Sign in to iCloud";
-// Should the following line be iOS settings?? See reference to iOS settings at "tts.voices.footer"
-"cloud.icloud.signin.message"   = "Sign in to your iCloud account. On the Home screen, launch Settings, tap iCloud, and enter your Apple ID. Turn iCloud Drive on. If you don't have an iCloud account, tap Create a new Apple ID.";
+"cloud.icloud.signin.message"   = "Sign in to your iCloud account. On the Home screen, launch iOS settings, tap iCloud, and enter your Apple ID. Turn iCloud Drive on. If you don't have an iCloud account, tap Create a new Apple ID.";
 "cloud.dropbox.link.title"      = "Connect Dropbox";
 "cloud.dropbox.link.message"    = "Select preferred authentication method";
 "cloud.dropbox.link.app"        = "Start Dropbox app";
