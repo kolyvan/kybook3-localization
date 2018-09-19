@@ -1124,7 +1124,7 @@
 "login.user.exists"                 = "User with the following login is already registered";
 "login.user.notfound"               = "User not found";
 "login.change.email.confirm.send"       = "Enter the new email address, and we’ll send a verification code to your inbox";
-"login.change.email.confirm.enter"      = "Enter he verification code and your email address will be changed";
+"login.change.email.confirm.enter"      = "Enter the verification code and your email address will be changed";
 "login.change.email.confirm.just.fmt"   = "We just emailed a verification code to %@.\nEnter the code from the email and your email address will be changed";
 "login.change.password"             = "Change password";
 "login.set.password"                = "Set password";
