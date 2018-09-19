@@ -48,14 +48,14 @@
 "books.many"    = "%zd books";
 "books.other"   = "%zd books";
 
-"records.zero"    = "0 record";
+"records.zero"    = "0 records";
 "records.one"     = "1 record";
 "records.two"     = "%zd records";
 "records.few"     = "%zd records";
 "records.many"    = "%zd records";
 "records.other"   = "%zd records";
 
-"minutes.zero"    = "0 minute";
+"minutes.zero"    = "0 minutes";
 "minutes.one"     = "1 minute";
 "minutes.two"     = "%zd minutes";
 "minutes.few"     = "%zd minutes";
