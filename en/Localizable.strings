@@ -285,6 +285,7 @@
 "bookshelf.detail.reading"      = "List of books currently being read";
 "bookshelf.detail.read"         = "List of finished books";
 "bookshelf.detail.rated"        = "List of books with rating";
+"bookshelf.detail.allbooks"     = "List of all books";
 "bookshelf.detail.sequences"    = "List of series";
 "bookshelf.detail.authors"      = "List of authors";
 "bookshelf.detail.subjects"     = "List of subjects";
@@ -367,6 +368,16 @@
 "bookcard.miscinfo.supportfiles"= "Support files";
 "bookcard.miscinfo.ebookformat" = "E-book format";
 
+// BOOKS EDIT (BATCH MODE)
+
+"books.edit.asksave"            = "Save changes?";
+"books.edit.differ.series"      = "Series do not match";
+"books.edit.differ.authors"     = "Authors do not match";
+"books.edit.differ.tags"        = "Tags do not match";
+"books.edit.differ.subjects"    = "Subjects do not match";
+"books.edit.differ.publishers"  = "Publishers do not match";
+"books.edit.differ.languages"   = "Languages do not match";
+
 // BOOK REVIEW
 
 "book.review"           = "Review";
@@ -419,7 +430,7 @@
 "delete.book.row.0"         = "This will permanently delete all information associated with the book including:";
 "delete.book.row.1"         = "- %@ of a total size of %@ on the device and in attached cloud storage.";
 "delete.book.row.2"         = "- database records, notes, reviews, etc.";
-"delete.book.done"          = "Done, '%@' have been deleted";
+"delete.book.done"          = "`%@` have been deleted";
 "delete.books"              = "Delete books";
 "delete.books.ask"          = "Delete %@?";
 "delete.books.row.0"        = "This will permanently delete all information associated with books including:";
@@ -1196,6 +1207,7 @@
 "biz.feature.export2pdf"            = "Export an e-book with annotations as a PDF";
 "biz.feature.synchronization"       = "Synchronization of e-books metadata and files";
 "biz.feature.google"                = "Google Translator and Google cover search";
+"biz.feature.batch.edit.metadata"   = "Batch editing of books metadata";
 "biz.available.free"                = "Available for free";
 "biz.requires.pro"                  = "Requires Pro purchase";
 "biz.requires.premium"              = "Requires Premium Subscription";

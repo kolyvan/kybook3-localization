@@ -285,6 +285,7 @@
 "bookshelf.detail.reading"      = "Список читаемых книг";
 "bookshelf.detail.read"         = "Список прочитанных книг";
 "bookshelf.detail.rated"        = "Список книг с оценкой";
+"bookshelf.detail.allbooks"     = "Список всех книг";
 "bookshelf.detail.sequences"    = "Список серий";
 "bookshelf.detail.authors"      = "Список авторов";
 "bookshelf.detail.subjects"     = "Список сюжетов";
@@ -367,6 +368,16 @@
 "bookcard.miscinfo.supportfiles"= "Файлы поддержки";
 "bookcard.miscinfo.ebookformat" = "Формат Ebook";
 
+// BOOKS EDIT (BATCH MODE)
+
+"books.edit.asksave"            = "Сохранить изменения?";
+"books.edit.differ.series"      = "Серии не совпадают";
+"books.edit.differ.authors"     = "Авторы не совпадают";
+"books.edit.differ.tags"        = "Метки не совпадают";
+"books.edit.differ.subjects"    = "Сюжеты не совпадают";
+"books.edit.differ.publishers"  = "Издатели не совпадают";
+"books.edit.differ.languages"   = "Языки не совпадают";
+
 // BOOK REVIEW
 
 "book.review"           = "Рецензия";
@@ -419,7 +430,7 @@
 "delete.book.row.0"         = "Это навсегда удалит всю информацию связанную с книгой включая:";
 "delete.book.row.1"         = "- %@ общего размера %@ на устройстве и в подключенных облачных хранилищах.";
 "delete.book.row.2"         = "- записи базы данных, заметки, рецензии и т.п.";
-"delete.book.done"          = "Готово, '%@' была удалена";
+"delete.book.done"          = "`%@` была удалена";
 "delete.books"              = "Удалить книги";
 "delete.books.ask"          = "Удалить %@?";
 "delete.books.row.0"        = "Это навсегда удалит всю информацию связанную с книгами, включая:";
@@ -1196,6 +1207,7 @@
 "biz.feature.export2pdf"            = "Экспорт электронной книги с аннотациями в формате PDF";
 "biz.feature.synchronization"       = "Синхронизация метаданных и файлов книг";
 "biz.feature.google"                = "Google переводчик и поиск обложек в Google";
+"biz.feature.batch.edit.metadata"   = "Пакетное редактирование метаданных книг";
 "biz.available.free"                = "Доступно бесплатно";
 "biz.requires.pro"                  = "Требуется Про покупка";
 "biz.requires.premium"              = "Требуется Премиум подписка";
