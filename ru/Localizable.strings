@@ -731,8 +731,8 @@
 "search.scope.library"          = "Библиотека";
 "search.scope.catalogs"         = "Каталоги";
 "search.executing"              = "Поиск..";
-"search.continue.fmt"           = "Поиск, найдено %zd совпадений..";
-"search.done.fmt"               = "Готово, найдено %zd совпадений";
+"search.continue.fmt"           = "Поиск, найдено %@..";
+"search.done.fmt"               = "Готово, найдено %@";
 "search.none"                   = "Ой, мы не можем найти то, что вы ищете";
 "search.matching"               = "Режим поиска";
 "search.matching.textual"       = "Текстовый";

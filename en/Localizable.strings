@@ -731,8 +731,8 @@
 "search.scope.library"          = "Library";
 "search.scope.catalogs"         = "Catalogs";
 "search.executing"              = "Searching ...";
-"search.continue.fmt"           = "Searching, %zd matches found ...";
-"search.done.fmt"               = "Done, %zd matches found";
+"search.continue.fmt"           = "Searching, %@ found ..."; // e.g. Searching, 2 matches found ...
+"search.done.fmt"               = "Done, %@ found"; // e.g. Done, 2 matches found
 "search.none"                   = "Oops, we can't find what you are looking for";
 "search.matching"               = "Matching";
 "search.matching.textual"       = "Textual";

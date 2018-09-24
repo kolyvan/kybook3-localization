@@ -68,3 +68,10 @@
 "seconds.few"     = "%zd секунды";
 "seconds.many"    = "%zd секунд";
 "seconds.other"   = "%zd секунд";
+
+"matches.zero"    = "0 совпадений";
+"matches.one"     = "%zd совпадение";
+"matches.two"     = "%zd совпадения";
+"matches.few"     = "%zd совпадения";
+"matches.many"    = "%zd совпадений";
+"matches.other"   = "%zd совпадений";
