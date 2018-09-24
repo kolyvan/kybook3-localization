@@ -56,14 +56,14 @@
 "records.other"   = "%zd записей";
 
 "minutes.zero"    = "0 минут";
-"minutes.one"     = "1 минута";
+"minutes.one"     = "%zd минута";
 "minutes.two"     = "%zd минуты";
 "minutes.few"     = "%zd минуты";
 "minutes.many"    = "%zd минут";
 "minutes.other"   = "%zd минут";
 
 "seconds.zero"    = "0 секунд";
-"seconds.one"     = "1 секунда";
+"seconds.one"     = "%zd секунда";
 "seconds.two"     = "%zd секунды";
 "seconds.few"     = "%zd секунды";
 "seconds.many"    = "%zd секунд";
