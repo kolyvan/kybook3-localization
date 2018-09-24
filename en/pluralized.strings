@@ -68,3 +68,10 @@
 "seconds.few"     = "%zd seconds";
 "seconds.many"    = "%zd seconds";
 "seconds.other"   = "%zd seconds";
+
+"matches.zero"    = "0 matches";
+"matches.one"     = "1 match";
+"matches.two"     = "%zd matches";
+"matches.few"     = "%zd matches";
+"matches.many"    = "%zd matches";
+"matches.other"   = "%zd matches";
