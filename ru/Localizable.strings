@@ -394,12 +394,15 @@
 "book.review.rating.8"  = "Очень хорошо";
 "book.review.rating.9"  = "Замечательно";
 "book.review.rating.X"  = "Шедевр";
-
-"book.metrics.unread"       = "Не прочитано";
-"book.metrics.finished"     = "Прочитано";
-"book.metrics.finished.fmt" = "Прочитано за %@";
-"book.metrics.read.fmt"     = "Читается, %zd%%";
-"book.metrics.read.time"    = "Читается, %zd%% за %@";
+"book.metrics.unread"                   = "Не прочитано";
+"book.metrics.finished"                 = "Прочитано";
+"book.metrics.finished.time.fmt"        = "Прочитано за %@";
+"book.metrics.finished.total.fmt"       = "Прочитано %@";
+"book.metrics.finished.total.time.fmt"  = "Прочитано %@ за %@";
+"book.metrics.read.part.fmt"            = "Читается, %zd%%";
+"book.metrics.read.part.time.fmt"       = "Читается, %zd%% за %@";
+"book.metrics.read.of.fmt"              = "Читается, %zd%% из %@";
+"book.metrics.read.of.time.fmt"         = "Читается, %zd%% из %@ за %@";
 
 // DIALOGS
 
@@ -810,6 +813,8 @@
 "app.prefs.reader.forcetouch.hint"  = "Force Touch может использоваться для выполнения предпочтительного действия над выделенным текстом";
 "app.prefs.reader.idletimer"        = "Отключить таймер простоя";
 "app.prefs.reader.idletimer.hint"   = "Пока открыта книга, экран остается включен";
+"app.prefs.reader.rotationlock"     = "Блокировка поворота";
+"app.prefs.reader.rotationlock.hint"= "Не поворачивать читалку при повороте устройства (работает, пока книга читается в полноэкранном режиме). Блокировка поворота доступна только на iPhone.";
 "app.prefs.cache"                   = "Кэширование";
 "app.prefs.cache.clear"             = "Освободить место";
 "app.prefs.cache.reader"            = "Кэш читалки";
@@ -1014,6 +1019,11 @@
 "catalog.googlebooks"           = "Google Книги";
 "catalog.samizdat"              = "Самиздат";
 "catalog.litres"                = "ЛитРес";
+"catalog.batch.download"        = "Пакетная загрузка";
+"catalog.batch.collecting.fmt"  = "Собираем данные %@";
+"catalog.batch.collected.fmt"   = "Собрано данных %@";
+"catalog.batch.downloading.fmt" = "Загружается %zd из %@";
+"catalog.batch.added.fmt"       = "Добавлено %zd из %@";
 
 // WIDGET
 
@@ -1208,6 +1218,7 @@
 "biz.feature.synchronization"       = "Синхронизация метаданных и файлов книг";
 "biz.feature.google"                = "Google переводчик и поиск обложек в Google";
 "biz.feature.batch.edit.metadata"   = "Пакетное редактирование метаданных книг";
+"biz.feature.batch.catalog.download"= "Пакетная загрузка из OPDS каталога";
 "biz.available.free"                = "Доступно бесплатно";
 "biz.requires.pro"                  = "Требуется Про покупка";
 "biz.requires.premium"              = "Требуется Премиум подписка";

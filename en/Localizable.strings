@@ -394,12 +394,15 @@
 "book.review.rating.8"  = "Very good";
 "book.review.rating.9"  = "Great";
 "book.review.rating.X"  = "Masterwork";
-
-"book.metrics.unread"       = "Unread";
-"book.metrics.finished"     = "Finished reading";
-"book.metrics.finished.fmt" = "Finished reading in %@";
-"book.metrics.read.fmt"     = "Read %zd%%";
-"book.metrics.read.time"    = "Read %zd%% in %@";
+"book.metrics.unread"                   = "Unread";
+"book.metrics.finished"                 = "Finished reading";
+"book.metrics.finished.time.fmt"        = "Finished reading in %@";     // Finished reading in 5 minutes
+"book.metrics.finished.total.fmt"       = "Finished reading %@";        // Finished reading 500 pages
+"book.metrics.finished.total.time.fmt"  = "Finished reading %@ in %@";  // Finished reading 500 pages in 5 minutes
+"book.metrics.read.part.fmt"            = "Read %zd%%";                 // Read 30%
+"book.metrics.read.part.time.fmt"       = "Read %zd%% in %@";           // Read 30% in 5 minutes
+"book.metrics.read.of.fmt"              = "Read %zd%% of %@";           // Read 30% of 500 pages
+"book.metrics.read.of.time.fmt"         = "Read %zd%% of %@ in %@";     // Read 30% of 500 pages in 5 minutes
 
 // DIALOGS
 
@@ -810,6 +813,8 @@
 "app.prefs.reader.forcetouch.hint"  = "Force Touch can be used to perform the preferred action on the selected text.";
 "app.prefs.reader.idletimer"        = "Disable screen auto-lock";
 "app.prefs.reader.idletimer.hint"   = "As long as the book is open, the screen remains switched on.";
+"app.prefs.reader.rotationlock"     = "Rotation lock";
+"app.prefs.reader.rotationlock.hint"= "Do not rotate the reader when the device did turn (works as long as the book is reading at fullscreen). Rotation lock is available only on iPhone.";
 "app.prefs.cache"                   = "Cache";
 "app.prefs.cache.clear"             = "Clear space";
 "app.prefs.cache.reader"            = "Reader Cache";
@@ -1014,6 +1019,11 @@
 "catalog.googlebooks"           = "Google Books";
 "catalog.samizdat"              = "Samizdat";
 "catalog.litres"                = "LitRes";
+"catalog.batch.download"        = "Batch download";
+"catalog.batch.collecting.fmt"  = "Collecting %@";
+"catalog.batch.collected.fmt"   = "Collected %@";
+"catalog.batch.downloading.fmt" = "Downloading %zd of %@";
+"catalog.batch.added.fmt"       = "Added %zd of %@";
 
 // WIDGET
 
@@ -1208,6 +1218,7 @@
 "biz.feature.synchronization"       = "Synchronization of e-books metadata and files";
 "biz.feature.google"                = "Google Translator and Google cover search";
 "biz.feature.batch.edit.metadata"   = "Batch editing of books metadata";
+"biz.feature.batch.catalog.download"= "Batch download from OPDS Catalog";
 "biz.available.free"                = "Available for free";
 "biz.requires.pro"                  = "Requires Pro purchase";
 "biz.requires.premium"              = "Requires Premium Subscription";
