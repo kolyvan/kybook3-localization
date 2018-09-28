@@ -250,7 +250,7 @@
 "bookshelf.unread"          = "Unread";
 "bookshelf.reading"         = "Reading";
 "bookshelf.read"            = "Finished";
-"bookshelf.rated"           = "With rating";
+"bookshelf.rated"           = "Ratings";
 "bookshelf.all"             = "All books";
 "bookshelf.cataloguer"      = "Cataloguer";
 
@@ -306,7 +306,7 @@
 "bookshelf.empty.collection"    = "Empty Collection";
 "bookshelf.empty.category"      = "Empty List";
 
-"bookshelf.hint.read"           = "Mark as `Read` in the book card in the Metrics section.";
+"bookshelf.hint.read"           = "Mark as 'Read' in the book card in the Metrics section.";
 "bookshelf.hint.rated"          = "Rate in the book card in the Review section.";
 "bookshelf.hint.collection"     = "The collection can contain books, authors, series, subjects, tags and other collections.";
 
@@ -433,7 +433,7 @@
 "delete.book.row.0"         = "This will permanently delete all information associated with the book including:";
 "delete.book.row.1"         = "- %@ of a total size of %@ on the device and in attached cloud storage.";
 "delete.book.row.2"         = "- database records, notes, reviews, etc.";
-"delete.book.done"          = "`%@` have been deleted";
+"delete.book.done"          = "'%@' have been deleted";
 "delete.books"              = "Delete books";
 "delete.books.ask"          = "Delete %@?";
 "delete.books.row.0"        = "This will permanently delete all information associated with books including:";
@@ -1048,7 +1048,7 @@
 "dictionary.history"                = "Lookup History";
 "dictionary.favorited"              = "Favorite Entries";
 "dictionary.userdict"               = "User Dictionary";
-"dictionary.activate.hint"          = "To search for a definition, select a word in the book, and then tap the `Define` menu item.";
+"dictionary.activate.hint"          = "To search for a definition, select a word in the book, and then tap the 'Define' menu item.";
 "dictionary.article"                = "Dictionary entry";
 "dictionary.article.title.prompt"   = "Title of the entry";
 "dictionary.article.text.prompt"    = "Enter the text of the entry";
@@ -1167,7 +1167,7 @@
 "account.relogin.ask"               = "Re-login?";
 "account.delete"                    = "Delete account";
 "account.delete.ask"                = "Delete account?";
-"account.delete.message"            = "Deleting the account will also delete all stored information about books and notes in the cloud. Synchronization will no longer be available. \n\nPlease enter `DELETE` for confirmation";
+"account.delete.message"            = "Deleting the account will also delete all stored information about books and notes in the cloud. Synchronization will no longer be available. \n\nPlease enter 'DELETE' for confirmation";
 "account.anonymous"                 = "Anonymous";
 "account.devices"                   = "Devices";
 "account.devices.detach"            = "Detach device";
