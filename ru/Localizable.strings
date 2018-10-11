@@ -36,6 +36,7 @@
 "common.yes"                = "Да";
 "common.no"                 = "Нет";
 "common.help"               = "Справка";
+"common.undo"               = "Отмена";
 
 // DATE
 
@@ -309,6 +310,13 @@
 "bookshelf.hint.read"           = "Поставьте отметку `Прочитано` в карточке книги в разделе Метрика";
 "bookshelf.hint.rated"          = "Поставьте оценку в карточке книги в разделе Рецензия";
 "bookshelf.hint.collection"     = "Коллекция может содержать книги, авторов, серии, сюжеты, метки и другие коллекции";
+
+"bookshelf.trash"               = "Корзина";
+"bookshelf.trash.detailed"      = "Корзина (для удалённых книг)";
+"bookshelf.trash.empty"         = "Пусто";
+"bookshelf.trash.hint"          = "KyBook может восстановить удаленную книгу, расположенную на устройстве, Google Диске или Dropbox.\nКнигу, расположенную в общей папке, сервере WebDAV, Yandex Disk или OneDrive, восстановить можно если у KyBook была кэшированная копия удаленной книги.";
+"bookshelf.trash.limit"         = "Макс. размер";
+"bookshelf.undo.delete.fmt"     = "Отмена удаления %@";
 
 // BOOKCARD
 
@@ -769,6 +777,7 @@
 "misc.add.books"                = "Добавить книги";
 "misc.some.added.fmt"           = "Добавлено %@";
 "misc.addbook.duplicate"        = "Пропущено, потому что дубликат";
+"misc.used.of.fmt"              = "Занято %@ из %@";
 
 // MARKDOWN
 
@@ -925,6 +934,10 @@
 "network.stop"                  = "Стоп";
 "network.restart"               = "Перезапуск";
 "network.websearch.engine"      = "Веб-поисковая система";
+"network.download.add"          = "Добавить загрузку";
+"network.download.file.ask"     = "Загрузить файл?";
+"network.download.file.enter"   = "Введите URL для загрузки файла";
+
 
 // TRANSLATION
 
@@ -1219,6 +1232,7 @@
 "biz.feature.google"                = "Google переводчик и поиск обложек в Google";
 "biz.feature.batch.edit.metadata"   = "Пакетное редактирование метаданных книг";
 "biz.feature.batch.catalog.download"= "Пакетная загрузка из OPDS каталога";
+"biz.feature.book.trash"            = "Корзина для удалённых книг";
 "biz.available.free"                = "Доступно бесплатно";
 "biz.requires.pro"                  = "Требуется Про покупка";
 "biz.requires.premium"              = "Требуется Премиум подписка";

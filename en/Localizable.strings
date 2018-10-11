@@ -36,6 +36,7 @@
 "common.yes"                = "Yes";
 "common.no"                 = "No";
 "common.help"               = "Help";
+"common.undo"               = "Undo";
 
 // DATE
 
@@ -309,6 +310,13 @@
 "bookshelf.hint.read"           = "Mark as `Read` in the book card in the Metrics section.";
 "bookshelf.hint.rated"          = "Rate in the book card in the Review section.";
 "bookshelf.hint.collection"     = "The collection can contain books, authors, series, subjects, tags and other collections.";
+
+"bookshelf.trash"               = "Trash";
+"bookshelf.trash.detailed"      = "Trash (for deleted books)";
+"bookshelf.trash.empty"         = "Empty";
+"bookshelf.trash.hint"          = "KyBook can recover a deleted book located on the device, Google Drive and Dropbox.\nA book located on Shared folder, WebDAV server, Yandex Disk and OneDrive, can be restored only when KyBook had a cached copy of a deleted book.";
+"bookshelf.trash.limit"         = "Maximum size";
+"bookshelf.undo.delete.fmt"     = "Undoing deletion of %@"; // e.g. Undoing deletion of 5 books
 
 // BOOKCARD
 
@@ -769,6 +777,7 @@
 "misc.add.books"                = "Add books";
 "misc.some.added.fmt"           = "%@ added"; // 5 books were added
 "misc.addbook.duplicate"        = "Skipped because of a duplicate";
+"misc.used.of.fmt"              = "%@ of %@ occupied"; // 100 mB Of 1GB occupied
 
 // MARKDOWN
 
@@ -925,6 +934,9 @@
 "network.stop"                  = "Stop";
 "network.restart"               = "Restart";
 "network.websearch.engine"      = "Web Search Engine";
+"network.download.add"          = "Add a download";
+"network.download.file.ask"     = "Download a file?";
+"network.download.file.enter"   = "Enter URL to download a file";
 
 // TRANSLATION
 
@@ -1219,6 +1231,7 @@
 "biz.feature.google"                = "Google Translator and Google cover search";
 "biz.feature.batch.edit.metadata"   = "Batch editing of books metadata";
 "biz.feature.batch.catalog.download"= "Batch download from OPDS Catalog";
+"biz.feature.book.trash"            = "Trash for deleted books";
 "biz.available.free"                = "Available for free";
 "biz.requires.pro"                  = "Requires Pro purchase";
 "biz.requires.premium"              = "Requires Premium Subscription";
