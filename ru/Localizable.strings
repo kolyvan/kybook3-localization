@@ -124,6 +124,7 @@
 "error.iap.requred"             = "Требуется покупка в приложении";
 "error.subscription.notfound"   = "Требуется Премиум подписка";
 "error.subscription.expired"    = "Премиум подписка истекла";
+"error.google.quotaexceeded"    = "Квота поиска Google превышена, повторите попытку позже";
 
 // FILESTORE
 
@@ -804,6 +805,9 @@
 "app.prefs.bookshelf.decor"         = "Отображение дополнительной информации в ячейке";
 "app.prefs.bookshelf.backg.card"    = "Цвет фона в режиме Карточки";
 "app.prefs.bookshelf.backg.mini"    = "Цвет фона в режиме Малые карточки";
+"app.prefs.bookshelf.card"          = "Режим Карточки";
+"app.prefs.bookshelf.card.hires"    = "Hi-Res обложки";
+"app.prefs.bookshelf.card.hint"     = "Экспериментальная функция. Может работать неправильно. При включении потребляет мощности процессора и дисковое пространство.";
 "app.prefs.bookshelf.tags"          = "Стиль меток";
 "app.prefs.bookshelf.tags.icons"    = "Иконки";
 "app.prefs.bookshelf.tags.titles"   = "Названия";

@@ -124,6 +124,7 @@
 "error.iap.requred"             = "In-app purchase is required";
 "error.subscription.notfound"   = "Premium subscription is required";
 "error.subscription.expired"    = "Premium subscription has expired";
+"error.google.quotaexceeded"    = "Google search quota is exceeded, please try again later";
 
 // FILESTORE
 
@@ -804,6 +805,9 @@
 "app.prefs.bookshelf.decor"         = "Display secondary information in a cell";
 "app.prefs.bookshelf.backg.card"    = "Background color in card mode";
 "app.prefs.bookshelf.backg.mini"    = "Background color in mini-card mode";
+"app.prefs.bookshelf.card"          = "Card mode";
+"app.prefs.bookshelf.card.hires"    = "Hi-Res covers";
+"app.prefs.bookshelf.card.hint"     = "Experimental feature. May not work properly. Consumes CPU power and disk space when enabled.";
 "app.prefs.bookshelf.tags"          = "Tags style";
 "app.prefs.bookshelf.tags.icons"    = "Icons";
 "app.prefs.bookshelf.tags.titles"   = "Titles";
