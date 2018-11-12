@@ -1,0 +1,77 @@
+/* 
+  pluralized.strings
+  yar
+
+  Created by Kolyvan on 24/11/2017.
+  Copyright © 2017 Konstantin Bukreev. All rights reserved.
+*/
+
+"files.zero"    = "sin archivos";
+"files.one"     = "%zd archivo";
+"files.two"     = "%zd archivos";
+"files.few"     = "%zd archivos";
+"files.many"    = "%zd archivos";
+"files.other"   = "%zd archivos";
+
+"folders.zero"    = "sin carpetas";
+"folders.one"     = "%zd carpeta";
+"folders.two"     = "%zd carpetas";
+"folders.few"     = "%zd carpetas";
+"folders.many"    = "%zd carpetas";
+"folders.other"   = "%zd carpetas";
+
+"pages.zero"    = "cero páginas";
+"pages.one"     = "%zd página";
+"pages.two"     = "%zd páginas";
+"pages.few"     = "%zd páginas";
+"pages.many"    = "%zd páginas";
+"pages.other"   = "%zd páginas";
+
+"words.zero"    = "cero palabras";
+"words.one"     = "%zd palabra";
+"words.two"     = "%zd palabras";
+"words.few"     = "%zd palabras";
+"words.many"    = "%zd palabras";
+"words.other"   = "%zd palabras";
+
+"notes.zero"    = "sin notas";
+"notes.one"     = "%zd nota";
+"notes.two"     = "%zd notas";
+"notes.few"     = "%zd notas";
+"notes.many"    = "%zd notas";
+"notes.other"   = "%zd notas";
+
+"books.zero"    = "sin libros";
+"books.one"     = "%zd libro";
+"books.two"     = "%zd libros";
+"books.few"     = "%zd libros";
+"books.many"    = "%zd libros";
+"books.other"   = "%zd libros";
+
+"records.zero"    = "sin registros";
+"records.one"     = "%zd registro";
+"records.two"     = "%zd registros";
+"records.few"     = "%zd registros";
+"records.many"    = "%zd registros";
+"records.other"   = "%zd registros";
+
+"minutes.zero"    = "0 minutos";
+"minutes.one"     = "%zd minuto";
+"minutes.two"     = "%zd minutos";
+"minutes.few"     = "%zd minutos";
+"minutes.many"    = "%zd minutos";
+"minutes.other"   = "%zd minutos";
+
+"seconds.zero"    = "0 segundos";
+"seconds.one"     = "%zd segundo";
+"seconds.two"     = "%zd segundos";
+"seconds.few"     = "%zd segundos";
+"seconds.many"    = "%zd segundos";
+"seconds.other"   = "%zd segundos";
+
+"matches.zero"    = "0 coincidencias";
+"matches.one"     = "%zd coincidencia";
+"matches.two"     = "%zd coincidencias";
+"matches.few"     = "%zd coincidencias";
+"matches.many"    = "%zd coincidencias";
+"matches.other"   = "%zd coincidencias";
