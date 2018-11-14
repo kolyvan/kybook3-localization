@@ -319,6 +319,12 @@
 "bookshelf.trash.limit"         = "Tamaño máximo";
 "bookshelf.undo.delete.fmt"     = "Se deshizo el borrado de %@"; // e.g. Undoing deletion of 5 books
 
+"bookshelf.author.page"             = "Web page";
+"bookshelf.author.page.enter"       = "Enter an URL to the author's web page.";
+"bookshelf.author.page.search"      = "Searching in the Internet for an URL to the author's web page ...";
+"bookshelf.author.page.search.fail" = "KyBook could not find an URL to the author's web page.";
+"bookshelf.author.page.search.done" = "Found authors web pages";
+
 // BOOKCARD
 
 "bookcard"                      = "Tarjeta del libro";
@@ -621,6 +627,8 @@
 "reader.settings.docs.pagesep.hint"         = "Pequeño espacio entre páginas al usar el modo de desplazamiento.";
 "reader.settings.audio.smartresume"         = "Reanudación inteligente";
 "reader.settings.audio.smartresume.hint"    = "Cuando la reproducción se reanuda, el audio se regresa 30 segundos.";
+"reader.settings.audio.playlist"            = "Playlist";
+"reader.settings.audio.playlist.hint"       = "Automatically generate a playlist from mp3 files in a folder.";
 
 // THEME
 
@@ -678,7 +686,7 @@
 "empty.bookindex"               = "Índice de palabras vacío";
 "empty.bookindex.none"          = "Aún no se ha realizado el índice de palabras del libro";
 "empty.reading"                 = "No se han leído libros en los últimos treinta días";
-"empty.catalog.page"            = "Esta página está vacía;
+"empty.catalog.page"            = "Esta página está vacía";
 "empty.catalog.reviews"         = "No se encontraron reseñas";
 "empty.summaries"               = "Sin resúmenes";
 "empty.dictionaries"            = "Sin diccionarios";
@@ -1213,6 +1221,10 @@
 "sync.push.notifications.hint"      = "Las notificaciones son útiles para sincronizaciones estables entre tus dispositivos.";
 "sync.state.none"                   = "No sincronizado";
 "sync.state.synced"                 = "Sincronizado";
+"sync.files.title"                  = "Cloud files";
+"sync.files.remove"                 = "Remove";
+"sync.files.hint"                   = "Use a swipe gesture to remove the book file from the KyBook cloud and free up space.";
+"sync.files.empty"                  = "No files have been uploaded yet";
 
 // BIZ
 
