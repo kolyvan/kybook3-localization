@@ -1192,6 +1192,7 @@
 "account.delete"                    = "Delete account";
 "account.delete.ask"                = "Delete account?";
 "account.delete.message"            = "Deleting the account will also delete all stored information about books and notes in the cloud. Synchronization will no longer be available. \n\nPlease enter `DELETE` for confirmation";
+"account.delete.confirmation"       = "DELETE";
 "account.anonymous"                 = "Anonymous";
 "account.devices"                   = "Devices";
 "account.devices.detach"            = "Detach device";

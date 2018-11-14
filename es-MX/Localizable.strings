@@ -1192,6 +1192,7 @@
 "account.delete"                    = "Borrar cuenta";
 "account.delete.ask"                = "¿Borrar cuenta?";
 "account.delete.message"            = "Al borrar la cuenta también se perderá toda la información almacenada en la nube sobre libros y notas. La sincronización tampoco estará disponible. \n\nEscribe por favor «BORRAR» para confirmar";
+"account.delete.confirmation"       = "BORRAR";
 "account.anonymous"                 = "Anónimo";
 "account.devices"                   = "Dispositivos";
 "account.devices.detach"            = "Desvincular dispositivo";
