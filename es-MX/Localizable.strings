@@ -220,7 +220,7 @@
 "menu.color"            = "Color";
 "menu.style"            = "Estilo";
 "menu.listen"           = "Escuchar";
-"menu.speak"            = "Hablar";
+"menu.speak"            = "Leer en voz alta";
 "menu.stop"             = "Detener";
 "menu.open"             = "Abrir";
 "menu.back"             = "Atrás";
@@ -510,7 +510,7 @@
 "reader.outline"                    = "Contenido";
 "reader.bookmarks"                  = "Marcapáginas";
 "reader.notes"                      = "Notas";
-"reader.sketches"                   = "Bosquejos";
+"reader.sketches"                   = "Garabatos";
 "reader.thumbnails"                 = "Miniaturas";
 "reader.summary"                    = "Resumen";
 "reader.info"                       = "Información";
@@ -527,7 +527,7 @@
 "reader.images"                     = "Imágenes";
 "reader.readpos"                    = "Posición de lectura";
 "reader.readpos.changed.ask.fmt"    = "Al parecer la posición de lectura fue modificada recientemente en otro dispositivo. ¿Te gustaría ir a la posición de lectura obtenida de %@?";
-"reader.readpos.preserve"           = "Mantener constantemente la posición de lectura";
+"reader.readpos.preserve"           = "Mantener posición de lectura";
 "reader.readpos.preserve.hint"      = "KyBook guardará la posición de lectura de vez en cuando. Esta característica es útil solamente si el usuario tiene el hábito de forzar el cierre de KyBook mientras está leyendo.";
 "reader.font.match.warning"         = "No se pudieron encontrar las fuentes especificadas en las preferencias. Se utilizaron las predeterminadas.";
 "reader.page.fmt"                   = "Página %zd";
@@ -605,7 +605,7 @@
 "reader.settings.page.turn.curl"    = "Hojear";
 "reader.settings.page.turn.slide"   = "Deslizamiento";
 "reader.settings.theme.delete.ask"  = "¿Borrar el tema?";
-"reader.settings.reset"             = "Restablecer los ajustes predeterminados";
+"reader.settings.reset"             = "Restablecer ajustes predeterminados";
 "reader.settings.docs.fit"                  = "Estilo de visualización";
 "reader.settings.docs.fit.width"            = "Ancho de página";
 "reader.settings.docs.fit.text"             = "Recortando márgenes";
@@ -801,7 +801,7 @@
 "app.control.services"             = "Servicios";
 "app.control.prefs"                = "Preferencias";
 "app.control.advanced.ui"          = "Interfaz avanzada";
-"app.control.advanced.ui.hint"     = "Permite múltiples pestañas activas (similar a Safari).\n\nLa activación de la interfaz avanzada es a través de la compra PRO o PREMIUM dentro de la app.";
+"app.control.advanced.ui.hint"     = "Permite tener múltiples pestañas activas (similar a Safari).\n\nLa activación de la interfaz avanzada es a través de la compra PRO o PREMIUM dentro de la app.";
 
 // APP PREFS
 
@@ -846,7 +846,7 @@
 "app.prefs.spotlight"               = "Búsqueda Spotlight";
 "app.prefs.spotlight.hint"          = "Indexa los libros abiertos para que puedan ser localizados utilizando la búsqueda Spotlight.";
 "app.autosum.algo"                  = "Algoritmo para resumir texto automático";
-"app.autosum.algo.hint"             = "«Text rank» utiliza demasiados recursos pero puede producir mejores resultados. Intenta con el algoritmo «Key phrases» si KyBook se cierra por falta de memoria.";
+"app.autosum.algo.hint"             = "«Text rank» utiliza demasiados recursos pero puede producir mejores resultados. Intenta con el algoritmo «Keyphrases» si KyBook se cierra por falta de memoria.";
 "app.prefs.dragdrop"                = "Arrastrar y soltar";
 "app.prefs.dragdrop.hint"           = "Permite arrastrar y soltar elementos en un librero, biblioteca y otras pantallas.";
 "app.prefs.dragdrop.confirm.title"  = "Modificar arrastrar y soltar";
@@ -878,7 +878,7 @@
 "imagepicker.photos.select"         = "Seleccionar desde fotos";
 "imagepicker.internet.search"       = "Buscar en internet";
 "imagepicker.libraries.search"      = "Buscar en bibliotecas";
-"imagepicker.files.browse"          = "Seleccioanr desde el almacén";
+"imagepicker.files.browse"          = "Seleccionar desde el almacén";
 "imagepicker.files.import"          = "Importar con la app de archivos de Apple";
 "imagepicker.download"              = "Descargar desde el catálogo";
 "imagepicker.photo.fail"            = "Falló la solicitud de la imagen desde Fotos";
@@ -888,9 +888,9 @@
 
 // TEXT 2 SPEECH
 
-"tts.general"           = "Sintetizador de voz (texto-a-voz)";
-"tts.completed"         = "Texto-a-voz: completado";
-"tts.unablestart"       = "Texto-a-voz: no se pudo iniciar";
+"tts.general"           = "Sintetizador de voz (texto a voz)";
+"tts.completed"         = "Texto a voz: completado";
+"tts.unablestart"       = "Texto a voz: no se pudo iniciar";
 "tts.pitch"             = "Tono";
 "tts.rate"              = "Velocidad";
 "tts.volume"            = "Volumen";
@@ -904,8 +904,8 @@
 
 "autoscrolling.general"     = "Desplazamiento automático";
 "autoscrolling.rate"        = "Velocidad";
-"autoscrolling.hideslider"  = "Oculta la barra de velocidad en la pantalla del lector";
-"autoscrolling.tunerate"    = "Ajusta la velocidad al desplazarse arriba o abajo";
+"autoscrolling.hideslider"  = "Ocultar la barra de velocidad en la pantalla del lector";
+"autoscrolling.tunerate"    = "Ajustar la velocidad al desplazarse hacia arriba o abajo";
 
 // NETWORK
 
@@ -926,7 +926,7 @@
 "network.samba.v1.info"     = "KyBook solo puede conectarse con protocolo SMB1. SMB1 está deshabilitado de forma predeterminada en Windows 10. Para habilitarlo, ve a Panel de control > Programas y características > Activar o desactivar las características de Windows > marca la caja de «SMB 1.0/CIFS Server» y reinicia. ¡Atención, SMB1 no es seguro!";
 "network.tor"               = "Red Tor";
 "network.tor.conf.header"   = "¡Atención! KyBook se conectará automáticamente a la red Tor al abrir catálogos OPDS .onion";
-"network.tor.conf.footer"   = "KyBook *automáticamente* se conectará a la red Tor y conducirá el tráfico de catálogos OPDS .onion OPDS y de sitios web.\n\nLa navegación en red y las descargas a través de la red Tor serán considerablevamente más lentas que a través de una conexión sin túneles.\n\n¡Por favor ten en cuenta que KyBook no pretende ser usado para navegar anónimamente! El uso de Tor en KyBook solo soluciona el problema de accesibilidad en la red.\n\nEste producto utiliza las redes de distribución de Tor, su producción es independiente a los programas de anonimato de Tor, y no conlleva ninguna garantía de calidad, idoneidad ni nada más del proyecto Tor.";
+"network.tor.conf.footer"   = "KyBook *automáticamente* se conectará a la red Tor y conducirá el tráfico de catálogos .onion y sitios web OPDS.\n\nLa navegación en red y las descargas a través de la red Tor serán considerablemente más lentas que a través de una conexión sin túneles.\n\n¡Por favor ten en cuenta que KyBook no pretende ser usado para navegar anónimamente! El uso de Tor en KyBook solo soluciona el problema de accesibilidad en la red.\n\nEste producto utiliza las redes de distribución de Tor, su producción es independiente a los programas de anonimato de Tor, y no conlleva ninguna garantía de calidad, idoneidad ni nada más del proyecto Tor.";
 "network.tor.bridge"        = "Puente";
 "network.tor.bridges"       = "Puentes";
 "network.tor.bridges.add"   = "Añadir un puente";
@@ -1205,16 +1205,16 @@
 "sync.donow"                        = "Sincronizar ahora";
 "sync.doing"                        = "Sincronizando...";
 "sync.automatic"                    = "Sincronización automática";
-"sync.automatic.wifi"               = "Requiere una conexión WiFi";
+"sync.automatic.wifi"               = "Requerir una conexión WiFi";
 "sync.automatic.lowerpower"         = "Detener en modo de ahorro de batería";
-"sync.logging"                      = "Registrando";
+"sync.logging"                      = "Registro";
 "sync.logging.view"                 = "Ver registro";
-"sync.scope"                        = "Elementos que necesitan ser sincronizados";
+"sync.scope"                        = "Elementos que van a ser sincronizados";
 "sync.scope.books"                  = "Metadatos del libro";
 "sync.scope.notes"                  = "Notas, marcapáginas";
 "sync.scope.assets"                 = "Resúmenes, cubiertas";
 "sync.scope.files"                  = "Archivos del libro";
-"sync.restriction.hint"             = "La sincronización requiere una suscripción premium.\nBook Los metadatos, notas, resúmenes, etc., son almacenados en la nube sin restricción alguna por el tamaño o cantidad.\nEl tamaño total de los archivos de libros almacenados está determinado por la cuota disponible de almacenamiento.";
+"sync.restriction.hint"             = "La sincronización requiere una suscripción premium.\nLos metadatos, notas, resúmenes, etc., del libro son almacenados en la nube sin restricción alguna por el tamaño o cantidad.\nEl tamaño total de los archivos de libros almacenados está determinado por la cuota disponible de almacenamiento.";
 "sync.quota"                        = "Cuota de almacenamiento (utilizada)";
 "sync.quota.empty"                  = "Vacía";
 "sync.quota.used.fmt"               = "%@ de %@";
