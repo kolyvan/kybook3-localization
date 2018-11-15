@@ -319,6 +319,12 @@
 "bookshelf.trash.limit"         = "Макс. размер";
 "bookshelf.undo.delete.fmt"     = "Отмена удаления %@";
 
+"bookshelf.author.page"             = "Веб-страница";
+"bookshelf.author.page.enter"       = "Введите URL-адрес на веб-страницу автора.";
+"bookshelf.author.page.search"      = "Поиск в Интернете URL-адреса веб-страницы автора ...";
+"bookshelf.author.page.search.fail" = "KyBook не смог найти URL-адрес веб-страницы автора";
+"bookshelf.author.page.search.done" = "Найденные веб-страницы авторов";
+
 // BOOKCARD
 
 "bookcard"                      = "Книжная карточка";
@@ -621,6 +627,8 @@
 "reader.settings.docs.pagesep.hint"         = "Дополнительная настройка режима прокрутки";
 "reader.settings.audio.smartresume"         = "Умная перемотка";
 "reader.settings.audio.smartresume.hint"    = "Перемотать до 30 секунд при возобновлении воспроизведения после паузы";
+"reader.settings.audio.playlist"            = "Список воспроизведения";
+"reader.settings.audio.playlist.hint"       = "Автоматически создавать список воспроизведения из mp3 файлов в папке";
 
 // THEME NAMES
 
@@ -823,7 +831,7 @@
 "app.prefs.reader.fullscreen.header"= "Скрыть верхний колонтитул";
 "app.prefs.reader.fullscreen.footer"= "Скрыть нижний колонтитул";
 "app.prefs.reader.fullscreen.hint"  = "По умолчанию KyBook автоматически переключается в полноэкранный режим, когда пользователь начинает читать. Для выхода из полноэкранного режима нажмите на верхний колонтитул. Кроме того, можно задействовать нажатие по центру, для переключения полноэкранного режима";
-"app.prefs.reader.forcetouch.hint"  = "Force Touch может использоваться для выполнения предпочтительного действия над выделенным текстом";
+"app.prefs.reader.forcetouch.hint"  = "Force (3D) Touch может использоваться для выполнения предпочтительного действия над выделенным текстом";
 "app.prefs.reader.idletimer"        = "Отключить таймер простоя";
 "app.prefs.reader.idletimer.hint"   = "Пока открыта книга, экран остается включен";
 "app.prefs.reader.rotationlock"     = "Блокировка поворота";
@@ -942,7 +950,6 @@
 "network.download.file.ask"     = "Загрузить файл?";
 "network.download.file.enter"   = "Введите URL для загрузки файла";
 
-
 // TRANSLATION
 
 "translation.general"           = "Сервис перевода";
@@ -984,7 +991,7 @@
 "cloud.check.fail.msg"          = "Сервер недоступен или недействителен";
 "cloud.check.fail.ask"          = "Всё равно подключить сервер?";
 
-// OPDS
+// CATALOG
 
 "catalog.general"               = "Каталог";
 "catalog.add.to"                = "Добавить в каталоги";
@@ -1092,6 +1099,7 @@
 "relax.vibration"                   = "Вибрация";
 "relax.alert"                       = "Сигнал";
 "relax.countdown"                   = "Обратный отсчёт";
+"relax.countdown.hint"              = "Показать обратный отсчет перед показом экрана релаксации.";
 "relax.duration.screen"             = "Длительность отдыха";
 "relax.screen.show"                 = "Показать экран";
 "relax.screen.footer"               = "Релаксация будет автоматически завершена через %@\nНажмите в любом месте, чтобы завершить ранее";
@@ -1167,7 +1175,6 @@
 "login.password.new"                = "Новый пароль";
 "login.password.old"                = "Старый пароль";
 
-
 // ACCOUNT
 
 "account.general"                   = "Учетная запись";
@@ -1185,6 +1192,7 @@
 "account.delete"                    = "Удалить аккаунт";
 "account.delete.ask"                = "Удалить аккаунт?";
 "account.delete.message"            = "Удаление учетной записи также вызовет удаление всей сохранненой информации о книгах и заметках в облаке. Синхронизация станет недоступной.\n\nПожалуйста, введите `УДАЛИТЬ` для подтверждения";
+"account.delete.confirmation"       = "УДАЛИТЬ";
 "account.anonymous"                 = "Аноним";
 "account.devices"                   = "Устройства";
 "account.devices.detach"            = "Отсоединить устройство";
@@ -1214,6 +1222,10 @@
 "sync.push.notifications.hint"      = "Уведомления полезны для стабильной синхронизации между вашими устройствами";
 "sync.state.none"                   = "Не синхронизирован";
 "sync.state.synced"                 = "Синхронизировано";
+"sync.files.title"                  = "Файлы в облаке";
+"sync.files.remove"                 = "Удалить";
+"sync.files.hint"                   = "Используйте жест смахивания для удаления файла книги из облака KyBook и освобождения места";
+"sync.files.empty"                  = "Пока никаких файлов не было загружено";
 
 // BIZ
 

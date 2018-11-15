@@ -319,6 +319,12 @@
 "bookshelf.trash.limit"         = "Maximum size";
 "bookshelf.undo.delete.fmt"     = "Undoing deletion of %@"; // e.g. Undoing deletion of 5 books
 
+"bookshelf.author.page"             = "Web page";
+"bookshelf.author.page.enter"       = "Enter an URL to the author's web page.";
+"bookshelf.author.page.search"      = "Searching in the Internet for an URL to the author's web page ...";
+"bookshelf.author.page.search.fail" = "KyBook could not find an URL to the author's web page.";
+"bookshelf.author.page.search.done" = "Found authors web pages";
+
 // BOOKCARD
 
 "bookcard"                      = "Book Card";
@@ -621,6 +627,8 @@
 "reader.settings.docs.pagesep.hint"         = "Advanced scroll mode setting.";
 "reader.settings.audio.smartresume"         = "Smart rewind";
 "reader.settings.audio.smartresume.hint"    = "When playback resumes after a pause, rewind 30 seconds.";
+"reader.settings.audio.playlist"            = "Playlist";
+"reader.settings.audio.playlist.hint"       = "Automatically generate a playlist from mp3 files in a folder.";
 
 // THEME
 
@@ -823,7 +831,7 @@
 "app.prefs.reader.fullscreen.header"= "Hide header bar";
 "app.prefs.reader.fullscreen.footer"= "Hide footer bar";
 "app.prefs.reader.fullscreen.hint"  = "By default, KyBook automatically switches to full-screen mode when you start reading. To exit full-screen mode, tap the header bar. In addition, you can enable a central tap to toggle full-screen mode.";
-"app.prefs.reader.forcetouch.hint"  = "Force Touch can be used to perform the preferred action on the selected text.";
+"app.prefs.reader.forcetouch.hint"  = "Force (3D) Touch can be used to perform the preferred action on the selected text.";
 "app.prefs.reader.idletimer"        = "Disable screen auto-lock";
 "app.prefs.reader.idletimer.hint"   = "As long as the book is open, the screen remains switched on.";
 "app.prefs.reader.rotationlock"     = "Rotation lock";
@@ -1184,6 +1192,7 @@
 "account.delete"                    = "Delete account";
 "account.delete.ask"                = "Delete account?";
 "account.delete.message"            = "Deleting the account will also delete all stored information about books and notes in the cloud. Synchronization will no longer be available. \n\nPlease enter `DELETE` for confirmation";
+"account.delete.confirmation"       = "DELETE";
 "account.anonymous"                 = "Anonymous";
 "account.devices"                   = "Devices";
 "account.devices.detach"            = "Detach device";
@@ -1213,6 +1222,10 @@
 "sync.push.notifications.hint"      = "Notifications are useful for stable synchronization between your devices.";
 "sync.state.none"                   = "Not synchronized";
 "sync.state.synced"                 = "Synced";
+"sync.files.title"                  = "Cloud files";
+"sync.files.remove"                 = "Remove";
+"sync.files.hint"                   = "Use a swipe gesture to remove the book file from the KyBook cloud and free up space.";
+"sync.files.empty"                  = "No files have been uploaded yet";
 
 // BIZ
 
