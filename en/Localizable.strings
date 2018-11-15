@@ -458,6 +458,9 @@
 "delete.books.done"         = "Deleted %@ in %@";
 "delete.bookshelf.ask"      = "Delete bookshelf?";
 "delete.summary.ask"        = "Delete summary?";
+"delete.book.database"      = "Delete from the database";
+"delete.book.database.hint" = "Deletes the book metadata and associated records (bookmarks, notes, etc) from the database without deleting the book files.";
+"delete.book.database.message" = "This action will not delete the book files. Therefore, if you open the folder in which this book is stored, KyBook will add it to the database again.";
 
 // SHARE
 
