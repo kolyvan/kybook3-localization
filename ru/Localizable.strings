@@ -235,8 +235,9 @@
 
 // BOOK
 
-"book.general"                  = "Книга";
-"book.resolving"                = "Открытие книги..";
+"book.general"              = "Книга";
+"book.resolving"            = "Открытие книги..";
+"book.processed.wait"       = "Книга обрабатывается. Пожалуйста, подождите..";
 
 // BOOKSHELF
 
@@ -541,7 +542,7 @@
 // READER MENU
 
 "reader.menu.fullscreen"            = "Полный экран";
-"reader.menu.fullscreen.off"        = "Оключить полный экран";
+"reader.menu.fullscreen.off"        = "Отключить полный экран";
 "reader.menu.sketches"              = "Панель рисунков";
 "reader.menu.sketches.off"          = "Закрыть панель рисунков";
 "reader.menu.speak"                 = "Текст в речь";
@@ -603,6 +604,8 @@
 "reader.settings.userstyles.hint"   = "Пользователь может установить пользовательскую таблицу стилей, которая будет использоваться во время рендеринга и компоновки электронной книги.";
 "reader.settings.userstyles.done.fmt" = "Выполнено, установлена таблица стилей %@";
 "reader.settings.background.image"  = "Изображение";
+"reader.settings.background.pattern" = "Узор (мозаика)";
+"reader.settings.background.hint"   = "Изображение узор может быть использовано в качестве фона для верхнего и нижнего колонтитулов в базовом режиме интерфейса";
 "reader.settings.background.installed" = "Установлено";
 "reader.settings.page.turn.roll"    = "Прокрутка";
 "reader.settings.page.turn.curl"    = "Перелистывание";
@@ -632,6 +635,11 @@
 "reader.settings.audio.smartresume.hint"    = "Перемотать до 30 секунд при возобновлении воспроизведения после паузы";
 "reader.settings.audio.playlist"            = "Список воспроизведения";
 "reader.settings.audio.playlist.hint"       = "Автоматически создавать список воспроизведения из mp3 файлов в папке";
+"reader.settings.default"                   = "По умолчанию";
+"reader.settings.profile"                   = "Профиль настроек";
+"reader.settings.profile.add"               = "Добавить профиль";
+"reader.settings.profile.hint"              = "Пользователь может выбрать индивидуальный профиль настроек для книги. Например, можно выбрать Технический профиль для технической или научной публикации или Китайский профиль для книги на китайском языке. Для каждого профиля можно раздельно установить шрифт, отступ, стиль и т.п.";
+"reader.settings.profile.names.tech"        = "Техническая литература";
 
 // THEME NAMES
 
@@ -1252,6 +1260,7 @@
 "biz.feature.batch.edit.metadata"   = "Пакетное редактирование метаданных книг";
 "biz.feature.batch.catalog.download"= "Пакетная загрузка из OPDS каталога";
 "biz.feature.book.trash"            = "Корзина для удалённых книг";
+"biz.feature.book.audioplaylist"    = "Автоматически создаваемые списки воспроизведения аудиокниг";
 "biz.available.free"                = "Доступно бесплатно";
 "biz.requires.pro"                  = "Требуется Про покупка";
 "biz.requires.premium"              = "Требуется Премиум подписка";

@@ -235,8 +235,9 @@
 
 // BOOK
 
-"book.general"                  = "Book";
-"book.resolving"                = "Resolving book ...";
+"book.general"              = "Book";
+"book.resolving"            = "Resolving book ...";
+"book.processed.wait"       = "The book is being processed. Please wait ...";
 
 // BOOKSHELF
 
@@ -603,6 +604,8 @@
 "reader.settings.userstyles.hint"   = "You can set a custom stylesheet that will be used during the rendering and layout of the e-book.";
 "reader.settings.userstyles.done.fmt" = "Done, a stylesheet %@ has been installed";
 "reader.settings.background.image"  = "Image";
+"reader.settings.background.pattern" = "Pattern (tile)";
+"reader.settings.background.hint"   = "Image pattern can be used as a background for the header and footer in the base interface mode.";
 "reader.settings.background.installed" = "Installed";
 "reader.settings.page.turn.roll"    = "Scroll";
 "reader.settings.page.turn.curl"    = "Curl";
@@ -632,6 +635,11 @@
 "reader.settings.audio.smartresume.hint"    = "When playback resumes after a pause, rewind 30 seconds.";
 "reader.settings.audio.playlist"            = "Playlist";
 "reader.settings.audio.playlist.hint"       = "Automatically generate a playlist from mp3 files in a folder.";
+"reader.settings.default"                   = "Default";
+"reader.settings.profile"                   = "Preferences profile";
+"reader.settings.profile.add"               = "Add a profile";
+"reader.settings.profile.hint"              = "User can pick an individual preferences profile for a book. For example you can choose a Tech profile for technical or scientific publication or a Chinese profile for a book in Chinese language. For each profile you can separately set a font, margin, style, etc.";
+"reader.settings.profile.names.tech"        = "Technical literature";
 
 // THEME
 
@@ -1252,6 +1260,7 @@
 "biz.feature.batch.edit.metadata"   = "Batch editing of books metadata";
 "biz.feature.batch.catalog.download"= "Batch download from OPDS Catalog";
 "biz.feature.book.trash"            = "Trash for deleted books";
+"biz.feature.book.audioplaylist"    = "Automatically created playlists of audiobooks";
 "biz.available.free"                = "Available for free";
 "biz.requires.pro"                  = "Requires Pro purchase";
 "biz.requires.premium"              = "Requires Premium Subscription";

@@ -235,8 +235,9 @@
 
 // BOOK
 
-"book.general"                  = "Libro";
-"book.resolving"                = "Abriendo el libro...";
+"book.general"              = "Libro";
+"book.resolving"            = "Abriendo el libro...";
+"book.processed.wait"       = "El libro se está procesando. Espera por favor ...";
 
 // BOOKSHELF
 
@@ -603,6 +604,8 @@
 "reader.settings.userstyles.hint"   = "Puedes establecer una hoja de estilos personalizada que será utilizada durante el dibujado y la distribución del libro electrónico.";
 "reader.settings.userstyles.done.fmt" = "Listo, la hoja de estilos %@ fue establecida";
 "reader.settings.background.image"  = "Imagen";
+"reader.settings.background.pattern" = "Patrón (mosaico)";
+"reader.settings.background.hint"   = "Image pattern can be used as a background for the header and footer in the base interface mode.";
 "reader.settings.background.installed" = "Establecida";
 "reader.settings.page.turn.roll"    = "Desplazamiento";
 "reader.settings.page.turn.curl"    = "Hojear";
@@ -632,6 +635,11 @@
 "reader.settings.audio.smartresume.hint"    = "Cuando la reproducción se reanuda, el audio se regresa 30 segundos.";
 "reader.settings.audio.playlist"            = "Playlist";
 "reader.settings.audio.playlist.hint"       = "Automatically generate a playlist from mp3 files in a folder.";
+"reader.settings.default"                   = "Por defecto";
+"reader.settings.profile"                   = "Perfil de preferencias";
+"reader.settings.profile.add"               = "Añadir un perfil";
+"reader.settings.profile.hint"              = "User can pick an individual preferences profile for a book. For example you can choose a Tech profile for technical or scientific publication or a Chinese profile for a book in Chinese language. For each profile you can separately set a font, margin, style, etc.";
+"reader.settings.profile.names.tech"        = "Literatura tecnica";
 
 // THEME
 
