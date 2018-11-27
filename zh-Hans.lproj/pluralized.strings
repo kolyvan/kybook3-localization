@@ -1,0 +1,77 @@
+/* 
+  pluralized.strings
+  yar
+
+  Created by Kolyvan on 24/11/2017.
+  Copyright © 2017 Konstantin Bukreev. All rights reserved.
+*/
+
+"files.zero"    = "0 个文件";
+"files.one"     = "1 个文件";
+"files.two"     = "%zd 个文件";
+"files.few"     = "%zd 个文件";
+"files.many"    = "%zd 个文件";
+"files.other"   = "%zd 个文件";
+
+"folders.zero"    = "0 个文件夹";
+"folders.one"     = "1 个文件夹";
+"folders.two"     = "%zd 个文件夹";
+"folders.few"     = "%zd 个文件夹";
+"folders.many"    = "%zd 个文件夹";
+"folders.other"   = "%zd 个文件夹";
+
+"pages.zero"    = "0 页";
+"pages.one"     = "1 页";
+"pages.two"     = "%zd 页";
+"pages.few"     = "%zd 页";
+"pages.many"    = "%zd 页";
+"pages.other"   = "%zd 页";
+
+"words.zero"    = "0 个字";
+"words.one"     = "1 个字";
+"words.two"     = "%zd 个字";
+"words.few"     = "%zd 个字";
+"words.many"    = "%zd 个字";
+"words.other"   = "%zd 个字";
+
+"notes.zero"    = "0 条笔记";
+"notes.one"     = "1 条笔记";
+"notes.two"     = "%zd 条笔记";
+"notes.few"     = "%zd 条笔记";
+"notes.many"    = "%zd 条笔记";
+"notes.other"   = "%zd 条笔记";
+
+"books.zero"    = "0 本书";
+"books.one"     = "1 本书";
+"books.two"     = "%zd 本书";
+"books.few"     = "%zd 本书";
+"books.many"    = "%zd 本书";
+"books.other"   = "%zd 本书";
+
+"records.zero"    = "0 条记录";
+"records.one"     = "1 条记录";
+"records.two"     = "%zd 条记录";
+"records.few"     = "%zd 条记录";
+"records.many"    = "%zd 条记录";
+"records.other"   = "%zd 条记录";
+
+"minutes.zero"    = "0 分钟";
+"minutes.one"     = "1 分钟";
+"minutes.two"     = "%zd 分钟";
+"minutes.few"     = "%zd 分钟";
+"minutes.many"    = "%zd 分钟";
+"minutes.other"   = "%zd 分钟";
+
+"seconds.zero"    = "0 秒";
+"seconds.one"     = "1 秒";
+"seconds.two"     = "%zd 秒";
+"seconds.few"     = "%zd 秒";
+"seconds.many"    = "%zd 秒";
+"seconds.other"   = "%zd 秒";
+
+"matches.zero"    = "0 匹配";
+"matches.one"     = "1 匹配";
+"matches.two"     = "%zd 匹配";
+"matches.few"     = "%zd 匹配";
+"matches.many"    = "%zd 匹配";
+"matches.other"   = "%zd 匹配";

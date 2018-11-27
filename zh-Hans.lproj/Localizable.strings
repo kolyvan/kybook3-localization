@@ -1,0 +1,1358 @@
+/* 
+  Localizable.strings
+  yar
+
+  Created by Kolyvan on 24/11/2017.
+  Copyright © 2017 Konstantin Bukreev. All rights reserved.
+*/
+
+// COMMON
+
+"common.empty"              = "空的";
+"common.close"              = "关闭";
+"common.cancel"             = "取消";
+"common.done"               = "完成";
+"common.cancelled"          = "被取消";
+"common.cancelling"         = "取消中 ...";
+"common.loading"            = "正在载入 ...";
+"common.preparing"          = "准备 ...";
+"common.edit"               = "编辑";
+"common.delete"             = "删除";
+"common.add"                = "添加";
+"common.search"             = "搜索";
+"common.save"               = "保存";
+"common.enabled"            = "已启用";
+"common.enable"             = "启用";
+"common.apply"              = "申请";
+"common.more"               = "更多";
+"common.completed"          = "已完成";
+"common.inprogress"         = "正在进行 ...";
+"common.downloading"        = "正在下载";
+"common.unarchiving"        = "未保存 ...";
+"common.none"               = "无";
+"common.configure"          = "配置";
+"common.confirm"            = "确认";
+"common.continue"           = "继续";
+"common.yes"                = "是";
+"common.no"                 = "否";
+"common.help"               = "帮助";
+"common.undo"               = "撤消";
+
+// DATE
+
+"date.relation.aftertime"   = "日后"; 
+"date.relation.tomorrow"    = "明天";
+"date.relation.today"       = "今天";
+"date.relation.yesterday"   = "昨天";
+"date.relation.weekago"     = "一周前";
+"date.relation.monthago"    = "一月前";
+"date.relation.yearago"     = "一年前";
+"date.relation.foretime"    = "已往"; 
+
+// ERRORS
+
+"error"                         = "错误";
+"error.critical"                = "严重错误";
+"error.oops"                    = "糟糕，出了点问题！";
+"error.accessdenied"            = "访问被拒绝";
+"error.unauthorized"            = "未经授权";
+"error.unexpected"              = "意外的错误";
+"error.unimplemented"           = "尚未实现所需的功能";
+"error.cancelled"               = "操作已取消";
+"error.timeout"                 = "超时而中止";
+"error.oom"                     = "内存不足";
+"error.notsupported"            = "不支持";
+"error.notfound"                = "未找到";
+"error.file.notfound"           = "找不到文件";
+"error.file.notdirectory"       = "文件不是目录";
+"error.file.alreadyexists"      = "文件已经在";
+"error.item.alreadyexists"      = "项目已存在";
+"error.storage.alreadyexists"   = "文件已存在";
+"error.bookshelf.alreadyexists" = "书架已存在";
+"error.file.toobig"             = "文件太大了";
+"error.icloud.notconnected"     = "iCloud未连接";
+"error.cloud.notlinked"         = "云存储未链接";
+"error.nonetwork"               = "无网络连接";
+"error.notresponding"           = "主机无响应";
+"error.emptyresponse"           = "空响应";
+"error.invalidresponse"         = "响应无效";
+"error.mimetype"                = "MIME类型无效";
+"error.emptyname"               = "名字为空";
+"error.badname"                 = "无效的名称";
+"error.drop"                    = "无法删除项目";
+"error.import.file"             = "无法导入文件";
+"error.open.file"               = "无法打开文件";
+"error.share.file.none"         = "没有要分享的文件";
+"error.share.file.cloud"        = "无法从云存储共享文件。首先将文件下载到设备";
+"error.book.save.review"        = "无法保存笔记";
+"error.book.delete.review"      = "无法删除笔记";
+"error.book.save.metadata"      = "无法保存图书原数据";
+"error.book.save.tags"          = "无法保存书签";
+"error.book.delete.tags"        = "无法删除书签";
+"error.open.url"                = "无法打开链接";
+"error.citation.already"        = "引文已标记";
+"error.note.save"               = "无法保存注释";
+"error.note.delete"             = "无法删除注释";
+"error.ebook.notsupported"      = "不支持文件类型";
+"error.ebook.drm"               = "由于DRM保护而无法打开";
+"error.page.broken"             = "页面已损坏";
+"error.password"                = "密码错误或不正确";
+"error.imagefile"               = "无效的图像文件";
+"error.text.toolong"            = "超出最大文字大小";
+"error.translation.direction"   = "不支持指定的翻译方向";
+"error.translation.unable"      = "文字无法翻译";
+"error.translation.limit"       = "超过翻译文本数量的每日限制";
+"error.apikey"                  = "API密钥无效";
+"error.stylesheet"              = "无法解析样式表";
+"error.filebadmime.fmt"         = "文件%@具有不受支持的MIME类型：%@";
+"error.opds.feed"               = "OPDS目录返回格式错误";
+"error.opds.mime.fmt"           = "OPDS目录返回了错误的内容：%@";
+"error.unarchive"               = "无法解压缩文件";
+"error.catalog.search"          = "目录不支持搜索";
+"error.catalog.alreadyexists"   = "目录已存在";
+"error.url"                     = "无效的网址";
+"error.epub.invalid"            = "EPUB文件已损坏或无效";
+"error.ebook.file.notfound"     = "无法找到电子书的文件";
+"error.dictionary.type"         = "未知字典类型";
+"error.dictionary.already"      = "已安装字典";
+"error.dictionary.lingvo"       = "这本字典是一本破损的词典";
+"error.loadtext.encoding"       = "无法加载文本，可能是由于文本编码不正确";
+"error.toomanyrequests"         = "请求太多";
+"error.toomanyrequests.fmt"     = "请求太多，在%zds之后重试";
+"error.sync.files.off"          = "文件同步被禁用";
+"error.sync.files.quota"        = "超出了文件存储空间";
+"error.iap.requred"             = "需要进行应用内购买";
+"error.subscription.notfound"   = "需要高级订阅";
+"error.subscription.expired"    = "高级订阅已过期";
+"error.google.quotaexceeded"    = "超出了Google搜索配额，请稍后再试";
+
+// FILESTORE
+
+"filestore"                     = "文件存储";
+"filestore.browser"             = "文件浏览器";
+"filestore.folder"              = "文件夹";
+"filestore.books"               = "书籍";
+"filestore.downloads"           = "下载";
+"filestore.yandexdisk"          = "Yandex磁盘";
+"filestore.googledrive"         = "Google云盘";
+"filestore.storages"            = "文件存储";
+"filestore.unlink"              = "取消关联";
+"filestore.add.samba"           = "添加SMB / CIFS共享";
+"filestore.add.webdav"          = "添加WebDAV服务器";
+"filestore.current.storages"    = "当前文件存储";
+"filestore.available.clouds"    = "可用的云存储";
+"filestore.attach.cloud"        = "附加云存储";
+"filestore.attach.samba"        = "在本地网络上共享文件夹";
+"filestore.attach.webdav"       = "在本地网络或Internet上添加WebDAV服务器";
+"filestore.transfer"            = "文件传输";
+"filestore.done.move.fmt"       = "将%@从%@移到%@";
+"filestore.done.deleted.fmt"    = "在%@中删除%@";
+"filestore.deletefiles.q"       = "删除文件？";
+"filestore.deletefile"          = "删除此文件";
+"filestore.selectfolder"        = "选择一个文件夹";
+"filestore.createfolder"        = "创建一个文件夹";
+"filestore.importfile"          = "导入文件";
+"filestore.movefile"            = "移动文件";
+"filestore.appendfile"          = "追加文件";
+"filestore.enter.foldername"    = "输入文件夹名称";
+"filestore.link"                = "连接";
+"filestore.link.account"        = "连接帐户";
+"filestore.link.none"           = "云存储尚未连接。请连接";
+"filestore.link.done"           = "已连接";
+"filestore.relink"              = "重新连接";
+"filestore.relink.account"      = "重新连接帐户";
+"filestore.relink.void"         = "身份验证已失效。请重新验证";
+"filestore.report.used"         = "已使用";
+"filestore.report.free"         = "免费";
+"filestore.report.mirror"       = "镜像";
+"filestore.autounload"          = "自动卸载";
+"filestore.folderpicker.copy.fmt"   = "从%@复制%@";
+"filestore.folderpicker.move.fmt"   = "从%@移动%@";
+"filestore.folderpicker.switch"     = "点击切换\n移动/复制";
+"filestore.filename"            = "文件名";
+"filestore.filesize"            = "文件大小";
+"filestore.dialog.fileadded.fmt" = "文件已添加到%@";
+
+// SORT
+
+"sort.general"          = "排序";
+"sort.none"             = "未分类";
+"sort.byname"           = "按标题";
+"sort.bydate"           = "按日期";
+"sort.bysize"           = "按大小";
+"sort.byformat"         = "按格式";
+"sort.byprogress"       = "按递增";
+"sort.byrating"         = "按评级";
+"sort.byauthor"         = "按作者";
+"sort.bysubject"        = "按主题";
+"sort.bysequence"       = "按系列";
+"sort.bypublisher"      = "按出版商";
+
+// MENU
+
+"menu.select"           = "选择";
+"menu.selectall"        = "全选";
+"menu.move"             = "移动";
+"menu.rename"           = "重命名";
+"menu.delete"           = "删除";
+"menu.share"            = "分享";
+"menu.info"             = "信息";
+"menu.tags"             = "标签";
+"menu.read"             = "阅读";
+"menu.reorder"          = "重新排列";
+"menu.unload"           = "卸载";
+"menu.download"         = "下载";
+"menu.exclude"          = "排除";
+"menu.more"             = "更多";
+"menu.copy"             = "复制";
+"menu.search"           = "搜索";
+"menu.mark"             = "标记";
+"menu.note"             = "注意";
+"menu.sketch"           = "草稿";
+"menu.edit"             = "编辑";
+"menu.translate"        = "翻译";
+"menu.recognize"        = "识别";
+"menu.selectimage"      = "选择图片";
+"menu.sticker"          = "贴纸";
+"menu.update"           = "更新";
+"menu.define"           = "词典";
+"menu.launch"           = "启动";
+"menu.color"            = "颜色";
+"menu.style"            = "风格";
+"menu.listen"           = "听";
+"menu.speak"            = "朗读";
+"menu.stop"             = "停止";
+"menu.open"             = "打开";
+"menu.back"             = "返回";
+
+// HOME
+
+"home.screen"           = "主屏幕";
+"home.layout.cards"     = "卡片";
+"home.layout.grid"      = "网格";
+"home.layout.list"      = "列表";
+"home.deck.pin"         = "图钉";
+
+// BOOK
+
+"book.general"              = "书";
+"book.resolving"            = "正在解析电子书 ...";
+"book.processed.wait"       = "这本书正在处理中。请稍等 ...";
+
+// BOOKSHELF
+
+"bookshelf"                 = "书架";
+"bookshelf.sequences"       = "系列";
+"bookshelf.authors"         = "作者";
+"bookshelf.subjects"        = "主题";
+"bookshelf.publishers"      = "出版商";
+"bookshelf.tags"            = "标签";
+"bookshelf.recent"          = "最近";
+"bookshelf.popular"         = "热门";
+"bookshelf.new"             = "最新";
+"bookshelf.unread"          = "未读";
+"bookshelf.reading"         = "阅读中";
+"bookshelf.read"            = "完成";
+"bookshelf.rated"           = "评分";
+"bookshelf.all"             = "所有书籍";
+"bookshelf.cataloguer"      = "编目";
+
+"bookshelf.add"             = "添加书架";
+"bookshelf.add.folder"      = "选择设备上或云存储中的文件夹作为书架";
+"bookshelf.add.sequence"    = "选一本书的系列作为书架";
+"bookshelf.add.author"      = "选择一本书的作者作为书架";
+"bookshelf.add.subject"     = "选择一本书的主题作为书架";
+"bookshelf.add.publisher"   = "选择一本书的出版商作为书架";
+"bookshelf.add.tag"         = "选择一本书的标签作为书架";
+"bookshelf.add.category"    = "选择一个编目作为书架";
+
+"bookshelf.layout"              = "布局";
+"bookshelf.layout.covers"       = "封面";
+"bookshelf.layout.cards"        = "卡片";
+"bookshelf.layout.cards.mini"   = "迷你卡片";
+"bookshelf.layout.cards.large"  = "大卡片";
+
+"bookshelf.clean.category"        = "清空";
+"bookshelf.clean.category.fmt"    = "您确定要清除类别%@并删除%@？";
+"bookshelf.insert.category.done"  = "完成，已添加一个类别";
+
+"bookshelf.collection"          = "收藏";
+"bookshelf.collections"         = "收藏夹";
+"bookshelf.collection.add"      = "添加一个收藏夹";
+"bookshelf.collection.pick"     = "选择一个收藏夹作为书架";
+
+"bookshelf.detail.recent"       = "近期书籍清单";
+"bookshelf.detail.popular"      = "热门书籍列表";
+"bookshelf.detail.new"          = "最新书籍清单";
+"bookshelf.detail.unread"       = "未读书籍清单";
+"bookshelf.detail.reading"      = "正在阅读的书籍清单";
+"bookshelf.detail.read"         = "完本清单";
+"bookshelf.detail.rated"        = "具有评级的书籍清单";
+"bookshelf.detail.allbooks"     = "所有书籍清单";
+"bookshelf.detail.sequences"    = "系列列表";
+"bookshelf.detail.authors"      = "作者名单";
+"bookshelf.detail.subjects"     = "主题列表";
+"bookshelf.detail.publishers"   = "出版商名单";
+"bookshelf.detail.tags"         = "标签列表";
+"bookshelf.detail.collections"  = "收藏清单";
+"bookshelf.detail.cataloguer"   = "所有列表";
+
+"bookshelf.empty"               = "清空书架";
+"bookshelf.empty.recent"        = "最近30天没有新书";
+"bookshelf.empty.popular"       = "热门图书清单尚未收集";
+"bookshelf.empty.new"           = "过去30天没有新书";
+"bookshelf.empty.unread"        = "没有未读的书";
+"bookshelf.empty.reading"       = "没有书";
+"bookshelf.empty.read"          = "没有看完的书";
+"bookshelf.empty.rated"         = "没有评级的书籍";
+"bookshelf.empty.collections"   = "没有收藏";
+"bookshelf.empty.collection"    = "清空收藏夹";
+"bookshelf.empty.category"      = "清空列表";
+
+"bookshelf.hint.read"           = "将书籍的标记呈现在书卡的统计中";
+"bookshelf.hint.rated"          = "在“评论”部分的书卡中评分";
+"bookshelf.hint.collection"     = "该集合可以包含书籍，作者，系列，主题，标签和其他集合。";
+
+"bookshelf.trash"               = "垃圾";
+"bookshelf.trash.detailed"      = "已删除​​的书";
+"bookshelf.trash.empty"         = "空的";
+"bookshelf.trash.hint"          = "KyBook可以恢复位于设备，Google云盘和Dropbox上已删除的图书。\n只有当KyBook拥已删除图书的缓存副本，则可恢复位于共享文件夹，WebDAV服务器，Yandex磁盘和OneDrive上的图书。";
+"bookshelf.trash.limit"         = "最大尺寸";
+"bookshelf.undo.delete.fmt"     = "撤消删除%@";
+
+"bookshelf.author.page"             = "网页";
+"bookshelf.author.page.enter"       = "输入作者网站的地址";
+"bookshelf.author.page.search"      = "在网上搜索作者网页的地址...";
+"bookshelf.author.page.search.fail" = "KyBook找不到作者网页的地址信息";
+"bookshelf.author.page.search.done" = "找到作者网页";
+
+// BOOKCARD
+
+"bookcard"                      = "书卡";
+"bookcard.title.add"            = "添加标题";
+"bookcard.title.prompt"         = "输入标题";
+"bookcard.subtitle.add"         = "添加副标题";
+"bookcard.subtitle.prompt"      = "输入副标题";
+"bookcard.sequence"             = "系列";
+"bookcard.sequence.add"         = "添加一系列";
+"bookcard.sequence.prompt"      = "输入一个系列";
+"bookcard.sequence.name.prompt" = "输入系列名称";
+"bookcard.sequence.number.prompt" = "输入序列号（可选）";
+"bookcard.author"               = "作者";
+"bookcard.author.add"           = "添加作者";
+"bookcard.author.prompt"        = "输入作者";
+"bookcard.author.name.prompt"   = "全名";
+"bookcard.author.norm.prompt"   = "姓氏，名字";
+"bookcard.subject"              = "主题";
+"bookcard.subject.add"          = "添加主题";
+"bookcard.subject.prompt"       = "输入主题";
+"bookcard.annotation"           = "注释";
+"bookcard.annotation.add"       = "添加注释";
+"bookcard.annotation.prompt"    = "输入注释";
+"bookcard.published"            = "出版日期";
+"bookcard.published.add"        = "添加出版日期";
+"bookcard.published.prompt"     = "输入出版日期";
+"bookcard.publisher"            = "出版商";
+"bookcard.publisher.add"        = "添加出版商";
+"bookcard.publisher.prompt"     = "输入出版商";
+"bookcard.language"             = "语言";
+"bookcard.language.add"         = "添加语言";
+"bookcard.language.prompt"      = "输入语言";
+"bookcard.identifiers"          = "标识符";
+"bookcard.identifier"           = "标识符";
+"bookcard.identifier.add"       = "添加标识符";
+"bookcard.identifier.prompt"    = "写出书的标识符（isbn，issn，doi，openlibrary，url等）";
+"bookcard.keywords"             = "关键词";
+"bookcard.keywords.add"         = "添加关键词";
+"bookcard.keywords.prompt"      = "输入关键词";
+"bookcard.source"               = "来源";
+"bookcard.files"                = "文件";
+"bookcard.metrics"              = "指标";
+"bookcard.action.read"          = "阅读";
+"bookcard.action.listen"        = "听";
+"bookcard.action.download"      = "下载";
+"bookcard.action.sample"        = "样本";
+"bookcard.mobi.pid"             = "Kindle序列号";
+"bookcard.mobi.pid.add"         = "添加PID";
+"bookcard.text.encoding"        = "文字编码";
+"bookcard.text.encoding.add"    = "添加文字编码";
+"bookcard.pickcover"            = "选择书籍封面";
+"bookcard.restorecover"         = "恢复原始封面";
+"bookcard.miscinfo"             = "其他信息";
+"bookcard.miscinfo.database"    = "数据库";
+"bookcard.miscinfo.usercontent" = "用户生成的内容";
+"bookcard.miscinfo.supportfiles"= "帮助文件";
+"bookcard.miscinfo.ebookformat" = "电子书格式";
+
+// BOOKS EDIT (BATCH MODE)
+
+"books.edit.asksave"            = "保存更改？";
+"books.edit.differ.series"      = "系列不匹配";
+"books.edit.differ.authors"     = "作者不匹配";
+"books.edit.differ.tags"        = "标签不匹配";
+"books.edit.differ.subjects"    = "主题不匹配";
+"books.edit.differ.publishers"  = "出版商不匹配";
+"books.edit.differ.languages"   = "语言不匹配";
+
+// BOOK REVIEW
+
+"book.review"           = "评论";
+"book.review.prompt"    = "在此输入您对该书的印象";
+
+"book.review.rating.0"  = "未评级";
+"book.review.rating.1"  = "不推荐阅读";
+"book.review.rating.2"  = "很差";
+"book.review.rating.3"  = "糟糕";
+"book.review.rating.4"  = "平庸";
+"book.review.rating.5"  = "一般般";
+"book.review.rating.6"  = "很好";
+"book.review.rating.7"  = "很棒";
+"book.review.rating.8"  = "非常好";
+"book.review.rating.9"  = "完美";
+"book.review.rating.X"  = "极品";
+"book.metrics.unread"                   = "未读";
+"book.metrics.finished"                 = "读完";
+"book.metrics.finished.time.fmt"        = "读完 %@";        
+"book.metrics.finished.total.fmt"       = "读完 %@";        
+"book.metrics.finished.total.time.fmt"  = "读完 %@ in %@";  
+"book.metrics.read.part.fmt"            = "读完 %zd%%";                 
+"book.metrics.read.part.time.fmt"       = "读完 %zd%% in %@";           
+"book.metrics.read.of.fmt"              = "读完 %zd%% of %@";           
+"book.metrics.read.of.time.fmt"         = "读完 %zd%% of %@ in %@";     
+
+// DIALOGS
+
+"dialog.prompt.language"    = "输入语言代码（ISO 639），例如：ru，en";
+"dialog.lang.ask"           = "请选择图书的语言";
+"dialog.lang.choose"        = "选择语言 ...";
+"dialog.text"               = "文字";
+"dialog.url"                = "网址";
+"dialog.open"               = "打开";
+"dialog.copy"               = "复制";
+"dialog.url.open"           = "打开网址";
+"dialog.url.copy"           = "复制网址";
+"dialog.promt.mobi.pid"     = "输入Kindle序列号";
+"dialog.promt.password"     = "输入本书的密码";
+"dialog.promt.textencoding" = "输入文字编码";
+"dialog.confirm.ask"        = "你确定吗？";
+"dialog.confirm.yes"        = "是";
+"dialog.choose.format"      = "选择格式";
+"dialog.reload"             = "重新加载";
+"dialog.file.changed"       = "似乎文件已被更改（可能是由于同步的原因），重新加载？";
+"dialog.insertlink"         = "插入链接";
+
+// DELETE
+
+"delete.areyousure"         = "你确定吗？";
+"delete.book"               = "删除这本书";
+"delete.book.ask"           = "删除这本书？";
+"delete.book.row.0"         = "这将永久删除与该书相关的所有信息，包括：";
+"delete.book.row.1"         = "- %@ 设备和附加云存储中的总大小为%@";
+"delete.book.row.2"         = "- 数据库记录，备注，评论等";
+"delete.book.done"          = "`%@` 已删除";
+"delete.books"              = "删除书籍";
+"delete.books.ask"          = "删除 %@?";
+"delete.books.row.0"        = "这将永久删除与书籍相关的所有信息，包括：";
+"delete.books.row.1"        = "- %@ 在设备和附加云存储中的总大小为";
+"delete.books.row.1a"       = "- %@ 在设备和附加的云存储中";
+"delete.books.row.2"        = "- 数据库记录，备注，评论等";
+"delete.books.done"         = "在 %@ 中删除 %@";
+"delete.bookshelf.ask"      = "删除书架？";
+"delete.summary.ask"        = "删除摘要？";
+"delete.book.database"      = "从数据库中删除";
+"delete.book.database.hint" = "从数据库中删除书籍元数据和相关记录（书签，注释等）而不删除书籍文件";
+"delete.book.database.message" = "此操作不会删除书籍文件。因此，如果您打开存储此书籍的文件夹，KyBook会再次将其添加到数据库中";
+
+// SHARE
+
+"share.book.info"           = "分享信息";
+"share.book.file"           = "共享文件";
+"share.readin.kybook"       = "读入 #KyBook";
+"share.notes.from"          = "注释来自";
+"share.notes.by"            = "通过";
+"share.notes.txt"           = "在TXT文件中";
+"share.notes.html"          = "在HTML文件中";
+"share.notes.markdown"      = "在Markdown文件中";
+"share.notes.rtf"           = "在RTF文件中";
+"share.notes.pdf"           = "在PDF文件中";
+"share.notes.pdfbook"       = "作为PDF文档";
+"share.save.tobooks"        = "保存到图书";
+
+// DASHBOARD
+
+"dashboard"                 = "仪表板";
+"dashboard.notes"           = "注释";
+"dashboard.summary"         = "摘要";
+"dashboard.summaries"       = "摘要集";
+"dashboard.summary.add"     = "添加摘要";
+"dashboard.summary.add.hint"= "输入新摘要的标题";
+"dashboard.summarize.run"   = "启用自动摘要";
+"dashboard.summaries.widget.detail" = "用户评论集";
+
+// TAGS
+
+"tags"                      = "标签";
+"tags.picked"               = "挑选的标签";
+"tags.available"            = "可用标签";
+"tags.edit"                 = "编辑标签";
+"tags.create"               = "创建标签";
+"tags.delete"               = "删除标签";
+"tags.delete.message"       = "此标记将从所有图书和数据库中永久删除！你确定吗？";
+"tags.hint.add"             = "点按一行即可添加标记";
+"tags.hint.delete"          = "点击一行删除标记";
+"tags.create.dialog.name"   = "输入标签的名称";
+"tags.create.dialog.color"  = "为标签选择一种颜色";
+"tags.create.dialog.icon"   = "选择标签的图标";
+"tag.new"                   = "新的";
+"tag.read"                  = "已阅读"; 
+"tag.favorite"              = "收藏";
+"tag.readLater"             = "稍后阅读";
+
+// READER
+
+"reader.general"                    = "读者";
+"reader.outline"                    = "大纲";
+"reader.bookmarks"                  = "书签";
+"reader.notes"                      = "注释";
+"reader.sketches"                   = "草图";
+"reader.thumbnails"                 = "缩略图";
+"reader.summary"                    = "摘要";
+"reader.info"                       = "信息";
+"reader.bookmark"                   = "书签";
+"reader.note"                       = "注意";
+"reader.pageno"                     = "页码";
+"reader.outline.create"             = "添加大纲";
+"reader.outline.create.auto"        = "自动创建";
+"reader.outline.create.manually"    = "手动创建";
+"reader.layout"                     = "布局";
+"reader.backtopage.fmt"             = "返回页面 %zd";
+"reader.bookindex"                  = "索引";
+"reader.bookindex.build"            = "建立图书索引";
+"reader.images"                     = "图像";
+"reader.readpos"                    = "阅读位置";
+"reader.readpos.changed.ask.fmt"    = "看来最近在另一台设备上更改了阅读位置。你想进入从 %@获得的阅读位置吗？";
+"reader.readpos.preserve"           = "保持阅读位置";
+"reader.readpos.preserve.hint"      = "KyBook将不定时保存阅读位置。只有当用户在阅读时强制结束KyBook时，此功能才有用。";
+"reader.font.match.warning"         = "无法匹配首选项中指定的字体。已使用默认值";
+"reader.page.fmt"                   = "页码 %zd";
+"reader.openinbook"                 = "在一本书中打开";
+"reader.nextpage"                   = "下一页";
+"reader.prevpage"                   = "上一页";
+
+// READER MENU
+
+"reader.menu.fullscreen"            = "全屏模式";
+"reader.menu.fullscreen.off"        = "退出全屏";
+"reader.menu.sketches"              = "草图工具栏";
+"reader.menu.sketches.off"          = "隐藏草图工具栏";
+"reader.menu.speak"                 = "文字转语音";
+"reader.menu.speak.stop"            = "停止TTS";
+"reader.menu.rapid"                 = "加速阅读";
+"reader.menu.autoscroll"            = "自动滚动";
+"reader.menu.autoscroll.off"        = "停止自动滚动";
+"reader.menu.synchronize"           = "同步";
+"reader.menu.horzlock"              = "水平滚动锁";
+"reader.menu.horzunlock"            = "水平滚动解锁";
+"reader.menu.reflow.on"             = "开启回流";
+"reader.menu.reflow.off"            = "关闭回流";
+
+// READER SETTINGS
+
+"reader.settings.general"           = "偏好";
+"reader.settings.theme"             = "主题";
+"reader.settings.themes"            = "主题";
+"reader.settings.font"              = "字体";
+"reader.settings.page.turn"         = "翻页";
+"reader.settings.page.spread"       = "页面扩展";
+"reader.settings.page.spread.full"  = "横向展开的页面";
+"reader.settings.page.margin"       = "页边距";
+"reader.settings.paragraph"         = "段落";
+"reader.settings.lineheight"        = "线高";
+"reader.settings.justification"     = "理由";
+"reader.settings.readability"       = "可读性";
+"reader.settings.styles"            = "样式";
+"reader.settings.styles.hint.fmt"   = "样式设置仅适用于 %@ 格式";
+"reader.settings.background"        = "背景";
+"reader.settings.ex.help"           = "ex - 表示所选字体中小写字母 x 的高度";
+"reader.settings.alignment.help"    = "通常情况下，KyBook使用电子书默认的文本对齐方式";
+"reader.settings.font.name"         = "字体名称";
+"reader.settings.font.serif"        = "截线";
+"reader.settings.font.sansserif"    = "字体";
+"reader.settings.font.size"         = "字体大小";
+"reader.settings.margin.horz"       = "左/右";
+"reader.settings.margin.top"        = "顶部";
+"reader.settings.margin.bottom"     = "底部";
+"reader.settings.override"          = "覆盖";
+"reader.settings.enabled"           = "启用";
+"reader.settings.para.spacing"      = "间距";
+"reader.settings.para.indentation"  = "缩进";
+"reader.settings.line.multiplier"   = "倍数";
+"reader.settings.line.spacing"      = "行间距";
+"reader.settings.hyphenation"       = "连字符";
+"reader.settings.punctuation"       = "标点处理";
+"reader.settings.nowidow"           = "防止寡行";
+"reader.settings.nobookstyle"       = "忽略书的风格";
+"reader.settings.stylesheet"        = "样式表";
+"reader.settings.userstyles"        = "用户样式表";
+"reader.settings.userstyles.none"   = "无";
+"reader.settings.userstyles.used"   = "已安装";
+"reader.settings.userstyles.browse" = "从存储中选择";
+"reader.settings.userstyles.import" = "使用Apple的文件应用程序导入";
+"reader.settings.userstyles.edit"   = "编辑样式表";
+"reader.settings.userstyles.sample" = "查看基本样式表";
+"reader.settings.userstyles.reset"  = "重置样式表";
+"reader.settings.userstyles.hint"   = "您可以设置将在电子书的阅读期间使用的自定义样式表";
+"reader.settings.userstyles.done.fmt" = "完成, 已安装样式表";
+"reader.settings.background.image"  = "图片";
+"reader.settings.background.pattern" = "模式";
+"reader.settings.background.hint"   = "图像模式可以应用在基本接口模式中页眉和页脚的背景";
+"reader.settings.background.installed" = "已安装";
+"reader.settings.page.turn.roll"    = "滚动";
+"reader.settings.page.turn.curl"    = "卷曲";
+"reader.settings.page.turn.slide"   = "幻灯片";
+"reader.settings.theme.delete.ask"  = "删除主题？";
+"reader.settings.reset"             = "重置为默认设置";
+"reader.settings.docs.fit"                  = "适合模式";
+"reader.settings.docs.fit.width"            = "页面宽度";
+"reader.settings.docs.fit.text"             = "文字和裁剪页边距";
+"reader.settings.docs.fit.page"             = "整页";
+"reader.settings.docs.backg"                = "页面背景";
+"reader.settings.docs.backg.theme"          = "主题色";
+"reader.settings.docs.backg.adaptive"       = "自适应颜色";
+"reader.settings.docs.progressive"          = "渐进式渲染";
+"reader.settings.docs.marklinks"            = "突出显示链接";
+"reader.settings.docs.filterbook"           = "书的主题";
+"reader.settings.docs.smoothscroll"         = "平滑滚动";
+"reader.settings.docs.progressive.hint"     = "如果可能的话，从低质量到高质量逐步绘制页面";
+"reader.settings.docs.smoothscroll.hint"    = "在滚动模式下滚动更平滑，但可能会降低缩放页面渲染质量";
+"reader.settings.docs.filterbook.hint"      = "以主题颜色呈现页面";
+"reader.settings.docs.marklinks.hint"       = "突出页面上的互动链接";
+"reader.settings.docs.readability.upsample" = "增加取样";
+"reader.settings.docs.readability.autotint" = "自动调整";
+"reader.settings.docs.pagesep"              = "页面分隔";
+"reader.settings.docs.pagesep.hint"         = "高级滚动模式设置";
+"reader.settings.audio.smartresume"         = "智能回退";
+"reader.settings.audio.smartresume.hint"    = "暂停后播放恢复时，回退30秒";
+"reader.settings.audio.playlist"            = "播放列表";
+"reader.settings.audio.playlist.hint"       = "自动从文件夹中的mp3文件生成播放列表";
+"reader.settings.default"                   = "默认";
+"reader.settings.profile"                   = "偏好配置文件";
+"reader.settings.profile.add"               = "添加个人资料";
+"reader.settings.profile.hint"              = "用户可以选择书籍的个人偏好配置文件。例如，您可以选择技术或科学出版物的技术配置文件或中文书籍的中文配置文件。对于每个配置文件，您可以单独设置字体，边距，样式等";
+"reader.settings.profile.names.tech"        = "技术文献";
+
+// THEME
+
+"theme.general"             = "主题";
+"theme.day"                 = "白天";
+"theme.sepia"               = "棕褐色";
+"theme.night"               = "夜晚";
+"theme.dusk"                = "黄昏";
+"theme.dawn"                = "黎明";
+"theme.pastel"              = "粉彩";
+"theme.sand"                = "沙子";
+"theme.tango"               = "探戈";
+"theme.name"                = "名字";
+"theme.name.hint"           = "输入主题的名称";
+"theme.pallete"             = "调色板";
+"theme.pallete.accent"      = "口音";
+"theme.pallete.text"        = "文字";
+"theme.pallete.background"  = "背景";
+"theme.pallete.divider"     = "分隔符";
+"theme.pallete.grayed"      = "灰色";
+"theme.pallete.control"     = "控制";
+"theme.pallete.selection"   = "选择";
+"theme.pallete.secondary"   = "辅助文本";
+"theme.warning"             = "无法替换预设主题";
+
+// FONT PICKER
+
+"font.picker.general"       = "字体";
+"font.picker.default"       = "默认字体";
+"font.picker.favorited"     = "最喜欢的字体";
+"font.picker.user"          = "用户的字体";
+"font.picker.downlodable"   = "可下载字体";
+"font.picker.system"        = "系统字体";
+"font.picker.add"           = "添加字体";
+"font.picker.add.browse"    = "从存储中选择";
+"font.picker.add.import"    = "使用Apple的文件应用程序导入";
+"font.picker.add.download"  = "下载字体";
+"font.picker.add.done.fmt"  = "已添加字体 %@/%zd";
+"font.picker.add.more.hint" = "此外，您可以通过iTunes文件共享将字体文件（.ttf或.otf）复制到App Documents中来添加字体。\n在iPad上，拖放字体文件进入下面的方框";
+"font.picker.add.drop"      = "将字体文件拖放到此处";
+
+// EMPTY PLACEHOLDERS
+
+"empty.page"                    = "空白页";
+"empty.outline"                 = "没有大纲";
+"empty.outline.hint"            = "点击'添加大纲'按钮创建目录";
+"empty.bookmarks"               = "没有书签";
+"empty.bookmarks.hint"          = "点击页脚上最右边的按钮添加书签";
+"empty.notes"                   = "没有注释";
+"empty.notes.hint"              = "使用长按手势选择书中页面上的文本，然后选择菜单'标记'以添加注释";
+"empty.sketches"                = "没有草图";
+"empty.sketches.hint"           = "打开草图工具栏，然后使用Apple Pencil或手指在页面上绘制草图";
+"empty.summary"                 = "在这里写书摘要";
+"empty.summary.hint"            = "KyBook支持Markdown格式，可以将摘要导出为HTML，PDF或RTF";
+"empty.bookindex"               = "空书索引";
+"empty.bookindex.none"          = "书籍索引尚未建成";
+"empty.reading"                 = "过去三十天没有读过书";
+"empty.catalog.page"            = "此页面为空";
+"empty.catalog.reviews"         = "未找到评论";
+"empty.summaries"               = "没有摘要";
+"empty.dictionaries"            = "没有字典";
+"empty.articles"                = "没有文章";
+"empty.favorites"               = "没有收藏";
+"empty.collections"             = "没有收藏";
+"empty.downloads"               = "没有下载";
+
+// NOTE
+
+"note.citation"                 = "引用";
+"note.sticker"                  = "贴纸";
+"note.scrap"                    = "废料";
+"note.sketch"                   = "素描";
+"note.color"                    = "颜色";
+"note.style"                    = "风格";
+"note.style.fill"               = "填充";
+"note.style.strikeline"         = "删除线";
+"note.style.underline"          = "下划线";
+"note.style.doubleline"         = "双线";
+"note.style.wavy"               = "波浪状";
+"note.style.dots"               = "点";
+"note.color.red"                = "红色";
+"note.color.pink"               = "粉红色";
+"note.color.purple"             = "紫色";
+"note.color.violet"             = "紫罗兰";
+"note.color.blue"               = "蓝色";
+"note.color.green"              = "绿色";
+"note.color.yellow"             = "黄色";
+"note.color.orange"             = "橙色";
+"note.color.brown"              = "棕色";
+
+// SKETCH
+
+"sketch.general"                = "素描";
+"sketch.brush"                  = "画笔";
+"sketch.brush.color"            = "颜色";
+"sketch.brush.fill"             = "填充颜色";
+"sketch.brush.opacity"          = "不透明度";
+"sketch.brush.thickness"        = "厚度";
+"sketch.brush.style"            = "风格";
+"sketch.arrow"                  = "箭头";
+"sketch.line"                   = "线";
+"sketch.rectangle"              = "矩形";
+"sketch.ellipse"                = "椭圆";
+"sketch.polyline"               = "折线";
+"sketch.text"                   = "文字";
+"sketch.stiker"                 = "贴纸";
+"sketch.emoji"                  = "表情符号";
+"brush.linestyle.solid"         = "坚实";
+"brush.linestyle.dotted"        = "虚点线";
+"brush.linestyle.dashed"        = "虚线";
+
+// SEARCH
+
+"search.scope.book"             = "预订";
+"search.scope.dictionary"       = "字典";
+"search.scope.translate"        = "翻译";
+"search.scope.internet"         = "互联网";
+"search.scope.wikipedia"        = "维基百科";
+"search.scope.wolframalpha"     = "Wolfram|Alpha";
+"search.scope.library"          = "图书馆";
+"search.scope.catalogs"         = "目录";
+"search.executing"              = "搜索 ...";
+"search.continue.fmt"           = "搜索, %@ 发现 ..."; 
+"search.done.fmt"               = "完成, %@ 找到"; 
+"search.none"                   = "哎呀，我们找不到你要找的东西";
+"search.matching"               = "匹配";
+"search.matching.textual"       = "正文";
+"search.matching.regular"       = "常规";
+"search.matching.fuzzy"         = "模糊";
+"search.matching.exact"         = "完全";
+"search.matching.substring"     = "字符串";
+"search.matching.pattern"       = "模式";
+"search.area.in"                = "搜索";
+"search.area.in.title"          = "标题";
+"search.area.in.keywords"       = "关键字";
+"search.area.in.sequence"       = "系列";
+"search.area.in.author"         = "作者";
+"search.area.in.annotation"     = "注释";
+"search.area.in.filename"       = "文件名";
+"search.engine.google"          = "Google搜索";
+"search.bookshelf.promt"        = "在这个书架中搜索";
+"search.widget.detail"          = "在图书馆中搜索";
+
+// TIPS
+
+"tip.reader.fullscreen.exit"    = "点击此处退出全屏模式";
+
+// MISC
+
+"misc.abc"                      = "Abc";
+"image.grabbing"                = "图像抓取模式";
+"pasteboard.copy.image"         = "图像被复制到剪贴板上";
+"misc.chapter.fmt"              = "章节 %zd";
+"misc.start.editing"            = "开始编辑";
+"misc.add.books"                = "添加书籍";
+"misc.some.added.fmt"           = "%@ 添加了"; 
+"misc.addbook.duplicate"        = "由于重复而跳过";
+"misc.used.of.fmt"              = "占用%@ of %@ "; // 100 mB Of 1GB occupied
+
+// MARKDOWN
+
+"markdown.conf.citation"        = "引用";
+"markdown.conf.citation.hint"   = "粘贴或拖动书中的引文时";
+"markdown.conf.citation.quote"  = "格式化为引用块";
+"markdown.conf.citation.link"   = "插入指向源的链接";
+
+// APP CONTROL
+
+"app.control"                      = "控制";
+"app.control.services"             = "服务";
+"app.control.prefs"                = "首选项";
+"app.control.advanced.ui"          = "高级界面";
+"app.control.advanced.ui.hint"     = "允许多个活动标签（类似于Safari）。\n\n高级界面的激活是通过PRO或PREMIUM应用程序内购买。";
+
+// APP PREFS
+
+"app.prefs.home.backg"              = "列表模式中的背景";
+"app.prefs.home.backg.colored"      = "彩色的";
+"app.prefs.bookshelf.cover"         = "书籍封面";
+"app.prefs.bookshelf.tag"           = "标签";
+"app.prefs.bookshelf.filestate"     = "云/下载";
+"app.prefs.bookshelf.decor"         = "显示单元格中的辅助信息";
+"app.prefs.bookshelf.backg.card"    = "卡片模式中的背景色";
+"app.prefs.bookshelf.backg.mini"    = "迷你卡模式中的背景颜色";
+"app.prefs.bookshelf.card"          = "卡片模式";
+"app.prefs.bookshelf.card.hires"    = "Hi-Res封面";
+"app.prefs.bookshelf.card.hint"     = "实验性功能。可能无法正常工作。启用后消耗CPU功率和磁盘空间";
+"app.prefs.bookshelf.tags"          = "标签样式";
+"app.prefs.bookshelf.tags.icons"    = "图标";
+"app.prefs.bookshelf.tags.titles"   = "标题";
+"app.prefs.bookshelf.search"        = "搜索";
+"app.prefs.bookshelf.search.bar"    = "搜索栏";
+"app.prefs.bookshelf.search.hint"   = "启用搜索栏以过滤书架上的书籍";
+"app.prefs.bookshelf.default"       = "默认偏好";
+"app.prefs.bookshelf.default.hint"  = "更改默认首选项也将重置所有用户首选项！";
+"app.prefs.bookshelf.bookcard.open" = "书卡开放动画（仅适用于iPad）";
+"app.prefs.reader.fullscreen"       = "全屏";
+"app.prefs.reader.fullscreen.auto"  = "自动同步开关";
+"app.prefs.reader.fullscreen.tap"   = "通过点击中心";
+"app.prefs.reader.fullscreen.header"= "隐藏标题栏";
+"app.prefs.reader.fullscreen.footer"= "隐藏页脚栏";
+"app.prefs.reader.fullscreen.hint"  = "默认情况下，当您开始阅读时，KyBook会自动切换到全屏模式。要退出全屏模式，请点按标题栏。此外，您还可以启用中央点按切换全屏模式。";
+"app.prefs.reader.forcetouch.hint"  = "强制3D Touch可用于对所选文本执行首选操作";
+"app.prefs.reader.idletimer"        = "禁用屏幕自动锁定";
+"app.prefs.reader.idletimer.hint"   = "只要书籍打开，屏幕就会保持打开状态";
+"app.prefs.reader.rotationlock"     = "旋转锁";
+"app.prefs.reader.rotationlock.hint"= "当设备转动时不要旋转阅读器（只要书籍全屏阅读就可以正常工作）。旋转锁定仅适用于iPhone";
+"app.prefs.cache"                   = "缓存";
+"app.prefs.cache.clear"             = "空白区域";
+"app.prefs.cache.reader"            = "读者缓存";
+"app.prefs.cache.reader.hint"       = "KyBook将解压缩和解析的电子书数据存储在设备的缓存文件夹中。您可以删除所有缓存的数据以释放空间";
+"app.prefs.cache.covers"            = "书籍封面缓存";
+"app.prefs.cache.covers.hint"       = "KyBook将书籍封面图像存储在设备的缓存文件夹中。您可以删除所有缓存的图像以释放空间";
+"app.prefs.misc"                    = "杂项";
+"app.prefs.spotlight"               = "Spotlight 搜索";
+"app.prefs.spotlight.hint"          = "索引打开的书籍可以使用Spotlight搜索进行搜索";
+"app.autosum.algo"                  = "自动文本摘要算法";
+"app.autosum.algo.hint"             = "文本排名非常耗费资源，但可能会产生更好的结果。如果由于内存耗尽而导致KyBook被迫关闭，请尝试切换到'关键短语'算法";
+"app.prefs.dragdrop"                = "拖放";
+"app.prefs.dragdrop.hint"           = "允许在书架，图书馆和其他屏幕上拖放项目";
+"app.prefs.dragdrop.confirm.title"  = "切换拖放";
+"app.prefs.dragdrop.confirm.msg"    = "更改拖放需要重置KyBook的屏幕。所有屏幕都将关闭。\n您确定吗？";
+
+// CONTENT SERVER
+
+"contentserver.general"     = "服务器";
+"contentserver.activate"    = "激活";
+"contentserver.link"        = "链接";
+"contentserver.username"    = "用户名";
+"contentserver.password"    = "密码";
+"contentserver.hint"        = "激活内容服务器以使用Web浏览器通过本地网络访问您的文件";
+"contentserver.visit"       = "访问 '%@' 在您的浏览器中";
+
+// IMAGE PICKER
+
+"imagepicker.image"                 = "图片";
+"imagepicker.reset"                 = "重置";
+"imagepicker.files"                 = "文件";
+"imagepicker.photo"                 = "照片";
+"imagepicker.internet"              = "互联网";
+"imagepicker.libraries"             = "图书馆";
+"imagepicker.samples"               = "样本";
+"imagepicker.backgrounds"           = "背景";
+"imagepicker.photo.all"             = "所有照片";
+"imagepicker.photo.none"            = "没有照片";
+"imagepicker.files.none"            = "此文件夹中没有图像文件";
+"imagepicker.photos.select"         = "从照片中选择";
+"imagepicker.internet.search"       = "搜索互联网";
+"imagepicker.libraries.search"      = "在图书馆中搜索";
+"imagepicker.files.browse"          = "从存储中选择";
+"imagepicker.files.import"          = "使用Apple的文件应用导入";
+"imagepicker.download"              = "从目录中下载";
+"imagepicker.photo.fail"            = "无法从照片中请求图像";
+"imagepicker.photo.notdetermined"   = "您尚未对KyBook做出选择";
+"imagepicker.photo.restricted"      = "KyBook无权访问照片";
+"imagepicker.photo.denied"          = "您已拒绝KyBook访问照片";
+
+// TEXT 2 SPEECH
+
+"tts.general"           = "文字转语音";
+"tts.completed"         = "文字转语音：已完成";
+"tts.unablestart"       = "文字转语音：无法启动";
+"tts.pitch"             = "音调";
+"tts.rate"              = "速度";
+"tts.volume"            = "音量";
+"tts.continuable"       = "说一切";
+"tts.continuable.hint"  = "当说通过菜单选择的文本时，一直说到书的结尾";
+"tts.voices"            = "声音";
+"tts.voices.headline"   = "为您的语言选择首选的语音，KyBook将使用所选语言合成语音";
+"tts.voices.footer"     = "想要增强的声音，请打开iOS设置 - >常规 - >辅助功能 - >语音 - >语音并下载适合您语言的增强语音";
+
+// AUTO SCROLLING
+
+"autoscrolling.general"     = "自动滚动";
+"autoscrolling.rate"        = "速度";
+"autoscrolling.hideslider"  = "隐藏阅读器屏幕中的速率滑块";
+"autoscrolling.tunerate"    = "向上/向下滚动时调整速度";
+
+// NETWORK
+
+"network.general"           = "网络";
+"network.streaming"         = "流媒体";
+"network.streaming.audio"   = "音频流";
+"network.streaming.hint"    = "如果可能，KyBook将直接从云存储流式传输有声读物，而无需将整个文件预加载到设备上";
+"network.streaming.footer"  = "流媒体";
+"network.local"             = "本地网络";
+"network.local.neighborhood"= "网络邻居";
+"network.local.discovery"   = "本地网络发现";
+"network.samba"             = "共享文件夹";
+"network.server"            = "服务器";
+"network.sharepoint"        = "Sharepoint";
+"network.samba.add"         = "添加共享文件夹";
+"network.samba.settings"    = "连接设置";
+"network.samba.hint"        = "输入服务器名称或地址，Sharepoint（可选），用户名（可选，将使用访客访问，如果未指定）和密码（可选）。如果连接以”未授权“错误终止则用户名和密码是必须填写的！";
+"network.samba.v1.info"     = "KyBook只能连接到SMB1共享，在Windows 10上默认禁用SMB1，要在Windows 10上启用SMB1，请转到控制面板>程序和功能>打开Windows功能>检查“SMB 1.0 / CIFS Server”框并重启。注意，SMB1协议不安全！";
+"network.tor"               = "Tor网络";
+"network.tor.conf.header"   = "注意！当打开OPDS目录时，KyBook会自动加入Tor网络";
+"network.tor.conf.footer"   = "KyBook将*自动*加入Tor网络并为洋葱OPDS目录和网站提供隧道流量。\n\n通过Tor网络进行Web浏览和下载将明显慢于非网络。\n\n请注意，KyBook不适合匿名上网！在KyBook中使用Tor只能解决网络可达性问题。\n\n本产品使用Tor分布式网络，独立于Tor匿名软件生成并且不承担Tor的质量，适用性或其他任何的保证";
+"network.tor.bridge"        = "网桥";
+"network.tor.bridges"       = "网桥";
+"network.tor.bridges.add"   = "添加一个网桥";
+"network.tor.bridges.reset" = "删除网桥";
+"network.tor.bridges.hint"  = "网桥是Tor的中继，可以帮助您规避审查。网桥不是强制性的！只有当您怀疑您对Tor网络的访问被阻止时，您可能想使用网桥。更多信息，请参阅bridges.torproject.org";
+"network.status"                = "状态";
+"network.status.disconnected"   = "断开连接";
+"network.status.connecting"     = "正在连接 ...";
+"network.status.connected"      = "已连接";
+"network.status.authenticated"  = "经过身份验证";
+"network.status.bootstrap"      = "引导程序";
+"network.status.ready"          = "准备好";
+"network.status.failure"        = "失败";
+"network.status.waiting"        = "等待";
+"network.status.suspended"      = "暂停";
+"network.status.loading"        = "正在加载";
+"network.stop"                  = "停止";
+"network.restart"               = "重启";
+"network.websearch.engine"      = "网络搜索引擎";
+"network.download.add"          = "添加下载";
+"network.download.file.ask"     = "下载文件？";
+"network.download.file.enter"   = "输入URL以下载文件";
+
+// TRANSLATION
+
+"translation.general"           = "翻译";
+"translation.running"           = "翻译中 ...";
+"translation.yandex"            = "Yandex翻译";
+"translation.yandex.copyright"  = "由Yandex引擎提供支持";
+"translation.target.lang"       = "目标语言";
+"translation.target.lang.hint"  = "默认情况下，目标语言是设备语言";
+"translation.source.lang"       = "源语言";
+"translation.source.auto"       = "自动检测";
+"translation.source.auto.hint"  = "当禁用自动检测时，KyBook将使用书卡中指定的语言";
+"translation.services"          = "翻译服务";
+"translation.target.ask"        = "请选择翻译目标语言";
+
+// MAIN
+
+"main.books"                    = "书籍";
+"main.reading"                  = "立即阅读";
+"main.library"                  = "图书馆";
+"main.catalogs"                 = "目录";
+"main.dashboard"                = "仪表板";
+
+// CLOUD
+
+"cloud.icloud.signin"           = "登录iCloud";
+"cloud.icloud.signin.message"   = "登录您的iCloud帐户。在主屏幕上，启动iOS设置，点按iCloud，然后输入您的Apple ID。打开iCloud Drive。如果您没有iCloud帐户，点按“创建新的Apple ID";
+"cloud.dropbox.link.title"      = "连接Dropbox";
+"cloud.dropbox.link.message"    = "选择首选身份验证方法";
+"cloud.dropbox.link.app"        = "启动Dropbox应用";
+"cloud.dropbox.link.site"       = "打开Dropbox网站";
+"cloud.credential.required"     = "需要验证";
+"cloud.credential.user"         = "用户";
+"cloud.credential.password"     = "密码";
+"cloud.webdav.add"              = "添加WebDAV服务器";
+"cloud.webdav.data"             = "WebDAV服务器设置";
+"cloud.webdav.known"            = "已知WebDAV服务器列表";
+"cloud.webdav.hint"             = "输入用于连接WebDAV服务器的地址，用户名和密码";
+"cloud.check.reachability"      = "检查连接性 ...";
+"cloud.check.fail.msg"          = "服务器无法访问或无效";
+"cloud.check.fail.ask"          = "无论如何都要连接服务器？";
+
+// CATALOG
+
+"catalog.general"               = "目录";
+"catalog.add.to"                = "添加到目录";
+"catalog.opds"                  = "OPDS目录";
+"catalog.opds.add"              = "添加OPDS目录";
+"catalog.opds.add.hint"         = "在目录中输入目录的URL以添加自定义OPDS目录";
+"catalog.opds.add.fix"          = "看起来OPDS目录地址不完整。地址已改变。请仔细检查";
+"catalog.opds.localnet"         = "搜索本地网络";
+"catalog.opds.localnet.hint"    = "在本地网络中搜索OPDS目录，例如Calibre和Tiny OPDS";
+"catalog.opds.known"            = "已知OPDS目录列表";
+"catalog.rel.related"           = "相关";
+"catalog.rel.alternate"         = "替代";
+"catalog.rel.subsection"        = "分段";
+"catalog.rel.acquisition"       = "采集";
+"catalog.rel.openaccess"        = "开放存取";
+"catalog.rel.borrow"            = "借用";
+"catalog.rel.buy"               = "购买";
+"catalog.rel.sample"            = "样本";
+"catalog.rel.subscribe"         = "订阅";
+"catalog.rel.new"               = "新的";
+"catalog.rel.popular"           = "热门";
+"catalog.rel.featured"          = "精选";
+"catalog.rel.recommended"       = "推荐";
+"catalog.rel.shelf"             = "货架";
+"catalog.rel.subscriptions"     = "订阅";
+"catalog.rel.free"              = "免费";
+"catalog.rel.basket"            = "篮子";
+"catalog.rel.download"          = "下载";
+"catalog.rel.login"             = "登录";
+"catalog.rel.logout"            = "退出";
+"catalog.rel.author"            = "作者";
+"catalog.rel.sequence"          = "系列";
+"catalog.rel.category"          = "类别";
+"catalog.rel.publisher"         = "出版商";
+"catalog.rel.web"               = "网络";
+"catalog.rel.search"            = "搜索";
+"catalog.rel.up"                = "向上";
+"catalog.rel.first"             = "第一";
+"catalog.rel.last"              = "最后";
+"catalog.check.fail.msg"        = "目录无法访问或无效";
+"catalog.check.fail.ask"        = "无论如何都添加目录？";
+"catalog.opds.fix.path"         = "看起来OPDS目录地址不完整。地址已改变。请仔细检查";
+"catalog.credentials.reset"     = "重置凭据";
+"catalog.credentials.reset.hint"= "重置已保存的凭据（密码，访问令牌）";
+"catalog.links"                 = "参考";
+"catalog.rights"                = "权利";
+"catalog.source"                = "来源";
+"catalog.reviews"               = "评论";
+"catalog.googlebooks"           = "Google图书";
+"catalog.samizdat"              = "Samizdat";
+"catalog.litres"                = "升";
+"catalog.batch.download"        = "批量下载";
+"catalog.batch.collecting.fmt"  = "收集中 %@";
+"catalog.batch.collected.fmt"   = "已收集 %@";
+"catalog.batch.downloading.fmt" = "下载中 %zd of %@";
+"catalog.batch.added.fmt"       = "添加 %zd of %@";
+
+// WIDGET
+
+"widget.title"                 = "标题";
+"widget.color"                 = "颜色";
+"widget.icon"                  = "图标";
+
+// DICTIONARY
+
+"dictionary.general"                = "词典";
+"dictionary.all"                    = "词典";
+"dictionary.install"                = "安装词典";
+"dictionary.install.free"           = "添加免费词典";
+"dictionary.install.system"         = "添加系统词典";
+"dictionary.install.all"            = "已安装的词典";
+"dictionary.install.add"            = "添加词典";
+"dictionary.install.storage"        = "从存储中选择";
+"dictionary.install.import"         = "使用Apple的文件应用程序导入";
+"dictionary.install.download"       = "从互联网下载";
+"dictionary.install.download.hint"  = "选择免费字典下载并安装";
+"dictionary.install.hint"           = "KyBook支持StarDict，Lingvo DSL和Dictd格式的字典";
+"dictionary.history"                = "查找历史";
+"dictionary.favorited"              = "收藏条目";
+"dictionary.userdict"               = "用户词典";
+"dictionary.activate.hint"          = "要定义检索，请在书中选择一个单词，然后点击”定义“菜单项";
+"dictionary.article"                = "词典条目";
+"dictionary.article.title.prompt"   = "条目标题";
+"dictionary.article.text.prompt"    = "输入条目的文字";
+"dictionary.article.add"            = "添加条目";
+"dictionary.article.markdown"       = "支持Markdown格式";
+
+// RELAX
+
+"relax.general"                     = "放松计时器";
+"relax.screen"                      = "屏幕";
+"relax.screen.black"                = "黑色";
+"relax.screen.blurred"              = "模糊";
+"relax.screen.melange"              = "混色";
+"relax.screen.matrix"               = "黑客电影";
+"relax.screen.life"                 = "康威生活";
+"relax.screen.random"               = "随机";
+"relax.preparation"                 = "预先放松功能";
+"relax.preparation.hint"            = "在屏幕显示放松之前要采取的行动";
+"relax.final"                       = "放松后行动";
+"relax.final.hint"                  = "完成放松后应采取的行动";
+"relax.duration"                    = "阅读时长";
+"relax.duration.hint"               = "屏幕显示放松前的持续阅读时间";
+"relax.flash"                       = "闪烁";
+"relax.vibration"                   = "振动";
+"relax.alert"                       = "警报";
+"relax.countdown"                   = "倒计时";
+"relax.countdown.hint"              = "在屏幕显示放松之前提供倒计时";
+"relax.duration.screen"             = "放松时间";
+"relax.screen.show"                 = "屏幕显示";
+"relax.screen.footer"               = "放松将自动在 %@\n中完成，以便在任何地方完成";
+"relax.message.relax"               = "放松的时间！";
+"relax.message.read"                = "阅读时间！";
+"relax.hint"                        = "提供一个屏幕，让你在长时间阅读后休息";
+"relax.disable"                     = "关闭放松计时器";
+"relax.enable.ask"                  = "启用放松计时器？";
+"relax.intime.fmt"                  = "在 %@中放松";
+
+// TIMER
+
+"timer.sleep.general"               = "睡眠定时";
+"timer.sleep.off"                   = "关闭睡眠定时";
+"timer.sleep.off.short"             = "关闭";
+"timer.sleep.pauseplayback"         = "暂停播放";
+"timer.sleep.fired.message"         = "睡眠定时器停止播放";
+"timer.sleep.induration.fmt"        = "将在 %@分钟内入睡"; // Sleeping in 5 minutes
+"timer.sleep.induration.short.fmt"  = "在 %@分钟内"; // in 5 minutes
+"timer.sleep.atendchapter"          = "章末";
+
+// LOGIN
+
+"login.signin"                      = "登录";
+"login.signup"                      = "注册";
+"login.signin.welcome"              = "欢迎回来";
+"login.signup.join"                 = "加入KyBook";
+"login.signin.headline"             = "登录以浏览和同步您的书籍，笔记，摘要等";
+"login.signup.headline"             = "创建一个帐户来探索和同步您的书籍，笔记，摘要等";
+"login.signin.toggle"               = "没有帐户？";
+"login.signup.toggle"               = "已经拥有一个帐户？";
+"login.signin.toggle.action"        = "创建一个";
+"login.signup.toggle.action"        = "登录";
+"login.signin.password"             = "使用密码登录";
+"login.signin.email"                = "使用电子邮件登录";
+"login.signin.google"               = "使用Google登录";
+"login.signin.github"               = "使用GitHub登录";
+"login.signin.known"                = "使用已知登录信息登录";
+"login.signup.password"             = "使用密码注册";
+"login.signup.email"                = "使用电子邮件注册";
+"login.signup.google"               = "使用Google注册";
+"login.signup.github"               = "使用GitHub注册";
+"login.signin.enter"                = "输入登录帐户的登录名和密码";
+"login.signup.enter"                = "输入登录名和密码以创建帐户";
+"login.setup.enter"                 = "输入您的登录名和密码凭证";
+"login.email.enter"                 = "可选择输入电子邮件和显示名称";
+"login.login"                       = "登录";
+"login.password"                    = "密码";
+"login.email"                       = "电子邮件";
+"login.displayname"                 = "显示名称";
+"login.login.invalid"               = "登录名应至少为4个字符，由数字，拉丁字母，点或下划线组成";
+"login.password.invalid"            = "密码长度至少应为6个字符，并且应包含数字，拉丁字母，圆点或下划线";
+"login.response.failure"            = "用户名或密码无效";
+"login.invalid.email"               = "电子邮件无效";
+"login.invalid.confirm"             = "验证码无效";
+"login.email.confirm.send"          = "输入与您的帐户相关联的电子邮件地址，我们会将验证码发送到您的收件箱";
+"login.email.confirm.enter"         = "输入验证码，您将登录";
+"login.email.confirm.have"          = "我有验证码";
+"login.email.confirm.just.fmt"      = "我们只是通过电子邮件将验证码发送到 %@.\n输入电子邮件中的代码，您将登录";
+"login.email.confirm.code"          = "验证码";
+"login.email.confirm.check"         = "正在验证，请稍候 ...";
+"login.email.already.inuse"         = "此电子邮件地址已被其他用户使用";
+"login.email.confirm.fail"          = "无法确认电子邮件";
+"login.ok"                          = "已登录";
+"login.failed"                      = "登录失败";
+"login.user.exists"                 = "具有以下登录名的用户已经注册";
+"login.user.notfound"               = "找不到用户";
+"login.change.email.confirm.send"       = "输入新的电子邮件地址，我们会将验证码发送到您的收件箱";
+"login.change.email.confirm.enter"      = "输入验证码，您的电子邮件地址将被更改";
+"login.change.email.confirm.just.fmt"   = "我们只是通过电子邮件将验证码发送到 %@.\n输入电子邮件中的代码，您的电子邮件地址将被更改";
+"login.change.password"             = "更改密码";
+"login.set.password"                = "设置密码";
+"login.password.new"                = "新密码";
+"login.password.old"                = "旧密码";
+
+// ACCOUNT
+
+"account.general"                   = "帐户";
+"account.authorization"             = "授权";
+"account.personal"                  = "个人";
+"account.social.network"            = "社交网络";
+"account.website"                   = "网站";
+"account.bio"                       = "签名";
+"account.created"                   = "创建于";
+"account.logout"                    = "退出";
+"account.logout.ask"                = "退出？";
+"account.logout.message"            = "退出后将无法再进行同步。确定吗？";
+"account.relogin"                   = "重新登录";
+"account.relogin.ask"               = "重新登录？";
+"account.delete"                    = "删除帐户";
+"account.delete.ask"                = "删除帐户？";
+"account.delete.message"            = "删除帐户还将删除云中所有存储的书籍和备注信息。同步将不再可用\n\n请输入`删除` 确认";
+"account.delete.confirmation"       = "删除";
+"account.anonymous"                 = "匿名";
+"account.devices"                   = "设备";
+"account.devices.detach"            = "分离设备";
+"account.profile.set"               = "设置";
+"account.profile.change"            = "更改";
+
+// SYNCHRONIZATION
+
+"sync.general"                      = "同步";
+"sync.donow"                        = "立即同步";
+"sync.doing"                        = "同步中 ...";
+"sync.automatic"                    = "自动同步";
+"sync.automatic.wifi"               = "需要WiFi连接";
+"sync.automatic.lowerpower"         = "省电模式下停止同步";
+"sync.logging"                      = "记录";
+"sync.logging.view"                 = "查看日志";
+"sync.scope"                        = "需要同步的项目";
+"sync.scope.books"                  = "图书元数据";
+"sync.scope.notes"                  = "注释，书签";
+"sync.scope.assets"                 = "摘要，封面";
+"sync.scope.files"                  = "图书文件";
+"sync.restriction.hint"             = "同步需要高级订阅\n将元数据，注释，摘要等存储在云中，不受大小和/或数量的限制\n存储的书籍文件的总大小云受可用存储空间的限制";
+"sync.quota"                        = "存储空间（已使用）";
+"sync.quota.empty"                  = "空";
+"sync.quota.used.fmt"               = "%@ of %@";
+"sync.push.notifications"           = "推送通知";
+"sync.push.notifications.hint"      = "通知对于设备之间的稳定同步非常有用";
+"sync.state.none"                   = "未同步";
+"sync.state.synced"                 = "同步";
+"sync.files.title"                  = "云文件";
+"sync.files.remove"                 = "删除";
+"sync.files.hint"                   = "滑动即可从KyBook云中删除书籍文件并释放空间";
+"sync.files.empty"                  = "尚未上传任何文件";
+
+// BIZ
+
+"biz.adman.mock.banner.title"       = "将KyBook升级为PRO以取消广告横幅！";
+"biz.adman.mock.banner.title.short" = "升级到PRO取消广告！";
+"biz.adman.mock.banner.subtitle"    = "点击升级到Pro";
+"biz.feature.noad"                  = "没有广告横幅";
+"biz.feature.djvu"                  = "支持DjVu格式";
+"biz.feature.userdict"              = "用户词典";
+"biz.feature.deckui"                = "高级用户界面（类似Safari的标签）";
+"biz.feature.contentserver"         = "内部服务器";
+"biz.feature.themes"                = "可自定义的主题";
+"biz.feature.tags"                  = "书籍标签";
+"biz.feature.downloadable"          = "可下载的内容（字体，背景，字典）";
+"biz.feature.autoscroll"            = "自动滚动";
+"biz.feature.sketches"              = "支持在书页上绘图";
+"biz.feature.pdfreflow"             = "iPhone上的PDF重排模式";
+"biz.feature.export2pdf"            = "导出带注释为PDF的电子书";
+"biz.feature.synchronization"       = "电子书元数据和文件的同步";
+"biz.feature.google"                = "Google翻译和Google封面搜索";
+"biz.feature.batch.edit.metadata"   = "批量编辑图书元数据";
+"biz.feature.batch.catalog.download"= "从OPDS目录批量下载";
+"biz.feature.book.trash"            = "删除书籍的垃圾";
+"biz.feature.book.audioplaylist"    = "自动创建有声读物的播放列表";
+"biz.available.free"                = "免费提供";
+"biz.requires.pro"                  = "需要专业购买";
+"biz.requires.premium"              = "需要高级订阅";
+"biz.alert.iap.fmt"                 = "抱歉，您需要进行应用内购买才能继续使用 “%@”\n您想立即进行应用内购买吗？";
+"biz.buy.now"                       = "立即购买";
+"biz.buy.later"                     = "当然，我会稍后再购买";
+"biz.premium.sync.note"             = "使用同步需要高级订阅";
+"biz.trial"                         = "试用版";
+"biz.trial.hint.fmt"                = "免费试用PRO功能 %zd 天";
+"biz.trial.noteliglbile"            = "不符合试用版";
+"biz.terms.title"                   = "服务条款";
+"biz.privacy.title"                 = "隐私政策";
+
+// IAP
+
+"iap.general"                   = "应用内购买";
+"iap.restore"                   = "恢复购买";
+"iap.pro.upgrade"               = "升级到专业版";
+"iap.premium.subscription"      = "高级订阅";
+"iap.dialog.completed"          = "已完成购买";
+"iap.dialog.restored"           = "购买已恢复";
+"iap.validation.issue"          = "应用内购买尚未经过验证！";
+"iap.validation.cancelled.fmt"  = "%@ 被取消"; 
+"iap.validation.expired.fmt"    = "%@ 已过期";
+"iap.validation.uncofirmed.fmt" = "%@ 未确认，因为 %@"; 
+"iap.validation.note"           = "某些功能将被禁用！";
+"iap.pro.title"                 = "升级到专业版";
+"iap.pro.subtitle"              = "一次性付款";
+"iap.pro.hint"              	  = "升级到Pro可解锁所有Pro功能";
+"iap.pro.allfeatures"           = "所有专业版功能";
+"iap.pro.discount.title"        = "升级到专业版（折扣）";
+"iap.pro.discount.subtitle"     = "对KyBook 2 Pro用户的报价";
+"iap.month3.title"              = "3个月订阅";
+"iap.month3.subtitle"           = "每3个月付费一次（免费试用1周）";
+"iap.yearly.title"              = "年度订阅";
+"iap.yearly.subtitle"           = "每年支付，（免费试用1周）";
+"iap.premium.details"           = "订阅详情";
+"iap.premium.hint"              = "高级订阅包括同步功能和所有Pro功能";
+"iap.manage.subscriptions"      = "管理订阅";
+"iap.status.expired.fmt"        = "于 %@时过期";
+"iap.status.expires.fmt"        = "于 %@时过期";
+"iap.status.paid.fmt"           = "付费在 %@";
+"iap.error.title"               = "iTunes Store错误";
+"iap.error.nopurchases"         = "对不起，没有找到任何购买";
+"iap.error.unablepayment"       = "抱歉，无法购买。此设备无法或不允许付款";
+"iap.error.unreachable"         = "抱歉，同步服务器无法访问。高级订阅无法同步而无法使用";
+
+// SUPPORT/ABOUT
+
+"support.report.issue"          = "报告问题";
+"support.about"                 = "关于";
+"support.about.rate"            = "在App Store上评价";
+"support.about.twitter"         = "在Twitter上反馈";
+"support.about.feedback"        = "发送反馈";
+"support.about.help"            = "帮助";
+"support.about.discuss"         = "讨论";
+"support.about.acknowledgement" = "致谢";
+
+// Abbreviation
+
+"abbr.thousand.words.fmt"       = "%zdk words";
+
+// SMB/CIFS AND OTHERS ERRORS
+
+"INTERNAL_ERROR"            = "内部错误";
+"NETWORK_FAILURE"           = "网络错误";
+"UNAUTHORIZED"              = "未经授权";
+"ACCESS_DENIED"             = "访问被拒绝";
+"UNABLE_RESOLVE"            = "无法解析主机名/地址";
+"UNABLE_CONNECT"            = "无法连接到网络计算机";
+"BAD_SHARE"                 = "无效的 Sharepoint";
+"BAD_PATH"                  = "无效路径";
+"FILE_IS_DIRECTORY"         = "文件是目录";
+"FILE_ALREADY_EXISTS"       = "文件已存在";
+"NOT_FOUND"                 = "未找到";
+"UNSUPPORTED"               = "此功能不受支持";
+"FILE_IO_ERROR"             = "文件系统错误";
+"OUT_OF_MEMORY"             = "内存不足";
+"UNKNOWN_FAILURE"           = "未知故障";
+
+// WebRoKit
+
+"TOR_BOOTSTRAP_ALERT"   = "Tor网络的载入可能需要很长时间。请稍候 ...";
+"TOR_THREAD_IS_FINISHED" = "Tor网络关闭";
+"CANCELLED"             = "取消";
+"FAILURE"               = "失败";
+"COMPLETED"             = "已完成";
+"FINISHED"              = "完成";
+"READY"                 = "准备好";
+"DISCONNECTED"          = "断开连接";
+"CONNECTING"            = "正在连接 ...";
+"CONNECTED"             = "已连接";
+"BOOTSTRAP"             = "引导程序";
+"BAD_AUTH"              = "未经授权";
+"FATAL_ERROR"           = "糟糕，出了点问题！";
