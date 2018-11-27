@@ -19,3 +19,4 @@ Please, feel free to send a pull request or create an issue if found any typo or
 ### Thanks
 - [karlic](https://github.com/karlic) for the English localization.
 - [José Labán](https://github.com/JoseLaban) for the Spanish localization.
+- 陈寿山 (ShaneChen), for the Chinese localization.
