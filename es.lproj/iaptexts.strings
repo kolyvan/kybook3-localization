@@ -1,0 +1,11 @@
+/* 
+  iaptexts.strings
+  yar
+
+  Created by Konstantin on 16/08/2018.
+  Copyright © 2018 Konstantin Bukreev. All rights reserved.
+*/
+
+"iap.subscription.payment" = "El pago será cargado a tu cuenta de iTunes al confirmar la compra, o al terminar tu período de prueba gratis.\nTu suscripción será renovada automáticamente a menos que la renovación automática sea desactivada antes de 24 horas de que termine el período de suscripción actual.\nSe cargará la renovación a tu cuenta dentro de las 24 horas anteriores a la terminación del período de suscripción actual.\nEl costo de la renovación automática será el mismo que se pagó inicialmente por la suscripción.\nLas suscripciones y renovaciones automáticas pueden ser administradas y desactivadas en los ajustes de tu cuenta iTunes en la App Store tras la compra.\nEl tiempo sobrante del período de prueba gratis será retirado tan pronto una suscripción sea adquirida.";
+
+"iap.subscription.info" = "La suscripción premium permite a los usuarios sincronizar metadatos de libros electrónicos, posiciones de lectura, marcapáginas, notas, reseñas, resúmenes y archivos de libros electrónicos entre dispositivos utilizando el servidor de sincronización KyBook (referido como la Nube KyBook).\n\nLos metadatos de libros electrónicos, posiciones de lectura, marcapáginas, notas, reseñas, y resúmenes son almacenados en la Nube KyBook sin restricción alguna de tamaño o cantidad.\n\nLos archivos de libros son cargados a la Nube KyBook desde tu dispositivo al momento de ser abiertos para su lectura. A su vez son descargados a tu dispositivo desde la Nube KyBook al ser abiertos para su lectura. Únicamente los libros almacenados en el dispositivo son cargados a la nube KyBook. Los libros ubicados en almacenamientos en la nube de terceros no son guardados en la Nube KyBook.\n\nLa capacidad total de libros almacenados en la Nube KyBook por usuario es de 3 gigabytes (3000 megabytes). El tamaño máximo de un archivo es de 100 megabytes. Estas limitaciones están sujetas a posibles cambios en el futuro.\n\nAdemás, una suscripción premium desbloquea todas las características Pro.";
