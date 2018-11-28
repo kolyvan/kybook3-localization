@@ -510,7 +510,7 @@
 
 // READER
 
-"reader.general"                    = "用户";
+"reader.general"                    = "读者";
 "reader.outline"                    = "大纲";
 "reader.bookmarks"                  = "书签";
 "reader.notes"                      = "注释";
@@ -849,7 +849,7 @@
 "app.prefs.reader.rotationlock.hint"= "当设备转动时不要旋转阅读器（只要书籍全屏阅读就可以正常工作）。旋转锁定仅适用于iPhone";
 "app.prefs.cache"                   = "缓存";
 "app.prefs.cache.clear"             = "缓存大小";
-"app.prefs.cache.reader"            = "用户缓存";
+"app.prefs.cache.reader"            = "读者缓存";
 "app.prefs.cache.reader.hint"       = "KyBook将解压缩和解析的电子书数据存储在设备的缓存文件夹中。您可以删除所有缓存的数据以释放空间";
 "app.prefs.cache.covers"            = "书籍封面缓存";
 "app.prefs.cache.covers.hint"       = "KyBook将书籍封面图像存储在设备的缓存文件夹中。您可以删除所有缓存的图像以释放空间";
