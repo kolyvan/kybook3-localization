@@ -163,8 +163,8 @@
 "filestore.relink.account"      = "重新连接帐户";
 "filestore.relink.void"         = "身份验证已失效。请重新验证";
 "filestore.report.used"         = "已使用";
-"filestore.report.free"         = "免费";
-"filestore.report.mirror"       = "镜像";
+"filestore.report.free"         = "还剩余";
+"filestore.report.mirror"       = "关联";
 "filestore.autounload"          = "自动卸载";
 "filestore.folderpicker.copy.fmt"   = "从%@复制%@";
 "filestore.folderpicker.move.fmt"   = "从%@移动%@";
@@ -196,13 +196,13 @@
 "menu.rename"           = "重命名";
 "menu.delete"           = "删除";
 "menu.share"            = "分享";
-"menu.info"             = "信息";
+"menu.info"             = "概览";
 "menu.tags"             = "标签";
 "menu.read"             = "阅读";
 "menu.reorder"          = "重新排列";
 "menu.unload"           = "卸载";
 "menu.download"         = "下载";
-"menu.exclude"          = "排除";
+"menu.exclude"          = "删除";
 "menu.more"             = "更多";
 "menu.copy"             = "复制";
 "menu.search"           = "搜索";
@@ -269,7 +269,7 @@
 "bookshelf.layout"              = "布局";
 "bookshelf.layout.covers"       = "封面";
 "bookshelf.layout.cards"        = "卡片";
-"bookshelf.layout.cards.mini"   = "迷你卡片";
+"bookshelf.layout.cards.mini"   = "小卡片";
 "bookshelf.layout.cards.large"  = "大卡片";
 
 "bookshelf.clean.category"        = "清空";
@@ -317,7 +317,7 @@
 "bookshelf.trash.detailed"      = "已删除​​的书";
 "bookshelf.trash.empty"         = "空的";
 "bookshelf.trash.hint"          = "KyBook可以恢复位于设备，Google云盘和Dropbox上已删除的图书。\n只有当KyBook拥已删除图书的缓存副本，则可恢复位于共享文件夹，WebDAV服务器，Yandex磁盘和OneDrive上的图书。";
-"bookshelf.trash.limit"         = "最大尺寸";
+"bookshelf.trash.limit"         = "最大存储";
 "bookshelf.undo.delete.fmt"     = "撤消删除%@";
 
 "bookshelf.author.page"             = "网页";
@@ -510,7 +510,7 @@
 
 // READER
 
-"reader.general"                    = "读者";
+"reader.general"                    = "用户";
 "reader.outline"                    = "大纲";
 "reader.bookmarks"                  = "书签";
 "reader.notes"                      = "注释";
@@ -531,7 +531,7 @@
 "reader.images"                     = "图像";
 "reader.readpos"                    = "阅读位置";
 "reader.readpos.changed.ask.fmt"    = "看来最近在另一台设备上更改了阅读位置。你想进入从 %@获得的阅读位置吗？";
-"reader.readpos.preserve"           = "保持阅读位置";
+"reader.readpos.preserve"           = "保存阅读位置";
 "reader.readpos.preserve.hint"      = "KyBook将不定时保存阅读位置。只有当用户在阅读时强制结束KyBook时，此功能才有用。";
 "reader.font.match.warning"         = "无法匹配首选项中指定的字体。已使用默认值";
 "reader.page.fmt"                   = "页码 %zd";
@@ -543,8 +543,8 @@
 
 "reader.menu.fullscreen"            = "全屏模式";
 "reader.menu.fullscreen.off"        = "退出全屏";
-"reader.menu.sketches"              = "草图工具栏";
-"reader.menu.sketches.off"          = "隐藏草图工具栏";
+"reader.menu.sketches"              = "草图工具";
+"reader.menu.sketches.off"          = "隐藏草图工具";
 "reader.menu.speak"                 = "文字转语音";
 "reader.menu.speak.stop"            = "停止TTS";
 "reader.menu.rapid"                 = "加速阅读";
@@ -644,19 +644,19 @@
 // THEME
 
 "theme.general"             = "主题";
-"theme.day"                 = "白天";
-"theme.sepia"               = "棕褐色";
-"theme.night"               = "夜晚";
+"theme.day"                 = "白色";
+"theme.sepia"               = "棕色";
+"theme.night"               = "黑色";
 "theme.dusk"                = "黄昏";
 "theme.dawn"                = "黎明";
-"theme.pastel"              = "粉彩";
-"theme.sand"                = "沙子";
-"theme.tango"               = "探戈";
+"theme.pastel"              = "暖阳";
+"theme.sand"                = "沙滩";
+"theme.tango"               = "质感";
 "theme.name"                = "名字";
 "theme.name.hint"           = "输入主题的名称";
 "theme.pallete"             = "调色板";
-"theme.pallete.accent"      = "口音";
-"theme.pallete.text"        = "文字";
+"theme.pallete.accent"      = "重色";
+"theme.pallete.text"        = "文本";
 "theme.pallete.background"  = "背景";
 "theme.pallete.divider"     = "分隔符";
 "theme.pallete.grayed"      = "灰色";
@@ -691,7 +691,7 @@
 "empty.notes"                   = "没有注释";
 "empty.notes.hint"              = "使用长按手势选择书中页面上的文本，然后选择菜单'标记'以添加注释";
 "empty.sketches"                = "没有草图";
-"empty.sketches.hint"           = "打开草图工具栏，然后使用Apple Pencil或手指在页面上绘制草图";
+"empty.sketches.hint"           = "打开草图工具，然后使用Apple Pencil或手指在页面上绘制草图";
 "empty.summary"                 = "在这里写书摘要";
 "empty.summary.hint"            = "KyBook支持Markdown格式，可以将摘要导出为HTML，PDF或RTF";
 "empty.bookindex"               = "空书索引";
@@ -753,7 +753,7 @@
 
 // SEARCH
 
-"search.scope.book"             = "预订";
+"search.scope.book"             = "预设";
 "search.scope.dictionary"       = "字典";
 "search.scope.translate"        = "翻译";
 "search.scope.internet"         = "互联网";
@@ -817,8 +817,8 @@
 // APP PREFS
 
 "app.prefs.home.backg"              = "列表模式中的背景";
-"app.prefs.home.backg.colored"      = "彩色的";
-"app.prefs.bookshelf.cover"         = "书籍封面";
+"app.prefs.home.backg.colored"      = "彩色";
+"app.prefs.bookshelf.cover"         = "封面";
 "app.prefs.bookshelf.tag"           = "标签";
 "app.prefs.bookshelf.filestate"     = "云/下载";
 "app.prefs.bookshelf.decor"         = "显示单元格中的辅助信息";
@@ -835,7 +835,7 @@
 "app.prefs.bookshelf.search.hint"   = "启用搜索栏以过滤书架上的书籍";
 "app.prefs.bookshelf.default"       = "默认偏好";
 "app.prefs.bookshelf.default.hint"  = "更改默认首选项也将重置所有用户首选项！";
-"app.prefs.bookshelf.bookcard.open" = "书卡开放动画（仅适用于iPad）";
+"app.prefs.bookshelf.bookcard.open" = "书卡打开动画（仅适用于iPad）";
 "app.prefs.reader.fullscreen"       = "全屏";
 "app.prefs.reader.fullscreen.auto"  = "自动同步开关";
 "app.prefs.reader.fullscreen.tap"   = "通过点击中心";
@@ -848,8 +848,8 @@
 "app.prefs.reader.rotationlock"     = "旋转锁";
 "app.prefs.reader.rotationlock.hint"= "当设备转动时不要旋转阅读器（只要书籍全屏阅读就可以正常工作）。旋转锁定仅适用于iPhone";
 "app.prefs.cache"                   = "缓存";
-"app.prefs.cache.clear"             = "空白区域";
-"app.prefs.cache.reader"            = "读者缓存";
+"app.prefs.cache.clear"             = "缓存大小";
+"app.prefs.cache.reader"            = "用户缓存";
 "app.prefs.cache.reader.hint"       = "KyBook将解压缩和解析的电子书数据存储在设备的缓存文件夹中。您可以删除所有缓存的数据以释放空间";
 "app.prefs.cache.covers"            = "书籍封面缓存";
 "app.prefs.cache.covers.hint"       = "KyBook将书籍封面图像存储在设备的缓存文件夹中。您可以删除所有缓存的图像以释放空间";
@@ -905,8 +905,8 @@
 "tts.pitch"             = "音调";
 "tts.rate"              = "速度";
 "tts.volume"            = "音量";
-"tts.continuable"       = "说一切";
-"tts.continuable.hint"  = "当说通过菜单选择的文本时，一直说到书的结尾";
+"tts.continuable"       = "朗读设置";
+"tts.continuable.hint"  = "当朗读选择的文本时，一直朗读到书的结尾";
 "tts.voices"            = "声音";
 "tts.voices.headline"   = "为您的语言选择首选的语音，KyBook将使用所选语言合成语音";
 "tts.voices.footer"     = "想要增强的声音，请打开iOS设置 - >常规 - >辅助功能 - >语音 - >语音并下载适合您语言的增强语音";
@@ -956,7 +956,7 @@
 "network.status.loading"        = "正在加载";
 "network.stop"                  = "停止";
 "network.restart"               = "重启";
-"network.websearch.engine"      = "网络搜索引擎";
+"network.websearch.engine"      = "搜索引擎";
 "network.download.add"          = "添加下载";
 "network.download.file.ask"     = "下载文件？";
 "network.download.file.enter"   = "输入URL以下载文件";
@@ -971,14 +971,14 @@
 "translation.target.lang.hint"  = "默认情况下，目标语言是设备语言";
 "translation.source.lang"       = "源语言";
 "translation.source.auto"       = "自动检测";
-"translation.source.auto.hint"  = "当禁用自动检测时，KyBook将使用书卡中指定的语言";
+"translation.source.auto.hint"  = "当禁用自动检测时，KyBook将使用书中指定的语言";
 "translation.services"          = "翻译服务";
 "translation.target.ask"        = "请选择翻译目标语言";
 
 // MAIN
 
 "main.books"                    = "书籍";
-"main.reading"                  = "立即阅读";
+"main.reading"                  = "正在阅读";
 "main.library"                  = "图书馆";
 "main.catalogs"                 = "目录";
 "main.dashboard"                = "仪表板";
@@ -1089,10 +1089,13 @@
 "dictionary.article.text.prompt"    = "输入条目的文字";
 "dictionary.article.add"            = "添加条目";
 "dictionary.article.markdown"       = "支持Markdown格式";
+"dictionary.format"                 = "格式";
+"dictionary.recordscount"           = "記錄數";
+"dictionary.delete.ask"             = "刪除字典?";
 
 // RELAX
 
-"relax.general"                     = "放松计时器";
+"relax.general"                     = "放松时间";
 "relax.screen"                      = "屏幕";
 "relax.screen.black"                = "黑色";
 "relax.screen.blurred"              = "模糊";
@@ -1117,8 +1120,8 @@
 "relax.message.relax"               = "放松的时间！";
 "relax.message.read"                = "阅读时间！";
 "relax.hint"                        = "提供一个屏幕，让你在长时间阅读后休息";
-"relax.disable"                     = "关闭放松计时器";
-"relax.enable.ask"                  = "启用放松计时器？";
+"relax.disable"                     = "关闭放松时间";
+"relax.enable.ask"                  = "启用放松时间？";
 "relax.intime.fmt"                  = "在 %@中放松";
 
 // TIMER
