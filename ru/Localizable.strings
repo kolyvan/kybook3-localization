@@ -1089,6 +1089,9 @@
 "dictionary.article.text.prompt"    = "Введите текст статьи";
 "dictionary.article.add"            = "Добавить словарную статью";
 "dictionary.article.markdown"       = "Поддерживается форматирование Markdown";
+"dictionary.format"                 = "Формат";
+"dictionary.recordscount"           = "Количество записей";
+"dictionary.delete.ask"             = "Удалить словарь?";
 
 // RELAX
 

@@ -1089,6 +1089,9 @@
 "dictionary.article.text.prompt"    = "Escribe el texto del artículo";
 "dictionary.article.add"            = "Añade un artículo";
 "dictionary.article.markdown"       = "Se soporta el formato Markdown";
+"dictionary.format"                 = "Formato";
+"dictionary.recordscount"           = "Número de registros";
+"dictionary.delete.ask"             = "¿Eliminar el diccionario?";
 
 // RELAX
 
@@ -1260,6 +1263,7 @@
 "biz.feature.batch.edit.metadata"   = "Edición por lotes de metadatos de libros";
 "biz.feature.batch.catalog.download"= "Descarga por lotes desde un catálogo OPDS";
 "biz.feature.book.trash"            = "Papelera para libros eliminados";
+"biz.feature.book.audioplaylist"    = "Automatically created playlists of audiobooks";
 "biz.available.free"                = "Disponible gratis";
 "biz.requires.pro"                  = "Requiere compra de versión Pro";
 "biz.requires.premium"              = "Requiere suscripción premium";

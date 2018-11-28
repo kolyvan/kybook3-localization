@@ -1089,6 +1089,9 @@
 "dictionary.article.text.prompt"    = "Enter the text of the entry";
 "dictionary.article.add"            = "Add an entry";
 "dictionary.article.markdown"       = "Markdown formatting supported";
+"dictionary.format"                 = "Format";
+"dictionary.recordscount"           = "Number of records";
+"dictionary.delete.ask"             = "Delete the dictionary?";
 
 // RELAX
 
