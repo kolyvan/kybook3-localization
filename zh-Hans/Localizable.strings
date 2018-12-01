@@ -23,7 +23,7 @@
 "common.save"               = "保存";
 "common.enabled"            = "已启用";
 "common.enable"             = "启用";
-"common.apply"              = "申请";
+"common.apply"              = "应用";
 "common.more"               = "更多";
 "common.completed"          = "已完成";
 "common.inprogress"         = "正在进行 ...";
@@ -567,7 +567,7 @@
 "reader.settings.page.spread.full"  = "横向展开的页面";
 "reader.settings.page.margin"       = "页边距";
 "reader.settings.paragraph"         = "段落";
-"reader.settings.lineheight"        = "线高";
+"reader.settings.lineheight"        = "行高";
 "reader.settings.justification"     = "理由";
 "reader.settings.readability"       = "可读性";
 "reader.settings.styles"            = "样式";
@@ -582,7 +582,7 @@
 "reader.settings.margin.horz"       = "左/右";
 "reader.settings.margin.top"        = "顶部";
 "reader.settings.margin.bottom"     = "底部";
-"reader.settings.override"          = "覆盖";
+"reader.settings.override"          = "覆盖图书自带格式";
 "reader.settings.enabled"           = "启用";
 "reader.settings.para.spacing"      = "间距";
 "reader.settings.para.indentation"  = "缩进";
@@ -607,9 +607,9 @@
 "reader.settings.background.pattern" = "模式";
 "reader.settings.background.hint"   = "图像模式可以应用在基本接口模式中页眉和页脚的背景";
 "reader.settings.background.installed" = "已安装";
-"reader.settings.page.turn.roll"    = "滚动";
-"reader.settings.page.turn.curl"    = "卷曲";
-"reader.settings.page.turn.slide"   = "幻灯片";
+"reader.settings.page.turn.roll"    = "垂直滚动";
+"reader.settings.page.turn.curl"    = "仿真书页";
+"reader.settings.page.turn.slide"   = "平移翻页";
 "reader.settings.theme.delete.ask"  = "删除主题？";
 "reader.settings.reset"             = "重置为默认设置";
 "reader.settings.docs.fit"                  = "适合模式";
@@ -660,7 +660,7 @@
 "theme.pallete.background"  = "背景";
 "theme.pallete.divider"     = "分隔符";
 "theme.pallete.grayed"      = "灰色";
-"theme.pallete.control"     = "控制";
+"theme.pallete.control"     = "设置";
 "theme.pallete.selection"   = "选择";
 "theme.pallete.secondary"   = "辅助文本";
 "theme.warning"             = "无法替换预设主题";
@@ -808,7 +808,7 @@
 
 // APP CONTROL
 
-"app.control"                      = "控制";
+"app.control"                      = "设置";
 "app.control.services"             = "服务";
 "app.control.prefs"                = "首选项";
 "app.control.advanced.ui"          = "高级界面";
