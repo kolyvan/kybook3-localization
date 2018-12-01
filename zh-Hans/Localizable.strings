@@ -149,8 +149,8 @@
 "filestore.done.deleted.fmt"    = "在%@中删除%@";
 "filestore.deletefiles.q"       = "删除文件？";
 "filestore.deletefile"          = "删除此文件";
-"filestore.selectfolder"        = "选择一个文件夹";
-"filestore.createfolder"        = "创建一个文件夹";
+"filestore.selectfolder"        = "选择文件夹";
+"filestore.createfolder"        = "创建文件夹";
 "filestore.importfile"          = "导入文件";
 "filestore.movefile"            = "移动文件";
 "filestore.appendfile"          = "追加文件";
@@ -177,16 +177,16 @@
 
 "sort.general"          = "排序";
 "sort.none"             = "未分类";
-"sort.byname"           = "按标题";
-"sort.bydate"           = "按日期";
-"sort.bysize"           = "按大小";
-"sort.byformat"         = "按格式";
-"sort.byprogress"       = "按递增";
-"sort.byrating"         = "按评级";
-"sort.byauthor"         = "按作者";
-"sort.bysubject"        = "按主题";
+"sort.byname"           = "标题";
+"sort.bydate"           = "日期";
+"sort.bysize"           = "大小";
+"sort.byformat"         = "格式";
+"sort.byprogress"       = "进度";
+"sort.byrating"         = "评分";
+"sort.byauthor"         = "作者";
+"sort.bysubject"        = "主题";
 "sort.bysequence"       = "按系列";
-"sort.bypublisher"      = "按出版商";
+"sort.bypublisher"      = "按出版社";
 
 // MENU
 
@@ -200,15 +200,15 @@
 "menu.tags"             = "标签";
 "menu.read"             = "阅读";
 "menu.reorder"          = "重新排列";
-"menu.unload"           = "卸载";
+"menu.unload"           = "从本地删除";
 "menu.download"         = "下载";
 "menu.exclude"          = "删除";
 "menu.more"             = "更多";
 "menu.copy"             = "复制";
 "menu.search"           = "搜索";
-"menu.mark"             = "标记";
-"menu.note"             = "注意";
-"menu.sketch"           = "草稿";
+"menu.mark"             = "高亮";
+"menu.note"             = "添加备注";
+"menu.sketch"           = "手写笔记";
 "menu.edit"             = "编辑";
 "menu.translate"        = "翻译";
 "menu.recognize"        = "识别";
@@ -218,8 +218,8 @@
 "menu.define"           = "词典";
 "menu.launch"           = "启动";
 "menu.color"            = "颜色";
-"menu.style"            = "风格";
-"menu.listen"           = "听";
+"menu.style"            = "格式";
+"menu.listen"           = "朗读";
 "menu.speak"            = "朗读";
 "menu.stop"             = "停止";
 "menu.open"             = "打开";
@@ -367,7 +367,7 @@
 "bookcard.keywords.prompt"      = "输入关键词";
 "bookcard.source"               = "来源";
 "bookcard.files"                = "文件";
-"bookcard.metrics"              = "指标";
+"bookcard.metrics"              = "统计";
 "bookcard.action.read"          = "阅读";
 "bookcard.action.listen"        = "听";
 "bookcard.action.download"      = "下载";
@@ -378,7 +378,7 @@
 "bookcard.text.encoding.add"    = "添加文字编码";
 "bookcard.pickcover"            = "选择书籍封面";
 "bookcard.restorecover"         = "恢复原始封面";
-"bookcard.miscinfo"             = "其他信息";
+"bookcard.miscinfo"             = "更多信息";
 "bookcard.miscinfo.database"    = "数据库";
 "bookcard.miscinfo.usercontent" = "用户生成的内容";
 "bookcard.miscinfo.supportfiles"= "帮助文件";
@@ -415,10 +415,10 @@
 "book.metrics.finished.time.fmt"        = "读完 %@";        
 "book.metrics.finished.total.fmt"       = "读完 %@";        
 "book.metrics.finished.total.time.fmt"  = "读完 %@ in %@";  
-"book.metrics.read.part.fmt"            = "读完 %zd%%";                 
-"book.metrics.read.part.time.fmt"       = "读完 %zd%% in %@";           
-"book.metrics.read.of.fmt"              = "读完 %zd%% of %@";           
-"book.metrics.read.of.time.fmt"         = "读完 %zd%% of %@ in %@";     
+"book.metrics.read.part.fmt"            = "读了 %zd%%";                 
+"book.metrics.read.part.time.fmt"       = "读了 %zd%% in %@";           
+"book.metrics.read.of.fmt"              = "读了 %zd%% of %@";           
+"book.metrics.read.of.time.fmt"         = "读了 %zd%% of %@ in %@";     
 
 // DIALOGS
 
