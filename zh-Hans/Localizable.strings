@@ -538,6 +538,7 @@
 "reader.openinbook"                 = "在一本书中打开";
 "reader.nextpage"                   = "下一页";
 "reader.prevpage"                   = "上一页";
+"reader.bookmark.add"               = "添加书签";
 
 // READER MENU
 

@@ -538,6 +538,7 @@
 "reader.openinbook"                 = "Open in a book";
 "reader.nextpage"                   = "Next page";
 "reader.prevpage"                   = "Previous page";
+"reader.bookmark.add"               = "Add a bookmark";
 
 // READER MENU
 
