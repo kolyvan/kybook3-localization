@@ -23,7 +23,7 @@
 "common.save"               = "保存";
 "common.enabled"            = "已启用";
 "common.enable"             = "启用";
-"common.apply"              = "申请";
+"common.apply"              = "应用";
 "common.more"               = "更多";
 "common.completed"          = "已完成";
 "common.inprogress"         = "正在进行 ...";
@@ -149,8 +149,8 @@
 "filestore.done.deleted.fmt"    = "在%@中删除%@";
 "filestore.deletefiles.q"       = "删除文件？";
 "filestore.deletefile"          = "删除此文件";
-"filestore.selectfolder"        = "选择一个文件夹";
-"filestore.createfolder"        = "创建一个文件夹";
+"filestore.selectfolder"        = "选择文件夹";
+"filestore.createfolder"        = "创建文件夹";
 "filestore.importfile"          = "导入文件";
 "filestore.movefile"            = "移动文件";
 "filestore.appendfile"          = "追加文件";
@@ -177,16 +177,16 @@
 
 "sort.general"          = "排序";
 "sort.none"             = "未分类";
-"sort.byname"           = "按标题";
-"sort.bydate"           = "按日期";
-"sort.bysize"           = "按大小";
-"sort.byformat"         = "按格式";
-"sort.byprogress"       = "按递增";
-"sort.byrating"         = "按评级";
-"sort.byauthor"         = "按作者";
-"sort.bysubject"        = "按主题";
+"sort.byname"           = "标题";
+"sort.bydate"           = "日期";
+"sort.bysize"           = "大小";
+"sort.byformat"         = "格式";
+"sort.byprogress"       = "进度";
+"sort.byrating"         = "评分";
+"sort.byauthor"         = "作者";
+"sort.bysubject"        = "主题";
 "sort.bysequence"       = "按系列";
-"sort.bypublisher"      = "按出版商";
+"sort.bypublisher"      = "按出版社";
 
 // MENU
 
@@ -200,15 +200,15 @@
 "menu.tags"             = "标签";
 "menu.read"             = "阅读";
 "menu.reorder"          = "重新排列";
-"menu.unload"           = "卸载";
+"menu.unload"           = "从本地删除";
 "menu.download"         = "下载";
 "menu.exclude"          = "删除";
 "menu.more"             = "更多";
 "menu.copy"             = "复制";
 "menu.search"           = "搜索";
-"menu.mark"             = "标记";
-"menu.note"             = "注意";
-"menu.sketch"           = "草稿";
+"menu.mark"             = "高亮";
+"menu.note"             = "添加备注";
+"menu.sketch"           = "手写笔记";
 "menu.edit"             = "编辑";
 "menu.translate"        = "翻译";
 "menu.recognize"        = "识别";
@@ -218,8 +218,8 @@
 "menu.define"           = "词典";
 "menu.launch"           = "启动";
 "menu.color"            = "颜色";
-"menu.style"            = "风格";
-"menu.listen"           = "听";
+"menu.style"            = "格式";
+"menu.listen"           = "朗读";
 "menu.speak"            = "朗读";
 "menu.stop"             = "停止";
 "menu.open"             = "打开";
@@ -299,7 +299,7 @@
 
 "bookshelf.empty"               = "清空书架";
 "bookshelf.empty.recent"        = "最近30天没有新书";
-"bookshelf.empty.popular"       = "热门图书清单尚未收集";
+"bookshelf.empty.popular"       = "没有热门图书清单";
 "bookshelf.empty.new"           = "过去30天没有新书";
 "bookshelf.empty.unread"        = "没有未读的书";
 "bookshelf.empty.reading"       = "没有书";
@@ -367,9 +367,9 @@
 "bookcard.keywords.prompt"      = "输入关键词";
 "bookcard.source"               = "来源";
 "bookcard.files"                = "文件";
-"bookcard.metrics"              = "指标";
+"bookcard.metrics"              = "统计";
 "bookcard.action.read"          = "阅读";
-"bookcard.action.listen"        = "听";
+"bookcard.action.listen"        = "朗读";
 "bookcard.action.download"      = "下载";
 "bookcard.action.sample"        = "样本";
 "bookcard.mobi.pid"             = "Kindle序列号";
@@ -378,7 +378,7 @@
 "bookcard.text.encoding.add"    = "添加文字编码";
 "bookcard.pickcover"            = "选择书籍封面";
 "bookcard.restorecover"         = "恢复原始封面";
-"bookcard.miscinfo"             = "其他信息";
+"bookcard.miscinfo"             = "更多信息";
 "bookcard.miscinfo.database"    = "数据库";
 "bookcard.miscinfo.usercontent" = "用户生成的内容";
 "bookcard.miscinfo.supportfiles"= "帮助文件";
@@ -415,10 +415,10 @@
 "book.metrics.finished.time.fmt"        = "读完 %@";        
 "book.metrics.finished.total.fmt"       = "读完 %@";        
 "book.metrics.finished.total.time.fmt"  = "读完 %@ in %@";  
-"book.metrics.read.part.fmt"            = "读完 %zd%%";                 
-"book.metrics.read.part.time.fmt"       = "读完 %zd%% in %@";           
-"book.metrics.read.of.fmt"              = "读完 %zd%% of %@";           
-"book.metrics.read.of.time.fmt"         = "读完 %zd%% of %@ in %@";     
+"book.metrics.read.part.fmt"            = "读了 %zd%%";                 
+"book.metrics.read.part.time.fmt"       = "读了 %zd%% in %@";           
+"book.metrics.read.of.fmt"              = "读了 %zd%% of %@";           
+"book.metrics.read.of.time.fmt"         = "读了 %zd%% of %@ in %@";     
 
 // DIALOGS
 
@@ -510,7 +510,7 @@
 
 // READER
 
-"reader.general"                    = "读者";
+"reader.general"                    = "阅读";
 "reader.outline"                    = "大纲";
 "reader.bookmarks"                  = "书签";
 "reader.notes"                      = "注释";
@@ -545,8 +545,8 @@
 "reader.menu.fullscreen.off"        = "退出全屏";
 "reader.menu.sketches"              = "草图工具";
 "reader.menu.sketches.off"          = "隐藏草图工具";
-"reader.menu.speak"                 = "文字转语音";
-"reader.menu.speak.stop"            = "停止TTS";
+"reader.menu.speak"                 = "朗读";
+"reader.menu.speak.stop"            = "停止朗读";
 "reader.menu.rapid"                 = "加速阅读";
 "reader.menu.autoscroll"            = "自动滚动";
 "reader.menu.autoscroll.off"        = "停止自动滚动";
@@ -567,8 +567,8 @@
 "reader.settings.page.spread.full"  = "横向展开的页面";
 "reader.settings.page.margin"       = "页边距";
 "reader.settings.paragraph"         = "段落";
-"reader.settings.lineheight"        = "线高";
-"reader.settings.justification"     = "理由";
+"reader.settings.lineheight"        = "行高";
+"reader.settings.justification"     = "两端对齐";
 "reader.settings.readability"       = "可读性";
 "reader.settings.styles"            = "样式";
 "reader.settings.styles.hint.fmt"   = "样式设置仅适用于 %@ 格式";
@@ -576,13 +576,13 @@
 "reader.settings.ex.help"           = "ex - 表示所选字体中小写字母 x 的高度";
 "reader.settings.alignment.help"    = "通常情况下，KyBook使用电子书默认的文本对齐方式";
 "reader.settings.font.name"         = "字体名称";
-"reader.settings.font.serif"        = "截线";
-"reader.settings.font.sansserif"    = "字体";
+"reader.settings.font.serif"        = "衬线体";
+"reader.settings.font.sansserif"    = "无衬线体";
 "reader.settings.font.size"         = "字体大小";
 "reader.settings.margin.horz"       = "左/右";
 "reader.settings.margin.top"        = "顶部";
 "reader.settings.margin.bottom"     = "底部";
-"reader.settings.override"          = "覆盖";
+"reader.settings.override"          = "覆盖图书自带格式";
 "reader.settings.enabled"           = "启用";
 "reader.settings.para.spacing"      = "间距";
 "reader.settings.para.indentation"  = "缩进";
@@ -607,9 +607,9 @@
 "reader.settings.background.pattern" = "模式";
 "reader.settings.background.hint"   = "图像模式可以应用在基本接口模式中页眉和页脚的背景";
 "reader.settings.background.installed" = "已安装";
-"reader.settings.page.turn.roll"    = "滚动";
-"reader.settings.page.turn.curl"    = "卷曲";
-"reader.settings.page.turn.slide"   = "幻灯片";
+"reader.settings.page.turn.roll"    = "垂直滚动";
+"reader.settings.page.turn.curl"    = "仿真书页";
+"reader.settings.page.turn.slide"   = "平移翻页";
 "reader.settings.theme.delete.ask"  = "删除主题？";
 "reader.settings.reset"             = "重置为默认设置";
 "reader.settings.docs.fit"                  = "适合模式";
@@ -660,7 +660,7 @@
 "theme.pallete.background"  = "背景";
 "theme.pallete.divider"     = "分隔符";
 "theme.pallete.grayed"      = "灰色";
-"theme.pallete.control"     = "控制";
+"theme.pallete.control"     = "设置";
 "theme.pallete.selection"   = "选择";
 "theme.pallete.secondary"   = "辅助文本";
 "theme.warning"             = "无法替换预设主题";
@@ -669,13 +669,13 @@
 
 "font.picker.general"       = "字体";
 "font.picker.default"       = "默认字体";
-"font.picker.favorited"     = "最喜欢的字体";
+"font.picker.favorited"     = "常用字体";
 "font.picker.user"          = "用户的字体";
 "font.picker.downlodable"   = "可下载字体";
 "font.picker.system"        = "系统字体";
 "font.picker.add"           = "添加字体";
 "font.picker.add.browse"    = "从存储中选择";
-"font.picker.add.import"    = "使用Apple的文件应用程序导入";
+"font.picker.add.import"    = "使用苹果文件应用导入";
 "font.picker.add.download"  = "下载字体";
 "font.picker.add.done.fmt"  = "已添加字体 %@/%zd";
 "font.picker.add.more.hint" = "此外，您可以通过iTunes文件共享将字体文件（.ttf或.otf）复制到App Documents中来添加字体。\n在iPad上，拖放字体文件进入下面的方框";
@@ -808,7 +808,7 @@
 
 // APP CONTROL
 
-"app.control"                      = "控制";
+"app.control"                      = "设置";
 "app.control.services"             = "服务";
 "app.control.prefs"                = "首选项";
 "app.control.advanced.ui"          = "高级界面";
@@ -849,11 +849,11 @@
 "app.prefs.reader.rotationlock.hint"= "当设备转动时不要旋转阅读器（只要书籍全屏阅读就可以正常工作）。旋转锁定仅适用于iPhone";
 "app.prefs.cache"                   = "缓存";
 "app.prefs.cache.clear"             = "缓存大小";
-"app.prefs.cache.reader"            = "读者缓存";
+"app.prefs.cache.reader"            = "书籍缓存";
 "app.prefs.cache.reader.hint"       = "KyBook将解压缩和解析的电子书数据存储在设备的缓存文件夹中。您可以删除所有缓存的数据以释放空间";
 "app.prefs.cache.covers"            = "书籍封面缓存";
 "app.prefs.cache.covers.hint"       = "KyBook将书籍封面图像存储在设备的缓存文件夹中。您可以删除所有缓存的图像以释放空间";
-"app.prefs.misc"                    = "杂项";
+"app.prefs.misc"                    = "更多选项";
 "app.prefs.spotlight"               = "Spotlight 搜索";
 "app.prefs.spotlight.hint"          = "索引打开的书籍可以使用Spotlight搜索进行搜索";
 "app.autosum.algo"                  = "自动文本摘要算法";
@@ -893,22 +893,22 @@
 "imagepicker.files.import"          = "使用Apple的文件应用导入";
 "imagepicker.download"              = "从目录中下载";
 "imagepicker.photo.fail"            = "无法从照片中请求图像";
-"imagepicker.photo.notdetermined"   = "您尚未对KyBook做出选择";
+"imagepicker.photo.notdetermined"   = "未选择照片";
 "imagepicker.photo.restricted"      = "KyBook无权访问照片";
 "imagepicker.photo.denied"          = "您已拒绝KyBook访问照片";
 
 // TEXT 2 SPEECH
 
-"tts.general"           = "文字转语音";
-"tts.completed"         = "文字转语音：已完成";
-"tts.unablestart"       = "文字转语音：无法启动";
+"tts.general"           = "朗读（TTS）";
+"tts.completed"         = "朗读已完成";
+"tts.unablestart"       = "无法启动朗读";
 "tts.pitch"             = "音调";
 "tts.rate"              = "速度";
 "tts.volume"            = "音量";
-"tts.continuable"       = "朗读设置";
+"tts.continuable"       = "持续朗读";
 "tts.continuable.hint"  = "当朗读选择的文本时，一直朗读到书的结尾";
-"tts.voices"            = "声音";
-"tts.voices.headline"   = "为您的语言选择首选的语音，KyBook将使用所选语言合成语音";
+"tts.voices"            = "选择语音";
+"tts.voices.headline"   = "为您的语言选择首选语音，KyBook将使用所选语言合成语音";
 "tts.voices.footer"     = "想要增强的声音，请打开iOS设置 - >常规 - >辅助功能 - >语音 - >语音并下载适合您语言的增强语音";
 
 // AUTO SCROLLING
