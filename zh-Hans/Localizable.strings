@@ -510,7 +510,7 @@
 
 // READER
 
-"reader.general"                    = "阅读";
+"reader.general"                    = "阅读器";
 "reader.outline"                    = "大纲";
 "reader.bookmarks"                  = "书签";
 "reader.notes"                      = "注释";
@@ -582,7 +582,7 @@
 "reader.settings.margin.horz"       = "左/右";
 "reader.settings.margin.top"        = "顶部";
 "reader.settings.margin.bottom"     = "底部";
-"reader.settings.override"          = "覆盖图书自带格式";
+"reader.settings.override"          = "覆盖设置";
 "reader.settings.enabled"           = "启用";
 "reader.settings.para.spacing"      = "间距";
 "reader.settings.para.indentation"  = "缩进";
@@ -893,7 +893,7 @@
 "imagepicker.files.import"          = "使用Apple的文件应用导入";
 "imagepicker.download"              = "从目录中下载";
 "imagepicker.photo.fail"            = "无法从照片中请求图像";
-"imagepicker.photo.notdetermined"   = "未选择照片";
+"imagepicker.photo.notdetermined"   = "您尚未授权KyBook读取照片";
 "imagepicker.photo.restricted"      = "KyBook无权访问照片";
 "imagepicker.photo.denied"          = "您已拒绝KyBook访问照片";
 
