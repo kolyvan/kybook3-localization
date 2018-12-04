@@ -538,6 +538,7 @@
 "reader.openinbook"                 = "Открыть в книге";
 "reader.nextpage"                   = "Следующая страница";
 "reader.prevpage"                   = "Предыдущая страница";
+"reader.bookmark.add"               = "Добавить закладку";
 
 // READER MENU
 
