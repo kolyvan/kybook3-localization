@@ -894,7 +894,7 @@
 "imagepicker.files.import"          = "使用Apple的文件应用导入";
 "imagepicker.download"              = "从目录中下载";
 "imagepicker.photo.fail"            = "无法从照片中请求图像";
-"imagepicker.photo.notdetermined"   = "未选择照片";
+"imagepicker.photo.notdetermined"   = "您尚未授权KyBook读取照片";
 "imagepicker.photo.restricted"      = "KyBook无权访问照片";
 "imagepicker.photo.denied"          = "您已拒绝KyBook访问照片";
 
