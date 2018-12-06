@@ -320,11 +320,11 @@
 "bookshelf.trash.limit"         = "Tamaño máximo";
 "bookshelf.undo.delete.fmt"     = "Se deshizo el borrado de %@"; // e.g. Undoing deletion of 5 books
 
-"bookshelf.author.page"             = "Web page";
-"bookshelf.author.page.enter"       = "Enter an URL to the author's web page.";
-"bookshelf.author.page.search"      = "Searching in the Internet for an URL to the author's web page ...";
-"bookshelf.author.page.search.fail" = "KyBook could not find an URL to the author's web page.";
-"bookshelf.author.page.search.done" = "Found authors web pages";
+"bookshelf.author.page"             = "Página web";
+"bookshelf.author.page.enter"       = "Escribe un URL de una página web del autor.";
+"bookshelf.author.page.search"      = "Buscando en internet URL de páginas web del autor...";
+"bookshelf.author.page.search.fail" = "KyBook no pudo encontrar ningún URL de páginas web del autor.";
+"bookshelf.author.page.search.done" = "Se encontraron páginas web del autor";
 
 // BOOKCARD
 
@@ -459,9 +459,9 @@
 "delete.books.done"         = "Se borraron %@ en %@";
 "delete.bookshelf.ask"      = "¿Borrar librero?";
 "delete.summary.ask"        = "¿Borrar resumen?";
-"delete.book.database"      = "Delete from the database";
-"delete.book.database.hint" = "Deletes the book metadata and associated records (bookmarks, notes, etc) from the database without deleting the book files.";
-"delete.book.database.message" = "This action will not delete the book files. Therefore, if you open the folder in which this book is stored, KyBook will add it to the database again.";
+"delete.book.database"      = "Borrar de la base de datos";
+"delete.book.database.hint" = "Borra los metadatos del libro y sus registros asociados (marcapáginas, notas, etc.) de la base de datos sin borrar los archivos del libro.";
+"delete.book.database.message" = "Esta acción no borrará los archivos del libro. Por lo tanto, si abres la carpeta donde el libro está almacenado, KyBook lo añadirá nuevamente a la base de datos.";
 
 // SHARE
 
@@ -538,7 +538,7 @@
 "reader.openinbook"                 = "Abrir en un libro";
 "reader.nextpage"                   = "Página siguiente";
 "reader.prevpage"                   = "Página anterior";
-"reader.bookmark.add"               = "Añadir un marcador";
+"reader.bookmark.add"               = "Añadir un marcapáginas";
 
 // READER MENU
 
@@ -606,7 +606,7 @@
 "reader.settings.userstyles.done.fmt" = "Listo, la hoja de estilos %@ fue establecida";
 "reader.settings.background.image"  = "Imagen";
 "reader.settings.background.pattern" = "Patrón (mosaico)";
-"reader.settings.background.hint"   = "Image pattern can be used as a background for the header and footer in the base interface mode.";
+"reader.settings.background.hint"   = "Se puede utilizar una imagen como patrón para el fondo de las barras superior e inferior en el modo de interfaz base.";
 "reader.settings.background.installed" = "Establecida";
 "reader.settings.page.turn.roll"    = "Desplazamiento";
 "reader.settings.page.turn.curl"    = "Hojear";
@@ -634,13 +634,13 @@
 "reader.settings.docs.pagesep.hint"         = "Pequeño espacio entre páginas al usar el modo de desplazamiento.";
 "reader.settings.audio.smartresume"         = "Reanudación inteligente";
 "reader.settings.audio.smartresume.hint"    = "Cuando la reproducción se reanuda, el audio se regresa 30 segundos.";
-"reader.settings.audio.playlist"            = "Playlist";
-"reader.settings.audio.playlist.hint"       = "Automatically generate a playlist from mp3 files in a folder.";
-"reader.settings.default"                   = "Por defecto";
+"reader.settings.audio.playlist"            = "Lista de reproducción";
+"reader.settings.audio.playlist.hint"       = "Genera automáticamente una lista de reproducción con los archivos mp3 de una carpeta.";
+"reader.settings.default"                   = "Predeterminado";
 "reader.settings.profile"                   = "Perfil de preferencias";
 "reader.settings.profile.add"               = "Añadir un perfil";
-"reader.settings.profile.hint"              = "User can pick an individual preferences profile for a book. For example you can choose a Tech profile for technical or scientific publication or a Chinese profile for a book in Chinese language. For each profile you can separately set a font, margin, style, etc.";
-"reader.settings.profile.names.tech"        = "Literatura tecnica";
+"reader.settings.profile.hint"              = "Se puede elegir un perfil de preferencias individual para cada libro. Por ejemplo, puedes elegir un perfil técnico para publicaciones técnicas o científicas, o un perfil de chino para textos en idioma chino. Para cada perfil puedes elegir fuente, margen, estilo, etc.";
+"reader.settings.profile.names.tech"        = "Literatura técnica";
 
 // THEME
 
@@ -1237,10 +1237,10 @@
 "sync.push.notifications.hint"      = "Las notificaciones son útiles para sincronizaciones estables entre tus dispositivos.";
 "sync.state.none"                   = "No sincronizado";
 "sync.state.synced"                 = "Sincronizado";
-"sync.files.title"                  = "Cloud files";
-"sync.files.remove"                 = "Remove";
-"sync.files.hint"                   = "Use a swipe gesture to remove the book file from the KyBook cloud and free up space.";
-"sync.files.empty"                  = "No files have been uploaded yet";
+"sync.files.title"                  = "Archivos en la nube";
+"sync.files.remove"                 = "Quitar";
+"sync.files.hint"                   = "Utiliza un gesto de deslizamiento para quitar el archivo del libro de la nube KyBook y liberar espacio.";
+"sync.files.empty"                  = "Ningún archivo ha sido cargado aún";
 
 // BIZ
 
@@ -1264,7 +1264,7 @@
 "biz.feature.batch.edit.metadata"   = "Edición por lotes de metadatos de libros";
 "biz.feature.batch.catalog.download"= "Descarga por lotes desde un catálogo OPDS";
 "biz.feature.book.trash"            = "Papelera para libros eliminados";
-"biz.feature.book.audioplaylist"    = "Automatically created playlists of audiobooks";
+"biz.feature.book.audioplaylist"    = "Listas de reproducción de audiolibros creadas automáticamente";
 "biz.available.free"                = "Disponible gratis";
 "biz.requires.pro"                  = "Requiere compra de versión Pro";
 "biz.requires.premium"              = "Requiere suscripción premium";
@@ -1306,7 +1306,7 @@
 "iap.manage.subscriptions"      = "Administrar suscripciones";
 "iap.status.expired.fmt"        = "Expiró el %@"; // subscription expired on 2018-01-01
 "iap.status.expires.fmt"        = "Expira el %@";
-"iap.status.paid.fmt"           = "Pagado en %@";
+"iap.status.paid.fmt"           = "Adquirido el %@";
 "iap.error.title"               = "Error de iTunes Store";
 "iap.error.nopurchases"         = "Lo sentimos, no se encontraron compras";
 "iap.error.unablepayment"       = "Lo sentimos, no se pudo realizar la compra. Este dispositivo no es capaz o no tiene permitido hacer pagos";
