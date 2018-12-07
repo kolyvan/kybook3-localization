@@ -611,6 +611,7 @@
 "reader.settings.page.turn.roll"    = "垂直滚动";
 "reader.settings.page.turn.curl"    = "仿真书页";
 "reader.settings.page.turn.slide"   = "平移翻页";
+"reader.settings.page.turn.none"    = "没有动画";
 "reader.settings.theme.delete.ask"  = "删除主题？";
 "reader.settings.reset"             = "重置为默认设置";
 "reader.settings.docs.fit"                  = "适合模式";
@@ -632,6 +633,7 @@
 "reader.settings.docs.readability.autotint" = "自动调整";
 "reader.settings.docs.pagesep"              = "页面分隔";
 "reader.settings.docs.pagesep.hint"         = "高级滚动模式设置";
+"reader.settings.docs.spread.hint"          = "In the page spread, the fit mode is always assumed as 'Whole page'.";
 "reader.settings.audio.smartresume"         = "智能回退";
 "reader.settings.audio.smartresume.hint"    = "暂停后播放恢复时，回退30秒";
 "reader.settings.audio.playlist"            = "播放列表";

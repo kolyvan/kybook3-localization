@@ -611,6 +611,7 @@
 "reader.settings.page.turn.roll"    = "Прокрутка";
 "reader.settings.page.turn.curl"    = "Перелистывание";
 "reader.settings.page.turn.slide"   = "Сдвиг";
+"reader.settings.page.turn.none"    = "Без анимации";
 "reader.settings.theme.delete.ask"  = "Удалить тему?";
 "reader.settings.reset"             = "Сбросить к настройкам по умолчанию";
 "reader.settings.docs.fit"                  = "Режим масштабирования";
@@ -632,6 +633,7 @@
 "reader.settings.docs.readability.autotint" = "Автокорректировка";
 "reader.settings.docs.pagesep"              = "Разделение страниц";
 "reader.settings.docs.pagesep.hint"         = "Дополнительная настройка режима прокрутки";
+"reader.settings.docs.spread.hint"          = "В книжном развороте, режим масштабирования всегда принимается как «Вся страница».";
 "reader.settings.audio.smartresume"         = "Умная перемотка";
 "reader.settings.audio.smartresume.hint"    = "Перемотать до 30 секунд при возобновлении воспроизведения после паузы";
 "reader.settings.audio.playlist"            = "Список воспроизведения";

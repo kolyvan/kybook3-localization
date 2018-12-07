@@ -611,6 +611,7 @@
 "reader.settings.page.turn.roll"    = "Desplazamiento";
 "reader.settings.page.turn.curl"    = "Hojear";
 "reader.settings.page.turn.slide"   = "Deslizamiento";
+"reader.settings.page.turn.none"    = "Sin animación";
 "reader.settings.theme.delete.ask"  = "¿Borrar el tema?";
 "reader.settings.reset"             = "Restablecer ajustes predeterminados";
 "reader.settings.docs.fit"                  = "Estilo de visualización";
@@ -632,6 +633,7 @@
 "reader.settings.docs.readability.autotint" = "Ajuste automático";
 "reader.settings.docs.pagesep"              = "Separación entre página";
 "reader.settings.docs.pagesep.hint"         = "Pequeño espacio entre páginas al usar el modo de desplazamiento.";
+"reader.settings.docs.spread.hint"          = "In the page spread, the fit mode is always assumed as 'Whole page'.";
 "reader.settings.audio.smartresume"         = "Reanudación inteligente";
 "reader.settings.audio.smartresume.hint"    = "Cuando la reproducción se reanuda, el audio se regresa 30 segundos.";
 "reader.settings.audio.playlist"            = "Lista de reproducción";

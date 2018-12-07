@@ -611,6 +611,7 @@
 "reader.settings.page.turn.roll"    = "Scroll";
 "reader.settings.page.turn.curl"    = "Curl";
 "reader.settings.page.turn.slide"   = "Slide";
+"reader.settings.page.turn.none"    = "No animation";
 "reader.settings.theme.delete.ask"  = "Delete the theme?";
 "reader.settings.reset"             = "Reset to default settings";
 "reader.settings.docs.fit"                  = "Fit mode";
@@ -632,6 +633,7 @@
 "reader.settings.docs.readability.autotint" = "Auto adjust";
 "reader.settings.docs.pagesep"              = "Page separations";
 "reader.settings.docs.pagesep.hint"         = "Advanced scroll mode setting.";
+"reader.settings.docs.spread.hint"          = "In the page spread, the fit mode is always assumed as 'Whole page'.";
 "reader.settings.audio.smartresume"         = "Smart rewind";
 "reader.settings.audio.smartresume.hint"    = "When playback resumes after a pause, rewind 30 seconds.";
 "reader.settings.audio.playlist"            = "Playlist";
