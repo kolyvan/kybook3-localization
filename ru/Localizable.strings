@@ -1082,7 +1082,7 @@
 "dictionary.install.import"         = "Импорт через «Файлы»";
 "dictionary.install.download"       = "Загрузить из Интернета";
 "dictionary.install.download.hint"  = "Выберите бесплатный словарь для загрузки и установки";
-"dictionary.install.hint"           = "KyBook поддерживает словари в форматах StarDict, Lingvo DSL, Dictd";
+"dictionary.install.hint"           = "KyBook поддерживает словари в форматах StarDict, Lingvo DSL, Dictd.\n\nСловари обычно распространяются в виде ZIP, RAR или TAR-архивов и могут иметь расширение .zip, .rar, .tar, .tgz, .tbz.  Lingvo DSL словарь может быть представлен несжатым файлом с расширением .dsl.";
 "dictionary.history"                = "История";
 "dictionary.favorited"              = "Избранные статьи";
 "dictionary.userdict"               = "Словарь пользователя";

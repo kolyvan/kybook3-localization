@@ -1082,7 +1082,7 @@
 "dictionary.install.import"         = "Importar con la app de archivos de Apple";
 "dictionary.install.download"       = "Descargar desde internet";
 "dictionary.install.download.hint"  = "Elige un diccionario gratuito para descargar e instalar.";
-"dictionary.install.hint"           = "KyBook soporta diccionarios en formato StarDict, Lingvo DSL y Dictd.";
+"dictionary.install.hint"           = "KyBook soporta diccionarios en formato StarDict, Lingvo DSL y Dictd.\n\nDictionaries are usually distributed as ZIP, RAR or TAR archive and may have .zip, .rar, .tar, .tgz, .tbz extension. Lingvo DSL dictionary can be distributed as an uncompressed .dsl file.";
 "dictionary.history"                = "Historial";
 "dictionary.favorited"              = "Artículos destacados";
 "dictionary.userdict"               = "Diccionario de usuario";

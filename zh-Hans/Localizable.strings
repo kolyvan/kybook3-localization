@@ -1082,7 +1082,7 @@
 "dictionary.install.import"         = "使用Apple的文件应用程序导入";
 "dictionary.install.download"       = "从互联网下载";
 "dictionary.install.download.hint"  = "选择免费字典下载并安装";
-"dictionary.install.hint"           = "KyBook支持StarDict，Lingvo DSL和Dictd格式的字典";
+"dictionary.install.hint"           = "KyBook支持StarDict，Lingvo DSL和Dictd格式的字典\n\nDictionaries are usually distributed as ZIP, RAR or TAR archive and may have .zip, .rar, .tar, .tgz, .tbz extension. Lingvo DSL dictionary can be distributed as an uncompressed .dsl file.";
 "dictionary.history"                = "查找历史";
 "dictionary.favorited"              = "收藏条目";
 "dictionary.userdict"               = "用户词典";
