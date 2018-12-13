@@ -524,6 +524,9 @@
 "reader.outline.create"             = "Add an outline";
 "reader.outline.create.auto"        = "Create automatically";
 "reader.outline.create.manually"    = "Create manually";
+"reader.outline.fold.all"           = "Fold All";
+"reader.outline.unfold.all"         = "Unfold All";
+"reader.outline.foldable.hint"      = "Use a long press on the table of contents row (or tap on the far left part) to expand or collapse a subtree.";
 "reader.layout"                     = "Layout";
 "reader.backtopage.fmt"             = "Back to page %zd";
 "reader.bookindex"                  = "Index";

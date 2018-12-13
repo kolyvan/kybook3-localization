@@ -524,6 +524,9 @@
 "reader.outline.create"             = "添加大纲";
 "reader.outline.create.auto"        = "自动创建";
 "reader.outline.create.manually"    = "手动创建";
+"reader.outline.fold.all"           = "全部收缩"; //
+"reader.outline.unfold.all"         = "展开全部"; //
+"reader.outline.foldable.hint"      = "Use a long press on the table of contents row (or tap on the far left part) to expand or collapse a subtree.";
 "reader.layout"                     = "布局";
 "reader.backtopage.fmt"             = "返回页面 %zd";
 "reader.bookindex"                  = "索引";

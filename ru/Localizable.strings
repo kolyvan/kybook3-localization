@@ -524,6 +524,9 @@
 "reader.outline.create"             = "Добавить оглавление";
 "reader.outline.create.auto"        = "Создать автоматически";
 "reader.outline.create.manually"    = "Создать вручную";
+"reader.outline.fold.all"           = "Свернуть все";
+"reader.outline.unfold.all"         = "Развернуть все";
+"reader.outline.foldable.hint"      = "Используйте продолжительное нажатие на строку оглавления (или нажмите на крайне левую часть) для того чтобы развернуть или свернуть поддерево.";
 "reader.layout"                     = "Вёрстка";
 "reader.backtopage.fmt"             = "Назад к стр. %zd";
 "reader.bookindex"                  = "Указатель"; // Книжный указатель
