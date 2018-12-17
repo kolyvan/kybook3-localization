@@ -28,6 +28,7 @@
 "common.completed"          = "Completed";
 "common.inprogress"         = "In progress ...";
 "common.downloading"        = "Downloading";
+"common.archiving"          = "Archiving ...";
 "common.unarchiving"        = "Unarchiving ...";
 "common.none"               = "None";
 "common.configure"          = "Configure";
@@ -146,6 +147,7 @@
 "filestore.attach.webdav"       = "Attach a WebDAV Server on the local network or Internet";
 "filestore.transfer"            = "File transfer";
 "filestore.done.move.fmt"       = "Moved %@ from %@ to %@";
+"filestore.done.copy.fmt"       = "Copied %@ from %@ to %@";
 "filestore.done.deleted.fmt"    = "Deleted %@ in %@";
 "filestore.deletefiles.q"       = "Delete files?";
 "filestore.deletefile"          = "Delete this file";
@@ -155,6 +157,7 @@
 "filestore.movefile"            = "Move a file";
 "filestore.appendfile"          = "Append a file";
 "filestore.enter.foldername"    = "Enter a folder name";
+"filestore.enter.filename"      = "Enter a filename";
 "filestore.link"                = "Connect";
 "filestore.link.account"        = "Connect account";
 "filestore.link.none"           = "The cloud storage is not connected yet. Please connect";
@@ -172,6 +175,8 @@
 "filestore.filename"            = "File Name";
 "filestore.filesize"            = "File Size";
 "filestore.dialog.fileadded.fmt" = "File was added to %@";
+"filestore.unarchive"           = "Unarchive";
+"filestore.unarchive.q"         = "Unarchive?";
 
 // SORT
 
@@ -853,6 +858,12 @@
 "app.prefs.reader.idletimer.hint"   = "As long as the book is open, the screen remains switched on.";
 "app.prefs.reader.rotationlock"     = "Rotation lock";
 "app.prefs.reader.rotationlock.hint"= "Do not rotate the reader when the device did turn (works as long as the book is reading at fullscreen). Rotation lock is available only on iPhone.";
+"app.prefs.reader.tts.auto"         = "Autoplay";
+"app.prefs.reader.tts.auto.header"  = "When to start autoplay";
+"app.prefs.reader.tts.auto.never"   = "Never";
+"app.prefs.reader.tts.auto.headset" = "Headphones connected";
+"app.prefs.reader.tts.auto.always"  = "Always";
+"app.prefs.reader.tts.auto.hint"    = "Automatically start speech synthesis when open Epub/MOBI/FB2 ebook.";
 "app.prefs.cache"                   = "Cache";
 "app.prefs.cache.clear"             = "Clear space";
 "app.prefs.cache.reader"            = "Reader Cache";

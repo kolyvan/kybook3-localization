@@ -28,7 +28,8 @@
 "common.completed"          = "Завершено";
 "common.inprogress"         = "Выполняется..";
 "common.downloading"        = "Загружается";
-"common.unarchiving"        = "Разархивирование..";
+"common.archiving"          = "Archiving ...";
+"common.unarchiving"        = "Архивирование..";
 "common.none"               = "Нет";
 "common.configure"          = "Настроить";
 "common.confirm"            = "Подтвердить";
@@ -146,6 +147,7 @@
 "filestore.attach.webdav"       = "Добавить WebDAV сервер в локальной сети или Интернет";
 "filestore.transfer"            = "Передача файлов";
 "filestore.done.move.fmt"       = "Перемещено %@ из %@ в %@";
+"filestore.done.copy.fmt"       = "Скопировано %@ из %@ в %@";
 "filestore.done.deleted.fmt"    = "Удалено %@ в %@";
 "filestore.deletefiles.q"       = "Удалить файлы?";
 "filestore.deletefile"          = "Удалить файл";
@@ -155,6 +157,7 @@
 "filestore.movefile"            = "Переместить файл";
 "filestore.appendfile"          = "Добавить файл";
 "filestore.enter.foldername"    = "Введите имя папки";
+"filestore.enter.filename"      = "Введите имя файла";
 "filestore.link"                = "Подключить";
 "filestore.link.account"        = "Подключить учетную запись";
 "filestore.link.none"           = "Облачное хранилище еще не подключено. Пожалуйста, подключите";
@@ -172,6 +175,8 @@
 "filestore.filename"            = "Имя файла";
 "filestore.filesize"            = "Размер файла";
 "filestore.dialog.fileadded.fmt" = "Файл был добавлен в %@";
+"filestore.unarchive"           = "Разархивировать";
+"filestore.unarchive.q"         = "Разархивировать?";
 
 // SORT
 
@@ -853,6 +858,12 @@
 "app.prefs.reader.idletimer.hint"   = "Пока открыта книга, экран остается включен";
 "app.prefs.reader.rotationlock"     = "Блокировка поворота";
 "app.prefs.reader.rotationlock.hint"= "Не поворачивать читалку при повороте устройства (работает, пока книга читается в полноэкранном режиме). Блокировка поворота доступна только на iPhone.";
+"app.prefs.reader.tts.auto"         = "Автовоспроизведение";
+"app.prefs.reader.tts.auto.header"  = "Когда начинать автовоспроизведение";
+"app.prefs.reader.tts.auto.never"   = "Никогда";
+"app.prefs.reader.tts.auto.headset" = "Наушники подключены";
+"app.prefs.reader.tts.auto.always"  = "Всегда";
+"app.prefs.reader.tts.auto.hint"    = "Автоматически запускать синтез речи при открытии электронной Epub/MOBI/FB2 книги.";
 "app.prefs.cache"                   = "Кэширование";
 "app.prefs.cache.clear"             = "Освободить место";
 "app.prefs.cache.reader"            = "Кэш читалки";

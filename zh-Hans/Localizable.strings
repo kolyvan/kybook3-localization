@@ -28,6 +28,7 @@
 "common.completed"          = "已完成";
 "common.inprogress"         = "正在进行 ...";
 "common.downloading"        = "正在下载";
+"common.archiving"          = "存档 ...";
 "common.unarchiving"        = "未保存 ...";
 "common.none"               = "无";
 "common.configure"          = "配置";
@@ -146,6 +147,7 @@
 "filestore.attach.webdav"       = "在本地网络或Internet上添加WebDAV服务器";
 "filestore.transfer"            = "文件传输";
 "filestore.done.move.fmt"       = "将%@从%@移到%@";
+"filestore.done.copy.fmt"       = "Copied %@ from %@ to %@"; 
 "filestore.done.deleted.fmt"    = "在%@中删除%@";
 "filestore.deletefiles.q"       = "删除文件？";
 "filestore.deletefile"          = "删除此文件";
@@ -155,6 +157,7 @@
 "filestore.movefile"            = "移动文件";
 "filestore.appendfile"          = "追加文件";
 "filestore.enter.foldername"    = "输入文件夹名称";
+"filestore.enter.filename"      = "输入文件名";
 "filestore.link"                = "连接";
 "filestore.link.account"        = "连接帐户";
 "filestore.link.none"           = "云存储尚未连接。请连接";
@@ -172,6 +175,8 @@
 "filestore.filename"            = "文件名";
 "filestore.filesize"            = "文件大小";
 "filestore.dialog.fileadded.fmt" = "文件已添加到%@";
+"filestore.unarchive"           = "取消封存";
+"filestore.unarchive.q"         = "取消封存？";
 
 // SORT
 
@@ -853,6 +858,12 @@
 "app.prefs.reader.idletimer.hint"   = "只要书籍打开，屏幕就会保持打开状态";
 "app.prefs.reader.rotationlock"     = "旋转锁";
 "app.prefs.reader.rotationlock.hint"= "当设备转动时不要旋转阅读器（只要书籍全屏阅读就可以正常工作）。旋转锁定仅适用于iPhone";
+"app.prefs.reader.tts.auto"         = "自动播放";
+"app.prefs.reader.tts.auto.header"  = "何时开始自动播放";
+"app.prefs.reader.tts.auto.never"   = "决不";
+"app.prefs.reader.tts.auto.headset" = "耳机已连接";
+"app.prefs.reader.tts.auto.always"  = "总是";
+"app.prefs.reader.tts.auto.hint"    = "Automatically start speech synthesis when open Epub/MOBI/FB2 ebook.";
 "app.prefs.cache"                   = "缓存";
 "app.prefs.cache.clear"             = "缓存大小";
 "app.prefs.cache.reader"            = "书籍缓存";
