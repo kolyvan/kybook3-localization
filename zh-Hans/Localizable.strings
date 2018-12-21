@@ -165,9 +165,13 @@
 "filestore.relink"              = "重新连接";
 "filestore.relink.account"      = "重新连接帐户";
 "filestore.relink.void"         = "身份验证已失效。请重新验证";
+"filestore.report"              = "报告";
 "filestore.report.used"         = "已使用";
 "filestore.report.free"         = "还剩余";
 "filestore.report.mirror"       = "关联";
+"filestore.mirror"              = "关联";
+"filestore.mirror.limit"        = "大小限制";
+"filestore.mirror.hint"         = "KyBook caches files located in the cloud storage (keeps a copy of the cloud file in the mirrored storage on the device). Caching helps reduce network traffic and maintain energy efficiency. The user can clear the space used for mirroring, or set a limit on the maximum cache size.";
 "filestore.autounload"          = "自动卸载";
 "filestore.folderpicker.copy.fmt"   = "从%@复制%@";
 "filestore.folderpicker.move.fmt"   = "从%@移动%@";
@@ -940,6 +944,7 @@
 "network.general"           = "网络";
 "network.streaming"         = "流媒体";
 "network.streaming.audio"   = "音频流";
+"network.streaming.pdf"     = "PDF元数据";
 "network.streaming.hint"    = "如果可能，KyBook将直接从云存储流式传输有声读物，而无需将整个文件预加载到设备上";
 "network.streaming.footer"  = "流媒体";
 "network.local"             = "本地网络";

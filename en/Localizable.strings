@@ -165,9 +165,13 @@
 "filestore.relink"              = "Reconnect";
 "filestore.relink.account"      = "Reconnect account";
 "filestore.relink.void"         = "It seems the previous authentication has become void. Please reconnect";
+"filestore.report"              = "Report";
 "filestore.report.used"         = "Used";
 "filestore.report.free"         = "Free";
 "filestore.report.mirror"       = "Mirrored";
+"filestore.mirror"              = "Mirror";
+"filestore.mirror.limit"        = "Size limit";
+"filestore.mirror.hint"         = "KyBook caches files located in the cloud storage (keeps a copy of the cloud file in the mirrored storage on the device). Caching helps reduce network traffic and maintain energy efficiency. The user can clear the space used for mirroring, or set a limit on the maximum cache size.";
 "filestore.autounload"          = "Auto unload";
 "filestore.folderpicker.copy.fmt"   = "Copy %@ from %@";
 "filestore.folderpicker.move.fmt"   = "Move %@ from %@";
@@ -939,8 +943,9 @@
 
 "network.general"           = "Network";
 "network.streaming"         = "Streaming";
-"network.streaming.audio"   = "Audio Streaming";
-"network.streaming.hint"    = "When possible KyBook will stream an audiobook directly from cloud storage without preloading the entire file to the device.";
+"network.streaming.audio"   = "Audio content";
+"network.streaming.pdf"     = "PDF metadata";
+"network.streaming.hint"    = "When possible KyBook will stream an audiobook (or obtain the PDF metadata) directly from cloud storage without preloading the entire file to the device.";
 "network.streaming.footer"  = "streaming";
 "network.local"             = "Local Network";
 "network.local.neighborhood"= "Network Neighborhood";

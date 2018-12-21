@@ -165,10 +165,14 @@
 "filestore.relink"              = "Reconectar";
 "filestore.relink.account"      = "Reconectar cuenta";
 "filestore.relink.void"         = "Al parecer la identificación previa ya no es válida. Favor de reconectarse";
+"filestore.report"              = "Informe";
 "filestore.report.used"         = "Usado";
 "filestore.report.free"         = "Disponible";
 "filestore.report.mirror"       = "Respaldo";
-"filestore.autounload"          = "Liberar automáticamente"; //What does this do?
+"filestore.mirror"              = "Respaldo";
+"filestore.mirror.limit"        = "Límite de tamaño";
+"filestore.mirror.hint"         = "KyBook caches files located in the cloud storage (keeps a copy of the cloud file in the mirrored storage on the device). Caching helps reduce network traffic and maintain energy efficiency. The user can clear the space used for mirroring, or set a limit on the maximum cache size.";
+"filestore.autounload"          = "Liberar automáticamente";
 "filestore.folderpicker.copy.fmt"   = "Copiar a %@ desde %@";
 "filestore.folderpicker.move.fmt"   = "Mover a %@ desde %@";
 "filestore.folderpicker.switch"     = "Toca para alternar\nMover/Copiar";
@@ -940,6 +944,7 @@
 "network.general"           = "Redes";
 "network.streaming"         = "Transmisión";
 "network.streaming.audio"   = "Transmisión de audio";
+"network.streaming.pdf"     = "Metadatos en PDF";
 "network.streaming.hint"    = "Cuando sea posible KyBook transmitirá un audiolibro directamente desde el almacén en la nube sin cargar el archivo entero en el dispositivo.";
 "network.streaming.footer"  = "transmitiendo";
 "network.local"             = "Red local";
