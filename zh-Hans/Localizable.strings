@@ -655,6 +655,9 @@
 "reader.settings.profile.add"               = "添加个人资料";
 "reader.settings.profile.hint"              = "用户可以选择书籍的个人偏好配置文件。例如，您可以选择技术或科学出版物的技术配置文件或中文书籍的中文配置文件。对于每个配置文件，您可以单独设置字体，边距，样式等";
 "reader.settings.profile.names.tech"        = "技术文献";
+"reader.settings.more"                      = "更多偏好"; // or 更多设置?
+"reader.settings.images"                    = "调整图像";
+"reader.settings.images.hint"               = "Adaptation of book images in the palette of the current theme (applicable only for light themes).\nClose and re-open a book for applying changes.";
 
 // THEME
 

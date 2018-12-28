@@ -655,6 +655,9 @@
 "reader.settings.profile.add"               = "Añadir un perfil";
 "reader.settings.profile.hint"              = "Se puede elegir un perfil de preferencias individual para cada libro. Por ejemplo, puedes elegir un perfil técnico para publicaciones técnicas o científicas, o un perfil de chino para textos en idioma chino. Para cada perfil puedes elegir fuente, margen, estilo, etc.";
 "reader.settings.profile.names.tech"        = "Literatura técnica";
+"reader.settings.more"                      = "Más preferencias";
+"reader.settings.images"                    = "Ajustar imagenes";
+"reader.settings.images.hint"               = "Adaptation of book images in the palette of the current theme (applicable only for light themes).\nClose and re-open a book for applying changes.";
 
 // THEME
 
