@@ -979,6 +979,8 @@
 "network.status.waiting"        = "Esperando";
 "network.status.suspended"      = "Suspendido";
 "network.status.loading"        = "Cargando";
+"network.status.shutdown"       = "Apagar";
+"network.start"                 = "Comenzar";
 "network.stop"                  = "Detener";
 "network.restart"               = "Reiniciar";
 "network.websearch.engine"      = "Motor de búsqueda en la red";

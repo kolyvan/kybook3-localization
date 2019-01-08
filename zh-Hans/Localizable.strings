@@ -979,6 +979,8 @@
 "network.status.waiting"        = "等待";
 "network.status.suspended"      = "暂停";
 "network.status.loading"        = "正在加载";
+"network.status.shutdown"       = "关机";
+"network.start"                 = "开始";
 "network.stop"                  = "停止";
 "network.restart"               = "重启";
 "network.websearch.engine"      = "搜索引擎";

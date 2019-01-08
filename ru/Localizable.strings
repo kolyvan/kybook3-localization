@@ -979,6 +979,8 @@
 "network.status.waiting"        = "Ожидание";
 "network.status.suspended"      = "Остановлено";
 "network.status.loading"        = "Загрузка";
+"network.status.shutdown"       = "Выключение";
+"network.start"                 = "Запуск";
 "network.stop"                  = "Стоп";
 "network.restart"               = "Перезапуск";
 "network.websearch.engine"      = "Веб-поисковая система";

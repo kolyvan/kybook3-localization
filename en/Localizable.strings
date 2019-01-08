@@ -979,6 +979,8 @@
 "network.status.waiting"        = "Waiting";
 "network.status.suspended"      = "Suspended";
 "network.status.loading"        = "Loading";
+"network.status.shutdown"       = "Shutdown";
+"network.start"                 = "Start";
 "network.stop"                  = "Stop";
 "network.restart"               = "Restart";
 "network.websearch.engine"      = "Web Search Engine";
