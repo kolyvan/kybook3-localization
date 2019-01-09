@@ -21,3 +21,4 @@ Please, feel free to send a pull request or create an issue if found any typo or
 - [José Labán](https://github.com/JoseLaban) for the Spanish localization.
 - 陈寿山 (ShaneChen), for the Chinese localization.
 - [loikein](https://github.com/loikein), for improving the Chinese localization.
+- Ladislav Průdek, for the Czech localization.
