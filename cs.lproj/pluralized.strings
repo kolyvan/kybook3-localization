@@ -1,0 +1,77 @@
+/*
+ pluralized.strings
+ yar
+
+ Created by Kolyvan on 24/11/2017.
+ Copyright © 2017 Konstantin Bukreev. All rights reserved.
+ */
+
+"files.zero"    = "nula souborů";
+"files.one"     = "%zd soubor";
+"files.two"     = "%zd soubory";
+"files.few"     = "%zd souborů";
+"files.many"    = "%zd souborů";
+"files.other"   = "%zd souborů";
+
+"folders.zero"    = "nula složek";
+"folders.one"     = "%zd složka";
+"folders.two"     = "%zd složky";
+"folders.few"     = "%zd složek";
+"folders.many"    = "%zd složek";
+"folders.other"   = "%zd složek";
+
+"pages.zero"    = "nula stránek";
+"pages.one"     = "%zd stránka";
+"pages.two"     = "%zd stránky";
+"pages.few"     = "%zd stránek";
+"pages.many"    = "%zd stránek";
+"pages.other"   = "%zd stránek";
+
+"words.zero"    = "nula slov";
+"words.one"     = "%zd slovo";
+"words.two"     = "%zd slova";
+"words.few"     = "%zd slov";
+"words.many"    = "%zd slov";
+"words.other"   = "%zd slov";
+
+"notes.zero"    = "bez poznámek";
+"notes.one"     = "%zd poznámka";
+"notes.two"     = "%zd poznámky";
+"notes.few"     = "%zd poznámek";
+"notes.many"    = "%zd poznámek";
+"notes.other"   = "%zd poznámek";
+
+"books.zero"    = "nejsou knihy";
+"books.one"     = "%zd kniha";
+"books.two"     = "%zd knihy";
+"books.few"     = "%zd knih";
+"books.many"    = "%zd knih";
+"books.other"   = "%zd knih";
+
+"records.zero"    = "nejsou záznamy";
+"records.one"     = "%zd záznam";
+"records.two"     = "%zd záznamy";
+"records.few"     = "%zd záznamů";
+"records.many"    = "%zd záznamů";
+"records.other"   = "%zd záznamů";
+
+"minutes.zero"    = "0 minut";
+"minutes.one"     = "%zd minuta";
+"minutes.two"     = "%zd minuty";
+"minutes.few"     = "%zd minut";
+"minutes.many"    = "%zd minut";
+"minutes.other"   = "%zd minut";
+
+"seconds.zero"    = "0 sekund";
+"seconds.one"     = "%zd sekunda";
+"seconds.two"     = "%zd sekundy";
+"seconds.few"     = "%zd sekund";
+"seconds.many"    = "%zd sekund";
+"seconds.other"   = "%zd sekund";
+
+"matches.zero"    = "0 souhlasů";
+"matches.one"     = "%zd souhlas";
+"matches.two"     = "%zd souhlasy";
+"matches.few"     = "%zd souhlasů";
+"matches.many"    = "%zd souhlasů";
+"matches.other"   = "%zd souhlasů";

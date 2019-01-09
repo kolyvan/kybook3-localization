@@ -1,0 +1,11 @@
+/*
+ iaptexts.strings
+ yar
+
+ Created by Konstantin on 16/08/2018.
+ Copyright © 2018 Konstantin Bukreev. All rights reserved.
+ */
+
+"iap.subscription.payment" = "Platba bude účtována z vašeho účtu iTunes při potvrzení nákupu nebo po uplynutí bezplatné zkušební doby.\nPředplatné se automaticky obnoví, dokud nebude automatické obnovení vypnuto nejpozději 24 hodin před koncem aktuálního období předplatného.\nZ vašeho účetu bude účtována platba za obnovení do 24 hodin před koncem aktuálního období předplatného.\nAutomatická aktualizace se uskuteční za stejnou cenu, kterou jste zaplatili za předplatné.\nPředplatné a automatické obnovení lze vypnout v nastavení účtu iTunes v App Store po zakoupení.\nJakákoli nevyužitá část bezplatného zkušebního období se ztratí, jakmile zakoupíte předplatné.";
+
+"iap.subscription.info" = "Předplatné Premium umožňuje uživatelům synchronizovat metadata knih, pozice čtení, záložky, poznámky, recenze, konspekty a soubory knih mezi zařízeními pomocí synchronizačního serveru KyBook (dále jen 'cloud' KyBook).\n\nKnižní metadata, pozice čtení, záložky, poznámky, recenze a konspekty jsou uloženy v cloudu KyBook bez omezení velikosti a/nebo počtu.\n\nSoubory knihy jsou nahrány do cloudu KyBook z uživatelského zařízení po otevření knihy pro čtení. Soubory knihy jsou nahrány do zařízení uživatele z cloudu KyBook při otevření knihy ke čtení. Do cloudu KyBook se nahrávají pouze soubory knih, uložené v zařízení. Knihy umístěné na ostatních cloudových úložištích nejsou dodatečně uloženy v cloudu KyBook.\n\nCelková velikost uložených souborů knih v cloudu Kybook pro jednoho uživatele je omezena na 3 gigabajty (3000 megabajtů). Ukládají se soubory, jejichž velikost nepřesáhne 100 megabajtů. Omezení celkové velikosti a velikosti jediného souboru mohou být v budoucnu změněny.\n\nNavíc prémiové předplatné odemkne všechny funkce Pro.";

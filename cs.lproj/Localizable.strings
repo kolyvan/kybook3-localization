@@ -1,0 +1,1388 @@
+/* 
+  Localizable.strings
+  yar
+
+  Created by Kolyvan on 24/11/2017.
+  Copyright © 2017 Konstantin Bukreev. All rights reserved.
+*/
+
+// COMMON
+
+"common.empty"              = "Prázdný";
+"common.close"              = "Zavřít";
+"common.cancel"             = "Zrušit";
+"common.done"               = "Hotovo";
+"common.cancelled"          = "Zrušeno";
+"common.cancelling"         = "Zrušení..";
+"common.loading"            = "Načítání..";
+"common.preparing"          = "Příprava..";
+"common.edit"               = "Upravit";
+"common.delete"             = "Smazat";
+"common.add"                = "Přidat";
+"common.search"             = "Najít";
+"common.save"               = "Uložit";
+"common.enabled"            = "Povoleno";
+"common.enable"             = "Povolit";
+"common.apply"              = "Provést";
+"common.more"               = "Více";
+"common.completed"          = "Dokončeno";
+"common.inprogress"         = "Probíhá..";
+"common.downloading"        = "Stahování";
+"common.archiving"          = "Archivace ...";
+"common.unarchiving"        = "Dearchivace..";
+"common.none"               = "Žádný";
+"common.configure"          = "Nastavení";
+"common.confirm"            = "Potvrdit";
+"common.continue"           = "Pokračovat";
+"common.yes"                = "Ano";
+"common.no"                 = "Ne";
+"common.help"               = "Nápověda";
+"common.undo"               = "Zrušit";
+
+// DATE
+
+"date.relation.aftertime"   = "V budoucnu";
+"date.relation.tomorrow"    = "Zítra";
+"date.relation.today"       = "Dnes";
+"date.relation.yesterday"   = "Včera";
+"date.relation.weekago"     = "Týden";
+"date.relation.monthago"    = "Měsíc";
+"date.relation.yearago"     = "Rok";
+"date.relation.foretime"    = "Velmi dávno";
+
+// ERRORS
+
+"error"                         = "Chyba";
+"error.critical"                = "Kritická chyba";
+"error.oops"                    = "Zdá se, že se něco pokazilo!";
+"error.accessdenied"            = "Přístup byl odepřen";
+"error.unauthorized"            = "Neoprávněné";
+"error.unexpected"              = "Neočekávaná chyba";
+"error.unimplemented"           = "Požadovaná funkce dosud nebyla implementována";
+"error.cancelled"               = "Operace byla zrušena";
+"error.timeout"                 = "Zrušeno z důvodu vypršení časového limitu";
+"error.oom"                     = "Nedostatek paměti";
+"error.notsupported"            = "Není podporováno";
+"error.notfound"                = "Nenalezeno";
+"error.file.notfound"           = "Soubor nebyl nalezen";
+"error.file.notdirectory"       = "Soubor není adresář";
+"error.file.alreadyexists"      = "Soubor již existuje";
+"error.item.alreadyexists"      = "Položka již existuje";
+"error.storage.alreadyexists"   = "Úložiště souborů již existuje";
+"error.bookshelf.alreadyexists" = "Knihovna již existuje";
+"error.file.toobig"             = "Soubor je příliš velký";
+"error.icloud.notconnected"     = "iCloud není připojen";
+"error.cloud.notlinked"         = "Cloudové úložiště není připojeno";
+"error.nonetwork"               = "Žádné síťové připojení";
+"error.notresponding"           = "Hostitel neodpovídá";
+"error.emptyresponse"           = "Prázdná odpověď";
+"error.invalidresponse"         = "Špatná odpověď";
+"error.mimetype"                = "Neplatný typ MIME";
+"error.emptyname"               = "Prázdné jméno";
+"error.badname"                 = "Neplatné jméno";
+"error.drop"                    = "Nepodařilo se přetáhnout položku";
+"error.import.file"             = "Import souboru se nezdařil";
+"error.open.file"               = "Nelze otevřít soubor";
+"error.share.file.none"         = "Žádný soubor ke sdílení";
+"error.share.file.cloud"        = "Nelze sdílet soubor z cloudového úložiště, musíte nejprve nahrát soubor do zařízení";
+"error.book.save.review"        = "Nepodařilo se uložit recenzi knihy";
+"error.book.delete.review"      = "Nepodařilo se odstranit recenzi knihy";
+"error.book.save.metadata"      = "Nepodařilo se uložit metadata knihy";
+"error.book.save.tags"          = "Nepodařilo se uložit označení knihy";
+"error.book.delete.tags"        = "Nepodařilo se odstranit označení knihy";
+"error.open.url"                = "Nelze otevřít odkaz";
+"error.citation.already"        = "Citace již byla označena";
+"error.note.save"               = "Nelze uložit poznámku";
+"error.note.delete"             = "Nelze odstranit poznámku";
+"error.ebook.notsupported"      = "Formát E-Book souboru není podporován";
+"error.ebook.drm"               = "Nelze otevřít knihu kvůli ochraně DRM";
+"error.page.broken"             = "Stránka byla přerušena";
+"error.password"                = "Chybějící nebo nesprávné heslo";
+"error.imagefile"               = "Neplatný obrázkový soubor";
+"error.text.toolong"            = "Velikost textu příliš velká";
+"error.translation.direction"   = "Směr překladu není podporován";
+"error.translation.unable"      = "Text nelze přeložit";
+"error.translation.limit"       = "Překročení denního limitu množství přeloženého textu";
+"error.apikey"                  = "Neplatný klíč API";
+"error.stylesheet"              = "Nelze analyzovat tabulky stylů";
+"error.filebadmime.fmt"         = "U souboru %@ nepodporovaný typ MIME: %@";
+"error.opds.feed"               = "OPDS Katalog vrátil špatně vytvořený proud";
+"error.opds.mime.fmt"           = "OPDS Katalog vrátil nesprávný obsah %@";
+"error.unarchive"               = "Nelze rozbalit soubor";
+"error.catalog.search"          = "Katalog nepodporuje vyhledávání";
+"error.catalog.alreadyexists"   = "Katalog již existuje";
+"error.url"                     = "Neplatná adresa URL";
+"error.epub.invalid"            = "Poškozený nebo neplatný soubor EPub";
+"error.ebook.file.notfound"     = "Nelze najít soubor pro knihu";
+"error.dictionary.type"         = "Neznámý typ slovníku";
+"error.dictionary.already"      = "Slovník je již nainstalován";
+"error.dictionary.lingvo"       = "Poškozený Lingvo slovník";
+"error.loadtext.encoding"       = "Nelze načíst text, možná je nesprávné kódování textu";
+"error.toomanyrequests"         = "Příliš mnoho požadavků";
+"error.toomanyrequests.fmt"     = "Příliš mnoho požadavků, zkuste znovu za %zdsec.";
+"error.sync.files.off"          = "Synchronizace souborů je zakázána";
+"error.sync.files.quota"        = "Byla překročena kvóta úložiště souborů";
+"error.iap.requred"             = "Potřebný nákup v aplikaci";
+"error.subscription.notfound"   = "Vyžaduje se předplatné Premium";
+"error.subscription.expired"    = "Platnost předplatného vypršela";
+"error.google.quotaexceeded"    = "Kvóta vyhledávání Google byla překročena, zkuste to prosím později";
+
+// FILESTORE
+
+"filestore"                     = "Úložiště souborů";
+"filestore.browser"             = "Prohlížeč souborů";
+"filestore.folder"              = "Složka";
+"filestore.books"               = "Knihy";
+"filestore.downloads"           = "Stahování";
+"filestore.yandexdisk"          = "Яндекс disk";
+"filestore.googledrive"         = "Google Drive";
+"filestore.storages"            = "Úložiště souborů";
+"filestore.unlink"              = "Odpojit";
+"filestore.add.samba"           = "Přidat aplikaci SMB/CIFS";
+"filestore.add.webdav"          = "Přidat server WebDAV";
+"filestore.current.storages"    = "Připojená souborová úložiště";
+"filestore.available.clouds"    = "Dostupná cloudová úložiště";
+"filestore.attach.cloud"        = "Přidat cloudové úložiště";
+"filestore.attach.samba"        = "Přidat sdílenou složku (SMB/CIFS) v lokální síti";
+"filestore.attach.webdav"       = "Přidat WebDAV server v lokální síti nebo internetu";
+"filestore.transfer"            = "Přenos souborů";
+"filestore.done.move.fmt"       = "Přeneseno %@ z %@ do %@";
+"filestore.done.copy.fmt"       = "Zkopírováno %@ z %@ do %@";
+"filestore.done.deleted.fmt"    = "Smazáno %@ v %@";
+"filestore.deletefiles.q"       = "Smazat soubory?";
+"filestore.deletefile"          = "Smazat soubor";
+"filestore.selectfolder"        = "Vybrat složku";
+"filestore.createfolder"        = "Vytvořit složku";
+"filestore.importfile"          = "Importovat soubor";
+"filestore.movefile"            = "Přesunout soubor";
+"filestore.appendfile"          = "Přidat soubor";
+"filestore.enter.foldername"    = "Zadejte jméno složky";
+"filestore.enter.filename"      = "Zadejte jméno souboru";
+"filestore.link"                = "Připojit";
+"filestore.link.account"        = "Připojit účet";
+"filestore.link.none"           = "Cloudové úložiště ještě není připojeno. Prosím, připojte ho";
+"filestore.link.done"           = "Připojení dokončeno";
+"filestore.relink"              = "Znovu připojit";
+"filestore.relink.account"      = "Znovu připojit účet";
+"filestore.relink.void"         = "Zdá se, že předchozí autorizace je neplatná. Prosím, připojte se znovu";
+"filestore.report"              = "Zpráva";
+"filestore.report.used"         = "Použito";
+"filestore.report.free"         = "Volno";
+"filestore.report.mirror"       = "Zrcadlo";
+"filestore.mirror"              = "Zrcadlo";
+"filestore.mirror.limit"        = "Max. velikost";
+"filestore.mirror.hint"         = "KyBook ukládá do mezipaměti soubory umístěné v cloudovém úložišti (uloží kopii cloudového souboru do zrcadlového úložiště v zařízení). Ukládání do mezipaměti pomáhá omezovat síťový provoz a udržovat energetickou účinnost. Uživatel může vymazat místo pro zrcadlení nebo nastavit limit maximální velikosti vyrovnávací paměti.";
+"filestore.autounload"          = "Automatické odeslání";
+"filestore.folderpicker.copy.fmt"   = "Kopírovat %@ z %@";
+"filestore.folderpicker.move.fmt"   = "Přesunout %@ z %@";
+"filestore.folderpicker.switch"     = "Klepněte pro změnu\nKopírovat/Přesunout";
+"filestore.filename"            = "Jméno souboru";
+"filestore.filesize"            = "Velikost souboru";
+"filestore.dialog.fileadded.fmt" = "Soubor byl přidán v %@";
+"filestore.unarchive"           = "Dearchivovat";
+"filestore.unarchive.q"         = "Dearchivovat?";
+
+// SORT
+
+"sort.general"          = "Třídění";
+"sort.none"             = "Bez třídění";
+"sort.byname"           = "Podle názvu";
+"sort.bydate"           = "Podle data";
+"sort.bysize"           = "Podle velikosti";
+"sort.byformat"         = "Podle formátu";
+"sort.byprogress"       = "Podle pokroku";
+"sort.byrating"         = "Podle hodnocení";
+"sort.byauthor"         = "Podle autora";
+"sort.bysubject"        = "Podle žánru";
+"sort.bysequence"       = "Podle série";
+"sort.bypublisher"      = "Podle vydavatele";
+
+// MENU
+
+"menu.select"           = "Vybrat";
+"menu.selectall"        = "Vybrat vše";
+"menu.move"             = "Přesunout";
+"menu.rename"           = "Přejmenovat";
+"menu.delete"           = "Smazat";
+"menu.share"            = "Sdílet";
+"menu.info"             = "Info";
+"menu.tags"             = "Značky";
+"menu.read"             = "Číst";
+"menu.reorder"          = "Uspořádat";
+"menu.unload"           = "Vyhrát";
+"menu.download"         = "Nahrát";
+"menu.exclude"          = "Vyloučit";
+"menu.more"             = "Více";
+"menu.copy"             = "Kopírovat";
+"menu.search"           = "Najít";
+"menu.mark"             = "Označit";
+"menu.note"             = "Poznámka";
+"menu.sketch"           = "Obrázek";
+"menu.edit"             = "Úprava";
+"menu.translate"        = "Přeložit";
+"menu.recognize"        = "Rozpoznat";
+"menu.selectimage"      = "Vybrat obrázek";
+"menu.sticker"          = "Nálepka";
+"menu.update"           = "Obnovit";
+"menu.define"           = "Definice";
+"menu.launch"           = "Spuštění";
+"menu.color"            = "Barva";
+"menu.style"            = "Styl";
+"menu.listen"           = "Poslouchat";
+"menu.speak"            = "Mluvit";
+"menu.stop"             = "Zastavit";
+"menu.open"             = "Otevřít";
+"menu.back"             = "Zpět";
+
+// HOME
+
+"home.screen"           = "Domovská obrazovka";
+"home.layout.cards"     = "Karty";
+"home.layout.grid"      = "Mřížka";
+"home.layout.list"      = "Seznam";
+"home.deck.pin"         = "Připojit";
+
+// BOOK
+
+"book.general"              = "Kniha";
+"book.resolving"            = "Otevřené knihy..";
+"book.processed.wait"       = "Kniha se zpracovává. Prosím, čekejte..";
+
+// BOOKSHELF
+
+"bookshelf"                 = "Knihovna";
+"bookshelf.sequences"       = "Série";
+"bookshelf.authors"         = "Autoři";
+"bookshelf.subjects"        = "Žánry";
+"bookshelf.publishers"      = "Vydavatelé";
+"bookshelf.tags"            = "Označené";
+"bookshelf.recent"          = "Nedávné";
+"bookshelf.popular"         = "Populární";
+"bookshelf.new"             = "Novinky";
+"bookshelf.unread"          = "Nepřečtené";
+"bookshelf.reading"         = "Právě čtené";
+"bookshelf.read"            = "Přečtené";
+"bookshelf.rated"           = "Hodnocené";
+"bookshelf.all"             = "Všechny knihy";
+"bookshelf.cataloguer"      = "Katalogizátor";
+
+"bookshelf.add"             = "Přidat knižní polici";
+"bookshelf.add.folder"      = "Vyberte složku v zařízení nebo v přiloženém cloudovém úložišti jako knižní polici";
+"bookshelf.add.sequence"    = "Vyberte si knižní řadu jako polici";
+"bookshelf.add.author"      = "Vyberte autora knihy pro knižní polici";
+"bookshelf.add.subject"     = "Vyberte žánr knihy jako knižní polici";
+"bookshelf.add.publisher"   = "Vyberte vydavatele knihy pro knižní polici";
+"bookshelf.add.tag"         = "Vyberte označení knihy jako knižní polici";
+"bookshelf.add.category"    = "Vyberte kategorii katalogizátoru jako knižní polici";
+
+"bookshelf.layout"              = "Uspořádání";
+"bookshelf.layout.covers"       = "Obaly";
+"bookshelf.layout.cards"        = "Karty";
+"bookshelf.layout.cards.mini"   = "Malé karty";
+"bookshelf.layout.cards.large"  = "Velké karty";
+
+"bookshelf.clean.category"        = "Smazat prázdné";
+"bookshelf.clean.category.fmt"    = "Jste si jisti, že chcete vyčistit kategorii %@ a smazat %@?";
+"bookshelf.insert.category.done"  = "Hotovo, kategorie přidaná";
+
+"bookshelf.collection"          = "Kolekce";
+"bookshelf.collections"         = "Kolekce";
+"bookshelf.collection.add"      = "Přidat kolekci";
+"bookshelf.collection.pick"     = "Vyberte kolekci jako knižní polici";
+
+"bookshelf.detail.recent"       = "Seznam posledních knih";
+"bookshelf.detail.popular"      = "Seznam oblíbených knih";
+"bookshelf.detail.new"          = "Seznam nových knih";
+"bookshelf.detail.unread"       = "Seznam nepřečtených knih";
+"bookshelf.detail.reading"      = "Seznam čtených knih";
+"bookshelf.detail.read"         = "Seznam přečtených knih";
+"bookshelf.detail.rated"        = "Seznam knih s hodnocením";
+"bookshelf.detail.allbooks"     = "Seznam všech knih";
+"bookshelf.detail.sequences"    = "Seznam sérií";
+"bookshelf.detail.authors"      = "Seznam autorů";
+"bookshelf.detail.subjects"     = "Seznam žánrů";
+"bookshelf.detail.publishers"   = "Seznam vydavatelů";
+"bookshelf.detail.tags"         = "Seznam označení";
+"bookshelf.detail.collections"  = "Seznam kolekcí";
+"bookshelf.detail.cataloguer"   = "Všechny záznamy";
+
+"bookshelf.empty"               = "Prázdná knižní police";
+"bookshelf.empty.recent"        = "Žádné aktuální knihy za 30 dní";
+"bookshelf.empty.popular"       = "Seznam populárních knih ještě nebyl sestaven";
+"bookshelf.empty.new"           = "Žádné nové knihy za 30 dní";
+"bookshelf.empty.unread"        = "Žádné nepřečtené knihy";
+"bookshelf.empty.reading"       = "Žádné knihy nebyly čteny";
+"bookshelf.empty.read"          = "Žádné knihy nebyly přečteny";
+"bookshelf.empty.rated"         = "Žádné knihy nebyly hodnoceny";
+"bookshelf.empty.collections"   = "Žádné sbírky";
+"bookshelf.empty.collection"    = "Prázdná sbírka";
+"bookshelf.empty.category"      = "Prázdný seznam";
+
+"bookshelf.hint.read"           = "Na kartě knihy v části Metrika vložte značku `Přečteno`";
+"bookshelf.hint.rated"          = "Vložte hodnocení v kartě knihy v části Recence";
+"bookshelf.hint.collection"     = "Sbírka může obsahovat knihy, autory, série, žánry, značky a další sbírky";
+
+"bookshelf.trash"               = "Koš";
+"bookshelf.trash.detailed"      = "Koš (pro smazané knihy)";
+"bookshelf.trash.empty"         = "Je prázdný";
+"bookshelf.trash.hint"          = "Služba KyBook může obnovit odstraněnou knihu umístěnou na vašem zařízení, na Disku Google nebo v Dropboxu.\nKniha, umístěná ve sdílené složce, na serveru WebDAV, disku Yandex nebo OneDrive může být obnovena, pokud by KyBook měl uloženou kopii odstraněné knihy.";
+"bookshelf.trash.limit"         = "Max. velikost";
+"bookshelf.undo.delete.fmt"     = "Zrušit smazání %@";
+
+"bookshelf.author.page"             = "Webová stránka";
+"bookshelf.author.page.enter"       = "Zadejte URL-adresu webové stránky autora.";
+"bookshelf.author.page.search"      = "Hledání URL-adresy webové stránky autora na internetu ...";
+"bookshelf.author.page.search.fail" = "KyBook nemohl najít URL-adresu webové stránky autora";
+"bookshelf.author.page.search.done" = "Byly nalezeny webové stránky autorů";
+
+// BOOKCARD
+
+"bookcard"                      = "Knižní karta";
+"bookcard.title.add"            = "Přidat název";
+"bookcard.title.prompt"         = "Zadejte název";
+"bookcard.subtitle.add"         = "Přidat podtitul";
+"bookcard.subtitle.prompt"      = "Zadejte podtitul";
+"bookcard.sequence"             = "Série";
+"bookcard.sequence.add"         = "Přidat sérii";
+"bookcard.sequence.prompt"      = "Zadejte sérii";
+"bookcard.sequence.name.prompt" = "Zadejte název série";
+"bookcard.sequence.number.prompt" = "Zadejte pořadové číslo (volitelně)";
+"bookcard.author"               = "Autor";
+"bookcard.author.add"           = "Přidat autora";
+"bookcard.author.prompt"        = "Zadejte autora";
+"bookcard.author.name.prompt"   = "Celé jméno ve volném formátu";
+"bookcard.author.norm.prompt"   = "Příjmení, jméno [2. jméno]";
+"bookcard.subject"              = "Žánr";
+"bookcard.subject.add"          = "Přidat žánr";
+"bookcard.subject.prompt"       = "Zadejte žánr";
+"bookcard.annotation"           = "Vysvětlivka";
+"bookcard.annotation.add"       = "Přidat vysvětlivku";
+"bookcard.annotation.prompt"    = "Zadejte vysvětlivku";
+"bookcard.published"            = "Datum vydání";
+"bookcard.published.add"        = "Přidat datum vydání";
+"bookcard.published.prompt"     = "Zadejte datum vydání";
+"bookcard.publisher"            = "Vydavatel";
+"bookcard.publisher.add"        = "Přidat vydavatele";
+"bookcard.publisher.prompt"     = "Zadejte vydavatele";
+"bookcard.language"             = "Jazyk";
+"bookcard.language.add"         = "Přidat jazyk";
+"bookcard.language.prompt"      = "Zadejte jazyk";
+"bookcard.identifiers"          = "Identifikátory";
+"bookcard.identifier"           = "Identifikátor";
+"bookcard.identifier.add"       = "Přidat identifikátor";
+"bookcard.identifier.prompt"    = "Zadejte identifikátor knihy (isbn, issn, doi, openlibrary, url)";
+"bookcard.keywords"             = "Klíčová slova";
+"bookcard.keywords.add"         = "Přidat klíčová slova";
+"bookcard.keywords.prompt"      = "Zadejte klíčová slova";
+"bookcard.source"               = "Zdroj";
+"bookcard.files"                = "Soubory";
+"bookcard.metrics"              = "Metrika";
+"bookcard.action.read"          = "Číst";
+"bookcard.action.listen"        = "Poslouchat";
+"bookcard.action.download"      = "Stáhnout";
+"bookcard.action.sample"        = "Vzorek";
+"bookcard.mobi.pid"             = "MobiPocket PID (Kindle sériové číslo)";
+"bookcard.mobi.pid.add"         = "Přidat PID";
+"bookcard.text.encoding"        = "Kódování textu";
+"bookcard.text.encoding.add"    = "Přidat kódování textu";
+"bookcard.pickcover"            = "Vybrat obal knihy";
+"bookcard.restorecover"         = "Originální obal";
+"bookcard.miscinfo"             = "Různé";
+"bookcard.miscinfo.database"    = "Databáze";
+"bookcard.miscinfo.usercontent" = "Uživatelský obsah";
+"bookcard.miscinfo.supportfiles"= "Podporované soubory";
+"bookcard.miscinfo.ebookformat" = "Formát Ebook";
+
+// BOOKS EDIT (BATCH MODE)
+
+"books.edit.asksave"            = "Uložit změny?";
+"books.edit.differ.series"      = "Série se neshodují";
+"books.edit.differ.authors"     = "Autoři se neshodují";
+"books.edit.differ.tags"        = "Štítky se neshodují";
+"books.edit.differ.subjects"    = "Žánry se neshodují";
+"books.edit.differ.publishers"  = "Vydavatelé se neshodují";
+"books.edit.differ.languages"   = "Jazyky se neshodují";
+
+// BOOK REVIEW
+
+"book.review"           = "Recenze";
+"book.review.prompt"    = "Zadejte váš dojem o knize";
+
+"book.review.rating.0"  = "Žádné hodnocení";
+"book.review.rating.1"  = "Nečtěte";
+"book.review.rating.2"  = "Velmi špatné";
+"book.review.rating.3"  = "Špatné";
+"book.review.rating.4"  = "Průměrné";
+"book.review.rating.5"  = "Tolerované";
+"book.review.rating.6"  = "Normální";
+"book.review.rating.7"  = "Dobré";
+"book.review.rating.8"  = "Velmi dobré";
+"book.review.rating.9"  = "Skvělé";
+"book.review.rating.X"  = "Veledílo";
+"book.metrics.unread"                   = "Nepřečteno";
+"book.metrics.finished"                 = "Přečteno";
+"book.metrics.finished.time.fmt"        = "Přečteno za %@";
+"book.metrics.finished.total.fmt"       = "Přečteno %@";
+"book.metrics.finished.total.time.fmt"  = "Přečteno %@ za %@";
+"book.metrics.read.part.fmt"            = "Čtené, %zd%%";
+"book.metrics.read.part.time.fmt"       = "Čtené, %zd%% za %@";
+"book.metrics.read.of.fmt"              = "Čtené, %zd%% z %@";
+"book.metrics.read.of.time.fmt"         = "Čtené, %zd%% z %@ za %@";
+
+// DIALOGS
+
+"dialog.prompt.language"    = "Zadejte kód jazyka (ISO 639), např.: ru, en";
+"dialog.lang.ask"           = "Prosím, vyberte jazyk knihy";
+"dialog.lang.choose"        = "Vybrat jazyk..";
+"dialog.text"               = "Text";
+"dialog.url"                = "Odkaz";
+"dialog.open"               = "Otevřít";
+"dialog.copy"               = "Kopírovat";
+"dialog.url.open"           = "Otevřít odkaz";
+"dialog.url.copy"           = "Kopírovat odkaz";
+"dialog.promt.mobi.pid"     = "Zadejte MobiPocket PID (sériové číslo Kindle)";
+"dialog.promt.password"     = "Zadejte heslo pro knihu";
+"dialog.promt.textencoding" = "Zadejte kódování textu";
+"dialog.confirm.ask"        = "Jste si jisti?";
+"dialog.confirm.yes"        = "Ano";
+"dialog.choose.format"      = "Vyberte formát";
+"dialog.reload"             = "Aktualizovat";
+"dialog.file.changed"       = "Zdá se, že soubor byl změněn (možná kvůli synchronizaci), aktualizovat?";
+"dialog.insertlink"         = "Vložit odkaz";
+
+// DELETE
+
+"delete.areyousure"         = "Jste si jisti?";
+"delete.book"               = "Smazat knihu";
+"delete.book.ask"           = "Smazat knihu?";
+"delete.book.row.0"         = "Tak budou trvale odstraněny všechny informace týkající se knihy včetně:";
+"delete.book.row.1"         = "- %@ celkové velikosti %@ na zařízení a připojených cloudových úložištích.";
+"delete.book.row.2"         = "- databázové záznamy, poznámky, recenze atd.";
+"delete.book.done"          = "`%@` byla odstraněna";
+"delete.books"              = "Smazat knihy";
+"delete.books.ask"          = "Smazat %@?";
+"delete.books.row.0"        = "Tak budou trvale odstraněny všechny informace týkající se knih, včetně:";
+"delete.books.row.1"        = "- %@ celkové velikosti %@ na zařízení a připojených cloudových úložištích.";
+"delete.books.row.1a"       = "- %@ na zařízení a připojených cloudových úložištích.";
+"delete.books.row.2"        = "- databázové záznamy, poznámky, recenze atd.";
+"delete.books.done"         = "Odstraněno %@ v %@";
+"delete.bookshelf.ask"      = "Odstranit knižní polici?";
+"delete.summary.ask"        = "Odstranit souhrn?";
+"delete.book.database"      = "Odstranit z databáze";
+"delete.book.database.hint" = "Odstraní metadata knihy a související položky (záložky, poznámky atd.) z databáze bez odstranění souborů knih.";
+"delete.book.database.message" = "Tato akce nevymaže soubory knih. Pokud tedy otevřete složku, ve které je tato kniha uložena, KyBook ji znovu přidá do databáze.";
+
+// SHARE
+
+"share.book.info"           = "Sdílet informace";
+"share.book.file"           = "Sdílet soubor";
+"share.readin.kybook"       = "Čtu v #KyBook";
+"share.notes.from"          = "Poznámky z";
+"share.notes.by"            = "";
+"share.notes.txt"           = "V TXT souboru";
+"share.notes.html"          = "V HTML souboru";
+"share.notes.markdown"      = "V Markdown souboru";
+"share.notes.rtf"           = "V RTF souboru";
+"share.notes.pdf"           = "V PDF souboru";
+"share.notes.pdfbook"       = "Jako PDF knihu";
+"share.save.tobooks"        = "Uložit do Knih";
+
+// DASHBOARD
+
+"dashboard"                 = "Osobní účet";
+"dashboard.notes"           = "Poznámky";
+"dashboard.summary"         = "Souhrn";
+"dashboard.summaries"       = "Souhrny";
+"dashboard.summary.add"     = "Přidat souhrn";
+"dashboard.summary.add.hint"= "Zadejte název nového souhrnu";
+"dashboard.summarize.run"   = "Spustit automatické shrnutí";
+"dashboard.summaries.widget.detail" = "Sbírka souhrnů uživatele";
+
+// TAGS
+
+"tags"                      = "Značky";
+"tags.picked"               = "Vybrané značky";
+"tags.available"            = "Dostupné značky";
+"tags.edit"                 = "Upravit značky";
+"tags.create"               = "Vytvořit značku";
+"tags.delete"               = "Smazat značku";
+"tags.delete.message"       = "Tato značka bude odstraněna ze všech knih a databáze! Jste si jisti?";
+"tags.hint.add"             = "Klepnutím na řádek přidáte značku";
+"tags.hint.delete"          = "Klepnutím na řádek odstraníte značku";
+"tags.create.dialog.name"   = "Zadejte název značky";
+"tags.create.dialog.color"  = "Vyberte barvu značky";
+"tags.create.dialog.icon"   = "Vyberte ikonu značky";
+"tag.new"                   = "Novinky";
+"tag.read"                  = "Přečteno"; //"the book has been read"
+"tag.favorite"              = "Oblíbené";
+"tag.readLater"             = "Přečíst";
+
+// READER
+
+"reader.general"                    = "Čtečka";
+"reader.outline"                    = "Obsah";
+"reader.bookmarks"                  = "Záložky";
+"reader.notes"                      = "Poznámky";
+"reader.sketches"                   = "Obrázky";
+"reader.thumbnails"                 = "Skicy";
+"reader.summary"                    = "Souhrn";
+"reader.info"                       = "Info";
+"reader.bookmark"                   = "Záložka";
+"reader.note"                       = "Poznámka";
+"reader.pageno"                     = "Číslo stránky";
+"reader.outline.create"             = "Přidat obsah";
+"reader.outline.create.auto"        = "Vytvořit automaticky";
+"reader.outline.create.manually"    = "Vytvořit ručně";
+"reader.outline.fold.all"           = "Sbalit vše";
+"reader.outline.unfold.all"         = "Rozbalit vše";
+"reader.outline.foldable.hint"      = "Pomocí dlouhého stisknutí v řádku tabulky obsahu (nebo kliknutím na levou stranu) rozbalte nebo sbalte podstrom.";
+"reader.layout"                     = "Rozvržení";
+"reader.backtopage.fmt"             = "Zpět na str. %zd";
+"reader.bookindex"                  = "Ukazatel"; // Книжный указатель
+"reader.bookindex.build"            = "Vytvořit ukazatel";
+"reader.images"                     = "Obrázky";
+"reader.readpos"                    = "Pozice čtení";
+"reader.readpos.changed.ask.fmt"    = "Zdá se, že pozice čtení byla nedávno změněna na jiném vašem zařízení. Chcete přejít na čtecí pozici získanou z %@?";
+"reader.readpos.preserve"           = "Neustále ukládát pozici čtení";
+"reader.readpos.preserve.hint"      = "KyBook uloží čas od času pozici čtení. Tato funkce je užitečná pouze tehdy, pokud má uživatel ve zvyku nuceně ukončovat aplikaci během čtení";
+"reader.font.match.warning"         = "Nelze vybrat písma uvedená v nastaveních. Obnova výchozích hodnot.";
+"reader.page.fmt"                   = "Stránka %zd";
+"reader.openinbook"                 = "Otevřít v knize";
+"reader.nextpage"                   = "Další stránka";
+"reader.prevpage"                   = "Předchozí stránka";
+"reader.bookmark.add"               = "Přidat záložku";
+
+// READER MENU
+
+"reader.menu.fullscreen"            = "Celá obrazovka";
+"reader.menu.fullscreen.off"        = "Zakázat celou obrazovku";
+"reader.menu.sketches"              = "Panel obrázků";
+"reader.menu.sketches.off"          = "Zavřít panel obrázků";
+"reader.menu.speak"                 = "Text na řeč";
+"reader.menu.speak.stop"            = "Zastavit řeč";
+"reader.menu.rapid"                 = "Rychlost čtení";
+"reader.menu.autoscroll"            = "Auto-posouvání";
+"reader.menu.autoscroll.off"        = "Zastavit auto-posouvání";
+"reader.menu.synchronize"           = "Synchronizovat";
+"reader.menu.horzlock"              = "Zakázat horiz. posouvání";
+"reader.menu.horzunlock"            = "Povolit horiz. posouvání";
+"reader.menu.reflow.on"             = "Povolit reflow";
+"reader.menu.reflow.off"            = "Vypnout reflow";
+
+// READER SETTINGS
+
+"reader.settings.general"           = "Nastavení";
+"reader.settings.theme"             = "Téma";
+"reader.settings.themes"            = "Témata";
+"reader.settings.font"              = "Písmo (sada)";
+"reader.settings.page.turn"         = "Režim změny stránky";
+"reader.settings.page.spread"       = "Rozložení knihy";
+"reader.settings.page.spread.full"  = "Rozložení knihy v orientaci na šířku";
+"reader.settings.page.margin"       = "Pole stránky";
+"reader.settings.paragraph"         = "Odstavec";
+"reader.settings.lineheight"        = "Výška řádku";
+"reader.settings.justification"     = "Zarovnání šířky";
+"reader.settings.readability"       = "Čitelnost";
+"reader.settings.styles"            = "Styly";
+"reader.settings.styles.hint.fmt"   = "Nastavení stylů budou použita pouze pro formát %@";
+"reader.settings.background"        = "Pozadí";
+"reader.settings.ex.help"           = "ex představuje x-výšku písma, obvykle výšku malých písmen";
+"reader.settings.alignment.help"    = "Ve výchozím nastavení používá aplikace zarovnání textu definované ve stylech elektronické knihy";
+"reader.settings.font.name"         = "Název písma";
+"reader.settings.font.serif"        = "Patkové písmo";
+"reader.settings.font.sansserif"    = "Grotesk (bez patek)";
+"reader.settings.font.size"         = "Размер шрифта";
+"reader.settings.margin.horz"       = "Vlevo/Vpravo";
+"reader.settings.margin.top"        = "Nahoře";
+"reader.settings.margin.bottom"     = "Dole";
+"reader.settings.override"          = "Přepsat";
+"reader.settings.enabled"           = "Povoleno";
+"reader.settings.para.spacing"      = "Interval";
+"reader.settings.para.indentation"  = "Odsazení odstavce";
+"reader.settings.line.multiplier"   = "Multiplikátor";
+"reader.settings.line.spacing"      = "Proložení";
+"reader.settings.hyphenation"       = "Dělení slov";
+"reader.settings.punctuation"       = "Interpunkce";
+"reader.settings.nowidow"           = "Zabránit vdovským řádkům";
+"reader.settings.nobookstyle"       = "Ignorovat styly knih";
+"reader.settings.stylesheet"        = "Tabulka stylů";
+"reader.settings.userstyles"        = "Styly uživatele";
+"reader.settings.userstyles.none"   = "Ne";
+"reader.settings.userstyles.used"   = "Instalován";
+"reader.settings.userstyles.browse" = "Vybrat z úložiště";
+"reader.settings.userstyles.import" = "Import přes «Soubory»";
+"reader.settings.userstyles.edit"   = "Upravit tabulku stylů";
+"reader.settings.userstyles.sample" = "Zobrazit základní tabulku stylů";
+"reader.settings.userstyles.reset"  = "Reset tabulky stylů";
+"reader.settings.userstyles.hint"   = "Uživatel může nastavit vlastní tabulku stylů, která bude použita při vykreslování a rozvržení e-knihy.";
+"reader.settings.userstyles.done.fmt" = "Dokončeno, vytvořena tabulka stylů %@";
+"reader.settings.background.image"  = "Obrázek";
+"reader.settings.background.pattern" = "Vzor (mozaika)";
+"reader.settings.background.hint"   = "Vzor obrazu lze použít jako pozadí pro záhlaví a zápatí v režimu základního rozhraní";
+"reader.settings.background.installed" = "Instalováno";
+"reader.settings.page.turn.roll"    = "Posun";
+"reader.settings.page.turn.curl"    = "Listování";
+"reader.settings.page.turn.slide"   = "Skluz";
+"reader.settings.page.turn.none"    = "Bez animace";
+"reader.settings.theme.delete.ask"  = "Smazat téma?";
+"reader.settings.reset"             = "Obnovit výchozí nastavení";
+"reader.settings.docs.fit"                  = "Režim zoom";
+"reader.settings.docs.fit.width"            = "Podle šířky stránky";
+"reader.settings.docs.fit.text"             = "Podle textu s ořezávacími poli";
+"reader.settings.docs.fit.page"             = "Celá stránka";
+"reader.settings.docs.backg"                = "Pozadí stránky";
+"reader.settings.docs.backg.theme"          = "V barvě tématu";
+"reader.settings.docs.backg.adaptive"       = "Adaptivní barva";
+"reader.settings.docs.progressive"          = "Fázová vizualizace";
+"reader.settings.docs.marklinks"            = "Zvýraznit odkazy";
+"reader.settings.docs.smoothscroll"         = "Plynulé posouvání";
+"reader.settings.docs.filterbook"           = "Téma knihy";
+"reader.settings.docs.progressive.hint"     = "Vykreslit stránku postupně, od nízké až po plnou kvalitu, pokud je to možné";
+"reader.settings.docs.smoothscroll.hint"    = "Plynulé posouvání s možnou ztrátou kvality vykreslování s přibývající stránkou";
+"reader.settings.docs.filterbook.hint"      = "Zobrazí stránku v barvách vybraného tématu";
+"reader.settings.docs.marklinks.hint"       = "Zvýraznit interaktivní odkazy na stránce";
+"reader.settings.docs.readability.upsample" = "Zvýšení rozlišení (převzorkování)";
+"reader.settings.docs.readability.autotint" = "Autokorekce";
+"reader.settings.docs.pagesep"              = "Rozdělení stránek";
+"reader.settings.docs.pagesep.hint"         = "Další nastavení režimu posunu";
+"reader.settings.docs.spread.hint"          = "V rozložení knihy je režim přiblížení vždy považován jako «Celá stránka».";
+"reader.settings.audio.smartresume"         = "Inteligentní posuv";
+"reader.settings.audio.smartresume.hint"    = "Převinout do 30ti sekund při obnovení přehrávání po pauze";
+"reader.settings.audio.playlist"            = "Playlist";
+"reader.settings.audio.playlist.hint"       = "Automaticky vytvářet playlist ze souborů MP3 ve složce";
+"reader.settings.default"                   = "Výchozí";
+"reader.settings.profile"                   = "Profil nastavení";
+"reader.settings.profile.add"               = "Přidat profil";
+"reader.settings.profile.hint"              = "Uživatel si může zvolit individuální profil nastavení pro knihy. Můžete například vybrat technický profil technické nebo vědecké publikace nebo čínský profil pro knihu v čínštině. Pro každý profil můžete samostatně nastavit písmo, odsazení, styl atd.";
+"reader.settings.profile.names.tech"        = "Technická literatura";
+"reader.settings.more"                      = "Doplňková nastavení";
+"reader.settings.images"                    = "Přizpůsobit obrázky";
+"reader.settings.images.hint"               = "Přizpůsobení knižních obrázků v paletě aktuálního tématu (platí pouze pro světlá témata).\nZavřete a znovu otevřete knihu, aby se provedly změny.";
+
+// THEME
+
+"theme.general"             = "Téma";
+"theme.day"                 = "Den";
+"theme.sepia"               = "Sépie";
+"theme.night"               = "Noc";
+"theme.dusk"                = "Soumrak";
+"theme.dawn"                = "Svítání";
+"theme.pastel"              = "Pastel";
+"theme.sand"                = "Písek";
+"theme.tango"               = "Tango";
+"theme.name"                = "Název";
+"theme.name.hint"           = "Zadejte název tématu";
+"theme.pallete"             = "Paleta";
+"theme.pallete.accent"      = "Přízvuk";
+"theme.pallete.text"        = "Text";
+"theme.pallete.background"  = "Pozadí";
+"theme.pallete.divider"     = "Oddělovač";
+"theme.pallete.grayed"      = "Šedá barva";
+"theme.pallete.control"     = "Ovládací prvky";
+"theme.pallete.selection"   = "Přidělení";
+"theme.pallete.secondary"   = "Sekundární text";
+"theme.warning"             = "Nelze nahradit předinstalované téma";
+
+// FONT PICKER
+
+"font.picker.general"       = "Písma";
+"font.picker.default"       = "Výchozí písmo";
+"font.picker.favorited"     = "Vybraná písma";
+"font.picker.user"          = "Uživatelská písma";
+"font.picker.downlodable"   = "Fonty ke stažení";
+"font.picker.system"        = "Systémová písma";
+"font.picker.add"           = "Přidat písmo";
+"font.picker.add.browse"    = "Vyberat z úložiště";
+"font.picker.add.import"    = "Import přes «Soubory»";
+"font.picker.add.download"  = "Stáhnout písmo";
+"font.picker.add.done.fmt"  = "Přidáno písmo %@/%zd";
+"font.picker.add.more.hint" = "Mimoto můžete také přidat fonty\n - zkopírovat soubory písem (.ttf nebo .otf) do dokumentů aplikace pomocí iTunes Sdílené soubory\n - V iPadu přetáhněte soubory písem na obrazovce níže";
+"font.picker.add.drop"      = "Přetáhněte a hoďte soubory písem sem";
+
+// EMPTY PLACEHOLDERS
+
+"empty.page"                    = "Prázdná stránka";
+"empty.outline"                 = "Žádný obsah";
+"empty.outline.hint"            = "Stiskněte tlačítko ‘Přidat obsah’ pro vytvoření obsahu";
+"empty.bookmarks"               = "Žádné záložky";
+"empty.bookmarks.hint"          = "Klepnutím na pravé tlačítko na zápatí stránky knihy přidáte záložku";
+"empty.notes"                   = "Žádné poznámky";
+"empty.notes.hint"              = "Dlouhým stisknutím vyberte text na stránce knihy a vyberte menu ‘Poznámka’ pro přidání poznámky";
+"empty.sketches"                = "Žádné obrázky";
+"empty.sketches.hint"           = "Otevřete panel kreslení a použijte Apple tužku nebo prst na kreslení na stránce";
+"empty.summary"                 = "Souhrn knihy";
+"empty.summary.hint"            = "KyBook podporuje formátování Markdown a může exportovat souhrny jako HTML, PDF nebo RTF";
+"empty.bookindex"               = "Index knihy je prázdný";
+"empty.bookindex.none"          = "Index knih ještě nebyl vytvořen";
+"empty.reading"                 = "Během posledních třiceti dnů nebyly přečteny žádné knihy";
+"empty.catalog.page"            = "Tato stránka je prázdná";
+"empty.catalog.reviews"         = "Nenalezeny žádné recenze";
+"empty.summaries"               = "Žádné souhrny";
+"empty.dictionaries"            = "Žádné slovníky";
+"empty.articles"                = "Žádné články";
+"empty.favorites"               = "Žádné oblíbené";
+"empty.collections"             = "Žádné sbírky";
+"empty.downloads"               = "Žádné stahování";
+
+// NOTE
+
+"note.citation"                 = "Citace";
+"note.sticker"                  = "Nálepka";
+"note.scrap"                    = "Výřez";
+"note.sketch"                   = "Nákres";
+"note.color"                    = "Barva";
+"note.style"                    = "Styl";
+"note.style.fill"               = "Vyplnit";
+"note.style.strikeline"         = "Zatrhnout";
+"note.style.underline"          = "Podtrhnout";
+"note.style.doubleline"         = "Dvojitá čára";
+"note.style.wavy"               = "Vlnitá čára";
+"note.style.dots"               = "Tečky";
+"note.color.red"                = "Červeá";
+"note.color.pink"               = "Růžová";
+"note.color.purple"             = "Purpurová";
+"note.color.violet"             = "Fialová";
+"note.color.blue"               = "Modrá";
+"note.color.green"              = "Zelená";
+"note.color.yellow"             = "Žlutá";
+"note.color.orange"             = "Oranžová";
+"note.color.brown"              = "Hnědá";
+
+// SKETCH
+
+"sketch.general"                = "Kreslení";
+"sketch.brush"                  = "Štětec";
+"sketch.brush.color"            = "Barva";
+"sketch.brush.fill"             = "Barva výplně";
+"sketch.brush.opacity"          = "Transparentnost";
+"sketch.brush.thickness"        = "Tloušťka";
+"sketch.brush.style"            = "Styl";
+"sketch.arrow"                  = "Šipka";
+"sketch.line"                   = "Linka";
+"sketch.rectangle"              = "Obdélník";
+"sketch.ellipse"                = "Elipsa";
+"sketch.polyline"               = "Křivka";
+"sketch.text"                   = "Text";
+"sketch.stiker"                 = "Nálepka";
+"sketch.emoji"                  = "Emoji";
+"brush.linestyle.solid"         = "Plná";
+"brush.linestyle.dotted"        = "Tečkovaná";
+"brush.linestyle.dashed"        = "Čárkovaná";
+
+// SEARCH
+
+"search.scope.book"             = "Kniha";
+"search.scope.dictionary"       = "Slovník";
+"search.scope.translate"        = "Překlad";
+"search.scope.internet"         = "Internet";
+"search.scope.wikipedia"        = "Wikipedie";
+"search.scope.wolframalpha"     = "Wolfram|Alpha";
+"search.scope.library"          = "Knihovna";
+"search.scope.catalogs"         = "Katalogy";
+"search.executing"              = "Hledání..";
+"search.continue.fmt"           = "Hledání, nalezeno %@..";
+"search.done.fmt"               = "Hotovo, nalezeno %@";
+"search.none"                   = "Bohužel, nemůžeme najít to, co hledáte";
+"search.matching"               = "Režim hledání";
+"search.matching.textual"       = "Textový";
+"search.matching.regular"       = "Šablona";
+"search.matching.fuzzy"         = "Fuzzy";
+"search.matching.exact"         = "Přesný";
+"search.matching.substring"     = "Podřetěžec";
+"search.matching.pattern"       = "Šablona";
+"search.area.in"                = "Hledání v";
+"search.area.in.title"          = "Název";
+"search.area.in.keywords"       = "Klíčová slova";
+"search.area.in.sequence"       = "Řada";
+"search.area.in.author"         = "Autor";
+"search.area.in.annotation"     = "Vysvětlivka";
+"search.area.in.filename"       = "Jméno souboru";
+"search.engine.google"          = "Hledání Google";
+"search.bookshelf.promt"        = "Hledat v této knižní polici";
+"search.widget.detail"          = "Hledání v knihovně";
+
+// TIPS
+
+"tip.reader.fullscreen.exit"    = "Kliknutím sem opustíte režim celé obrazovky";
+
+// MISC
+
+"misc.abc"                      = "Abc";
+"image.grabbing"                = "Režim snímání obrázků";
+"pasteboard.copy.image"         = "Obraz byl zkopírován do schránky";
+"misc.chapter.fmt"              = "Hlava %zd";
+"misc.start.editing"            = "Start editace";
+"misc.add.books"                = "Přidat knihy";
+"misc.some.added.fmt"           = "Přidáno %@";
+"misc.addbook.duplicate"        = "Přeskočeno, protože jde o duplikát";
+"misc.used.of.fmt"              = "Obsazeno %@ z %@";
+
+// MARKDOWN
+
+"markdown.conf.citation"        = "Citace";
+"markdown.conf.citation.hint"   = "Při vkládání nebo přetahování citátů z knihy";
+"markdown.conf.citation.quote"  = "Vydávat jako blok";
+"markdown.conf.citation.link"   = "Vložit odkazy na zdroj";
+
+// APP CONTROL
+
+"app.control"                      = "Řízení";
+"app.control.services"             = "Služby";
+"app.control.prefs"                = "Nastavení";
+"app.control.advanced.ui"          = "Pokročilé rozhraní";
+"app.control.advanced.ui.hint"     = "Režim s několika aktivními záložkami (podobné Safari).\n\nChcete-li aktivovat režim pokročilého rozhraní, je vyžadován nákup v aplikaci PRO nebo PREMIUM.";
+
+// APP PREFS
+
+"app.prefs.home.backg"              = "Pozadí v režimu seznamu";
+"app.prefs.home.backg.colored"      = "Barevný";
+"app.prefs.bookshelf.cover"         = "Obálka knihy";
+"app.prefs.bookshelf.tag"           = "Značka";
+"app.prefs.bookshelf.filestate"     = "Cloud/Stažení";
+"app.prefs.bookshelf.decor"         = "Zobrazení další informace v buňce";
+"app.prefs.bookshelf.backg.card"    = "Barva pozadí v režimu Karty";
+"app.prefs.bookshelf.backg.mini"    = "Barva pozadí v režimu Malé karty";
+"app.prefs.bookshelf.card"          = "Režim Karty";
+"app.prefs.bookshelf.card.hires"    = "Hi-Res obaly";
+"app.prefs.bookshelf.card.hint"     = "Experimentální funkce. Může fungovat nesprávně. Po zapnutí spotřebuje výkon procesoru a místo na disku.";
+"app.prefs.bookshelf.tags"          = "Styl značek";
+"app.prefs.bookshelf.tags.icons"    = "Ikony";
+"app.prefs.bookshelf.tags.titles"   = "Názvy";
+"app.prefs.bookshelf.search"        = "Hledání";
+"app.prefs.bookshelf.search.bar"    = "Vyhledávací panel";
+"app.prefs.bookshelf.search.hint"   = "Povolte panel vyhledávání pro filtrování knih na poličce";
+"app.prefs.bookshelf.default"       = "Výchozí nastavení";
+"app.prefs.bookshelf.default.hint"  = "Změnou výchozího nastavení se také obnoví všechna uživatelská nastavení!";
+"app.prefs.bookshelf.bookcard.open" = "Animace otevření knižní karty (pouze iPad)";
+"app.prefs.reader.fullscreen"       = "Režim celé obrazovky";
+"app.prefs.reader.fullscreen.auto"  = "Automatický přechod";
+"app.prefs.reader.fullscreen.tap"   = "Při stisknutí do středu";
+"app.prefs.reader.fullscreen.header"= "Skrýt záhlaví";
+"app.prefs.reader.fullscreen.footer"= "Skrýt zápatí";
+"app.prefs.reader.fullscreen.hint"  = "Ve výchozím nastavení se program KyBook automaticky přepne na celou obrazovku, když uživatel začne číst. Pro ukončení režimu celé obrazovky klikněte na záhlaví. Navíc můžete pro přepnutí režimu celé obrazovky stisknout střed displeje";
+"app.prefs.reader.forcetouch.hint"  = "Force (3D) Touch lze použít k provedení upřednostňované akce na vybraném textu";
+"app.prefs.reader.idletimer"        = "Zakázat časovač nečinnosti";
+"app.prefs.reader.idletimer.hint"   = "Zatímco je kniha otevřená, obrazovka zůstane zapnutá";
+"app.prefs.reader.rotationlock"     = "Zámek otočení";
+"app.prefs.reader.rotationlock.hint"= "Neotáčí čtečku při otáčení zařízení (funguje to při čtení knihy v režimu celé obrazovky). Zámek otočení je k dispozici pouze v zařízení iPhone.";
+"app.prefs.reader.tts.auto"         = "Automatické přehrávání";
+"app.prefs.reader.tts.auto.header"  = "Kdy spustit automatické přehrávání";
+"app.prefs.reader.tts.auto.never"   = "Nikdy";
+"app.prefs.reader.tts.auto.headset" = "Připojená sluchátka";
+"app.prefs.reader.tts.auto.always"  = "Vždycky";
+"app.prefs.reader.tts.auto.hint"    = "Automatické spuštění syntézy řeči při otevření e-knihy Epub/MOBI/FB2.";
+"app.prefs.cache"                   = "Caching";
+"app.prefs.cache.clear"             = "Uvolnit místo";
+"app.prefs.cache.reader"            = "Cache čtečky";
+"app.prefs.cache.reader.hint"       = "Aplikace uchovává údaje o e-knihách rozbalené a analyzované ve složce cache na zařízení. Můžete uvolnit místo a odstranit všechna data uložená v mezipaměti.";
+"app.prefs.cache.covers"            = "Cache knižních obalů";
+"app.prefs.cache.covers.hint"       = "Aplikace ukládá obrázky obalů knih do složky mezipaměti na zařízení. Můžete uvolnit místo a odstranit všechny obrázky v mezipaměti.";
+"app.prefs.misc"                    = "Různé";
+"app.prefs.spotlight"               = "Hledání Spotligh";
+"app.prefs.spotlight.hint"          = "Indexujte otevřené knihy, abyste je mohli vyhledávat pomocí vyhledávacího dotazu Spotligh";
+"app.autosum.algo"                  = "Algoritmus auto referování textu";
+"app.autosum.algo.hint"             = "Textové hodnocení je velmi náročné na zdroje, ale může přinést lepší výsledek. Zkuste přepnout na algoritmus «Keyphrases», pokud aplikace byla násilně zavřena systémem iOS z důvodu vyčerpání paměti.";
+"app.prefs.dragdrop"                = "Drag & Drop (Přetahování)";
+"app.prefs.dragdrop.hint"           = "Umožňuje přetahovat položky na polici knihovny, obrazovce knihovny a dalších";
+"app.prefs.dragdrop.confirm.title"  = "Přepínání Drag & Drop";
+"app.prefs.dragdrop.confirm.msg"    = "Změna Drag & Drop vyžaduje opětovné načtení obrazovky aplikací. Všechny obrazovky budou uzavřeny.\nJste si jisti?";
+
+// CONTENT SERVER
+
+"contentserver.general"     = "Obsahový server";
+"contentserver.activate"    = "Aktivovat";
+"contentserver.link"        = "Odkaz";
+"contentserver.username"    = "Uživatel";
+"contentserver.password"    = "Heslo";
+"contentserver.hint"        = "Povolte obsahovému serveru přístup k souborům prostřednictvím místní sítě pomocí webového prohlížeče";
+"contentserver.visit"       = "Otevřete odkaz ‘%@’ ve vašem webovém prohlížeči";
+
+// IMAGE PICKER
+
+"imagepicker.image"                 = "Obrázek";
+"imagepicker.reset"                 = "Resetovat";
+"imagepicker.files"                 = "Soubory";
+"imagepicker.photo"                 = "Fotky";
+"imagepicker.internet"              = "Internet";
+"imagepicker.libraries"             = "Knihovny";
+"imagepicker.samples"               = "Vzorky";
+"imagepicker.backgrounds"           = "Pozadí";
+"imagepicker.photo.all"             = "Všechny fotky";
+"imagepicker.photo.none"            = "Žádné fotky";
+"imagepicker.files.none"            = "V této složce nejsou žádné soubory obrázků";
+"imagepicker.photos.select"         = "Vyberte si z fotek";
+"imagepicker.internet.search"       = "Vyhledávání na internetu";
+"imagepicker.libraries.search"      = "Vyhledávání v knihovnách";
+"imagepicker.files.browse"          = "Vybrat z úložiště";
+"imagepicker.files.import"          = "Import přes «Soubory»";
+"imagepicker.download"              = "Stáhnout z katalogu";
+"imagepicker.photo.fail"            = "Chyba žádosti zobrazení z fotek";
+"imagepicker.photo.notdetermined"   = "Uživatel ještě nezvolil žádnou aplikaci";
+"imagepicker.photo.restricted"      = "Aplikace nemá přístup k fotografiím";
+"imagepicker.photo.denied"          = "Uživatel jasně odmítl přístup aplikaci k fotkám";
+
+// TEXT 2 SPEECH
+
+"tts.general"           = "Syntéza řeči (text na řeč)";
+"tts.completed"         = "Text na řeč: dokončeno";
+"tts.unablestart"       = "Text na řeč: nelze spustit";
+"tts.pitch"             = "Тембр";
+"tts.rate"              = "Rychlost";
+"tts.volume"            = "Hlasitost";
+"tts.continuable"       = "Předčítat vše";
+"tts.continuable.hint"  = "Při předčítání vybraného textu přes menu - předčítat celý text do konce knihy";
+"tts.voices"            = "Hlasy";
+"tts.voices.headline"   = "Zvolte preferovaný hlas pro svůj jazyk. Aplikace použije zvolený hlas pro syntézu řeči.";
+"tts.voices.footer"     = "Pro lepší kvalitu hlasů otevřete nastavení iOS -> Obecně -> Univerzální přístup -> Řeč -> Hlasy a stáhněte lepší hlas pro váš jazyk";
+
+// AUTO SCROLLING
+
+"autoscrolling.general"     = "Autoscroll";
+"autoscrolling.rate"        = "Rychlost";
+"autoscrolling.hideslider"  = "Skrýt posuvník rychlosti na obrazovce čtečky";
+"autoscrolling.tunerate"    = "Upravte rychlost při rolování nahoru / dolů";
+
+// NETWROK
+
+"network.general"           = "Síť";
+"network.streaming"         = "Přehrávání v reálném čase";
+"network.streaming.audio"   = "Streamování zvuku";
+"network.streaming.pdf"     = "Metadata PDF";
+"network.streaming.hint"    = "Kdykoliv můžete streamovat zvukovou knihu (nebo přijímat metadata PDF) přímo z úložiště cloud, aniž byste museli stáhnout celý soubor do zařízení";
+"network.streaming.footer"  = "Průtok";
+"network.local"             = "Lokální síť";
+"network.local.neighborhood"= "Síťové prostředí";
+"network.local.discovery"   = "Hledat v lokální síti";
+"network.samba"             = "Sdílený přístup";
+"network.server"            = "Server";
+"network.sharepoint"        = "Bod připojení";
+"network.samba.add"         = "Přidat sdílenou složku";
+"network.samba.settings"    = "Nastavení připojení";
+"network.samba.hint"        = "Zadejte název nebo adresu serveru, bod připojení (volitelné), uživatelské jméno (volitelné, použije-li hostitelský přístup) a heslo (volitelné). Pokud spojení selže s chybou 'Neautorizováno', uživatelské jméno a heslo jsou vyžadovány!";
+"network.samba.v1.info"     = "Služba KyBook se mohla připojit pouze ke sdíleným položkám SMB1. SMB1 je v systému Windows 10 ve výchozím nastavení zakázán. Chcete-li povolit službu SMB1 v systému Windows 10 - přejděte na ovládací panel > Programy a funkce> Zapnout funkce systému Windows> zaškrtněte políčko 'SMB 1.0 / CIFS Server' a restartujte počítač. Pozor, SMB1 není bezpečný!";
+"network.tor"               = "Síť Tor";
+"network.tor.conf.header"   = "Pozor! Při otevření .onion OPDS katalogu se KyBook automaticky připojí k síti Tor.";
+"network.tor.conf.footer"   = "KyBook se bude * automaticky * připojovat k síti Tor a provádět tunelové přenosy do .onion OPDS katalogů a webových stránek.\n\nProhlížení webových stránek a stahování přes síť Tor bude mnohem pomalejší než přímé připojení.\n\nVezměte prosím na vědomí, že služba KyBook není určena pro anonymní surfování na webu! Tor KyBook řeší pouze problém dostupnosti sítě.\n\nTento software používá síť Tor bez ohledu na anonymitu software Tor a neposkytuje žádnou záruku z projektu Tor v kvalitě, dostupnosti nebo čehokoli jiného.";
+"network.tor.bridge"        = "Most";
+"network.tor.bridges"       = "Mosty";
+"network.tor.bridges.add"   = "Přidat most";
+"network.tor.bridges.reset" = "Odstranit mosty";
+"network.tor.bridges.hint"  = "Mosty jsou Tor směrovače, které vám umožňují obcházet cenzuru. Mosty jsou volitelné! Pouze pokud máte podezření, že váš přístup do sítě Tor je zablokován, můžete použít mosty. Doplňkové informace na bridges.torproject.org";
+"network.status"                = "Stav";
+"network.status.disconnected"   = "Žádné připojení";
+"network.status.connecting"     = "Připojení..";
+"network.status.connected"      = "Připojeno k síti";
+"network.status.authenticated"  = "Autentizováno";
+"network.status.bootstrap"      = "Počáteční zavadení";
+"network.status.ready"          = "Hotovo";
+"network.status.failure"        = "Porucha";
+"network.status.waiting"        = "Čekání";
+"network.status.suspended"      = "Zastaveno";
+"network.status.loading"        = "Načítání";
+"network.status.shutdown"       = "Shutdown";
+"network.start"                 = "Start";
+"network.stop"                  = "Stop";
+"network.restart"               = "Restart";
+"network.websearch.engine"      = "Webový vyhledávač";
+"network.download.add"          = "Přidat ke stažení";
+"network.download.file.ask"     = "Nahrát soubor?";
+"network.download.file.enter"   = "Zadejte URL pro stažení souboru";
+
+// TRANSLATION
+
+"translation.general"           = "Překladatelská služba";
+"translation.running"           = "Probíhá překlad..";
+"translation.yandex"            = "Яндекс překladač";
+"translation.yandex.copyright"  = "Powered by Yandex.Translate";
+"translation.target.lang"       = "Cílový jazyk";
+"translation.target.lang.hint"  = "Výchozím cílovým jazykem je jazyk zařízení.";
+"translation.source.lang"       = "Zdrojový jazyk";
+"translation.source.auto"       = "Automatické rozpoznání";
+"translation.source.auto.hint"  = "Při vypnutém automatickém rozpoznání bude aplikace používat jazyk, uvedený v knižní kartě";
+"translation.services"          = "Překladatelské služby";
+"translation.target.ask"        = "Vyberte prosím cílový jazyk překladu";
+
+// MAIN
+
+"main.books"                    = "Knihy";
+"main.reading"                  = "Právě čtu";
+"main.library"                  = "Knihovna";
+"main.catalogs"                 = "Katalogy";
+"main.dashboard"                = "Osobní panel";
+
+// CLOUD
+
+"cloud.icloud.signin"           = "Přihlásit do iCloud";
+"cloud.icloud.signin.message"   = "Přihlaste se k účtu iCloud. Na hlavní obrazovce spusťte Nastavení, klikněte na iCloud, zadejte váš Apple ID. Zapněte iCloud Drive. Pokud nemáte účet iCloud, klikněte na ‘Vytvořit Apple ID’.";
+"cloud.dropbox.link.title"      = "Připojit Dropbox";
+"cloud.dropbox.link.message"    = "Vyberte preferovanou metodu autorizace";
+"cloud.dropbox.link.app"        = "Spustit aplikaci Dropbox";
+"cloud.dropbox.link.site"       = "Otevřít stránky Dropbox";
+"cloud.credential.required"     = "Potřebné ověření";
+"cloud.credential.user"         = "Uživatel";
+"cloud.credential.password"     = "Heslo";
+"cloud.webdav.add"              = "Přidat server WebDAV";
+"cloud.webdav.data"             = "Nastavení serveru WebDAV";
+"cloud.webdav.known"            = "Seznam známých serverů WebDAV";
+"cloud.webdav.hint"             = "Zadejte adresu URL, uživatelské jméno a heslo pro připojení k serveru WebDAV";
+"cloud.check.reachability"      = "Kontrola dosahu ..";
+"cloud.check.fail.msg"          = "Server není k dispozici nebo je neplatný";
+"cloud.check.fail.ask"          = "Stejně připojit server?";
+
+// CATALOG
+
+"catalog.general"               = "Katalog";
+"catalog.add.to"                = "Přidat do katalogů";
+"catalog.opds"                  = "OPDS Katalog";
+"catalog.opds.add"              = "Přidat OPDS Katalog";
+"catalog.opds.add.hint"         = "Zadejte adresu URL do pole pro přidání libovolného OPDS katalogu";
+"catalog.opds.add.fix"          = "Možná nebyla úplně zadána adresa OPDS katalogu. Adresa byla opravena na pokud možno správnou. Zkontrolujte ji prosím pozorně.";
+"catalog.opds.localnet"         = "Hledání v lokální síti";
+"catalog.opds.localnet.hint"    = "Vyhledávání uživatelských katalogů OPDS v lokální síti, jako je např. Calibre a TinyOPDS";
+"catalog.opds.known"            = "Seznam známých OPDS katalogů";
+"catalog.rel.related"           = "Související";
+"catalog.rel.alternate"         = "Alternativa";
+"catalog.rel.subsection"        = "Pododdíl";
+"catalog.rel.acquisition"       = "Akvizice";
+"catalog.rel.openaccess"        = "Otevřený přístup";
+"catalog.rel.borrow"            = "Zapůjčit";
+"catalog.rel.buy"               = "Koupit";
+"catalog.rel.sample"            = "Vzorek";
+"catalog.rel.subscribe"         = "Předplatné";
+"catalog.rel.new"               = "Novinky";
+"catalog.rel.popular"           = "Populární";
+"catalog.rel.featured"          = "Výběr";
+"catalog.rel.recommended"       = "Doporučené";
+"catalog.rel.shelf"             = "Police";
+"catalog.rel.subscriptions"     = "Předplatné";
+"catalog.rel.free"              = "Zdarma";
+"catalog.rel.basket"            = "Košík";
+"catalog.rel.download"          = "Načtení";
+"catalog.rel.login"             = "Přihlásit"; // Авторизация
+"catalog.rel.logout"            = "Odhlásit";
+"catalog.rel.author"            = "Autor";
+"catalog.rel.sequence"          = "Série";
+"catalog.rel.category"          = "Kategorie";
+"catalog.rel.publisher"         = "Vydavatel";
+"catalog.rel.web"               = "Web";
+"catalog.rel.search"            = "Hledat";
+"catalog.rel.up"                = "Nahoru";
+"catalog.rel.first"             = "Nejprve";
+"catalog.rel.last"              = "Nakonec";
+"catalog.check.fail.msg"        = "Katalog není k dispozici nebo je neplatný";
+"catalog.check.fail.ask"        = "Stejně připojit katalog?";
+"catalog.opds.fix.path"         = "Zdá se, že adresa OPDS katalogu nebyla plně zadána. Adresa byla opravena na pokud možno správnou. Zkontrolujte ji prosím pozorně.";
+"catalog.credentials.reset"     = "Obnovit pověření";
+"catalog.credentials.reset.hint"= "Obnovení uložených pověření (hesla, přístupové symboly)";
+"catalog.links"                 = "Odkazy";
+"catalog.rights"                = "Práva";
+"catalog.source"                = "Zdroj dat";
+"catalog.reviews"               = "Recenze";
+"catalog.googlebooks"           = "Google knihy";
+"catalog.samizdat"              = "Samizdat";
+"catalog.litres"                = "LitRes";
+"catalog.batch.download"        = "Dávkové nahrávání";
+"catalog.batch.collecting.fmt"  = "Shromažďuji data %@";
+"catalog.batch.collected.fmt"   = "Shromážděná data %@";
+"catalog.batch.downloading.fmt" = "Načítá se %zd z %@";
+"catalog.batch.added.fmt"       = "Přidáno %zd z %@";
+
+// WIDGET
+
+"widget.title"                 = "Název";
+"widget.color"                 = "Barva";
+"widget.icon"                  = "Ikona";
+
+// DICTIONARY
+
+"dictionary.general"                = "Slovník";
+"dictionary.all"                    = "Slovníky";
+"dictionary.install"                = "Instalovat slovník";
+"dictionary.install.free"           = "Přidat volný slovník";
+"dictionary.install.system"         = "Přidat systémový slovník";
+"dictionary.install.all"            = "Instalované slovníky";
+"dictionary.install.add"            = "Přidat slovník";
+"dictionary.install.storage"        = "Vybrat z úložiště";
+"dictionary.install.import"         = "Import přes «Soubory»";
+"dictionary.install.download"       = "Stáhnout z internetu";
+"dictionary.install.download.hint"  = "Vyberte bezplatný slovník, který chcete stáhnout a nainstalovat";
+"dictionary.install.hint"           = "KyBook podporuje slovníky ve formátech StarDict, Lingvo DSL, Dictd.\n\nSlovníky jsou obvykle distribuovány jako ZIP, RAR nebo TAR-archivy a mohou mít příponu .zip, .rar, .tar, .tgz, .tbz.  Lingvo DSL slovník může být zastoupen jako nekomprimovaný soubor s příponou .dsl.";
+"dictionary.history"                = "Historie";
+"dictionary.favorited"              = "Doporučené články";
+"dictionary.userdict"               = "Uživatelský slovník";
+"dictionary.activate.hint"          = "Chcete-li provést hledání podle definice, vyberte slovo v knize a poté klepněte na položku menu «Definovat»";
+"dictionary.article"                = "Článek slovníku";
+"dictionary.article.title.prompt"   = "Název článku";
+"dictionary.article.text.prompt"    = "Zadejte text článku";
+"dictionary.article.add"            = "Přidat záznam slovníku";
+"dictionary.article.markdown"       = "Podporováno je formátování Markdown";
+"dictionary.format"                 = "Formát";
+"dictionary.recordscount"           = "Počet záznamů";
+"dictionary.delete.ask"             = "Odstranit slovník?";
+
+// RELAX
+
+"relax.general"                     = "Časovač odpočinku";
+"relax.screen"                      = "Obrazovka";
+"relax.screen.black"                = "Černá";
+"relax.screen.blurred"              = "Rozmazaná";
+"relax.screen.melange"              = "Všehochuť";
+"relax.screen.matrix"               = "Matrix (film)";
+"relax.screen.life"                 = "Hra «Život»";
+"relax.screen.random"               = "Náhodně";
+"relax.preparation"                 = "Přípravné akce";
+"relax.preparation.hint"            = "Přípravné akce budou provedeny před zobrazením obrazovky odpočinku";
+"relax.final"                       = "Závěrečné akce";
+"relax.final.hint"                  = "Závěrečné akce se uskuteční po dokončení odpočinku";
+"relax.duration"                    = "Doba čtení";
+"relax.duration.hint"               = "Doba čtení, při které aplikace zobrazí obrazovku odpočinku";
+"relax.flash"                       = "Blesk";
+"relax.vibration"                   = "Vibrace";
+"relax.alert"                       = "Signál";
+"relax.countdown"                   = "Odpočítávání";
+"relax.countdown.hint"              = "Zobrazit odpočítávání před zobrazením obrazovky odpočinku.";
+"relax.duration.screen"             = "Doba odpočinku";
+"relax.screen.show"                 = "Zobrazit obrazovku";
+"relax.screen.footer"               = "Relaxace bude automaticky dokončena za %@\nKlepnutím na libovolné místo ukončete dříve";
+"relax.message.relax"               = "Čas odpočinku!";
+"relax.message.read"                = "Čas číst!";
+"relax.hint"                        = "Relaxační obrazovka pro odpočinek po dlouhém čtení";
+"relax.disable"                     = "Vyp. relaxační časovač";
+"relax.enable.ask"                  = "Povolit relaxační časovač?";
+"relax.intime.fmt"                  = "Odpočinek za %@";
+
+// TIMER
+
+"timer.sleep.general"               = "Spánkový časovač";
+"timer.sleep.off"                   = "Vypnout spánkový časovač";
+"timer.sleep.off.short"             = "Vypnout";
+"timer.sleep.pauseplayback"         = "Zastavit přehrávání";
+"timer.sleep.fired.message"         = "Přehrávání bylo zastaveno časovačem spánku";
+"timer.sleep.induration.fmt"        = "Zastavení za %@";
+"timer.sleep.induration.short.fmt"  = "Za %@";
+"timer.sleep.atendchapter"          = "Na konci kapitoly";
+
+// LOGIN
+
+"login.signin"                      = "Přihlásit se";
+"login.signup"                      = "Zaregistrovat se";
+"login.signin.welcome"              = "Vítejte";
+"login.signup.join"                 = "Připojuje se ke službě KyBook";
+"login.signin.headline"             = "Přihlaste se a zobrazte a synchronizujte své knihy, poznámky, recenze atd.";
+"login.signup.headline"             = "Vytvořte účet pro zobrazení a synchronizaci vašich knih, poznámek, recenzí atd.";
+"login.signin.toggle"               = "Nemáte účet?";
+"login.signup.toggle"               = "Už máte účet?";
+"login.signin.toggle.action"        = "Vytvořit";
+"login.signup.toggle.action"        = "Přihlásit se";
+"login.signin.password"             = "Přihlášení pomocí hesla";
+"login.signin.email"                = "Přihlášení přes e-mail";
+"login.signin.google"               = "Přihlášení pomocí Google";
+"login.signin.github"               = "Přihlášení pomocí GitHub";
+"login.signin.known"                = "Přihlásit se známým loginem";
+"login.signup.password"             = "Registrace s heslem";
+"login.signup.email"                = "Registrace e-mailem";
+"login.signup.google"               = "Registrace přes Google";
+"login.signup.github"               = "Registrace přes GitHub";
+"login.signin.enter"                = "Zadejte uživatelské jméno a heslo pro přihlášení k účtu";
+"login.signup.enter"                = "Zadejte uživatelské jméno a heslo pro vytvoření účtu";
+"login.setup.enter"                 = "Zadejte uživatelské jméno a heslo pro nastavení pověření";
+"login.email.enter"                 = "Pokud chcete, zadejte svou e-mailovou adresu a jméno";
+"login.login"                       = "Login";
+"login.password"                    = "Heslo";
+"login.email"                       = "E-mail";
+"login.displayname"                 = "Jméno";
+"login.login.invalid"               = "Login musí obsahovat alespoň 4 znaky a musí obsahovat čísla, latinská písmena, tečky nebo podtržítka";
+"login.password.invalid"            = "Heslo musí mít délku nejméně 6 znaků a musí obsahovat čísla, latinská písmena, tečky nebo podtržítka";
+"login.response.failure"            = "Přihlašovací jméno nebo heslo je neplatné";
+"login.invalid.email"               = "E-mail není platný";
+"login.invalid.confirm"             = "Kód ověření je neplatný";
+"login.email.confirm.send"          = "Zadejte e-mailovou adresu přidruženou k vašemu účtu a do vaší poštovní schránky zašleme ověřovací kód";
+"login.email.confirm.enter"         = "Zadejte potvrzovací kód a budete přihlášeni";
+"login.email.confirm.have"          = "Mám ověřovací kód";
+"login.email.confirm.just.fmt"      = "Ověřovací kód jsme odeslali emailem na %@.\nZadejte kód z tohoto dopisu a budete registrováni";
+"login.email.confirm.code"          = "Ověřovací kód";
+"login.email.confirm.check"         = "Ověření kódu, prosím čekejte..";
+"login.email.already.inuse"         = "Tuto e-mailovou adresu již používá jiný uživatel";
+"login.email.confirm.fail"          = "Nepodařilo se ověřit e-mailovou adresu";
+"login.ok"                          = "Úspěšné přihlášení";
+"login.failed"                      = "Přihlášení se nezdařilo";
+"login.user.exists"                 = "Uživatel s tímto loginem je již zaregistrován";
+"login.user.notfound"               = "Uživatel nebyl nalezen";
+"login.change.email.confirm.send"       = "Zadejte novou e-mailovou adresu a na váš e-mail vám zašleme ověřovací kód";
+"login.change.email.confirm.enter"      = "Zadejte ověřovací kód a vaše e-mailová adresa bude změněna";
+"login.change.email.confirm.just.fmt"   = "Ověřovací kód jsme odeslali emailem na %@.\nZadejte kód z dopisu a změní se vaše e-mailová adresa";
+"login.change.password"             = "Změnit heslo";
+"login.set.password"                = "Nastavit heslo";
+"login.password.new"                = "Nové heslo";
+"login.password.old"                = "Staré heslo";
+
+// ACCOUNT
+
+"account.general"                   = "Účet";
+"account.authorization"             = "Autorizace";
+"account.personal"                  = "Osobní informace";
+"account.social.network"            = "Sociální síť";
+"account.website"                   = "Webová stránka";
+"account.bio"                       = "Životopis";
+"account.created"                   = "Vytvořen";
+"account.logout"                    = "Odhlásit se";
+"account.logout.ask"                = "Odhlásit se?";
+"account.logout.message"            = "Synchronizace se po ukončení ukončí. Jste si jisti?";
+"account.relogin"                   = "Přihlásit se znovu";
+"account.relogin.ask"               = "Přihlásit se znovu?";
+"account.delete"                    = "Odstranit účet";
+"account.delete.ask"                = "Odstranit účet?";
+"account.delete.message"            = "Smazáním účtu budou také odstraněny všechny uložené informace o knihách a poznámkách v cloudu. Synchronizace bude nedostupná.\n\nProsím, zadejte`SMAZAT` pro potvrzení";
+"account.delete.confirmation"       = "SMAZAT";
+"account.anonymous"                 = "Anonym";
+"account.devices"                   = "Zařízení";
+"account.devices.detach"            = "Odpojit zařízení";
+"account.profile.set"               = "Zřídit";
+"account.profile.change"            = "Změnit";
+
+// SYNCHRONIZATION
+
+"sync.general"                      = "Synchronizace";
+"sync.donow"                        = "Synchronizovat nyní";
+"sync.doing"                        = "Synchronizuje se..";
+"sync.automatic"                    = "Automatická synchronizace";
+"sync.automatic.wifi"               = "Vyžaduje připojení k WiFi";
+"sync.automatic.lowerpower"         = "Zastavovat v úsporném režimu";
+"sync.logging"                      = "Protokolování";
+"sync.logging.view"                 = "Zobrazit protokol";
+"sync.scope"                        = "Položky, které je třeba synchronizovat";
+"sync.scope.books"                  = "Metadata knih";
+"sync.scope.notes"                  = "Poznámky, záložky";
+"sync.scope.assets"                 = "Shrnutí, obálky";
+"sync.scope.files"                  = "Soubory knih";
+"sync.restriction.hint"             = "Synchronizace vyžaduje prémiové předplatné.\nMetadata knih, poznámky, záložky atd. se ukládají v cloudu bez omezení velikosti a / nebo množství.\nCelková velikost uložených souborů knih v cloudu je omezena dostupnou kvótou.";
+"sync.quota"                        = "Kvóta (použitá)";
+"sync.quota.empty"                  = "Volno";
+"sync.quota.used.fmt"               = "%@ z %@";
+"sync.push.notifications"           = "Push-oznámení";
+"sync.push.notifications.hint"      = "Oznámení jsou užitečná pro stabilní synchronizaci mezi vašimi zařízeními";
+"sync.state.none"                   = "Není synchronizováno";
+"sync.state.synced"                 = "Synchronizováno";
+"sync.files.title"                  = "Soubory v cloudu";
+"sync.files.remove"                 = "Odstranit";
+"sync.files.hint"                   = "Použijte gesto štetce pro odstranění souboru knihy z cloudu KyBook a uvolněte místo";
+"sync.files.empty"                  = "Dosud nebyly nahrané žádné soubory";
+
+// BIZ
+
+"biz.adman.mock.banner.title"       = "Zlepšete službu KyBook na PRO a odstraňte reklamní bannery!";
+"biz.adman.mock.banner.title.short" = "Upgrade na PRO a odstranění reklam!";
+"biz.adman.mock.banner.subtitle"    = "Klepnutím přejdete na PRO";
+"biz.feature.noad"                  = "Bez reklamních bannerů";
+"biz.feature.djvu"                  = "Podpora formátu DjVu";
+"biz.feature.userdict"              = "Uživatelský slovník";
+"biz.feature.deckui"                = "Pokročilé rozhraní (podobné kartám Safari)";
+"biz.feature.contentserver"         = "Obsahový server";
+"biz.feature.themes"                = "Vlastní témata";
+"biz.feature.tags"                  = "Štítky pro knihy";
+"biz.feature.downloadable"          = "Obsah ke stažení (fonty, pozadí, slovníky)";
+"biz.feature.autoscroll"            = "Auto posouvání";
+"biz.feature.sketches"              = "Podpora kreslení na stránkách knih";
+"biz.feature.pdfreflow"             = "Režim PDF Reflow na iPhone";
+"biz.feature.export2pdf"            = "Export e-knihy s poznámkami ve fromátu PDF";
+"biz.feature.synchronization"       = "Synchronizace metadat a souborů knih";
+"biz.feature.google"                = "Překladač Google a vyhledávání obalů v Google";
+"biz.feature.batch.edit.metadata"   = "Dávkové úpravy metadat knihy";
+"biz.feature.batch.catalog.download"= "Dávkové nahrávání z adresáře OPDS";
+"biz.feature.book.trash"            = "Koš pro smazané knihy";
+"biz.feature.book.audioplaylist"    = "Automaticky vytvořené playlisty audioknih";
+"biz.available.free"                = "K dispozici zdarma";
+"biz.requires.pro"                  = "Požadovaný nákup Pro";
+"biz.requires.premium"              = "Vyžaduje se předplatné Premium";
+"biz.alert.iap.fmt"                 = "Je nám líto, musíte v aplikaci uskutečnit nákup, abyste mohli pokračovat v práci «%@».\nChcete v aplikaci uskutečnit nákup nyní?";
+"biz.buy.now"                       = "Koupit nyní";
+"biz.buy.later"                     = "Ano, koupím později";
+"biz.premium.sync.note"             = "Chcete-li synchronizovat, musíte si zakoupit předplatné Premium.";
+"biz.trial"                         = "Zkušební verze";
+"biz.trial.hint.fmt"                = "Zkuste funkce PRO zdarma %zd dnů";
+"biz.trial.noteliglbile"            = "Nevhodné pro zkušební verzi.";
+"biz.terms.title"                   = "Podmínky použití";
+"biz.privacy.title"                 = "Ochrana osobních údajů";
+
+// IAP
+
+"iap.general"                   = "Vestavěné nákupy";
+"iap.restore"                   = "Obnovit nákupy";
+"iap.pro.upgrade"               = "Upgrade na Pro";
+"iap.premium.subscription"      = "Premium předplatné";
+"iap.dialog.completed"          = "Dokončené nákupy";
+"iap.dialog.restored"           = "Obnovené nákupy";
+"iap.validation.issue"          = "Nákupy v aplikacích nebyly potvrzeny!";
+"iap.validation.cancelled.fmt"  = "%@ zrušeno"; // e.g. 'Upgrade to Pro was cancelled'
+"iap.validation.expired.fmt"    = "%@ vypršelo";
+"iap.validation.uncofirmed.fmt" = "%@ není potvrzeno kvůli %@"; // e.g. 'Yeary subscription unconfirmed due to some error'
+"iap.validation.note"           = "Některé funkce budou zakázány!";
+"iap.pro.title"                 = "Upgradovat na Pro";
+"iap.pro.subtitle"              = "Jednorázová platba";
+"iap.pro.hint"                  = "Upgrade na Pro otevře všechny funkce Pro";
+"iap.pro.allfeatures"           = "Všechny funkce Pro";
+"iap.pro.discount.title"        = "Upgrade na Pro (Sleva)";
+"iap.pro.discount.subtitle"     = "Nabídka pro Pro uživatele služby KyBook 2 Pro";
+"iap.month3.title"              = "3 měsíční předplatné";
+"iap.month3.subtitle"           = "Každé 3 měsíce, 1 týden zkušební verze zdarma";
+"iap.yearly.title"              = "Roční předplatné";
+"iap.yearly.subtitle"           = "Každý rok, 1 týden zkušební verze zdarma";
+"iap.premium.details"           = "Informace o předplatném";
+"iap.premium.hint"              = "Premium předplatné obsahuje funkci synchronizace a všechny funkce Pro";
+"iap.manage.subscriptions"      = "Řízení předplatného";
+"iap.status.expired.fmt"        = "Vypršelo %@"; // subscription expired at 2018-01-01
+"iap.status.expires.fmt"        = "Vyprší %@";
+"iap.status.paid.fmt"           = "Zaplaceno %@";
+"iap.error.title"               = "Chyba iTunes Store";
+"iap.error.nopurchases"         = "Omlouváme se, nebyly nalezeny žádné nákupy";
+"iap.error.unablepayment"       = "Je nám líto, ale nemohl uskutečnit nákup. Na tomto zařízení není možné ani oprávněné provádět platby.";
+"iap.error.unreachable"         = "Je nám líto, synchronizační server není k dispozici. Premium předplatné není vhodné pro použití bez synchronizace.";
+
+// SUPPORT/ABOUT
+
+"support.report.issue"          = "Nahlásit problém";
+"support.about"                 = "O programu";
+"support.about.rate"            = "Ohodnoťte v App Store";
+"support.about.twitter"         = "Tweet na Twitteru";
+"support.about.feedback"        = "Napište nám";
+"support.about.help"            = "Nápověda";
+"support.about.discuss"         = "Diskutovat";
+"support.about.acknowledgement" = "Poděkování";
+
+// Abbreviation
+
+"abbr.thousand.words.fmt"       = "%zdt slov";
+
+// SMB/CIFS AND OTHERS ERRORS
+
+"INTERNAL_ERROR"            = "Vnitřní chyba";
+"NETWORK_FAILURE"           = "Síťová chyba";
+"UNAUTHORIZED"              = "Neoprávněné";
+"ACCESS_DENIED"             = "Přístup byl odepřen";
+"UNABLE_RESOLVE"            = "Nelze určit hostitelské jméno / adresu";
+"UNABLE_CONNECT"            = "Nelze se připojit k počítači v síti";
+"BAD_SHARE"                 = "Neplatné místo připojení";
+"BAD_PATH"                  = "Neplatná cesta";
+"FILE_IS_DIRECTORY"         = "Soubor je adresářem";
+"FILE_ALREADY_EXISTS"       = "Soubor již existuje";
+"NOT_FOUND"                 = "Nenalezeno";
+"UNSUPPORTED"               = "Tato funkce není podporována";
+"FILE_IO_ERROR"             = "Chyba souborového systému";
+"OUT_OF_MEMORY"             = "Nedostatek paměti";
+"UNKNOWN_FAILURE"           = "Neznámá chyba";
+
+// WebRoKit
+
+"TOR_BOOTSTRAP_ALERT"   = "Spuštění sítě Tor může trvat dlouho. Prosím počkejte.";
+"TOR_THREAD_IS_FINISHED" = "Síť Tor je zavřená";
+"CANCELLED"             = "Zrušeno";
+"FAILURE"               = "Selhání";
+"COMPLETED"             = "Dokončeno";
+"FINISHED"              = "Vykonáno";
+"READY"                 = "Je hotovo";
+"DISCONNECTED"          = "Žádné připojení";
+"CONNECTING"            = "Připojení..";
+"CONNECTED"             = "Připojeno k síti";
+"BOOTSTRAP"             = "Počáteční zatížení";
+"BAD_AUTH"              = "Neoprávněné";
+"FATAL_ERROR"           = "Zdá se, že se něco pokazilo!";

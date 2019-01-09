@@ -1,0 +1,9 @@
+/*
+ help.strings
+ yar
+
+ Created by Konstantin on 13/09/2018.
+ Copyright © 2018 Konstantin Bukreev. All rights reserved.
+ */
+
+"synchronization" = "Nápověda k synchronizaci.\n\nSynchronizace umožňuje synchronizovat metadata knih, pozice čtení, záložky, poznámky, recenze, přehledy a soubory knih mezi zařízeními pomocí synchronizačního serveru KyBook (dále cloud KyBook).\n\nMetadata knih, pozice čtení, záložky, poznámky, recenze a přehledy se ukládají v cloudu KyBook bez jakýchkoliv omezení ve velikosti a/nebo množství.\n\nSoubory knihy jsou nahrány do cloudu KyBook z uživatelského zařízení po otevření knihy pro čtení. Soubory knih jsou staženy z cloudu KyBook do uživatelského zařízení při otevření knihy ke čtení. Do cloudu KyBook se nahrávají pouze soubory knih uložených v zařízení. Knihy umístěné na jiných cloudových úložištích se dodatečně neukládají na cloudu KyBook.\n\nCelková velikost uložených souborů knih v cloudu KyBook pro jednoho uživatele je omezena na 3 gigabajty (3000 megabyte). Ukládají se soubory, jejichž velikost nepřesahuje 100 megabajtů. Omezení celkové maximální velikosti a velikosti jediného souboru se mohou v budoucnu měnit.\n\nStav synchronizace knih je k dispozici na obrazovce Knižní karty. / Různé.\n\nSynchronizace vyžaduje prémiové předplatné.";
