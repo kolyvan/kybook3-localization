@@ -497,6 +497,7 @@
 "dashboard.summary.add.hint"= "Enter a title for the new summary.";
 "dashboard.summarize.run"   = "Run auto summarization";
 "dashboard.summaries.widget.detail" = "Collection of user reviews";
+"dashboard.widget.detail"   = "Summaries and notes";
 
 // TAGS
 

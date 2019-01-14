@@ -497,6 +497,7 @@
 "dashboard.summary.add.hint"= "Escribe un título para el nuevo resumen.";
 "dashboard.summarize.run"   = "Ejecutar resumen automático";
 "dashboard.summaries.widget.detail" = "Colección de reseñas de usuarios";
+"dashboard.widget.detail"   = "Resúmenes y notas";
 
 // TAGS
 

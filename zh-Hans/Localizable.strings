@@ -497,6 +497,7 @@
 "dashboard.summary.add.hint"= "输入新摘要的标题";
 "dashboard.summarize.run"   = "启用自动摘要";
 "dashboard.summaries.widget.detail" = "用户评论集";
+"dashboard.widget.detail"   = "摘要和筆記";
 
 // TAGS
 

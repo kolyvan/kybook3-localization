@@ -497,6 +497,7 @@
 "dashboard.summary.add.hint"= "Zadejte název nového souhrnu";
 "dashboard.summarize.run"   = "Spustit automatické shrnutí";
 "dashboard.summaries.widget.detail" = "Sbírka souhrnů uživatele";
+"dashboard.widget.detail"   = "Souhrny a poznámky";
 
 // TAGS
 

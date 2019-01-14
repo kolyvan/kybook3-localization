@@ -497,6 +497,7 @@
 "dashboard.summary.add.hint"= "Введите название нового конспекта";
 "dashboard.summarize.run"   = "Запустить авто конспектирование";
 "dashboard.summaries.widget.detail" = "Сборник конспектов пользователя";
+"dashboard.widget.detail"   = "Конспекты и заметки";
 
 // TAGS
 
