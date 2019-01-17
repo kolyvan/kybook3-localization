@@ -1334,10 +1334,12 @@
 "iap.status.expired.fmt"        = "于 %@时过期";
 "iap.status.expires.fmt"        = "于 %@时过期";
 "iap.status.paid.fmt"           = "付费在 %@";
+"iap.status.cancelled.fmt"      = "在取消 %@";
 "iap.error.title"               = "iTunes Store错误";
 "iap.error.nopurchases"         = "对不起，没有找到任何购买";
 "iap.error.unablepayment"       = "抱歉，无法购买。此设备无法或不允许付款";
 "iap.error.unreachable"         = "抱歉，同步服务器无法访问。高级订阅无法同步而无法使用";
+"iap.subscription.none"         = "没有订阅";
 
 // SUPPORT/ABOUT
 

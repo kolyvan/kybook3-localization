@@ -1334,10 +1334,12 @@
 "iap.status.expired.fmt"        = "Expired on %@"; // subscription expired on 2018-01-01
 "iap.status.expires.fmt"        = "Expires on %@";
 "iap.status.paid.fmt"           = "Paid in %@";
+"iap.status.cancelled.fmt"      = "Cancelled in %@";
 "iap.error.title"               = "iTunes Store error";
 "iap.error.nopurchases"         = "Sorry, no purchases were found";
 "iap.error.unablepayment"       = "Sorry, unable to make a purchase. This device is not able or allowed to make payments";
 "iap.error.unreachable"         = "Sorry, synchronization server is unreachable. Premium subscription is unusable without synchronization";
+"iap.subscription.none"         = "No subscription";
 
 // SUPPORT/ABOUT
 

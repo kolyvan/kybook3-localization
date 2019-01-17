@@ -1334,10 +1334,12 @@
 "iap.status.expired.fmt"        = "Expiró el %@"; // subscription expired on 2018-01-01
 "iap.status.expires.fmt"        = "Expira el %@";
 "iap.status.paid.fmt"           = "Adquirido el %@";
+"iap.status.cancelled.fmt"      = "Cancelado el %@";
 "iap.error.title"               = "Error de iTunes Store";
 "iap.error.nopurchases"         = "Lo sentimos, no se encontraron compras";
 "iap.error.unablepayment"       = "Lo sentimos, no se pudo realizar la compra. Este dispositivo no es capaz o no tiene permitido hacer pagos";
 "iap.error.unreachable"         = "Lo sentimos, el servidor de sincronización no está accesible. La suscripción premium es inservible sin sincronización";
+"iap.subscription.none"         = "Sin subscripción";
 
 // SUPPORT/ABOUT
 

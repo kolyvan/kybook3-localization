@@ -1334,10 +1334,12 @@
 "iap.status.expired.fmt"        = "Истекла %@"; // subscription expired at 2018-01-01
 "iap.status.expires.fmt"        = "Истекает %@";
 "iap.status.paid.fmt"           = "Оплачено %@";
+"iap.status.cancelled.fmt"      = "Отменено %@";
 "iap.error.title"               = "Ошибка iTunes Store";
 "iap.error.nopurchases"         = "Извините, никаких покупок не было найдено";
 "iap.error.unablepayment"       = "Извините, не удалось совершить покупку. Это устройство не может или не имеет разрешения для совершения платежей";
 "iap.error.unreachable"         = "К сожалению, сервер синхронизации недоступен. Премиум-подписка непригодна для использования без синхронизации.";
+"iap.subscription.none"         = "Нет подписки";
 
 // SUPPORT/ABOUT
 

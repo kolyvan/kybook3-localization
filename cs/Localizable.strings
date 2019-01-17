@@ -1334,10 +1334,12 @@
 "iap.status.expired.fmt"        = "Vypršelo %@"; // subscription expired at 2018-01-01
 "iap.status.expires.fmt"        = "Vyprší %@";
 "iap.status.paid.fmt"           = "Zaplaceno %@";
+"iap.status.cancelled.fmt"      = "Zrušeno %@";
 "iap.error.title"               = "Chyba iTunes Store";
 "iap.error.nopurchases"         = "Omlouváme se, nebyly nalezeny žádné nákupy";
 "iap.error.unablepayment"       = "Je nám líto, ale nemohl uskutečnit nákup. Na tomto zařízení není možné ani oprávněné provádět platby.";
 "iap.error.unreachable"         = "Je nám líto, synchronizační server není k dispozici. Premium předplatné není vhodné pro použití bez synchronizace.";
+"iap.subscription.none"         = "Žádné předplatné";
 
 // SUPPORT/ABOUT
 
