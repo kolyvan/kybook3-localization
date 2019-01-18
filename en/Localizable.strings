@@ -1340,6 +1340,8 @@
 "iap.error.unablepayment"       = "Sorry, unable to make a purchase. This device is not able or allowed to make payments";
 "iap.error.unreachable"         = "Sorry, synchronization server is unreachable. Premium subscription is unusable without synchronization";
 "iap.subscription.none"         = "No subscription";
+"iap.subscription.renew.ask.fmt"= "%@ expired on %@. Synchronization is not available until the subscription is renewed. Renew?";  // e.g. 'Yearly subscription expired on 19 Dec 2018.'
+"iap.subscription.renew"        = "Renew subscription";
 
 // SUPPORT/ABOUT
 

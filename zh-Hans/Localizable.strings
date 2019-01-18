@@ -1340,6 +1340,8 @@
 "iap.error.unablepayment"       = "抱歉，无法购买。此设备无法或不允许付款";
 "iap.error.unreachable"         = "抱歉，同步服务器无法访问。高级订阅无法同步而无法使用";
 "iap.subscription.none"         = "没有订阅";
+"iap.subscription.renew.ask.fmt"= "%@ 已过期 %@。在续订订阅之前，无法进行同步。续订？";
+"iap.subscription.renew"        = "续订";
 
 // SUPPORT/ABOUT
 

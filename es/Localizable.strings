@@ -1340,6 +1340,8 @@
 "iap.error.unablepayment"       = "Lo sentimos, no se pudo realizar la compra. Este dispositivo no es capaz o no tiene permitido hacer pagos";
 "iap.error.unreachable"         = "Lo sentimos, el servidor de sincronización no está accesible. La suscripción premium es inservible sin sincronización";
 "iap.subscription.none"         = "Sin subscripción";
+"iap.subscription.renew.ask.fmt"= "%@ expiró el %@. La sincronización no está disponible hasta que se renueve la suscripción. ¿Renovar?";
+"iap.subscription.renew"        = "Renovar la suscripción";
 
 // SUPPORT/ABOUT
 

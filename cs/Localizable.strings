@@ -1340,6 +1340,8 @@
 "iap.error.unablepayment"       = "Je nám líto, ale nemohl uskutečnit nákup. Na tomto zařízení není možné ani oprávněné provádět platby.";
 "iap.error.unreachable"         = "Je nám líto, synchronizační server není k dispozici. Premium předplatné není vhodné pro použití bez synchronizace.";
 "iap.subscription.none"         = "Žádné předplatné";
+"iap.subscription.renew.ask.fmt"= "%@ vypršela dne %@. Synchronizace není k dispozici, dokud se předplatné neobnoví.\nObnovit?";
+"iap.subscription.renew"        = "Obnovit odběr";
 
 // SUPPORT/ABOUT
 
