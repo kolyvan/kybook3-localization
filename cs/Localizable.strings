@@ -660,6 +660,30 @@
 "reader.settings.images"                    = "Přizpůsobit obrázky";
 "reader.settings.images.hint"               = "Přizpůsobení knižních obrázků v paletě aktuálního tématu (platí pouze pro světlá témata).\nZavřete a znovu otevřete knihu, aby se provedly změny.";
 
+// OCR
+
+"ocr.general"                   = "OCR"; // Optical character recognition
+"ocr.title"                     = "OCR for DjVu and PDF";
+"ocr.dialog.recognize.title"    = "Recognize page text";
+"ocr.dialog.recognize.message"  = "Seems this page has no text layer.\nDo you want to recognize page text using OCR?";
+"ocr.dialog.recognize"          = "Recognize";
+"ocr.dialog.never"              = "Never";
+"ocr.conf.multilang"            = "Multilingual support";
+"ocr.conf.addlang"              = "Additional language";
+"ocr.conf.quality"              = "Quality of recognition";
+"ocr.conf.langpacks"            = "Installed language packs";
+"ocr.conf.multilang.hint"       = "Additional language pack used for recognition. For better recognition of technical literature it is useful to add an English or Latin language pack. KyBook will use the language of the book and selected additional language pack for recognition.";
+"ocr.conf.quality.hint"         = "Changing the quality will cause redownloading all language packs!";
+"ocr.conf.langpacks.hint"       = "KyBook automatically downloads the necessary language packs before running recognition.";
+"ocr.conf.quality.normal"       = "Normal";
+"ocr.conf.quality.best"         = "Best";
+"ocr.conf.quality.fast"         = "Fast";
+"ocr.conf.longpress"            = "Long press on the page";
+"ocr.conf.never"                = "Never ask";
+"ocr.conf.never.hint"           = "Ask if it is necessary to start recognition if the user uses a long press on a page without a text layer.";
+"ocr.status.recognition"        = "Recognition";
+"ocr.footnote.tesseract"        = "KyBook uses Tesseract Open Source OCR Engine for recognition (github.com/tesseract-ocr).";
+
 // THEME
 
 "theme.general"             = "Téma";
@@ -817,6 +841,7 @@
 "misc.some.added.fmt"           = "Přidáno %@";
 "misc.addbook.duplicate"        = "Přeskočeno, protože jde o duplikát";
 "misc.used.of.fmt"              = "Obsazeno %@ z %@";
+"misc.experimental.feature"     = "Experimentální funkce. Může fungovat nesprávně. Po zapnutí spotřebuje výkon procesoru a místo na disku.";
 
 // MARKDOWN
 
@@ -845,7 +870,6 @@
 "app.prefs.bookshelf.backg.mini"    = "Barva pozadí v režimu Malé karty";
 "app.prefs.bookshelf.card"          = "Režim Karty";
 "app.prefs.bookshelf.card.hires"    = "Hi-Res obaly";
-"app.prefs.bookshelf.card.hint"     = "Experimentální funkce. Může fungovat nesprávně. Po zapnutí spotřebuje výkon procesoru a místo na disku.";
 "app.prefs.bookshelf.tags"          = "Styl značek";
 "app.prefs.bookshelf.tags.icons"    = "Ikony";
 "app.prefs.bookshelf.tags.titles"   = "Názvy";
@@ -861,7 +885,9 @@
 "app.prefs.reader.fullscreen.header"= "Skrýt záhlaví";
 "app.prefs.reader.fullscreen.footer"= "Skrýt zápatí";
 "app.prefs.reader.fullscreen.hint"  = "Ve výchozím nastavení se program KyBook automaticky přepne na celou obrazovku, když uživatel začne číst. Pro ukončení režimu celé obrazovky klikněte na záhlaví. Navíc můžete pro přepnutí režimu celé obrazovky stisknout střed displeje";
-"app.prefs.reader.forcetouch.hint"  = "Force (3D) Touch lze použít k provedení upřednostňované akce na vybraném textu";
+"app.prefs.reader.fast.selection"   = "Rychlý výběr";
+"app.prefs.reader.fast.selection.action"= "Akce";
+"app.prefs.reader.fast.selection.hint"  = "Rychlý výběr clze použít k provedení upřednostňované akce na vybraném textu jedním gestem. To activate, use a long press on a piece of text, without lifting your finger, select the desired text, lift your finger.";
 "app.prefs.reader.idletimer"        = "Zakázat časovač nečinnosti";
 "app.prefs.reader.idletimer.hint"   = "Zatímco je kniha otevřená, obrazovka zůstane zapnutá";
 "app.prefs.reader.rotationlock"     = "Zámek otočení";

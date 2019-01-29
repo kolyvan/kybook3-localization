@@ -660,6 +660,30 @@
 "reader.settings.images"                    = "调整图像";
 "reader.settings.images.hint"               = "Adaptation of book images in the palette of the current theme (applicable only for light themes).\nClose and re-open a book for applying changes.";
 
+// OCR
+
+"ocr.general"                   = "OCR"; // Optical character recognition
+"ocr.title"                     = "用于DjVu和PDF的OCR";
+"ocr.dialog.recognize.title"    = "Recognize page text";
+"ocr.dialog.recognize.message"  = "似乎这个页面没有文字\n您想使用OCR识别页面文本吗？";
+"ocr.dialog.recognize"          = "Recognize";
+"ocr.dialog.never"              = "决不";
+"ocr.conf.multilang"            = "Multilingual support";
+"ocr.conf.addlang"              = "Additional language";
+"ocr.conf.quality"              = "Quality of recognition";
+"ocr.conf.langpacks"            = "Installed language packs";
+"ocr.conf.multilang.hint"       = "Additional language pack used for recognition. For better recognition of technical literature it is useful to add an English or Latin language pack. KyBook will use the language of the book and selected additional language pack for recognition.";
+"ocr.conf.quality.hint"         = "Changing the quality will cause redownloading all language packs!";
+"ocr.conf.langpacks.hint"       = "KyBook automatically downloads the necessary language packs before running recognition.";
+"ocr.conf.quality.normal"       = "Normal";
+"ocr.conf.quality.best"         = "Best";
+"ocr.conf.quality.fast"         = "Fast";
+"ocr.conf.longpress"            = "Long press on the page";
+"ocr.conf.never"                = "Never ask";
+"ocr.conf.never.hint"           = "Ask if it is necessary to start recognition if the user uses a long press on a page without a text layer.";
+"ocr.status.recognition"        = "Recognition";
+"ocr.footnote.tesseract"        = "KyBook uses Tesseract Open Source OCR Engine for recognition (github.com/tesseract-ocr).";
+
 // THEME
 
 "theme.general"             = "主题";
@@ -817,6 +841,7 @@
 "misc.some.added.fmt"           = "%@ 添加了"; 
 "misc.addbook.duplicate"        = "由于重复而跳过";
 "misc.used.of.fmt"              = "占用%@ of %@ "; // 100 mB Of 1GB occupied
+"misc.experimental.feature"     = "实验性功能。可能无法正常工作。启用后消耗CPU功率和磁盘空间";
 
 // MARKDOWN
 
@@ -845,7 +870,6 @@
 "app.prefs.bookshelf.backg.mini"    = "迷你卡模式中的背景颜色";
 "app.prefs.bookshelf.card"          = "卡片模式";
 "app.prefs.bookshelf.card.hires"    = "Hi-Res封面";
-"app.prefs.bookshelf.card.hint"     = "实验性功能。可能无法正常工作。启用后消耗CPU功率和磁盘空间";
 "app.prefs.bookshelf.tags"          = "标签样式";
 "app.prefs.bookshelf.tags.icons"    = "图标";
 "app.prefs.bookshelf.tags.titles"   = "标题";
@@ -861,7 +885,9 @@
 "app.prefs.reader.fullscreen.header"= "隐藏标题栏";
 "app.prefs.reader.fullscreen.footer"= "隐藏页脚栏";
 "app.prefs.reader.fullscreen.hint"  = "默认情况下，当您开始阅读时，KyBook会自动切换到全屏模式。要退出全屏模式，请点按标题栏。此外，您还可以启用中央点按切换全屏模式。";
-"app.prefs.reader.forcetouch.hint"  = "强制3D Touch可用于对所选文本执行首选操作";
+"app.prefs.reader.fast.selection"   = "快速选择";
+"app.prefs.reader.fast.selection.action"= "行动";
+"app.prefs.reader.fast.selection.hint"  = "Fast selection can be used to perform the preferred action on the selected text with one gesture. To activate, use a long press on a piece of text, without lifting your finger, select the desired text, lift your finger.";
 "app.prefs.reader.idletimer"        = "禁用屏幕自动锁定";
 "app.prefs.reader.idletimer.hint"   = "只要书籍打开，屏幕就会保持打开状态";
 "app.prefs.reader.rotationlock"     = "旋转锁";

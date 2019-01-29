@@ -660,6 +660,30 @@
 "reader.settings.images"                    = "Ajustar imagenes";
 "reader.settings.images.hint"               = "Adaptation of book images in the palette of the current theme (applicable only for light themes).\nClose and re-open a book for applying changes.";
 
+// OCR
+
+"ocr.general"                   = "OCR"; // Optical character recognition
+"ocr.title"                     = "OCR for DjVu and PDF";
+"ocr.dialog.recognize.title"    = "Recognize page text";
+"ocr.dialog.recognize.message"  = "Seems this page has no text layer.\nDo you want to recognize page text using OCR?";
+"ocr.dialog.recognize"          = "Recognize";
+"ocr.dialog.never"              = "Never";
+"ocr.conf.multilang"            = "Multilingual support";
+"ocr.conf.addlang"              = "Additional language";
+"ocr.conf.quality"              = "Quality of recognition";
+"ocr.conf.langpacks"            = "Installed language packs";
+"ocr.conf.multilang.hint"       = "Additional language pack used for recognition. For better recognition of technical literature it is useful to add an English or Latin language pack. KyBook will use the language of the book and selected additional language pack for recognition.";
+"ocr.conf.quality.hint"         = "Changing the quality will cause redownloading all language packs!";
+"ocr.conf.langpacks.hint"       = "KyBook automatically downloads the necessary language packs before running recognition.";
+"ocr.conf.quality.normal"       = "Normal";
+"ocr.conf.quality.best"         = "Best";
+"ocr.conf.quality.fast"         = "Fast";
+"ocr.conf.longpress"            = "Long press on the page";
+"ocr.conf.never"                = "Never ask";
+"ocr.conf.never.hint"           = "Ask if it is necessary to start recognition if the user uses a long press on a page without a text layer.";
+"ocr.status.recognition"        = "Recognition";
+"ocr.footnote.tesseract"        = "KyBook uses Tesseract Open Source OCR Engine for recognition (github.com/tesseract-ocr).";
+
 // THEME
 
 "theme.general"             = "Tema";
@@ -817,6 +841,7 @@
 "misc.some.added.fmt"           = "Añadido: %@"; // 5 books were added
 "misc.addbook.duplicate"        = "Omitido por duplicado";
 "misc.used.of.fmt"              = "%@ de %@ ocupado"; // 100 mB Of 1GB occupied
+"misc.experimental.feature"     = "Característica experimental. Podría no funcionar apropiadamente. Consume poder del CPU y espacio en disco cuando se habilita.";
 
 // MARKDOWN
 
@@ -845,7 +870,6 @@
 "app.prefs.bookshelf.backg.mini"    = "Color de fondo en modo tarjeta mini";
 "app.prefs.bookshelf.card"          = "Modo tarjeta";
 "app.prefs.bookshelf.card.hires"    = "Cubiertas de alta resolución";
-"app.prefs.bookshelf.card.hint"     = "Característica experimental. Podría no funcionar apropiadamente. Consume poder del CPU y espacio en disco cuando se habilita.";
 "app.prefs.bookshelf.tags"          = "Estilo de etiquetas";
 "app.prefs.bookshelf.tags.icons"    = "Íconos";
 "app.prefs.bookshelf.tags.titles"   = "Títulos";
@@ -861,7 +885,9 @@
 "app.prefs.reader.fullscreen.header"= "Esconder barra superior";
 "app.prefs.reader.fullscreen.footer"= "Esconder barra inferior";
 "app.prefs.reader.fullscreen.hint"  = "De forma predeterminada, KyBook cambia al modo de pantalla completa automáticamente cuando empiezas a leer. Para salir de este modo toca la barra superior. Además, puedes habilitar un toque en el centro que alterne el modo de pantalla completa.";
-"app.prefs.reader.forcetouch.hint"  = "Se puede usar Force Touch para realizar la acción preferida en el texto seleccionado.";
+"app.prefs.reader.fast.selection"   = "Selección rápida";
+"app.prefs.reader.fast.selection.action"= "Acción";
+"app.prefs.reader.fast.selection.hint"  = "La selección rápida se puede utilizar para realizar la acción preferida en el texto seleccionado con un solo gesto. Para activarlo, presione prolongadamente un texto, sin levantar el dedo, seleccione el texto deseado, levante el dedo.";
 "app.prefs.reader.idletimer"        = "Deshabilitar bloqueo de pantalla";
 "app.prefs.reader.idletimer.hint"   = "Mientras que el libro se encuentre abierto la pantalla se mantendrá encendida.";
 "app.prefs.reader.rotationlock"     = "Bloquear rotación";

@@ -660,6 +660,30 @@
 "reader.settings.images"                    = "Adjust images";
 "reader.settings.images.hint"               = "Adaptation of book images in the palette of the current theme (applicable only for light themes).\nClose and re-open a book for applying changes.";
 
+// OCR
+
+"ocr.general"                   = "OCR"; // Optical character recognition
+"ocr.title"                     = "OCR for DjVu and PDF";
+"ocr.dialog.recognize.title"    = "Recognize page text";
+"ocr.dialog.recognize.message"  = "Seems this page has no text layer.\nDo you want to recognize page text using OCR?";
+"ocr.dialog.recognize"          = "Recognize";
+"ocr.dialog.never"              = "Never";
+"ocr.conf.multilang"            = "Multilingual support";
+"ocr.conf.addlang"              = "Additional language";
+"ocr.conf.quality"              = "Quality of recognition";
+"ocr.conf.langpacks"            = "Installed language packs";
+"ocr.conf.multilang.hint"       = "Additional language pack used for recognition. For better recognition of technical literature it is useful to add an English or Latin language pack. KyBook will use the language of the book and selected additional language pack for recognition.";
+"ocr.conf.quality.hint"         = "Changing the quality will cause redownloading all language packs!";
+"ocr.conf.langpacks.hint"       = "KyBook automatically downloads the necessary language packs before running recognition.";
+"ocr.conf.quality.normal"       = "Normal";
+"ocr.conf.quality.best"         = "Best";
+"ocr.conf.quality.fast"         = "Fast";
+"ocr.conf.longpress"            = "Long press on the page";
+"ocr.conf.never"                = "Never ask";
+"ocr.conf.never.hint"           = "Ask if it is necessary to start recognition if the user uses a long press on a page without a text layer.";
+"ocr.status.recognition"        = "Recognition";
+"ocr.footnote.tesseract"        = "KyBook uses Tesseract Open Source OCR Engine for recognition (github.com/tesseract-ocr).";
+
 // THEME
 
 "theme.general"             = "Theme";
@@ -817,6 +841,7 @@
 "misc.some.added.fmt"           = "%@ added"; // 5 books were added
 "misc.addbook.duplicate"        = "Skipped because of a duplicate";
 "misc.used.of.fmt"              = "%@ of %@ occupied"; // 100 mB Of 1GB occupied
+"misc.experimental.feature"     = "Experimental feature. May not work properly. Consumes CPU power and disk space when enabled.";
 
 // MARKDOWN
 
@@ -845,7 +870,6 @@
 "app.prefs.bookshelf.backg.mini"    = "Background color in mini-card mode";
 "app.prefs.bookshelf.card"          = "Card mode";
 "app.prefs.bookshelf.card.hires"    = "Hi-Res covers";
-"app.prefs.bookshelf.card.hint"     = "Experimental feature. May not work properly. Consumes CPU power and disk space when enabled.";
 "app.prefs.bookshelf.tags"          = "Tags style";
 "app.prefs.bookshelf.tags.icons"    = "Icons";
 "app.prefs.bookshelf.tags.titles"   = "Titles";
@@ -861,7 +885,9 @@
 "app.prefs.reader.fullscreen.header"= "Hide header bar";
 "app.prefs.reader.fullscreen.footer"= "Hide footer bar";
 "app.prefs.reader.fullscreen.hint"  = "By default, KyBook automatically switches to full-screen mode when you start reading. To exit full-screen mode, tap the header bar. In addition, you can enable a central tap to toggle full-screen mode.";
-"app.prefs.reader.forcetouch.hint"  = "Force (3D) Touch can be used to perform the preferred action on the selected text.";
+"app.prefs.reader.fast.selection"   = "Fast selection";
+"app.prefs.reader.fast.selection.action"= "Action";
+"app.prefs.reader.fast.selection.hint"  = "Fast selection can be used to perform the preferred action on the selected text with one gesture. To activate, use a long press on a piece of text, without lifting your finger, select the desired text, lift your finger.";
 "app.prefs.reader.idletimer"        = "Disable screen auto-lock";
 "app.prefs.reader.idletimer.hint"   = "As long as the book is open, the screen remains switched on.";
 "app.prefs.reader.rotationlock"     = "Rotation lock";
