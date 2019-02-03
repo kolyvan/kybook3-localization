@@ -921,7 +921,7 @@
 "contentserver.link"        = "Link";
 "contentserver.username"    = "Username";
 "contentserver.password"    = "Password";
-"contentserver.hint"        = "Activate the content server to access your files via the local network using a web browser.";
+"contentserver.hint"        = "Activate the content server to access your files via the local network using a web browser. Upload books to the device from PC via WiFi (iTunes is not needed, only a web browser is required).";
 "contentserver.visit"       = "Visit '%@' in your web browser";
 
 // IMAGE PICKER
