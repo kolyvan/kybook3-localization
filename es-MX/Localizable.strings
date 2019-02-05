@@ -147,7 +147,7 @@
 "filestore.attach.webdav"       = "Vincular un servidor WebDAV en la red local o en internet";
 "filestore.transfer"            = "Transferir archivo";
 "filestore.done.move.fmt"       = "Se movió a %@ de %@ a %@";
-"filestore.done.copy.fmt"       = "Copiado a %@ de %@ a %@";
+"filestore.done.copy.fmt"       = "Se copió a %@ de %@ a %@";
 "filestore.done.deleted.fmt"    = "Se borró a %@ en %@";
 "filestore.deletefiles.q"       = "¿Borrar archivos?";
 "filestore.deletefile"          = "Borrar este archivo";
@@ -157,7 +157,7 @@
 "filestore.movefile"            = "Mover un archivo";
 "filestore.appendfile"          = "Anexar un archivo";
 "filestore.enter.foldername"    = "Escribe el nombre de la carpeta";
-"filestore.enter.filename"      = "Escribe un nombre de archivo";
+"filestore.enter.filename"      = "Escribe el nombre del archivo";
 "filestore.link"                = "Conectar";
 "filestore.link.account"        = "Conectar cuenta";
 "filestore.link.none"           = "El almacén en la nube aún no está conectado. Favor de conectarlo";
@@ -168,10 +168,10 @@
 "filestore.report"              = "Informe";
 "filestore.report.used"         = "Usado";
 "filestore.report.free"         = "Disponible";
-"filestore.report.mirror"       = "Respaldo";
+"filestore.report.mirror"       = "Respaldado";
 "filestore.mirror"              = "Respaldo";
 "filestore.mirror.limit"        = "Límite de tamaño";
-"filestore.mirror.hint"         = "KyBook caches files located in the cloud storage (keeps a copy of the cloud file in the mirrored storage on the device). Caching helps reduce network traffic and maintain energy efficiency. The user can clear the space used for mirroring, or set a limit on the maximum cache size.";
+"filestore.mirror.hint"         = "KyBook almacena los archivos localizados en el almacén de la nube (guarda una copia de los archivos de la nube en el almacén de respaldo del dispositivo). Esto ayuda a reducir el tráfico de red y ahorrar energía eficientemente. El usuario puede liberar el espacio usado para respaldos, o delimitar el tamaño máximo del caché.";
 "filestore.autounload"          = "Liberar automáticamente";
 "filestore.folderpicker.copy.fmt"   = "Copiar a %@ desde %@";
 "filestore.folderpicker.move.fmt"   = "Mover a %@ desde %@";
@@ -180,7 +180,7 @@
 "filestore.filesize"            = "Tamaño del archivo";
 "filestore.dialog.fileadded.fmt" = "El archivo fue añadido a %@";
 "filestore.unarchive"           = "Desarchivar";
-"filestore.unarchive.q"         = "Desarchivar?";
+"filestore.unarchive.q"         = "¿Desarchivar?";
 
 // SORT
 
@@ -534,9 +534,9 @@
 "reader.outline.create"             = "Añadir una tabla de contenido";
 "reader.outline.create.auto"        = "Crear automáticamente";
 "reader.outline.create.manually"    = "Crear manualmente";
-"reader.outline.fold.all"           = "Desplegar todo";
+"reader.outline.fold.all"           = "Contraer todo";
 "reader.outline.unfold.all"         = "Expandir todo";
-"reader.outline.foldable.hint"      = "Use a long press on the table of contents row (or tap on the far left part) to expand or collapse a subtree.";
+"reader.outline.foldable.hint"      = "Mantén presionado en el renglón de la tabla de contenidos (o toca en la parte superior izquierda) para expandir o contraer un subárbol.";
 "reader.layout"                     = "Distribución";
 "reader.backtopage.fmt"             = "Regresar a la página %zd";
 "reader.bookindex"                  = "Índice de palabras";
@@ -646,7 +646,7 @@
 "reader.settings.docs.readability.autotint" = "Ajuste automático";
 "reader.settings.docs.pagesep"              = "Separación entre página";
 "reader.settings.docs.pagesep.hint"         = "Pequeño espacio entre páginas al usar el modo de desplazamiento.";
-"reader.settings.docs.spread.hint"          = "In the page spread, the fit mode is always assumed as 'Whole page'.";
+"reader.settings.docs.spread.hint"          = "Al girar el libro, el estilo de visualización siempre será «Página completa».";
 "reader.settings.audio.smartresume"         = "Reanudación inteligente";
 "reader.settings.audio.smartresume.hint"    = "Cuando la reproducción se reanuda, el audio se regresa 30 segundos.";
 "reader.settings.audio.playlist"            = "Lista de reproducción";
@@ -657,32 +657,32 @@
 "reader.settings.profile.hint"              = "Se puede elegir un perfil de preferencias individual para cada libro. Por ejemplo, puedes elegir un perfil técnico para publicaciones técnicas o científicas, o un perfil de chino para textos en idioma chino. Para cada perfil puedes elegir fuente, margen, estilo, etc.";
 "reader.settings.profile.names.tech"        = "Literatura técnica";
 "reader.settings.more"                      = "Más preferencias";
-"reader.settings.images"                    = "Ajustar imagenes";
-"reader.settings.images.hint"               = "Adaptation of book images in the palette of the current theme (applicable only for light themes).\nClose and re-open a book for applying changes.";
+"reader.settings.images"                    = "Adaptar imágenes";
+"reader.settings.images.hint"               = "Adapta las imágenes del libro a la paleta del tema actual (solo aplica a temas luminosos).\nCierra y abre el libro para aplicar los cambios.";
 
 // OCR
 
-"ocr.general"                   = "OCR"; // Optical character recognition
-"ocr.title"                     = "OCR for DjVu and PDF";
-"ocr.dialog.recognize.title"    = "Recognize page text";
-"ocr.dialog.recognize.message"  = "Seems this page has no text layer.\nDo you want to recognize page text using OCR?";
-"ocr.dialog.recognize"          = "Recognize";
-"ocr.dialog.never"              = "Never";
-"ocr.conf.multilang"            = "Multilingual support";
-"ocr.conf.addlang"              = "Additional language";
-"ocr.conf.quality"              = "Quality of recognition";
-"ocr.conf.langpacks"            = "Installed language packs";
-"ocr.conf.multilang.hint"       = "Additional language pack used for recognition. For better recognition of technical literature it is useful to add an English or Latin language pack. KyBook will use the language of the book and selected additional language pack for recognition.";
-"ocr.conf.quality.hint"         = "Changing the quality will cause redownloading all language packs!";
-"ocr.conf.langpacks.hint"       = "KyBook automatically downloads the necessary language packs before running recognition.";
+"ocr.general"                   = "ROC"; // Optical character recognition
+"ocr.title"                     = "ROC para DjVu y PDF";
+"ocr.dialog.recognize.title"    = "Reconocer texto en la página";
+"ocr.dialog.recognize.message"  = "Al parecer esta página no tiene capa de texto.\n¿Quieres reconocer texto en la página utilizando ROC?";
+"ocr.dialog.recognize"          = "Reconocer";
+"ocr.dialog.never"              = "Nunca";
+"ocr.conf.multilang"            = "Soporte multilingüe";
+"ocr.conf.addlang"              = "Idioma adicional";
+"ocr.conf.quality"              = "Calidad de reconocimiento";
+"ocr.conf.langpacks"            = "Paquetes de idioma instalados";
+"ocr.conf.multilang.hint"       = "Paquete de idioma adicional utilizado para reconocimiento. Para un mejor reconocimiento de literatura técnica es recomendable añadir paquetes de inglés o latín. KyBook utilizará el idioma del libro y los paquetes adicionales seleccionados para el reconocimiento.";
+"ocr.conf.quality.hint"         = "¡El cambiar la calidad provocará que se vuelvan a descargar todos los paquetes de idioma!";
+"ocr.conf.langpacks.hint"       = "KyBook descargará automáticamente los paquetes de idioma necesarios antes de iniciar el reconocimiento.";
 "ocr.conf.quality.normal"       = "Normal";
-"ocr.conf.quality.best"         = "Best";
-"ocr.conf.quality.fast"         = "Fast";
-"ocr.conf.longpress"            = "Long press on the page";
-"ocr.conf.never"                = "Never ask";
-"ocr.conf.never.hint"           = "Ask if it is necessary to start recognition if the user uses a long press on a page without a text layer.";
-"ocr.status.recognition"        = "Recognition";
-"ocr.footnote.tesseract"        = "KyBook uses Tesseract Open Source OCR Engine for recognition (github.com/tesseract-ocr).";
+"ocr.conf.quality.best"         = "Supremo";
+"ocr.conf.quality.fast"         = "Rápido";
+"ocr.conf.longpress"            = "Al mantener presionado en la página";
+"ocr.conf.never"                = "Nunca preguntar";
+"ocr.conf.never.hint"           = "Pregunta si es necesario iniciar el reconocimiento cuando el usuario mantiene presionado sobre una página sin capa de texto.";
+"ocr.status.recognition"        = "Reconocimiento";
+"ocr.footnote.tesseract"        = "KyBook utiliza el motor ROC Tesseract Open Source para el reconocimiento (github.com/tesseract-ocr).";
 
 // THEME
 
@@ -897,7 +897,7 @@
 "app.prefs.reader.tts.auto.never"   = "Nunca";
 "app.prefs.reader.tts.auto.headset" = "Auriculares conectados";
 "app.prefs.reader.tts.auto.always"  = "Siempre";
-"app.prefs.reader.tts.auto.hint"    = "Automatically start speech synthesis when open Epub/MOBI/FB2 ebook.";
+"app.prefs.reader.tts.auto.hint"    = "Comenzar automáticamente la síntesis de voz al abrir un libro electrónico Epub/MOBI/FB2.";
 "app.prefs.cache"                   = "Caché";
 "app.prefs.cache.clear"             = "Liberar espacio";
 "app.prefs.cache.reader"            = "Caché del lector";
@@ -921,7 +921,7 @@
 "contentserver.link"        = "Enlace";
 "contentserver.username"    = "Nombre de usuario";
 "contentserver.password"    = "Contraseña";
-"contentserver.hint"        = "Activa el servidor de contenido para acceder a tus archivos a través de la red local utilizando un explorador de internet.";
+"contentserver.hint"        = "Activa el servidor de contenido para acceder a tus archivos a través de la red local utilizando un explorador de internet. Sube los libros desde tu PC al dispositivo mediante WiFi (iTunes no es necesario, solo se necesita un explorador de internet).";
 "contentserver.visit"       = "Visita '%@' en tu explorador";
 
 // IMAGE PICKER
@@ -974,8 +974,8 @@
 "network.general"           = "Redes";
 "network.streaming"         = "Transmisión";
 "network.streaming.audio"   = "Transmisión de audio";
-"network.streaming.pdf"     = "Metadatos en PDF";
-"network.streaming.hint"    = "Cuando sea posible KyBook transmitirá un audiolibro directamente desde el almacén en la nube sin cargar el archivo entero en el dispositivo.";
+"network.streaming.pdf"     = "Metadatos del PDF";
+"network.streaming.hint"    = "Cuando sea posible KyBook transmitirá un audiolibro (u obtendrá los metadatos del PDF) directamente desde el almacén en la nube sin cargar el archivo entero en el dispositivo.";
 "network.streaming.footer"  = "transmitiendo";
 "network.local"             = "Red local";
 "network.local.neighborhood"= "Entorno de red";
@@ -1007,7 +1007,7 @@
 "network.status.suspended"      = "Suspendido";
 "network.status.loading"        = "Cargando";
 "network.status.shutdown"       = "Apagar";
-"network.start"                 = "Comenzar";
+"network.start"                 = "Arrancar";
 "network.stop"                  = "Detener";
 "network.restart"               = "Reiniciar";
 "network.websearch.engine"      = "Motor de búsqueda en la red";
@@ -1133,7 +1133,7 @@
 "dictionary.install.import"         = "Importar con la app de archivos de Apple";
 "dictionary.install.download"       = "Descargar desde internet";
 "dictionary.install.download.hint"  = "Elige un diccionario gratuito para descargar e instalar.";
-"dictionary.install.hint"           = "KyBook soporta diccionarios en formato StarDict, Lingvo DSL y Dictd.\n\nDictionaries are usually distributed as ZIP, RAR or TAR archive and may have .zip, .rar, .tar, .tgz, .tbz extension. Lingvo DSL dictionary can be distributed as an uncompressed .dsl file.";
+"dictionary.install.hint"           = "KyBook soporta diccionarios en formato StarDict, Lingvo DSL y Dictd.\n\nLos diccionarios suelen ser distribuidos como archivos ZIP, RAR o TAR y con extensiones .zip, .rar, .tar, .tgz, o .tbz. Un diccionario Lingvo DSL puede ser distribuido como un archivo .dsl sin compresión.";
 "dictionary.history"                = "Historial";
 "dictionary.favorited"              = "Artículos destacados";
 "dictionary.userdict"               = "Diccionario de usuario";
@@ -1366,7 +1366,7 @@
 "iap.error.unablepayment"       = "Lo sentimos, no se pudo realizar la compra. Este dispositivo no es capaz o no tiene permitido hacer pagos";
 "iap.error.unreachable"         = "Lo sentimos, el servidor de sincronización no está accesible. La suscripción premium es inservible sin sincronización";
 "iap.subscription.none"         = "Sin subscripción";
-"iap.subscription.renew.ask.fmt"= "%@ expiró el %@. La sincronización no está disponible hasta que se renueve la suscripción. ¿Renovar?";
+"iap.subscription.renew.ask.fmt"= "%@ expiró el %@. La sincronización no está disponible hasta que se renueve la suscripción. ¿Quieres renovar?";
 "iap.subscription.renew"        = "Renovar la suscripción";
 
 // SUPPORT/ABOUT
