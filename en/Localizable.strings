@@ -282,7 +282,7 @@
 "bookshelf.layout.cards.large"  = "Large cards";
 
 "bookshelf.clean.category"        = "Delete empty";
-"bookshelf.clean.category.fmt"    = "Are you sure want to clean category %@ and delete %@?";
+"bookshelf.clean.category.fmt"    = "Are you sure you want to clean the '%@' category by removing %@ that are unused? (This operation does NOT delete any books.)";
 "bookshelf.insert.category.done"  = "Done, a category has been added";
 
 "bookshelf.collection"          = "Collection";
