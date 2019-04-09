@@ -53,20 +53,20 @@
 // ERRORS
 
 "error"                         = "Errore";
-"error.critical"                = "Critical error";
+"error.critical"                = "Errore critico";
 "error.oops"                    = "Oops, qualcosa è andato storto!";
 "error.accessdenied"            = "Accesso negato";
 "error.unauthorized"            = "Non autorizzato";
-"error.unexpected"              = "Unexpected failure";
+"error.unexpected"              = "Difetto imprevisto";
 "error.unimplemented"           = "La funzione richiesta non è ancora disponibile";
-"error.cancelled"               = "L'perazione è stata cancellata";
-"error.timeout"                 = "Aborted due to timeout";
+"error.cancelled"               = "L'operazione è stata cancellata";
+"error.timeout"                 = "Interrotto per timeout";
 "error.oom"                     = "Out of memory";
 "error.notsupported"            = "Not supported";
-"error.notfound"                = "Not found";
+"error.notfound"                = "Non trovato";
 "error.file.notfound"           = "File non trovato";
-"error.file.notdirectory"       = "File is not a directory";
-"error.file.alreadyexists"      = "File already exists";
+"error.file.notdirectory"       = "Il file non è una cartella";
+"error.file.alreadyexists"      = "Il file esite già";
 "error.item.alreadyexists"      = "Item already exists";
 "error.storage.alreadyexists"   = "File storage already exists";
 "error.bookshelf.alreadyexists" = "Bookshelf already exists";
