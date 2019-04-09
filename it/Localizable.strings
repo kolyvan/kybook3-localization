@@ -8,63 +8,63 @@
 
 // COMMON
 
-"common.empty"              = "Empty";
+"common.empty"              = "Vuoto";
 "common.close"              = "Close";
-"common.cancel"             = "Cancel";
+"common.cancel"             = "Annulla";
 "common.done"               = "Done";
-"common.cancelled"          = "Cancelled";
+"common.cancelled"          = "Annullato";
 "common.cancelling"         = "Cancelling ...";
 "common.loading"            = "Loading ...";
 "common.preparing"          = "Preparing ...";
-"common.edit"               = "Edit";
-"common.delete"             = "Delete";
-"common.add"                = "Add";
-"common.search"             = "Search";
-"common.save"               = "Save";
+"common.edit"               = "Modifica";
+"common.delete"             = "Elimina";
+"common.add"                = "Aggiungi";
+"common.search"             = "Cerca";
+"common.save"               = "Salva";
 "common.enabled"            = "Enabled";
 "common.enable"             = "Enable";
 "common.apply"              = "Apply";
 "common.more"               = "More";
-"common.completed"          = "Completed";
-"common.inprogress"         = "In progress ...";
+"common.completed"          = "Completato";
+"common.inprogress"         = "In corso ...";
 "common.downloading"        = "Downloading";
 "common.archiving"          = "Archiving ...";
 "common.unarchiving"        = "Unarchiving ...";
-"common.none"               = "None";
-"common.configure"          = "Configure";
-"common.confirm"            = "Confirm";
+"common.none"               = "Nessuno";
+"common.configure"          = "Configura";
+"common.confirm"            = "Conferma";
 "common.continue"           = "Continue";
-"common.yes"                = "Yes";
+"common.yes"                = "Si";
 "common.no"                 = "No";
-"common.help"               = "Help";
-"common.undo"               = "Undo";
+"common.help"               = "Aiuto";
+"common.undo"               = "Annulla";
 
 // DATE
 
 "date.relation.aftertime"   = "Aftertime"; // What does this refer to? It is not a commonly used word in English
-"date.relation.tomorrow"    = "Tomorrow";
-"date.relation.today"       = "Today";
-"date.relation.yesterday"   = "Yesterday";
-"date.relation.weekago"     = "Week ago";
-"date.relation.monthago"    = "Month ago";
-"date.relation.yearago"     = "Year ago";
+"date.relation.tomorrow"    = "Domani";
+"date.relation.today"       = "Oggi";
+"date.relation.yesterday"   = "Ieri";
+"date.relation.weekago"     = "Settimana fa";
+"date.relation.monthago"    = "Mese fa";
+"date.relation.yearago"     = "Anno fa";
 "date.relation.foretime"    = "Foretime"; // What does this refer to? It is not a commonly used word in English
 
 // ERRORS
 
-"error"                         = "Error";
+"error"                         = "Errore";
 "error.critical"                = "Critical error";
-"error.oops"                    = "Oops, something went wrong!";
-"error.accessdenied"            = "Access denied";
-"error.unauthorized"            = "Unauthorized";
+"error.oops"                    = "Oops, qualcosa è andato storto!";
+"error.accessdenied"            = "Accesso negato";
+"error.unauthorized"            = "Non autorizzato";
 "error.unexpected"              = "Unexpected failure";
-"error.unimplemented"           = "Required function is not implemented yet";
-"error.cancelled"               = "Operation was cancelled";
+"error.unimplemented"           = "La funzione richiesta non è ancora disponibile";
+"error.cancelled"               = "L'perazione è stata cancellata";
 "error.timeout"                 = "Aborted due to timeout";
 "error.oom"                     = "Out of memory";
 "error.notsupported"            = "Not supported";
 "error.notfound"                = "Not found";
-"error.file.notfound"           = "File not found";
+"error.file.notfound"           = "File non trovato";
 "error.file.notdirectory"       = "File is not a directory";
 "error.file.alreadyexists"      = "File already exists";
 "error.item.alreadyexists"      = "Item already exists";
@@ -1333,17 +1333,17 @@
 
 // IAP
 
-"iap.general"                   = "In-App Purchases";
+"iap.general"                   = "Acquisto In-App";
 "iap.restore"                   = "Restore purchases";
 "iap.pro.upgrade"               = "Upgrade to Pro";
 "iap.premium.subscription"      = "Premium subscription";
 "iap.dialog.completed"          = "Completed purchases";
 "iap.dialog.restored"           = "Restored purchases";
 "iap.validation.issue"          = "In-App Purchases have not been verified!";
-"iap.validation.cancelled.fmt"  = "%@ was cancelled"; // e.g. 'Upgrade to Pro was cancelled'
+"iap.validation.cancelled.fmt"  = "%@ è stato annullato"; // e.g. 'Upgrade to Pro was cancelled'
 "iap.validation.expired.fmt"    = "%@ was expired";
 "iap.validation.uncofirmed.fmt" = "%@ is not confirmed due to %@"; // e.g. 'Yearly subscription is not confirmed due to some error'
-"iap.validation.note"           = "Some features will be disabled!";
+"iap.validation.note"           = "Alcune funzioni saranno disabilitate!";
 "iap.pro.title"                 = "Upgrade to Pro";
 "iap.pro.subtitle"              = "One-time payment";
 "iap.pro.hint"              	  = "Upgrade to Pro unlocks all Pro features.";
@@ -1376,13 +1376,13 @@
 "support.about.rate"            = "Rate on the App Store";
 "support.about.twitter"         = "Tweet on Twitter";
 "support.about.feedback"        = "Send feedback";
-"support.about.help"            = "Help";
+"support.about.help"            = "Aiuto";
 "support.about.discuss"         = "Discuss";
 "support.about.acknowledgement" = "Acknowledgement";
 
 // Abbreviation
 
-"abbr.thousand.words.fmt"       = "%zdk words";
+"abbr.thousand.words.fmt"       = "%zdk parole";
 
 // SMB/CIFS AND OTHERS ERRORS
 
@@ -1416,4 +1416,4 @@
 "CONNECTED"             = "Connected";
 "BOOTSTRAP"             = "Bootstrap";
 "BAD_AUTH"              = "Unauthorized";
-"FATAL_ERROR"           = "Oops, something went wrong!";
+"FATAL_ERROR"           = "Oops, qualcosa è andato storto!";
