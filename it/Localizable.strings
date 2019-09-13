@@ -9,31 +9,31 @@
 // COMMON
 
 "common.empty"              = "Vuoto";
-"common.close"              = "Close";
+"common.close"              = "Fine";
 "common.cancel"             = "Annulla";
-"common.done"               = "Done";
+"common.done"               = "Fatto";
 "common.cancelled"          = "Annullato";
-"common.cancelling"         = "Cancelling ...";
-"common.loading"            = "Loading ...";
-"common.preparing"          = "Preparing ...";
+"common.cancelling"         = "In annullamento ...";
+"common.loading"            = "Caricamento in corso ...";
+"common.preparing"          = "In preparazione ...";
 "common.edit"               = "Modifica";
 "common.delete"             = "Elimina";
 "common.add"                = "Aggiungi";
 "common.search"             = "Cerca";
 "common.save"               = "Salva";
-"common.enabled"            = "Enabled";
-"common.enable"             = "Enable";
-"common.apply"              = "Apply";
-"common.more"               = "More";
+"common.enabled"            = "Abilitato";
+"common.enable"             = "Abilita";
+"common.apply"              = "Applica";
+"common.more"               = "Di più";
 "common.completed"          = "Completato";
 "common.inprogress"         = "In corso ...";
 "common.downloading"        = "Downloading";
-"common.archiving"          = "Archiving ...";
-"common.unarchiving"        = "Unarchiving ...";
+"common.archiving"          = "Archiviazione ...";
+"common.unarchiving"        = "Estrazione ...";
 "common.none"               = "Nessuno";
 "common.configure"          = "Configura";
 "common.confirm"            = "Conferma";
-"common.continue"           = "Continue";
+"common.continue"           = "Continua";
 "common.yes"                = "Si";
 "common.no"                 = "No";
 "common.help"               = "Aiuto";
@@ -41,14 +41,14 @@
 
 // DATE
 
-"date.relation.aftertime"   = "Aftertime"; // What does this refer to? It is not a commonly used word in English
+"date.relation.aftertime"   = "Tempo prima"; // What does this refer to? It is not a commonly used word in English
 "date.relation.tomorrow"    = "Domani";
 "date.relation.today"       = "Oggi";
 "date.relation.yesterday"   = "Ieri";
 "date.relation.weekago"     = "Settimana fa";
 "date.relation.monthago"    = "Mese fa";
 "date.relation.yearago"     = "Anno fa";
-"date.relation.foretime"    = "Foretime"; // What does this refer to? It is not a commonly used word in English
+"date.relation.foretime"    = "Tempo dopo"; // What does this refer to? It is not a commonly used word in English
 
 // ERRORS
 
@@ -61,32 +61,32 @@
 "error.unimplemented"           = "La funzione richiesta non è ancora disponibile";
 "error.cancelled"               = "L'operazione è stata cancellata";
 "error.timeout"                 = "Interrotto per timeout";
-"error.oom"                     = "Out of memory";
-"error.notsupported"            = "Not supported";
+"error.oom"                     = "Eccesso di memoria";
+"error.notsupported"            = "Non supportato";
 "error.notfound"                = "Non trovato";
 "error.file.notfound"           = "File non trovato";
 "error.file.notdirectory"       = "Il file non è una cartella";
-"error.file.alreadyexists"      = "Il file esite già";
-"error.item.alreadyexists"      = "Item already exists";
-"error.storage.alreadyexists"   = "File storage already exists";
-"error.bookshelf.alreadyexists" = "Bookshelf already exists";
-"error.file.toobig"             = "File is too big";
-"error.icloud.notconnected"     = "iCloud is not connected";
-"error.cloud.notlinked"         = "Cloud storage is not linked";
-"error.nonetwork"               = "No network connection";
-"error.notresponding"           = "Host did not respond";
-"error.emptyresponse"           = "Empty response";
-"error.invalidresponse"         = "Invalid response";
-"error.mimetype"                = "MIME type is invalid";
-"error.emptyname"               = "Empty name";
-"error.badname"                 = "Invalid name";
-"error.drop"                    = "Unable to drop item";
-"error.import.file"             = "Unable to import file";
-"error.open.file"               = "Unable open a file";
-"error.share.file.none"         = "No file to share";
-"error.share.file.cloud"        = "Unable to share a file from cloud storage. First download a file to the device";
-"error.book.save.review"        = "Unable to save the book review";
-"error.book.delete.review"      = "Unable to delete the book review";
+"error.file.alreadyexists"      = "File già esistente";
+"error.item.alreadyexists"      = "Elemento già esistente";
+"error.storage.alreadyexists"   = "Archivio file già esistente";
+"error.bookshelf.alreadyexists" = "Scaffale già esistente";
+"error.file.toobig"             = "File troppo grande";
+"error.icloud.notconnected"     = "iCloud non connesso";
+"error.cloud.notlinked"         = "Spazio nel cloud non connesso";
+"error.nonetwork"               = "Nessuna connessione di rete";
+"error.notresponding"           = "L'host non ha risposto";
+"error.emptyresponse"           = "Risposta vuota";
+"error.invalidresponse"         = "Risposta non valida";
+"error.mimetype"                = "MIME type non valido";
+"error.emptyname"               = "Nome vuoto";
+"error.badname"                 = "Nome non valido";
+"error.drop"                    = "Impossibile eliminare l'elemento";
+"error.import.file"             = "Impossibile importareil file";
+"error.open.file"               = "Inpossibile aprire il file";
+"error.share.file.none"         = "Nessun file da condividere";
+"error.share.file.cloud"        = "Impossibile condividere il file dall'archivio nel cloud. Scaricare pirma il file sul dispositivo";
+"error.book.save.review"        = "Impossibile salvare la recensione del libro";
+"error.book.delete.review"      = "Impossibile eliminare la recensione del libro";
 "error.book.save.metadata"      = "Unable to save the book metadata";
 "error.book.save.tags"          = "Unable to save the book tags";
 "error.book.delete.tags"        = "Unable to delete the book tags";
