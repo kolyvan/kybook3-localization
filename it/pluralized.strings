@@ -6,47 +6,47 @@
   Copyright © 2017 Konstantin Bukreev. All rights reserved.
 */
 
-"files.zero"    = "0 files";
+"files.zero"    = "0 file";
 "files.one"     = "1 file";
-"files.two"     = "%zd files";
-"files.few"     = "%zd files";
-"files.many"    = "%zd files";
-"files.other"   = "%zd files";
+"files.two"     = "%zd file";
+"files.few"     = "%zd file";
+"files.many"    = "%zd file";
+"files.other"   = "%zd file";
 
-"folders.zero"    = "0 folders";
-"folders.one"     = "1 folder";
-"folders.two"     = "%zd folders";
-"folders.few"     = "%zd folders";
-"folders.many"    = "%zd folders";
-"folders.other"   = "%zd folders";
+"folders.zero"    = "0 cartelle";
+"folders.one"     = "1 cartella";
+"folders.two"     = "%zd cartelle";
+"folders.few"     = "%zd cartelle";
+"folders.many"    = "%zd cartelle";
+"folders.other"   = "%zd cartelle";
 
-"pages.zero"    = "0 pages";
-"pages.one"     = "1 page";
-"pages.two"     = "%zd pages";
-"pages.few"     = "%zd pages";
-"pages.many"    = "%zd pages";
-"pages.other"   = "%zd pages";
+"pages.zero"    = "0 pagine";
+"pages.one"     = "1 pagina";
+"pages.two"     = "%zd pagine";
+"pages.few"     = "%zd pagine";
+"pages.many"    = "%zd pagine";
+"pages.other"   = "%zd pagine";
 
-"words.zero"    = "0 words";
-"words.one"     = "1 word";
-"words.two"     = "%zd words";
-"words.few"     = "%zd words";
-"words.many"    = "%zd words";
-"words.other"   = "%zd words";
+"words.zero"    = "0 parole";
+"words.one"     = "1 parola";
+"words.two"     = "%zd parole";
+"words.few"     = "%zd parole";
+"words.many"    = "%zd parole";
+"words.other"   = "%zd parole";
 
-"notes.zero"    = "0 notes";
-"notes.one"     = "1 note";
-"notes.two"     = "%zd notes";
-"notes.few"     = "%zd notes";
-"notes.many"    = "%zd notes";
-"notes.other"   = "%zd notes";
+"notes.zero"    = "0 note";
+"notes.one"     = "1 nota";
+"notes.two"     = "%zd note";
+"notes.few"     = "%zd note";
+"notes.many"    = "%zd note";
+"notes.other"   = "%zd note";
 
-"books.zero"    = "0 books";
-"books.one"     = "1 book";
-"books.two"     = "%zd books";
-"books.few"     = "%zd books";
-"books.many"    = "%zd books";
-"books.other"   = "%zd books";
+"books.zero"    = "0 libri";
+"books.one"     = "1 libro";
+"books.two"     = "%zd libri";
+"books.few"     = "%zd libri";
+"books.many"    = "%zd libri";
+"books.other"   = "%zd libri";
 
 "records.zero"    = "0 records";
 "records.one"     = "1 record";
@@ -55,23 +55,23 @@
 "records.many"    = "%zd records";
 "records.other"   = "%zd records";
 
-"minutes.zero"    = "0 minutes";
-"minutes.one"     = "1 minute";
-"minutes.two"     = "%zd minutes";
-"minutes.few"     = "%zd minutes";
-"minutes.many"    = "%zd minutes";
-"minutes.other"   = "%zd minutes";
+"minutes.zero"    = "0 minuti";
+"minutes.one"     = "1 minuto";
+"minutes.two"     = "%zd minuti";
+"minutes.few"     = "%zd minuti";
+"minutes.many"    = "%zd minuti";
+"minutes.other"   = "%zd minuti";
 
-"seconds.zero"    = "0 seconds";
-"seconds.one"     = "1 seconds";
-"seconds.two"     = "%zd seconds";
-"seconds.few"     = "%zd seconds";
-"seconds.many"    = "%zd seconds";
-"seconds.other"   = "%zd seconds";
+"seconds.zero"    = "0 secondi";
+"seconds.one"     = "1 secondo";
+"seconds.two"     = "%zd secondi";
+"seconds.few"     = "%zd secondi";
+"seconds.many"    = "%zd secondi";
+"seconds.other"   = "%zd secondi";
 
-"matches.zero"    = "0 matches";
-"matches.one"     = "1 match";
-"matches.two"     = "%zd matches";
-"matches.few"     = "%zd matches";
-"matches.many"    = "%zd matches";
-"matches.other"   = "%zd matches";
+"matches.zero"    = "0 risultati";
+"matches.one"     = "1 risultato";
+"matches.two"     = "%zd risultati";
+"matches.few"     = "%zd risultati";
+"matches.many"    = "%zd risultati";
+"matches.other"   = "%zd risultati";
