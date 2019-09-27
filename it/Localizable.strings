@@ -277,9 +277,9 @@
 
 "bookshelf.layout"              = "Vista per";
 "bookshelf.layout.covers"       = "Copertine";
-"bookshelf.layout.cards"        = "Etichette";
-"bookshelf.layout.cards.mini"   = "Etichette mini";
-"bookshelf.layout.cards.large"  = "Etichette grandi";
+"bookshelf.layout.cards"        = "Schede";
+"bookshelf.layout.cards.mini"   = "Schede piccole";
+"bookshelf.layout.cards.large"  = "Schede grandi";
 
 "bookshelf.clean.category"        = "Elimina vuoto";
 "bookshelf.clean.category.fmt"    = "Vuoi sicuramente pulire la categoria %@ ed eliminare %@?";
@@ -347,7 +347,7 @@
 "bookcard.sequence.prompt"      = "Inserisci una serie";
 "bookcard.sequence.name.prompt" = "Inserisci il nome di una serie";
 "bookcard.sequence.number.prompt" = "Inserisci un numero della serie (opzionale)";
-"bookcard.author"               = "Autorr";
+"bookcard.author"               = "Autore";
 "bookcard.author.add"           = "Aggiungi un autore";
 "bookcard.author.prompt"        = "Inserisci un autore";
 "bookcard.author.name.prompt"   = "Nome completo in forma libera";
@@ -399,7 +399,7 @@
 "books.edit.differ.series"      = "Le serie non coincidono";
 "books.edit.differ.authors"     = "Gli autori non coincidono";
 "books.edit.differ.tags"        = "I tag non coincidono";
-"books.edit.differ.subjects"    = "Gliargomenti non coincidono";
+"books.edit.differ.subjects"    = "Gli argomenti non coincidono";
 "books.edit.differ.publishers"  = "Gli editori non coincidono";
 "books.edit.differ.languages"   = "Le lingue non coincidono";
 
@@ -852,77 +852,77 @@
 
 // APP CONTROL
 
-"app.control"                      = "Control";
-"app.control.services"             = "Services";
-"app.control.prefs"                = "Preferences";
-"app.control.advanced.ui"          = "Advanced interface";
-"app.control.advanced.ui.hint"     = "Allows several active tabs (similar to Safari).\n\nActivation of the advanced interface is via a PRO or PREMIUM in-app purchase.";
+"app.control"                      = "Controlli";
+"app.control.services"             = "Servizi";
+"app.control.prefs"                = "Preferen";ze
+"app.control.advanced.ui"          = "Interfaccia avanzata";
+"app.control.advanced.ui.hint"     = "Consente diversi tab attivi (come in Safari).\n\nL'attivazione dell'interfaccia avanzata avviene tramite un acquisto in-app PRO o PREMIUM.";
 
 // APP PREFS
 
-"app.prefs.home.backg"              = "Background in List mode";
-"app.prefs.home.backg.colored"      = "Colored";
-"app.prefs.bookshelf.cover"         = "Book cover";
+"app.prefs.home.backg"              = "Sfondo in modalità elenco";
+"app.prefs.home.backg.colored"      = "Colorato";
+"app.prefs.bookshelf.cover"         = "Copertina del libro";
 "app.prefs.bookshelf.tag"           = "Tag";
 "app.prefs.bookshelf.filestate"     = "Cloud/Download";
-"app.prefs.bookshelf.decor"         = "Display secondary information in a cell";
-"app.prefs.bookshelf.backg.card"    = "Background color in card mode";
-"app.prefs.bookshelf.backg.mini"    = "Background color in mini-card mode";
-"app.prefs.bookshelf.card"          = "Card mode";
-"app.prefs.bookshelf.card.hires"    = "Hi-Res covers";
-"app.prefs.bookshelf.tags"          = "Tags style";
-"app.prefs.bookshelf.tags.icons"    = "Icons";
-"app.prefs.bookshelf.tags.titles"   = "Titles";
-"app.prefs.bookshelf.search"        = "Search";
-"app.prefs.bookshelf.search.bar"    = "Search bar";
-"app.prefs.bookshelf.search.hint"   = "Enable a search bar for filtering books on a bookshelf.";
-"app.prefs.bookshelf.default"       = "Default preferences";
-"app.prefs.bookshelf.default.hint"  = "Changing the default preferences will also reset all user preferences!";
-"app.prefs.bookshelf.bookcard.open" = "Animation of a book card opening (iPad only)";
-"app.prefs.reader.fullscreen"       = "Full-screen";
-"app.prefs.reader.fullscreen.auto"  = "Autoswitch";
-"app.prefs.reader.fullscreen.tap"   = "By tapping in the center";
-"app.prefs.reader.fullscreen.header"= "Hide header bar";
-"app.prefs.reader.fullscreen.footer"= "Hide footer bar";
-"app.prefs.reader.fullscreen.hint"  = "By default, KyBook automatically switches to full-screen mode when you start reading. To exit full-screen mode, tap the header bar. In addition, you can enable a central tap to toggle full-screen mode.";
-"app.prefs.reader.fast.selection"   = "Fast selection";
-"app.prefs.reader.fast.selection.action"= "Action";
-"app.prefs.reader.fast.selection.hint"  = "Fast selection can be used to perform the preferred action on the selected text with one gesture. To activate, use a long press on a piece of text, without lifting your finger, select the desired text, lift your finger.";
-"app.prefs.reader.idletimer"        = "Disable screen auto-lock";
-"app.prefs.reader.idletimer.hint"   = "As long as the book is open, the screen remains switched on.";
-"app.prefs.reader.rotationlock"     = "Rotation lock";
-"app.prefs.reader.rotationlock.hint"= "Do not rotate the reader when the device did turn (works as long as the book is reading at fullscreen). Rotation lock is available only on iPhone.";
-"app.prefs.reader.tts.auto"         = "Autoplay";
-"app.prefs.reader.tts.auto.header"  = "When to start autoplay";
-"app.prefs.reader.tts.auto.never"   = "Never";
-"app.prefs.reader.tts.auto.headset" = "Headphones connected";
-"app.prefs.reader.tts.auto.always"  = "Always";
-"app.prefs.reader.tts.auto.hint"    = "Automatically start speech synthesis when open Epub/MOBI/FB2 ebook.";
+"app.prefs.bookshelf.decor"         = "Visualizza informazioni secondarie in una cella";
+"app.prefs.bookshelf.backg.card"    = "Colore di sfondo in modalità schede";
+"app.prefs.bookshelf.backg.mini"    = "Colore di sfondo in modalità schede mini";
+"app.prefs.bookshelf.card"          = "Modalità schede";
+"app.prefs.bookshelf.card.hires"    = "Copertine ad alta risoluzione";
+"app.prefs.bookshelf.tags"          = "Stile dei tag";
+"app.prefs.bookshelf.tags.icons"    = "Icone";
+"app.prefs.bookshelf.tags.titles"   = "Titoli";
+"app.prefs.bookshelf.search"        = "Cerca";
+"app.prefs.bookshelf.search.bar"    = "Barra di ricerca";
+"app.prefs.bookshelf.search.hint"   = "Abilita la barra di ricerca per filtrare i libri su uno scaffale.";
+"app.prefs.bookshelf.default"       = "Preferenze predefinite";
+"app.prefs.bookshelf.default.hint"  = "Moificando le preferenze predefinite verranno resettate anche tutte le preferenze dell'utente!";
+"app.prefs.bookshelf.bookcard.open" = "Animazione dell'apertura di una scheda libro (solo iPad)";
+"app.prefs.reader.fullscreen"       = "Schermo intero";
+"app.prefs.reader.fullscreen.auto"  = "Cambio automatico";
+"app.prefs.reader.fullscreen.tap"   = "Toccando al centro";
+"app.prefs.reader.fullscreen.header"= "Nascondi barra di intestazione";
+"app.prefs.reader.fullscreen.footer"= "Nascondi la barra a piè di pagina";
+"app.prefs.reader.fullscreen.hint"  = "Per impostazione predefinita, KyBook passa automaticamente alla modalità a schermo intero quando inizi a leggere. Per uscire dalla modalità a schermo intero, tocca la barra dell'intestazione. Inoltre, puoi abilitare un tocco al centro per attivare la modalità a schermo intero.";
+"app.prefs.reader.fast.selection"   = "Selezione veloce";
+"app.prefs.reader.fast.selection.action"= "Azione";
+"app.prefs.reader.fast.selection.hint"  = "La selezione rapida può essere utilizzata per eseguire l'azione preferita sul testo selezionato con un solo gesto. Per attivarla, utilizzate una pressione prolungata su una parte di testo, senza sollevare il dito, selezionate il testo desiderato, quindi sollevate il dito.";
+"app.prefs.reader.idletimer"        = "Disabilita il blocco automatico dello schermo";
+"app.prefs.reader.idletimer.hint"   = "Finché il libro è aperto, lo schermo rimane acceso.";
+"app.prefs.reader.rotationlock"     = "Blocco rotazione";
+"app.prefs.reader.rotationlock.hint"= "Non ruotate il lettore quando girate il dispositivo (funziona finché il libro è in lettura a schermo intero). Il blocco della rotazione è disponibile solo su iPhone.";
+"app.prefs.reader.tts.auto"         = "Riproduzione automatica";
+"app.prefs.reader.tts.auto.header"  = "Quando avviare la riproduzione automatica";
+"app.prefs.reader.tts.auto.never"   = "Mai";
+"app.prefs.reader.tts.auto.headset" = "Cuffie collegate";
+"app.prefs.reader.tts.auto.always"  = "Sempre";
+"app.prefs.reader.tts.auto.hint"    = "Avvia automaticamente la sintesi vocale quando apri gli ebook Epub/MOBI/FB2.";
 "app.prefs.cache"                   = "Cache";
-"app.prefs.cache.clear"             = "Clear space";
-"app.prefs.cache.reader"            = "Reader Cache";
-"app.prefs.cache.reader.hint"       = "KyBook stores unzipped and parsed e-book data in the cache folder on the device. You can delete all cached data to free up space.";
-"app.prefs.cache.covers"            = "Book Covers Cache";
-"app.prefs.cache.covers.hint"       = "KyBook stores book cover images in the cache folder on the device. You can delete all cached images to free up space.";
-"app.prefs.misc"                    = "Miscellaneous";
-"app.prefs.spotlight"               = "Spotlight Search";
-"app.prefs.spotlight.hint"          = "Index opened books to make them searchable using Spotlight Search.";
-"app.autosum.algo"                  = "Automatic Text Summarization Algorithm";
-"app.autosum.algo.hint"             = "Text rank is very resource intensive, but may produce a better result. Try switching to the 'Key phrases' algorithm, if KyBook was forced to close by iOS due to memory depletion.";
+"app.prefs.cache.clear"             = "Libera spazio";
+"app.prefs.cache.reader"            = "Cache del lettore";
+"app.prefs.cache.reader.hint"       = "KyBook memorizza i dati e-book decompressi e analizzati nella cartella cache sul dispositivo. Per liberare spazio puoi eliminare tutti i dati memorizzati nella cache.";
+"app.prefs.cache.covers"            = "Cache delle copertine dei libri";
+"app.prefs.cache.covers.hint"       = "KyBook memorizza le immagini delle copertine nella cartella cache sul dispositivo. Per liberare spazio puoi eliminare tutte le immagini memorizzate nella cache.";
+"app.prefs.misc"                    = "Miscellaneo";
+"app.prefs.spotlight"               = "Ricerca con Spotlight";
+"app.prefs.spotlight.hint"          = "Indicizza i libri aperti per renderli ricercabili utilizzando Spotlight.";
+"app.autosum.algo"                  = "Algoritmo automatico di riassunto del testo";
+"app.autosum.algo.hint"             = "La classificazione del testo richiede molte risorse, ma può produrre un risultato migliore. Prova a passare all'algoritmo "Frasi chiave", se è atata forzata la chiusura diKyBook da iOS a causa dell'esaurimento della memoria.";
 "app.prefs.dragdrop"                = "Drag & Drop";
-"app.prefs.dragdrop.hint"           = "Allows dragging and dropping items on a bookshelf, a library and other screens.";
-"app.prefs.dragdrop.confirm.title"  = "Toggle Drag & Drop";
-"app.prefs.dragdrop.confirm.msg"    = "Changing Drag & Drop requires resetting of the KyBook's screens. All screens will be closed.\nAre you sure?";
+"app.prefs.dragdrop.hint"           = "Permette di trascinare e rilasciare oggetti su uno scaffale, una biblioteca ed altre schermate.";
+"app.prefs.dragdrop.confirm.title"  = "Attiva/disattiva Drag & Drop";
+"app.prefs.dragdrop.confirm.msg"    = "La modifica di Drag & Drop richiede il ripristino degli schermi di KyBook. Tutti gli schermi verranno chiusi.\nSei sicuro?";
 
 // CONTENT SERVER
 
-"contentserver.general"     = "Content Server";
-"contentserver.activate"    = "Activate";
+"contentserver.general"     = "Modalità server";
+"contentserver.activate"    = "Attiva";
 "contentserver.link"        = "Link";
 "contentserver.username"    = "Username";
 "contentserver.password"    = "Password";
-"contentserver.hint"        = "Activate the content server to access your files via the local network using a web browser. Upload books to the device from PC via WiFi (iTunes is not needed, only a web browser is required).";
-"contentserver.visit"       = "Visit '%@' in your web browser";
+"contentserver.hint"        = "Attiva la modalità server per accedere ai tuoi file tramite la rete locale usando un browser web. Carica i libri sul dispositivo dal PC tramite WiFi (non è necessario usare iTunes, è richiesto solo un browser web).";
+"contentserver.visit"       = "Collegati a '%@' con il tuo browser web";
 
 // IMAGE PICKER
 
