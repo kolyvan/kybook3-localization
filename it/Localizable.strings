@@ -926,94 +926,94 @@
 
 // IMAGE PICKER
 
-"imagepicker.image"                 = "Image";
-"imagepicker.reset"                 = "Reset";
-"imagepicker.files"                 = "Files";
-"imagepicker.photo"                 = "Photo";
+"imagepicker.image"                 = "Immagine";
+"imagepicker.reset"                 = "Ripristina";
+"imagepicker.files"                 = "File";
+"imagepicker.photo"                 = "Foto";
 "imagepicker.internet"              = "Internet";
-"imagepicker.libraries"             = "Libraries";
-"imagepicker.samples"               = "Samples";
-"imagepicker.backgrounds"           = "Backgrounds";
-"imagepicker.photo.all"             = "All Photos";
-"imagepicker.photo.none"            = "No photo";
-"imagepicker.files.none"            = "No image files in this folder";
-"imagepicker.photos.select"         = "Select from Photos";
-"imagepicker.internet.search"       = "Search the Internet";
-"imagepicker.libraries.search"      = "Search in Libraries";
+"imagepicker.libraries"             = "Librerie";
+"imagepicker.samples"               = "Esempi";
+"imagepicker.backgrounds"           = "Sfondi";
+"imagepicker.photo.all"             = "Tutte le foto";
+"imagepicker.photo.none"            = "Nessuna foto";
+"imagepicker.files.none"            = "Nessuna immagine in questa cartella";
+"imagepicker.photos.select"         = "Seleziona da Foto";
+"imagepicker.internet.search"       = "Cerca in Internet";
+"imagepicker.libraries.search"      = "Cerca nelle librerie";
 "imagepicker.files.browse"          = "Seleziona dall'archivio file";
-"imagepicker.files.import"          = "Import with Apple's Files app";
-"imagepicker.download"              = "Download from the catalog";
-"imagepicker.photo.fail"            = "Failed requesting an image from Photos";
-"imagepicker.photo.notdetermined"   = "You have not yet made a choice with regards to KyBook";
-"imagepicker.photo.restricted"      = "KyBook is not authorized to access Photos";
-"imagepicker.photo.denied"          = "You have explicitly denied KyBook access to Photos";
+"imagepicker.files.import"          = "Importa con l'app File di Apple";
+"imagepicker.download"              = "Scarica dal catalogo";
+"imagepicker.photo.fail"            = "Richiesta dell'immagine da Foto non riuscita";
+"imagepicker.photo.notdetermined"   = "Non hai ancora fatto una scelta riguardo a KyBook";
+"imagepicker.photo.restricted"      = "KyBook non è autorizzato ad accedere a Foto";
+"imagepicker.photo.denied"          = "Hai negato esplicitamente l'accesso di KyBook a Foto";
 
 // TEXT 2 SPEECH
 
-"tts.general"           = "Speech Synthesis (text-to-speech)";
-"tts.completed"         = "Text-to-Speech: completed";
-"tts.unablestart"       = "Text-to-Speech: unable to start";
-"tts.pitch"             = "Pitch";
-"tts.rate"              = "Rate";
+"tts.general"           = "Sintesi vocale (text-to-speech)";
+"tts.completed"         = "Sintesi vocale: completata";
+"tts.unablestart"       = "Sintesi vocale: impossibile da avviare";
+"tts.pitch"             = "Tono";
+"tts.rate"              = "Velocità";
 "tts.volume"            = "Volume";
-"tts.continuable"       = "Speak all";
-"tts.continuable.hint"  = "When speaking text selected via the menu, keeping speaking to the end of the book.";
-"tts.voices"            = "Voices";
-"tts.voices.headline"   = "Select the preferred voice for your language. KyBook will use the selected voice for speech synthesis";
-"tts.voices.footer"     = "For more enhanced voices please open iOS Settings -> General -> Accessibility -> Speech -> Voices and download an enhanced voice for your language";
+"tts.continuable"       = "Leggi tutto";
+"tts.continuable.hint"  = "Quando il testo è selezionato tramite il menù, viene letto senza interruzione fino alla fine del libro.";
+"tts.voices"            = "Voci";
+"tts.voices.headline"   = "Seleziona la voce che preferisci per la tua lingua. KyBook utilizzerà la voce selezionata per la sintesi vocale.";
+"tts.voices.footer"     = "Per voci più avanzate, apri Impostazioni iOS -> Generali -> Accessibilità -> VoiceOver -> Voce -> Voce e scarica una voce migliorata per la tua lingua";
 
 // AUTO SCROLLING
 
-"autoscrolling.general"     = "Auto scrolling";
-"autoscrolling.rate"        = "Rate";
-"autoscrolling.hideslider"  = "Hide the rate slider in the reader screen";
-"autoscrolling.tunerate"    = "Adjust the rate when scrolling up/down";
+"autoscrolling.general"     = "Scorrimento automatico";
+"autoscrolling.rate"        = "Velocità";
+"autoscrolling.hideslider"  = "Nascondi il cursore della velocità nella schermata di lettura";
+"autoscrolling.tunerate"    = "Regola la velocità quando scorri su/giù";
 
 // NETWORK
 
 "network.general"           = "Network";
 "network.streaming"         = "Streaming";
-"network.streaming.audio"   = "Audio content";
-"network.streaming.pdf"     = "PDF metadata";
-"network.streaming.hint"    = "When possible KyBook will stream an audiobook (or obtain the PDF metadata) directly from cloud storage without preloading the entire file to the device.";
+"network.streaming.audio"   = "Contenuto audio";
+"network.streaming.pdf"     = "Metadati PDF";
+"network.streaming.hint"    = "Quando possibile, KyBook trasmetterà in streaming un audiolibro (o otterrà i metadati PDF) direttamente dall'archivio cloud senza precaricare l'intero file sul dispositivo.";
 "network.streaming.footer"  = "streaming";
-"network.local"             = "Local Network";
+"network.local"             = "Network locale";
 "network.local.neighborhood"= "Network Neighborhood";
-"network.local.discovery"   = "Local Network Discovery";
-"network.samba"             = "Shared folders";
+"network.local.discovery"   = "Rilevamento della rete locale";
+"network.samba"             = "Cartelle condivise";
 "network.server"            = "Server";
 "network.sharepoint"        = "Sharepoint";
-"network.samba.add"         = "Add the shared folder";
-"network.samba.settings"    = "Connection settings";
-"network.samba.hint"        = "Enter the server name or address, Sharepoint (optional), username (optional, will use guest access, if not specified) and password (optional). If the connection terminates with the error 'Unauthorized' username and password are mandatory!";
-"network.samba.v1.info"     = "KyBook can only connect to SMB1 shares. SMB1 is disabled by default on Windows 10. To enable SMB1 on Windows 10, go to Control Panel > Programs and Features > Turn Windows Features on > check the box for 'SMB 1.0/CIFS Server' and reboot. Attention, SMB1 isn’t safe!";
-"network.tor"               = "Tor Network";
-"network.tor.conf.header"   = "Attention! KyBook automatically joins the Tor network when opening .onion an OPDS catalog.";
-"network.tor.conf.footer"   = "KyBook will *automatically* join the Tor network and tunnel traffic for .onion OPDS catalogs and websites.\n\nWeb browsing and downloading through the Tor network will be significantly slower than through a non-tunneled connection.\n\nPlease note that KyBook is not intended for web surfing anonymously! Using Tor in KyBook only solves the problem of network reachability.\n\nThis product uses the Tor distributed networks, is produced independently from the Tor anonymity software, and carries no guarantee from The Tor Project about quality, suitability, or anything else.";
+"network.samba.add"         = "Aggiungi la cartella condivisa";
+"network.samba.settings"    = "Impostazioni di connessione";
+"network.samba.hint"        = "Immettere il nome o l'indirizzo del server, Sharepoint (facoltativo), username (facoltativo, se non specificato, verrà usato l'accesso ospite) e password (facoltativo). Se la connessione termina con l'errore 'Non autorizzato' username e password sono obbligatori!";
+"network.samba.v1.info"     = "KyBook può connettersi solo a condivisioni SMB1. SMB1 è disabilitato di default su Windows 10. Per abilitare SMB1 su Windows 10, vai al Pannello di controllo > Programmi e Funzionalità > Attiva le Funzionalità di Windows > selezionare la casella per 'SMB 1.0/CIFS Server' e riavviare. Attenzione, SMB1 non è sicuro!";
+"network.tor"               = "Network Tor";
+"network.tor.conf.header"   = "Attentione! KyBook si collega automaticamente alla rete Tor quando apre un catalogo .onion OPDS.";
+"network.tor.conf.footer"   = "KyBook si unirà * automaticamente* alla rete Tor ed effettuerà il tunnelling del traffico per i cataloghi .onion OPDS e i siti web.\n\nLa navigazione e il download sul Web attraverso la rete Tor saranno notevolmente più lenti rispetto a una connessione senza tunnel.\n\nSi prega di notare che KyBook non è destinato alla navigazione anonima! L'uso di Tor in KyBook risolve solo i problemi di raggiungibilità della rete.\n\nQuesto prodotto utilizza le reti distribuite Tor, è prodotto indipendentemente dal software di anonimato Tor, e non fornisce alcuna garanzia da parte del Progetto Tor su qualità, idoneità o altro.";
 "network.tor.bridge"        = "Bridge";
-"network.tor.bridges"       = "Bridges";
-"network.tor.bridges.add"   = "Add a bridge";
-"network.tor.bridges.reset" = "Delete bridges";
-"network.tor.bridges.hint"  = "Bridges are Tor relays that help you circumvent censorship. Bridges are not mandatory! Only if you suspect your access to the Tor network is being blocked, you may want to use bridges. More info at bridges.torproject.org.";
-"network.status"                = "Status";
-"network.status.disconnected"   = "Disconnected";
-"network.status.connecting"     = "Connecting ...";
-"network.status.connected"      = "Connected";
-"network.status.authenticated"  = "Authenticated";
+"network.tor.bridges"       = "Bridge";
+"network.tor.bridges.add"   = "Aggiungi un bridge";
+"network.tor.bridges.reset" = "Elimina i bridge";
+"network.tor.bridges.hint"  = "I bridge sono relè Tor che ti aiutano a eludere la censura. I bridge non sono obbligatori! Solo se sospetti che il tuo accesso alla rete Tor sia bloccato, potresti voler usare i bridge. Maggiori informazioni su bridges.torproject.org.";
+"network.status"                = "Stato";
+"network.status.disconnected"   = "Scollegato";
+"network.status.connecting"     = "Connessione in corso…";
+"network.status.connected"      = "Connesso";
+"network.status.authenticated"  = "Autenticato";
 "network.status.bootstrap"      = "Bootstrap";
-"network.status.ready"          = "Ready";
-"network.status.failure"        = "Failure";
-"network.status.waiting"        = "Waiting";
-"network.status.suspended"      = "Suspended";
-"network.status.loading"        = "Loading";
-"network.status.shutdown"       = "Shutdown";
+"network.status.ready"          = "Pronto";
+"network.status.failure"        = "Fallito";
+"network.status.waiting"        = "In attesa";
+"network.status.suspended"      = "Sospeso";
+"network.status.loading"        = "Caricamento in corso";
+"network.status.shutdown"       = "Chiusura";
 "network.start"                 = "Start";
 "network.stop"                  = "Stop";
-"network.restart"               = "Restart";
-"network.websearch.engine"      = "Web Search Engine";
-"network.download.add"          = "Add a download";
-"network.download.file.ask"     = "Download a file?";
-"network.download.file.enter"   = "Enter URL to download a file";
+"network.restart"               = "Riavvio";
+"network.websearch.engine"      = "Motore di ricerca";
+"network.download.add"          = "Aggiungi un download";
+"network.download.file.ask"     = "Scarica un file?";
+"network.download.file.enter"   = "Inserisci l'URL per scaricare un file";
 
 // TRANSLATION
 
