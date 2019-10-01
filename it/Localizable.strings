@@ -13,7 +13,7 @@
 "common.cancel"             = "Annulla";
 "common.done"               = "Fatto";
 "common.cancelled"          = "Annullato";
-"common.cancelling"         = "In annullamento…";
+"common.cancelling"         = "Annullamento in corso…";
 "common.loading"            = "Caricamento in corso…";
 "common.preparing"          = "In preparazione…";
 "common.edit"               = "Modifica";
@@ -28,8 +28,8 @@
 "common.completed"          = "Completato";
 "common.inprogress"         = "In corso…";
 "common.downloading"        = "Downloading";
-"common.archiving"          = "Archiviazione…";
-"common.unarchiving"        = "Estrazione…";
+"common.archiving"          = "Archiviazione in corso…";
+"common.unarchiving"        = "Estrazione in corso…";
 "common.none"               = "Nessuno";
 "common.configure"          = "Configura";
 "common.confirm"            = "Conferma";
@@ -492,10 +492,10 @@
 "dashboard"                 = "Dashboard";
 "dashboard.notes"           = "Note";
 "dashboard.summary"         = "Riassunto";
-"dashboard.summaries"       = "Riassunto";
+"dashboard.summaries"       = "Riassunti";
 "dashboard.summary.add"     = "Aggiungi un riassunto";
-"dashboard.summary.add.hint"= "Inserisci un titolo per il nuov riassunto.";
-"dashboard.summarize.run"   = "Esegui la sintesi in moso automatico";
+"dashboard.summary.add.hint"= "Inserisci un titolo per il nuovo riassunto.";
+"dashboard.summarize.run"   = "Esegui la sintesi in modo automatico";
 "dashboard.summaries.widget.detail" = "Raccolta delle sintesi degli utenti";
 "dashboard.widget.detail"   = "Sintesi e note";
 
@@ -852,9 +852,9 @@
 
 // APP CONTROL
 
-"app.control"                      = "Controlli";
+"app.control"                      = "Impostazioni";
 "app.control.services"             = "Servizi";
-"app.control.prefs"                = "Preferen";ze
+"app.control.prefs"                = "Preferenze";
 "app.control.advanced.ui"          = "Interfaccia avanzata";
 "app.control.advanced.ui.hint"     = "Consente diversi tab attivi (come in Safari).\n\nL'attivazione dell'interfaccia avanzata avviene tramite un acquisto in-app PRO o PREMIUM.";
 
@@ -1017,165 +1017,165 @@
 
 // TRANSLATION
 
-"translation.general"           = "Translation";
-"translation.running"           = "Translating ...";
+"translation.general"           = "Traduzione";
+"translation.running"           = "Traduzione in corso…";
 "translation.yandex"            = "Yandex.Translate";
-"translation.yandex.copyright"  = "Powered by Yandex.Translate";
-"translation.target.lang"       = "Target language";
-"translation.target.lang.hint"  = "By default the target language is the device language.";
-"translation.source.lang"       = "Source language";
-"translation.source.auto"       = "Auto detection";
-"translation.source.auto.hint"  = "When automatic detection is disabled, KyBook will use the language specified in a book's card.";
-"translation.services"          = "Translation services";
-"translation.target.ask"        = "Please select the translation target language";
+"translation.yandex.copyright"  = "Realizzato da Yandex.Translate";
+"translation.target.lang"       = "Lingua di traduzione";
+"translation.target.lang.hint"  = "Di default, la lingua di traduzione è la lingua del dispositivo.";
+"translation.source.lang"       = "Lingua originale";
+"translation.source.auto"       = "Rilevamento automatico";
+"translation.source.auto.hint"  = "Quando il rilevamento automatico è disabilitato, KyBook utilizzerà la lingua definita nella scheda del libro.";
+"translation.services"          = "Servizi di traduzione";
+"translation.target.ask"        = "Seleziona la lingua di destinazione della traduzione";
 
 // MAIN
 
-"main.books"                    = "Books";
-"main.reading"                  = "Reading Now";
-"main.library"                  = "Library";
-"main.catalogs"                 = "Catalogs";
-"main.dashboard"                = "Dashboard";
+"main.books"                    = "Libri";
+"main.reading"                  = "In lettura";
+"main.library"                  = "Libreria";
+"main.catalogs"                 = "Cataloghi";
+"main.dashboard"                = "Cruscotto";
 
 // CLOUD
 
-"cloud.icloud.signin"           = "Sign in to iCloud";
-"cloud.icloud.signin.message"   = "Sign in to your iCloud account. On the Home screen, launch iOS settings, tap iCloud, and enter your Apple ID. Turn iCloud Drive on. If you don't have an iCloud account, tap Create a new Apple ID.";
-"cloud.dropbox.link.title"      = "Connect Dropbox";
-"cloud.dropbox.link.message"    = "Select preferred authentication method";
-"cloud.dropbox.link.app"        = "Start Dropbox app";
-"cloud.dropbox.link.site"       = "Open Dropbox site ";
-"cloud.credential.required"     = "Authentication required";
-"cloud.credential.user"         = "User";
+"cloud.icloud.signin"           = "Accedi a iCloud";
+"cloud.icloud.signin.message"   = "Accedi al tuo account iCloud. Nella schermata Home, avvia le impostazioni di iOS, tocca iCloud e inserisci il tuo ID Apple. Attiva iCloud Drive. Se non hai un account iCloud, tocca Crea un nuovo ID Apple."; // **outdate info
+"cloud.dropbox.link.title"      = "Connetti Dropbox";
+"cloud.dropbox.link.message"    = "Seleziona il metodo di autenticazione preferito";
+"cloud.dropbox.link.app"        = "Avvia l'app Dropbox";
+"cloud.dropbox.link.site"       = "Apri il sito Dropbox";
+"cloud.credential.required"     = "Autenticazione richiesta";
+"cloud.credential.user"         = "Utente";
 "cloud.credential.password"     = "Password";
-"cloud.webdav.add"              = "Add the WebDAV server";
-"cloud.webdav.data"             = "WebDAV Server Settings";
-"cloud.webdav.known"            = "List of known WebDAV servers";
-"cloud.webdav.hint"             = "Enter the URL, username, and password to connect to the WebDAV server.";
-"cloud.check.reachability"      = "Checking reachability ...";
-"cloud.check.fail.msg"          = "Server is not reachable or is invalid";
-"cloud.check.fail.ask"          = "Connect the server anyway?";
+"cloud.webdav.add"              = "Aggiungi il server WebDAV";
+"cloud.webdav.data"             = "Impostazioni Server WebDAV";
+"cloud.webdav.known"            = "Elenco di server WebDAV";
+"cloud.webdav.hint"             = "Inserisci l'URL, il nome utente e la password per connetterti al server WebDAV.";
+"cloud.check.reachability"      = "Controllo della raggiungibilità…";
+"cloud.check.fail.msg"          = "Il server non è raggiungibile o l'indirizzo non è valido";
+"cloud.check.fail.ask"          = "Connetti al server in ogni caso?";
 
 // CATALOG
 
-"catalog.general"               = "Catalog";
-"catalog.add.to"                = "Add to Catalogs";
-"catalog.opds"                  = "OPDS Catalog";
-"catalog.opds.add"              = "Add OPDS Catalog";
-"catalog.opds.add.hint"         = "Enter the catalog's URL into the field to add a custom OPDS Сatalog.";
-"catalog.opds.add.fix"          = "It seems that the OPDS catalog address was not fully specified. The address was corrected. Please check carefully.";
-"catalog.opds.localnet"         = "Search the local network";
-"catalog.opds.localnet.hint"    = "Search the local network for OPDS catalogs such as Calibre and TinyOPDS.";
-"catalog.opds.known"            = "List of known OPDS Catalogs";
-"catalog.rel.related"           = "Related";
-"catalog.rel.alternate"         = "Alternate";
-"catalog.rel.subsection"        = "Subsection";
-"catalog.rel.acquisition"       = "Acquisition";
-"catalog.rel.openaccess"        = "Open access";
-"catalog.rel.borrow"            = "Borrow";
-"catalog.rel.buy"               = "Buy";
-"catalog.rel.sample"            = "Sample";
-"catalog.rel.subscribe"         = "Subscribe";
-"catalog.rel.new"               = "New";
-"catalog.rel.popular"           = "Popular";
-"catalog.rel.featured"          = "Featured";
-"catalog.rel.recommended"       = "Recommended";
-"catalog.rel.shelf"             = "Shelf";
-"catalog.rel.subscriptions"     = "Subscriptions";
-"catalog.rel.free"              = "Free";
-"catalog.rel.basket"            = "Basket";
+"catalog.general"               = "Catalogo";
+"catalog.add.to"                = "Aggiungi ai cataloghi";
+"catalog.opds"                  = "Catalogo OPDS";
+"catalog.opds.add"              = "Aggiungi il catalogo OPDS";
+"catalog.opds.add.hint"         = "Inserisci l'URL del catalogo per aggiungere un tuo catalogo OPDS.";
+"catalog.opds.add.fix"          = "Sembra che l'indirizzo del catalogo OPDS non sia stato specificato in modo completo. L'indirizzo è stato corretto. Per favore controlla attentamente.";
+"catalog.opds.localnet"         = "Cerca nella rete locale";
+"catalog.opds.localnet.hint"    = "Cerca nella rete locale cataloghi OPDS come Calibre e TinyOPDS.";
+"catalog.opds.known"            = "Elenco dei cataloghi OPDS conosciuti";
+"catalog.rel.related"           = "Correlato";
+"catalog.rel.alternate"         = "Alternato";
+"catalog.rel.subsection"        = "Sottosezione";
+"catalog.rel.acquisition"       = "Acquisito";
+"catalog.rel.openaccess"        = "Accesso libero";
+"catalog.rel.borrow"            = "Prestito";
+"catalog.rel.buy"               = "Acquistare";
+"catalog.rel.sample"            = "Esempio";
+"catalog.rel.subscribe"         = "Sottoscrivi";
+"catalog.rel.new"               = "Nuovo";
+"catalog.rel.popular"           = "Popolare";
+"catalog.rel.featured"          = "In primo piano";
+"catalog.rel.recommended"       = "Consigliato";
+"catalog.rel.shelf"             = "Scaffale";
+"catalog.rel.subscriptions"     = "Sottoscrizioni";
+"catalog.rel.free"              = "Gratuito";
+"catalog.rel.basket"            = "Cestino";
 "catalog.rel.download"          = "Download";
 "catalog.rel.login"             = "Login";
 "catalog.rel.logout"            = "Logout";
-"catalog.rel.author"            = "Author";
-"catalog.rel.sequence"          = "Series";
-"catalog.rel.category"          = "Category";
-"catalog.rel.publisher"         = "Publisher";
+"catalog.rel.author"            = "Autore";
+"catalog.rel.sequence"          = "Serie";
+"catalog.rel.category"          = "Categoria";
+"catalog.rel.publisher"         = "Editore";
 "catalog.rel.web"               = "Web";
-"catalog.rel.search"            = "Search";
-"catalog.rel.up"                = "Up";
-"catalog.rel.first"             = "First";
-"catalog.rel.last"              = "Last";
-"catalog.check.fail.msg"        = "Catalog is not reachable or is invalid";
-"catalog.check.fail.ask"        = "Anyway add the catalog?";
-"catalog.opds.fix.path"         = "It seems that the OPDS catalog address was not fully specified. The address was corrected. Please check carefully.";
-"catalog.credentials.reset"     = "Reset credentials";
-"catalog.credentials.reset.hint"= "Reset saved credentials (passwords, access tokens).";
-"catalog.links"                 = "References";
-"catalog.rights"                = "Rights";
-"catalog.source"                = "Source";
-"catalog.reviews"               = "Reviews";
+"catalog.rel.search"            = "Cerca";
+"catalog.rel.up"                = "Su";
+"catalog.rel.first"             = "Primo";
+"catalog.rel.last"              = "Ultimo";
+"catalog.check.fail.msg"        = "Il catalogo non è raggiungibile o non è valido";
+"catalog.check.fail.ask"        = "Aggiungi il catalogo in ogni caso?";
+"catalog.opds.fix.path"         = "Sembra che l'indirizzo del catalogo OPDS non sia stato specificato in modo completo. L'indirizzo è stato corretto. Per favore controlla attentamente.";
+"catalog.credentials.reset"     = "Reimposta credenziali";
+"catalog.credentials.reset.hint"= "Reimposta credenziali salvate (password, token di accesso).";
+"catalog.links"                 = "Riferimenti";
+"catalog.rights"                = "Diritti";
+"catalog.source"                = "Fonte";
+"catalog.reviews"               = "Recensioni";
 "catalog.googlebooks"           = "Google Books";
 "catalog.samizdat"              = "Samizdat";
 "catalog.litres"                = "LitRes";
 "catalog.batch.download"        = "Batch download";
-"catalog.batch.collecting.fmt"  = "Collecting %@";
-"catalog.batch.collected.fmt"   = "Collected %@";
-"catalog.batch.downloading.fmt" = "Downloading %zd of %@";
-"catalog.batch.added.fmt"       = "Added %zd of %@";
+"catalog.batch.collecting.fmt"  = "In raccolta %@";
+"catalog.batch.collected.fmt"   = "Raccolti %@";
+"catalog.batch.downloading.fmt" = "Downloading %zd di %@";
+"catalog.batch.added.fmt"       = "Aggiunto %zd di %@";
 
 // WIDGET
 
-"widget.title"                 = "Title";
-"widget.color"                 = "Color";
-"widget.icon"                  = "Icon";
+"widget.title"                 = "Titolo";
+"widget.color"                 = "Colore";
+"widget.icon"                  = "Icona";
 
 // DICTIONARY
 
-"dictionary.general"                = "Dictionary";
-"dictionary.all"                    = "Dictionaries";
-"dictionary.install"                = "Install Dictionary";
-"dictionary.install.free"           = "Add Free Dictionary";
-"dictionary.install.system"         = "Add System Dictionary";
-"dictionary.install.all"            = "Installed dictionaries";
-"dictionary.install.add"            = "Add dictionary";
+"dictionary.general"                = "Dizionario";
+"dictionary.all"                    = "Dizionari";
+"dictionary.install"                = "Installa dizionario";
+"dictionary.install.free"           = "Aggiungi dizionario gratuito";
+"dictionary.install.system"         = "Aggiungi dizionario di sistema";
+"dictionary.install.all"            = "Dizionari installati";
+"dictionary.install.add"            = "Aggiungi dizionario";
 "dictionary.install.storage"        = "Seleziona dall'archivio file";
-"dictionary.install.import"         = "Import with Apple's Files App";
-"dictionary.install.download"       = "Download from the Internet";
-"dictionary.install.download.hint"  = "Choose free dictionary to download and install.";
-"dictionary.install.hint"           = "KyBook supports dictionaries in StarDict, Lingvo DSL and Dictd formats.\n\nDictionaries are usually distributed as ZIP, RAR or TAR archive and may have .zip, .rar, .tar, .tgz, .tbz extension. Lingvo DSL dictionary can be distributed as an uncompressed .dsl file.";
-"dictionary.history"                = "Lookup History";
-"dictionary.favorited"              = "Favorite Entries";
-"dictionary.userdict"               = "User Dictionary";
-"dictionary.activate.hint"          = "To search for a definition, select a word in the book, and then tap the `Define` menu item.";
-"dictionary.article"                = "Dictionary entry";
-"dictionary.article.title.prompt"   = "Title of the entry";
-"dictionary.article.text.prompt"    = "Enter the text of the entry";
-"dictionary.article.add"            = "Add an entry";
-"dictionary.article.markdown"       = "Markdown formatting supported";
-"dictionary.format"                 = "Format";
-"dictionary.recordscount"           = "Number of records";
-"dictionary.delete.ask"             = "Delete the dictionary?";
+"dictionary.install.import"         = "Importa con l'app File di Apple";
+"dictionary.install.download"       = "Scarica da Internet";
+"dictionary.install.download.hint"  = "Scegli il dizionario gratuito da scaricare e installare..";
+"dictionary.install.hint"           = "KyBook supporta dizionari nei formati StarDict, Lingvo DSL e Dictd.\n\nI dizionari sono di solito distribuiti come archivio ZIP, RAR o TAR e possono avere le estesnioni .zip, .rar, .tar, .tgz, .tbz. Il dizionario Lingvo DSL può essere distribuito come file .dsl non compresso.";
+"dictionary.history"                = "Cronologia";
+"dictionary.favorited"              = "Voci preferite";
+"dictionary.userdict"               = "Dizionario utente";
+"dictionary.activate.hint"          = "Per cercare una definizione, selezionare una parola nel libro, quindi toccare la voce di menu `Definisci`.";
+"dictionary.article"                = "Voce del dizionario";
+"dictionary.article.title.prompt"   = "Titolo della voce";
+"dictionary.article.text.prompt"    = "Inserisci il testo della voce";
+"dictionary.article.add"            = "Aggiungi una voce";
+"dictionary.article.markdown"       = "Formattazione markdown supportata";
+"dictionary.format"                 = "Formato";
+"dictionary.recordscount"           = "Numero di record";
+"dictionary.delete.ask"             = "Elimina il dizionario?";
 
 // RELAX
 
-"relax.general"                     = "Relaxation timer";
-"relax.screen"                      = "Screen";
-"relax.screen.black"                = "Black";
-"relax.screen.blurred"              = "Blurred";
+"relax.general"                     = "Timer di relax";
+"relax.screen"                      = "Schermo";
+"relax.screen.black"                = "Nero";
+"relax.screen.blurred"              = "Sfocato";
 "relax.screen.melange"              = "Melange";
 "relax.screen.matrix"               = "The Matrix Movie";
 "relax.screen.life"                 = "Conway Life";
-"relax.screen.random"               = "Random";
-"relax.preparation"                 = "Pre-relaxation action";
-"relax.preparation.hint"            = "Action to be taken before showing the relaxation screen.";
-"relax.final"                       = "Post-relaxation action";
-"relax.final.hint"                  = "Action to be taken upon completion of relaxation.";
-"relax.duration"                    = "Reading Duration";
-"relax.duration.hint"               = "The duration of reading before the relaxation screen is shown.";
+"relax.screen.random"               = "Casuale";
+"relax.preparation"                 = "Azione pre-relax";
+"relax.preparation.hint"            = "Azione da eseguire prima di mostrare la schermata di relax.";
+"relax.final"                       = "Azione post relax";
+"relax.final.hint"                  = "Azioni da eseguire al completamento del relax.";
+"relax.duration"                    = "Tempo di lettura";
+"relax.duration.hint"               = "Viene indicato il tempo di lettura prima della schermata di relax.";
 "relax.flash"                       = "Flash";
-"relax.vibration"                   = "Vibration";
-"relax.alert"                       = "Alert";
-"relax.countdown"                   = "Countdown";
-"relax.countdown.hint"              = "Provide a countdown before showing the relaxation screen.";
-"relax.duration.screen"             = "Relaxation duration";
-"relax.screen.show"                 = "Show screen";
-"relax.screen.footer"               = "Relaxation will be automatically completed in %@\nTap anywhere to finish earlier";
-"relax.message.relax"               = "Time to relax!";
-"relax.message.read"                = "Time to read!";
+"relax.vibration"                   = "Vibrazione";
+"relax.alert"                       = "Avviso";
+"relax.countdown"                   = "Timer";
+"relax.countdown.hint"              = "Fornisce un timer prima di mostrare la schermata di relax.";
+"relax.duration.screen"             = "Durata del relax";
+"relax.screen.show"                 = "Mostra anteprima schermo";
+"relax.screen.footer"               = "Il relax verrà completato automaticamente in %@\nTocca ovunque per terminare prima";
+"relax.message.relax"               = "È tempo di rilassarsi!";
+"relax.message.read"                = "È tempo di leggere!";
 "relax.hint"                        = "Provides a screen to rest your eyes after lengthy reading.";
-"relax.disable"                     = "Relaxation timer off";
-"relax.enable.ask"                  = "Enable Relaxation timer?";
+"relax.disable"                     = "Timer relax disattivato";
+"relax.enable.ask"                  = "Abilita il timer di relax?";
 "relax.intime.fmt"                  = "Relax in %@";
 
 // TIMER
