@@ -577,8 +577,8 @@
 "reader.settings.themes"            = "Temi";
 "reader.settings.font"              = "Font (carattere tipografico)";
 "reader.settings.page.turn"         = "Gira pagina";
-"reader.settings.page.spread"       = "Pagina estesa";
-"reader.settings.page.spread.full"  = "Estensione colonna in orientamento orizzontale";
+"reader.settings.page.spread"       = "Doppia colonna";
+"reader.settings.page.spread.full"  = "Colonna in orientamento orizzontale";
 "reader.settings.page.margin"       = "Margini";
 "reader.settings.paragraph"         = "Paragrafo";
 "reader.settings.lineheight"        = "Altezza linea";
