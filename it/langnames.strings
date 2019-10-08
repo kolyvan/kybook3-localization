@@ -1,0 +1,43 @@
+/* 
+  langnames.strings
+  yar
+
+  Created by Kolyvan on 24/11/2017. // ** Italian translation by Carlo Gandolfi
+  Copyright © 2017 Konstantin Bukreev. All rights reserved.
+*/
+
+"Arabic"                = "Arabo";
+"Bulgarian"             = "Bulgaro";
+"Czech"                 = "Ceco";
+"Danish"                = "Danese";
+"German"                = "Tedesco";
+"Greek"                 = "Greco";
+"English"               = "Inglese";
+"Spanish"               = "Spagnolo";
+"Finnish"               = "Finlandese";
+"French"                = "Francese";
+"Hebrew"                = "Ebraico";
+"Hindi"                 = "Hindi";
+"Croatian"              = "Croato";
+"Hungarian"             = "Ungherese";
+"Indonesian"            = "Indonesiano";
+"Icelandic"             = "Islandese";
+"Italian"               = "Italiano";
+"Japanese"              = "Giapponese";
+"Korean"                = "Coreano";
+"Norwegian"             = "Norvegese";
+"Dutch"                 = "Olandese";
+"Polish"                = "Polacco";
+"Portuguese"            = "Portoghese";
+"Romanian"              = "Rumeno";
+"Russian"               = "Russo";
+"Slovak"                = "Slovacco";
+"Swedish"               = "Svedese";
+"Thai"                  = "Tailandese";
+"Turkish"               = "Turco";
+"Chinese"               = "Cinese";
+"Simplified Chinese"    = "Cinese semplificato";
+"Traditional Chinese"   = "Cinese tradizionale";
+"Persian"               = "Persiano";
+"Urdu"                  = "Urdu";
+"Vietnamese"            = "Vietnamita";

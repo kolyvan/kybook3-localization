@@ -1,0 +1,1420 @@
+/* 
+  Localizable.strings
+  yar
+
+  Created by Kolyvan on 24/11/2017. // ** Italian translation by Carlo Gandolfi
+  Copyright © 2017 Konstantin Bukreev. All rights reserved.
+*/
+
+// COMMON
+
+"common.empty"              = "Vuoto";
+"common.close"              = "Fine";
+"common.cancel"             = "Annulla";
+"common.done"               = "Fatto";
+"common.cancelled"          = "Annullato";
+"common.cancelling"         = "Annullamento in corso…";
+"common.loading"            = "Caricamento in corso…";
+"common.preparing"          = "In preparazione…";
+"common.edit"               = "Modifica";
+"common.delete"             = "Elimina";
+"common.add"                = "Aggiungi";
+"common.search"             = "Cerca";
+"common.save"               = "Salva";
+"common.enabled"            = "Abilitato";
+"common.enable"             = "Abilita";
+"common.apply"              = "Applica";
+"common.more"               = "Di più";
+"common.completed"          = "Completato";
+"common.inprogress"         = "In corso…";
+"common.downloading"        = "Download in corso…";
+"common.archiving"          = "Archiviazione in corso…";
+"common.unarchiving"        = "Estrazione in corso…";
+"common.none"               = "Nessuno";
+"common.configure"          = "Configura";
+"common.confirm"            = "Conferma";
+"common.continue"           = "Continua";
+"common.yes"                = "Si";
+"common.no"                 = "No";
+"common.help"               = "Aiuto";
+"common.undo"               = "Annulla";
+
+// DATE
+
+"date.relation.aftertime"   = "Tempo prima"; // What does this refer to? It is not a commonly used word in English
+"date.relation.tomorrow"    = "Domani";
+"date.relation.today"       = "Oggi";
+"date.relation.yesterday"   = "Ieri";
+"date.relation.weekago"     = "Settimana fa";
+"date.relation.monthago"    = "Mese fa";
+"date.relation.yearago"     = "Anno fa";
+"date.relation.foretime"    = "Tempo dopo"; // What does this refer to? It is not a commonly used word in English
+
+// ERRORS
+
+"error"                         = "Errore";
+"error.critical"                = "Errore critico";
+"error.oops"                    = "Oops, qualcosa è andato storto!";
+"error.accessdenied"            = "Accesso negato";
+"error.unauthorized"            = "Non autorizzato";
+"error.unexpected"              = "Errore imprevisto";
+"error.unimplemented"           = "La funzione richiesta non è ancora disponibile";
+"error.cancelled"               = "L'operazione è stata annullata";
+"error.timeout"                 = "Interrotto per timeout";
+"error.oom"                     = "Memoria esaurita";
+"error.notsupported"            = "Non supportato";
+"error.notfound"                = "Non trovato";
+"error.file.notfound"           = "File non trovato";
+"error.file.notdirectory"       = "Il file non è una cartella";
+"error.file.alreadyexists"      = "File già esistente";
+"error.item.alreadyexists"      = "Elemento già esistente";
+"error.storage.alreadyexists"   = "Archivio file già esistente";
+"error.bookshelf.alreadyexists" = "Scaffale già esistente";
+"error.file.toobig"             = "File troppo grande";
+"error.icloud.notconnected"     = "iCloud non connesso";
+"error.cloud.notlinked"         = "Spazio nel cloud non connesso";
+"error.nonetwork"               = "Nessuna connessione di rete";
+"error.notresponding"           = "L'host non ha risposto";
+"error.emptyresponse"           = "Risposta nulla";
+"error.invalidresponse"         = "Risposta non valida";
+"error.mimetype"                = "MIME type non valido";
+"error.emptyname"               = "Nome nullo";
+"error.badname"                 = "Nome non valido";
+"error.drop"                    = "Impossibile eliminare l'elemento";
+"error.import.file"             = "Impossibile importare il file";
+"error.open.file"               = "Inpossibile aprire il file";
+"error.share.file.none"         = "Nessun file da condividere";
+"error.share.file.cloud"        = "Impossibile condividere il file dall'archivio nel cloud. Scaricare pirma il file sul dispositivo";
+"error.book.save.review"        = "Impossibile salvare la recensione del libro";
+"error.book.delete.review"      = "Impossibile eliminare la recensione del libro";
+"error.book.save.metadata"      = "Impossibile salvare i metadati del libro";
+"error.book.save.tags"          = "Impossibile salvare i tag del libro";
+"error.book.delete.tags"        = "Impossibile eliminare i tag del libro";
+"error.open.url"                = "Impossibile aprire il link";
+"error.citation.already"        = "Citazione già contrassegnata";
+"error.note.save"               = "Impossibile salvare la nota";
+"error.note.delete"             = "Impossibile eliminare la nota";
+"error.ebook.notsupported"      = "Formato file e-book non supportato";
+"error.ebook.drm"               = "Impossibile aprire il libro a causa della protezione DRM";
+"error.page.broken"             = "Pagina errata";
+"error.password"                = "Password mancante o errata";
+"error.imagefile"               = "File immagine non valido";
+"error.text.toolong"            = "Superata la dimensione massima del testo";
+"error.translation.direction"   = "La traduzione specificata non è supportata";
+"error.translation.unable"      = "Il testo non può essere tradotto";
+"error.translation.limit"       = "Superato il limite giornaliero della quantità di testo tradotto";
+"error.apikey"                  = "Chiave API non valida";
+"error.stylesheet"              = "Analisi del foglio di stile non riuscita";
+"error.filebadmime.fmt"         = "Il file %@ ha un tipo MIME non supportato: %@";
+"error.opds.feed"               = "Il catalogo OPDS ha restituito un feed non valido";
+"error.opds.mime.fmt"           = "Il catalogo OPDS ha restituito contenuti errati: %@";
+"error.unarchive"               = "Impossibile decomprimere il file";
+"error.catalog.search"          = "Il catalogo non consente la ricerca";
+"error.catalog.alreadyexists"   = "Catalogo già esistente";
+"error.url"                     = "URL non valido";
+"error.epub.invalid"            = "File EPUB danneggiato o non valido";
+"error.ebook.file.notfound"     = "Impossibile trovare un file per l'e-book";
+"error.dictionary.type"         = "Tipo di dizionario sconosciuto";
+"error.dictionary.already"      = "Dizionario già installato";
+"error.dictionary.lingvo"       = "Dizionario Lingvo corrotto";
+"error.loadtext.encoding"       = "Impossibile caricare il testo, forse a causa di una codifica errata";
+"error.toomanyrequests"         = "Troppe richieste";
+"error.toomanyrequests.fmt"     = "Troppe richieste, riprovare dopo %zds";
+"error.sync.files.off"          = "Sincronizzazione dei file disabilitata";
+"error.sync.files.quota"        = "La quota di archiviazione dei file è stata superata";
+"error.iap.requred"             = "È richiesto l'acquisto in-app";
+"error.subscription.notfound"   = "È richiesto un abbonamento Premium";
+"error.subscription.expired"    = "Abbonamento Premium scaduto";
+"error.google.quotaexceeded"    = "È stata superata la quota di ricerca di Google, riprovare più tardi";
+
+// FILESTORE
+
+"filestore"                     = "Archiviazione file";
+"filestore.browser"             = "Browser dei file";
+"filestore.folder"              = "Cartella";
+"filestore.books"               = "Libri";
+"filestore.downloads"           = "Downloads";
+"filestore.yandexdisk"          = "Yandex Disk";
+"filestore.googledrive"         = "Google Drive";
+"filestore.storages"            = "Archiviazione file";
+"filestore.unlink"              = "Scollega";
+"filestore.add.samba"           = "Aggiungi condivisione SMB/CIFS";
+"filestore.add.webdav"          = "Aggiungi Server WebDAV";
+"filestore.current.storages"    = "Archiviazione file attuale";
+"filestore.available.clouds"    = "Archiviazione cloud disponibile";
+"filestore.attach.cloud"        = "Collega l'archiviazione cloud";
+"filestore.attach.samba"        = "Collega una cartella condivisa sulla rete locale";
+"filestore.attach.webdav"       = "Collega un server WebDAV alla rete locale o ad Internet";
+"filestore.transfer"            = "Trasferimento file";
+"filestore.done.move.fmt"       = "Sposta %@ da %@ a %@";
+"filestore.done.copy.fmt"       = "Copia %@ da %@ a %@";
+"filestore.done.deleted.fmt"    = "Eliminato %@ in %@";
+"filestore.deletefiles.q"       = "Elimina file?";
+"filestore.deletefile"          = "Elimina questo file";
+"filestore.selectfolder"        = "Seleziona una cartella";
+"filestore.createfolder"        = "Crea una cartella";
+"filestore.importfile"          = "Importa il file";
+"filestore.movefile"            = "Sposta il file";
+"filestore.appendfile"          = "Aggiungi il file";
+"filestore.enter.foldername"    = "Inserisci il nome della cartella";
+"filestore.enter.filename"      = "Inserisci il nome del file";
+"filestore.link"                = "Connetti";
+"filestore.link.account"        = "Connetti account";
+"filestore.link.none"           = "Archiviazione cloud non ancora connessa. Per favore connettiti";
+"filestore.link.done"           = "Connessione effettuata";
+"filestore.relink"              = "Riconnetti";
+"filestore.relink.account"      = "Riconnetti account";
+"filestore.relink.void"         = "Sembra che la precedente autenticazione sia scaduta. Per favore riconnettiti";
+"filestore.report"              = "Resoconto";
+"filestore.report.used"         = "Utilizzato";
+"filestore.report.free"         = "Gratuito";
+"filestore.report.mirror"       = "Mirrorato";
+"filestore.mirror"              = "Mirror";
+"filestore.mirror.limit"        = "Limite di dimensione";
+"filestore.mirror.hint"         = "KyBook memorizza nella cache i file che si trovano nell'archivio cloud (mantiene una copia presente nell'archivio cloud con una copia sul dispositivo). La memorizzazione nella cache aiuta a ridurre il traffico di rete e migliorare l'efficienza energetica. L'utente può liberare lo spazio utilizzato per la cache, o impostare un limite per la sua dimensione massima.";
+"filestore.autounload"          = "Auto unload";
+"filestore.folderpicker.copy.fmt"   = "Copia %@ da %@";
+"filestore.folderpicker.move.fmt"   = "Sposta %@ da %@";
+"filestore.folderpicker.switch"     = "Tocca per invertire\nSposta/Copia";
+"filestore.filename"            = "Nome file";
+"filestore.filesize"            = "Dimensione file";
+"filestore.dialog.fileadded.fmt" = "File aggiunto a %@";
+"filestore.unarchive"           = "Estrazione";
+"filestore.unarchive.q"         = "Estrarre?";
+
+// SORT
+
+"sort.general"          = "Ordina per";
+"sort.none"             = "Non ordinato";
+"sort.byname"           = "per Titolo";
+"sort.bydate"           = "per Data";
+"sort.bysize"           = "per Dimensione";
+"sort.byformat"         = "per Formato";
+"sort.byprogress"       = "per Avanzamento";
+"sort.byrating"         = "per Valutazione";
+"sort.byauthor"         = "per Autore";
+"sort.bysubject"        = "per Argomento";
+"sort.bysequence"       = "per Serie";
+"sort.bypublisher"      = "per Editore";
+
+// MENU
+
+"menu.select"           = "Seleziona";
+"menu.selectall"        = "Seleziona tutto";
+"menu.move"             = "Sposta";
+"menu.rename"           = "Rinomina";
+"menu.delete"           = "Elimina";
+"menu.share"            = "Condividi";
+"menu.info"             = "Informazioni";
+"menu.tags"             = "Tags";
+"menu.read"             = "Leggi";
+"menu.reorder"          = "Riordina";
+"menu.unload"           = "Unload";  // ** Can't translate
+"menu.download"         = "Scarica";
+"menu.exclude"          = "Escludi";
+"menu.more"             = "Altro";
+"menu.copy"             = "Copia";
+"menu.search"           = "Cerca";
+"menu.mark"             = "Evidenzia";
+"menu.note"             = "Note";
+"menu.sketch"           = "Disegna";
+"menu.edit"             = "Modifica";
+"menu.translate"        = "Traduci";
+"menu.recognize"        = "Riconosci";
+"menu.selectimage"      = "Seleziona immagine";
+"menu.sticker"          = "Etichetta";
+"menu.update"           = "Aggiorna";
+"menu.define"           = "Definisci";
+"menu.launch"           = "Apri";
+"menu.color"            = "Colore";
+"menu.style"            = "Stile";
+"menu.listen"           = "Ascolta";
+"menu.speak"            = "Leggi";
+"menu.stop"             = "Stop";
+"menu.open"             = "Apri";
+"menu.back"             = "Indietro";
+
+// HOME
+
+"home.screen"           = "Home";
+"home.layout.cards"     = "Schede";
+"home.layout.grid"      = "Griglia";
+"home.layout.list"      = "Elenco";
+"home.deck.pin"         = "Pin";  // ** Can't translate
+
+// BOOK
+
+"book.general"              = "Libro";
+"book.resolving"            = "Apertura del libro…";
+"book.processed.wait"       = "Il libro è in fase di elaborazione. Attendere prego…";
+
+// BOOKSHELF
+
+"bookshelf"                 = "Libreria";
+"bookshelf.sequences"       = "Serie";
+"bookshelf.authors"         = "Autori";
+"bookshelf.subjects"        = "Argomenti";
+"bookshelf.publishers"      = "Editori";
+"bookshelf.tags"            = "Etichette";
+"bookshelf.recent"          = "Recenti";
+"bookshelf.popular"         = "Popolari";
+"bookshelf.new"             = "Più recenti";
+"bookshelf.unread"          = "Da leggere";
+"bookshelf.reading"         = "In lettura";
+"bookshelf.read"            = "Letti";
+"bookshelf.rated"           = "Con valutazione";
+"bookshelf.all"             = "Tutti i libri";
+"bookshelf.cataloguer"      = "Categorie";
+
+"bookshelf.add"             = "Aggiungi uno scaffale";
+"bookshelf.add.folder"      = "Scegli una cartella sul dispositivo o nell'archivio cloud connesso come scaffale";
+"bookshelf.add.sequence"    = "Scegli la serie di un libro come scaffale";
+"bookshelf.add.author"      = "Scegli l'autore di un libro come scaffale";
+"bookshelf.add.subject"     = "Scegli l'argomento di un libro come scaffale";
+"bookshelf.add.publisher"   = "Scegli l'editore di un libro come scaffale";
+"bookshelf.add.tag"         = "Scegli l'etichetta di un libro come scaffale";
+"bookshelf.add.category"    = "Scegli una categoria di categorie come scaffale";
+
+"bookshelf.layout"              = "Vista per";
+"bookshelf.layout.covers"       = "Copertine";
+"bookshelf.layout.cards"        = "Schede";
+"bookshelf.layout.cards.mini"   = "Schede piccole";
+"bookshelf.layout.cards.large"  = "Schede grandi";
+
+"bookshelf.clean.category"        = "Elimina vuoto";
+"bookshelf.clean.category.fmt"    = "Vuoi sicuramente pulire la categoria %@ ed eliminare %@?";
+"bookshelf.insert.category.done"  = "Fatto, è stata aggiunta una categoria";
+
+"bookshelf.collection"          = "Raccolta";
+"bookshelf.collections"         = "Raccolte";
+"bookshelf.collection.add"      = "Aggiungi una raccolta";
+"bookshelf.collection.pick"     = "Scegli una raccolta come libreria";
+
+"bookshelf.detail.recent"       = "Elenco dei libri recenti";
+"bookshelf.detail.popular"      = "Elenco dei libri popolari";
+"bookshelf.detail.new"          = "Elenco dei libri più recenti";
+"bookshelf.detail.unread"       = "Elenco dei libri non letti";
+"bookshelf.detail.reading"      = "Elenco dei libri attualmente in corso di lettura";
+"bookshelf.detail.read"         = "Elenco dei libri letti";
+"bookshelf.detail.rated"        = "Elenco dei libri con valutazione";
+"bookshelf.detail.allbooks"     = "Elenco di tutti i libri";
+"bookshelf.detail.sequences"    = "Elenco delle serie";
+"bookshelf.detail.authors"      = "Elenco degli autori";
+"bookshelf.detail.subjects"     = "Elenco degli argomenti";
+"bookshelf.detail.publishers"   = "Elenco degli editori";
+"bookshelf.detail.tags"         = "Elenco delle etichette";
+"bookshelf.detail.collections"  = "Elenco delle raccolte";
+"bookshelf.detail.cataloguer"   = "Tutti gli elenchi";
+
+"bookshelf.empty"               = "Scaffale vuoto";
+"bookshelf.empty.recent"        = "Nessun libro recente negli ultimi 30 giorni";
+"bookshelf.empty.popular"       = "L'elenco dei libri popolari non è stato ancora recuperato";
+"bookshelf.empty.new"           = "Nessun nuovo libro negli ultimi 30 giorni";
+"bookshelf.empty.unread"        = "Nessun libro non letto";
+"bookshelf.empty.reading"       = "Nessun libro";
+"bookshelf.empty.read"          = "Nessun libro letto";
+"bookshelf.empty.rated"         = "Nessun libro con valutazione";
+"bookshelf.empty.collections"   = "Nessuna raccolta";
+"bookshelf.empty.collection"    = "Raccolta vuota";
+"bookshelf.empty.category"      = "Elenco vuoto";
+
+"bookshelf.hint.read"           = "Contrassegna come `Leggi` nella scheda del libro nella sezione dei parametri.";
+"bookshelf.hint.rated"          = "Valuta nella scheda del libro nella sezione Recensione.";
+"bookshelf.hint.collection"     = "La raccolta può contenere libri, autori, serie, argomenti, etichette e altre raccolte.";
+
+"bookshelf.trash"               = "Cestino";
+"bookshelf.trash.detailed"      = "Cestino (per i libri eliminati)";
+"bookshelf.trash.empty"         = "Svuota";
+"bookshelf.trash.hint"          = "KyBook può recuperare un libro eliminato che si trova sul dispositivo, su Google Drive o su Dropbox.\nUn libro che si trova sulla cartella condivisa, sul server WebDAV, su Yandex Disk o su OneDrive, può essere recuperato solo se KyBook aveva una sua copia nella cache.";
+"bookshelf.trash.limit"         = "Dimensione massima";
+"bookshelf.undo.delete.fmt"     = "Annullamento dell'eliminazione di %@"; // e.g. Undoing deletion of 5 books
+
+"bookshelf.author.page"             = "Pagina Web";
+"bookshelf.author.page.enter"       = "Inserire un sito per la pagina Web dell'autore.";
+"bookshelf.author.page.search"      = "Ricerca su Internet di un sito per la pagina Web dell'autore in corso…";
+"bookshelf.author.page.search.fail" = "KyBook non è riuscito a trovare un sito per la pagina Web dell'autore.";
+"bookshelf.author.page.search.done" = "Trovate le agine web degli autori";
+
+// BOOKCARD
+
+"bookcard"                      = "Scheda del libro";
+"bookcard.title.add"            = "Aggiungi un titolo";
+"bookcard.title.prompt"         = "Inserisci un titolo";
+"bookcard.subtitle.add"         = "Aggiungi un sottotitolo";
+"bookcard.subtitle.prompt"      = "Inserisci un sottotitolo";
+"bookcard.sequence"             = "Serie";
+"bookcard.sequence.add"         = "Aggiungi una serie";
+"bookcard.sequence.prompt"      = "Inserisci una serie";
+"bookcard.sequence.name.prompt" = "Inserisci il nome di una serie";
+"bookcard.sequence.number.prompt" = "Inserisci un numero della serie (opzionale)";
+"bookcard.author"               = "Autore";
+"bookcard.author.add"           = "Aggiungi un autore";
+"bookcard.author.prompt"        = "Inserisci un autore";
+"bookcard.author.name.prompt"   = "Nome completo in forma libera";
+"bookcard.author.norm.prompt"   = "Cognome, Nome";
+"bookcard.subject"              = "Argomento";
+"bookcard.subject.add"          = "Aggiungi un argomento";
+"bookcard.subject.prompt"       = "Inserisci un argomento";
+"bookcard.annotation"           = "Nota";
+"bookcard.annotation.add"       = "Aggiungi una nota";
+"bookcard.annotation.prompt"    = "Inserisci una nota";
+"bookcard.published"            = "Data di pubblicazione";
+"bookcard.published.add"        = "Aggiungi una data di pubblicazione";
+"bookcard.published.prompt"     = "Inserisci una data di pubblicazione";
+"bookcard.publisher"            = "Editore";
+"bookcard.publisher.add"        = "Aggiungi un editore";
+"bookcard.publisher.prompt"     = "Inserisci un editore";
+"bookcard.language"             = "Lingua";
+"bookcard.language.add"         = "Aggiungi una lingua";
+"bookcard.language.prompt"      = "Inserisci una lingua";
+"bookcard.identifiers"          = "Identificativi";
+"bookcard.identifier"           = "Identificativo";
+"bookcard.identifier.add"       = "Aggiungi un identificativo";
+"bookcard.identifier.prompt"    = "Inserisci un identificativo del libro (isbn, issn, doi, openlibrary, url, ecc.)";
+"bookcard.keywords"             = "Parole chiave";
+"bookcard.keywords.add"         = "Aggiungi una parola chiave";
+"bookcard.keywords.prompt"      = "Inserisci una parola chiave";
+"bookcard.source"               = "Fonte";
+"bookcard.files"                = "File";
+"bookcard.metrics"              = "Parametri";
+"bookcard.action.read"          = "Leggi";
+"bookcard.action.listen"        = "Ascolta";
+"bookcard.action.download"      = "Scarica";
+"bookcard.action.sample"        = "Esempio";
+"bookcard.mobi.pid"             = "MobiPocket PID (Numero di serie Kindle)";
+"bookcard.mobi.pid.add"         = "Aggiungi PID";
+"bookcard.text.encoding"        = "Codifica del testo";
+"bookcard.text.encoding.add"    = "Aggiungi una codifica del testo";
+"bookcard.pickcover"            = "Scegli una copertina del libro";
+"bookcard.restorecover"         = "Ripristina la copertina originale";
+"bookcard.miscinfo"             = "Informazioni varie";
+"bookcard.miscinfo.database"    = "Database";
+"bookcard.miscinfo.usercontent" = "Contenuto generato dall'utente";
+"bookcard.miscinfo.supportfiles"= "File di supporto";
+"bookcard.miscinfo.ebookformat" = "Formato E-book";
+
+// BOOKS EDIT (BATCH MODE)
+
+"books.edit.asksave"            = "Salvare le modifiche?";
+"books.edit.differ.series"      = "Le serie non coincidono";
+"books.edit.differ.authors"     = "Gli autori non coincidono";
+"books.edit.differ.tags"        = "I tag non coincidono";
+"books.edit.differ.subjects"    = "Gli argomenti non coincidono";
+"books.edit.differ.publishers"  = "Gli editori non coincidono";
+"books.edit.differ.languages"   = "Le lingue non coincidono";
+
+// BOOK REVIEW
+
+"book.review"           = "Recensione";
+"book.review.prompt"    = "Scrivi qui i tuoi commenti sul libro";
+
+"book.review.rating.0"  = "Non valutato";
+"book.review.rating.1"  = "Da non leggere";
+"book.review.rating.2"  = "Veramente pessimo";
+"book.review.rating.3"  = "Scarso";
+"book.review.rating.4"  = "Mediocre";
+"book.review.rating.5"  = "Così così";
+"book.review.rating.6"  = "Sufficiente";
+"book.review.rating.7"  = "Buono";
+"book.review.rating.8"  = "Ottimo";
+"book.review.rating.9"  = "Eccezionale";
+"book.review.rating.X"  = "Capolavoro";
+"book.metrics.unread"                   = "Non letto";
+"book.metrics.finished"                 = "Letto";
+"book.metrics.finished.time.fmt"        = "Letto in %@";     // Finished reading in 5 minutes
+"book.metrics.finished.total.fmt"       = "Letto %@";        // Finished reading 500 pages
+"book.metrics.finished.total.time.fmt"  = "Letto %@ in %@";  // Finished reading 500 pages in 5 minutes
+"book.metrics.read.part.fmt"            = "Letto il %zd%%";                 // Read 30%
+"book.metrics.read.part.time.fmt"       = "Letto il %zd%% in %@";           // Read 30% in 5 minutes
+"book.metrics.read.of.fmt"              = "Letto il %zd%% di %@";           // Read 30% of 500 pages
+"book.metrics.read.of.time.fmt"         = "Letto il %zd%% di %@ in %@";     // Read 30% of 500 pages in 5 minutes
+
+// DIALOGS
+
+"dialog.prompt.language"    = "Inserisci un codice lingua (ISO 639), es.: ru, en";
+"dialog.lang.ask"           = "Seleziona la lingua del libro";
+"dialog.lang.choose"        = "Scegli la lingua…";
+"dialog.text"               = "Testo";
+"dialog.url"                = "URL";
+"dialog.open"               = "Apri";
+"dialog.copy"               = "Copia";
+"dialog.url.open"           = "Apri URL";
+"dialog.url.copy"           = "Copia URL";
+"dialog.promt.mobi.pid"     = "Inserisci MobiPocket PID (Numero di serie Kindle)";
+"dialog.promt.password"     = "Inserisci la password per questo libro";
+"dialog.promt.textencoding" = "Inserisci la codifica del testo";
+"dialog.confirm.ask"        = "Sei sicuro?";
+"dialog.confirm.yes"        = "Si";
+"dialog.choose.format"      = "Scegli il formato";
+"dialog.reload"             = "Ricarica";
+"dialog.file.changed"       = "Sembra che il file sia stato modificato (probabilmente a causa della sincronizzazione), ricarica?";
+"dialog.insertlink"         = "Inserisci link";
+
+// DELETE
+
+"delete.areyousure"         = "Sei sicuro?";
+"delete.book"               = "Elimina questo libro";
+"delete.book.ask"           = "Vuoi eliminare questo libro?";
+"delete.book.row.0"         = "Ciò eliminerà definitivamente tutte le informazioni associate al libro, tra cui:";
+"delete.book.row.1"         = "- %@ di una dimensione totale di %@ sul dispositivo e nell'archivo cloud collegato.";
+"delete.book.row.2"         = "- record del database, note, recensioni, ecc.";
+"delete.book.done"          = "`%@` sono stati eliminati";
+"delete.books"              = "Elimina libri";
+"delete.books.ask"          = "Vuoi eliminare %@?";
+"delete.books.row.0"        = "Ciò eliminerà definitivamente tutte le informazioni associate ai libri, tra cui:";
+"delete.books.row.1"        = "- %@ di una dimensione totale di %@ sul dispositivo e nell'archivo cloud collegato.";
+"delete.books.row.1a"       = "- %@ sul dispositivo e nell'archivo cloud collegato.";
+"delete.books.row.2"        = "- record del database, note, recensioni, ecc.";
+"delete.books.done"         = "Eliminato %@ in %@";
+"delete.bookshelf.ask"      = "Vuoi eliminare lo scaffale?";
+"delete.summary.ask"        = "Vuoi eliminare il riassunto?";
+"delete.book.database"      = "Elimina dal database";
+"delete.book.database.hint" = "Elimina i metadati del libro e i record associati (segnalibri, note, ecc.) dal database senza eliminare i file del libro.";
+"delete.book.database.message" = "Questa azione non eliminerà i file del libro. Pertanto, se apri la cartella in cui è memorizzato questo libro, KyBook lo aggiungerà di nuovo al database.";
+
+// SHARE
+
+"share.book.info"           = "Condividi informazioni";
+"share.book.file"           = "Condividi file";
+"share.readin.kybook"       = "Letto con #KyBook";
+"share.notes.from"          = "Note da";
+"share.notes.by"            = "di";
+"share.notes.txt"           = "In file TXT";
+"share.notes.html"          = "In file HTML";
+"share.notes.markdown"      = "In file Markdown";
+"share.notes.rtf"           = "In file RTF";
+"share.notes.pdf"           = "In file PDF";
+"share.notes.pdfbook"       = "Come libro PDF";
+"share.save.tobooks"        = "Salva nei libri";
+
+// DASHBOARD
+
+"dashboard"                 = "Dashboard";
+"dashboard.notes"           = "Note";
+"dashboard.summary"         = "Riassunto";
+"dashboard.summaries"       = "Riassunti";
+"dashboard.summary.add"     = "Aggiungi un riassunto";
+"dashboard.summary.add.hint"= "Inserisci un titolo per il nuovo riassunto.";
+"dashboard.summarize.run"   = "Esegui il riassunto in modo automatico";
+"dashboard.summaries.widget.detail" = "Raccolta dei riassunti dell'utente";
+"dashboard.widget.detail"   = "Sintesi e note";
+
+// TAGS
+
+"tags"                      = "Etichette";
+"tags.picked"               = "Etichette scelte";
+"tags.available"            = "Etichette disponibili";
+"tags.edit"                 = "Modifica l'etichette";
+"tags.create"               = "Crea un'etichetta";
+"tags.delete"               = "Elimina l'etichetta";
+"tags.delete.message"       = "Questa etichetta verrà eliminata definitivamente da tutti i libri e dal database! Sei sicuro?";
+"tags.hint.add"             = "Tocca su una riga per aggiungere una etichetta.";
+"tags.hint.delete"          = "Toccare una riga per eliminare l'etichetta.";
+"tags.create.dialog.name"   = "Inserisci un nome per l'etichetta";
+"tags.create.dialog.color"  = "Scegli un colore per l'etichetta";
+"tags.create.dialog.icon"   = "Seleziona un'icona per l'etichetta";
+"tag.new"                   = "Nuovo";
+"tag.read"                  = "Letto"; //"the book has been read"
+"tag.favorite"              = "Preferito";
+"tag.readLater"             = "Leggi dopo";
+
+// READER
+
+"reader.general"                    = "Lettore";
+"reader.outline"                    = "Indice";
+"reader.bookmarks"                  = "Segnalibri";
+"reader.notes"                      = "Note";
+"reader.sketches"                   = "Disegni";
+"reader.thumbnails"                 = "Miniature";
+"reader.summary"                    = "Riassunto";
+"reader.info"                       = "Info";
+"reader.bookmark"                   = "Segnalibro";
+"reader.note"                       = "Nota";
+"reader.pageno"                     = "Numero pagina";
+"reader.outline.create"             = "Aggiungi indice";
+"reader.outline.create.auto"        = "Crea in modo automatico";
+"reader.outline.create.manually"    = "Crea manualmente";
+"reader.outline.fold.all"           = "Raccogli tutto";
+"reader.outline.unfold.all"         = "Espandi tutto";
+"reader.outline.foldable.hint"      = "Usa una pressione prolungata nella riga dell'indice (oppure tocca la parte più a sinistra) per espandere o raccogliere l'indice.";
+"reader.layout"                     = "Disposizione";
+"reader.backtopage.fmt"             = "Torna alla pagina %zd";
+"reader.bookindex"                  = "Sommario";
+"reader.bookindex.build"            = "Crea un sommario per il libro";
+"reader.images"                     = "Immagini";
+"reader.readpos"                    = "Posizione di lettura";
+"reader.readpos.changed.ask.fmt"    = "Sembra che la posizione di lettura sia stata recentemente modificata su un altro dispositivo. Vorresti andare alla posizione di lettura ottenuta da %@?";
+"reader.readpos.preserve"           = "Mantieni costantemente la posizione di lettura";
+"reader.readpos.preserve.hint"      = "KyBook salverà di tanto in tanto la posizione di lettura. Questa funzione è utile solo quando l'utente ha l'abitudine di chiudere KyBook durante la lettura.";
+"reader.font.match.warning"         = "Impossibile abbinare i caratteri specificati nelle preferenze. Verranno applicati i valori predefiniti.";
+"reader.page.fmt"                   = "Pagina %zd";
+"reader.openinbook"                 = "Apri in un libro";
+"reader.nextpage"                   = "Pagina successiva";
+"reader.prevpage"                   = "Pagina precedente";
+"reader.bookmark.add"               = "Aggiungi un segnalibro";
+
+// READER MENU
+
+"reader.menu.fullscreen"            = "Modalità schermo intero";
+"reader.menu.fullscreen.off"        = "Schermo intero disattivato";
+"reader.menu.sketches"              = "Barra degli strumenti di disegno";
+"reader.menu.sketches.off"          = "Nascondi barra di disegno";
+"reader.menu.speak"                 = "Sintesi vocale";
+"reader.menu.speak.stop"            = "Interrompi sintesi vocale";
+"reader.menu.rapid"                 = "Velocità di lettura";
+"reader.menu.autoscroll"            = "Scorrimento automatico";
+"reader.menu.autoscroll.off"        = "Interrompi lo scorrimento automatico";
+"reader.menu.synchronize"           = "Sincronizza";
+"reader.menu.horzlock"              = "Blocco scorrimento orizzontale";
+"reader.menu.horzunlock"            = "Sblocco scorrimento orizzontale";
+"reader.menu.reflow.on"             = "Scorrimento attivo";
+"reader.menu.reflow.off"            = "Scorrimento disattivo";
+
+// READER SETTINGS
+
+"reader.settings.general"           = "Preferenze";
+"reader.settings.theme"             = "Tema";
+"reader.settings.themes"            = "Temi";
+"reader.settings.font"              = "Font (carattere tipografico)";
+"reader.settings.page.turn"         = "Gira pagina";
+"reader.settings.page.spread"       = "Doppia colonna";
+"reader.settings.page.spread.full"  = "Colonna in orientamento orizzontale";
+"reader.settings.page.margin"       = "Margini";
+"reader.settings.paragraph"         = "Paragrafo";
+"reader.settings.lineheight"        = "Altezza linea";
+"reader.settings.justification"     = "Allineamento";
+"reader.settings.readability"       = "Leggibilità";
+"reader.settings.styles"            = "Stili";
+"reader.settings.styles.hint.fmt"   = "Le impostazioni dello stile verranno applicate solo al formato %@.";
+"reader.settings.background"        = "Sfondo";
+"reader.settings.ex.help"           = "ex - rappresenta l'altezza di una lettera x minuscola nel carattere utizzato";
+"reader.settings.alignment.help"    = "Per impostazione predefinita, KyBook utilizza l'allineamento del testo definito nello stile dell'e-book";
+"reader.settings.font.name"         = "Nome del font";
+"reader.settings.font.serif"        = "Serif";
+"reader.settings.font.sansserif"    = "Sans-serif";
+"reader.settings.font.size"         = "Dimensione font";
+"reader.settings.margin.horz"       = "Sinistro/Destro";
+"reader.settings.margin.top"        = "Superiore";
+"reader.settings.margin.bottom"     = "Inferiore";
+"reader.settings.override"          = "Modifica";
+"reader.settings.enabled"           = "Abilitato";
+"reader.settings.para.spacing"      = "Distanza";
+"reader.settings.para.indentation"  = "Rientro";
+"reader.settings.line.multiplier"   = "Moltiplicatore";
+"reader.settings.line.spacing"      = "Interlinea";
+"reader.settings.hyphenation"       = "Sillabazione";
+"reader.settings.punctuation"       = "Allinemanto punteggiatura";
+"reader.settings.nowidow"           = "Evita righe isolate";
+"reader.settings.nobookstyle"       = "Ignora lo stile del libro";
+"reader.settings.stylesheet"        = "Foglio di stile";
+"reader.settings.userstyles"        = "Fogli stile dell'utente";
+"reader.settings.userstyles.none"   = "Nessuno";
+"reader.settings.userstyles.used"   = "Installato";
+"reader.settings.userstyles.browse" = "Seleziona dall'archivio file";
+"reader.settings.userstyles.import" = "Importa con l'app File di Apple";
+"reader.settings.userstyles.edit"   = "Modifica foglio di stile";
+"reader.settings.userstyles.sample" = "Mostra esempio di foglio stile";
+"reader.settings.userstyles.reset"  = "Ripristina foglio stile";
+"reader.settings.userstyles.hint"   = "È possibile impostare un foglio di stile personalizzato che verrà utilizzato durante il rendering e l'impaginazione dell'e-book.";
+"reader.settings.userstyles.done.fmt" = "Fatto, è stato installato il foglio di stile %@";
+"reader.settings.background.image"  = "Immagine";
+"reader.settings.background.pattern" = "Motivo (piastrelle)";
+"reader.settings.background.hint"   = "Il modello di immagine può essere utilizzato come sfondo per l'intestazione e il piè di pagina nella modalità base dell'interfaccia.";
+"reader.settings.background.installed" = "Installato";
+"reader.settings.page.turn.roll"    = "Scorri";
+"reader.settings.page.turn.curl"    = "Sfoglia";
+"reader.settings.page.turn.slide"   = "Trascina";
+"reader.settings.page.turn.none"    = "Nessuna animazione";
+"reader.settings.theme.delete.ask"  = "Vuoi eliminare il tema?";
+"reader.settings.reset"             = "Ripristina impostazioni predefinite";
+"reader.settings.docs.fit"                  = "Modalità di adattamento";
+"reader.settings.docs.fit.width"            = "Larghezza della pagina";
+"reader.settings.docs.fit.text"             = "Margini di testo e ritaglio";
+"reader.settings.docs.fit.page"             = "Pagina intera";
+"reader.settings.docs.backg"                = "Sfondo della pagina";
+"reader.settings.docs.backg.theme"          = "Colore in tema";
+"reader.settings.docs.backg.adaptive"       = "Colore adattivo";
+"reader.settings.docs.progressive"          = "Rendering progressivo";
+"reader.settings.docs.marklinks"            = "Evidenzia i collegamenti";
+"reader.settings.docs.filterbook"           = "Tema del libro";
+"reader.settings.docs.smoothscroll"         = "Scorrimento uniforme";
+"reader.settings.docs.progressive.hint"     = "Se possibile disegna la pagina passo dopo passo da bassa ad alta qualità.";
+"reader.settings.docs.smoothscroll.hint"    = "Scorrimento più fluido nella modalità di scorrimento, ma potrebbe perderesi la qualità di rendering per le pagine ingrandite.";
+"reader.settings.docs.filterbook.hint"      = "Esegue il rendering della pagina con i colori del tema.";
+"reader.settings.docs.marklinks.hint"       = "Evidenzia i collegamenti interattivi nella pagina.";
+"reader.settings.docs.readability.upsample" = "Sovracampionamento";
+"reader.settings.docs.readability.autotint" = "Regolazione automatica";
+"reader.settings.docs.pagesep"              = "Separazioni di pagina";
+"reader.settings.docs.pagesep.hint"         = "Impostazione avanzata della modalità di scorrimento.";
+"reader.settings.docs.spread.hint"          = "Nelle pagine distese, la modalità di adattamento viene sempre assunta come 'Pagina intera'.";
+"reader.settings.audio.smartresume"         = "Riavvolgimento intelligente";
+"reader.settings.audio.smartresume.hint"    = "Quando la riproduzione riprende dopo una pausa, riprende 30 secondi prima.";
+"reader.settings.audio.playlist"            = "Playlist";
+"reader.settings.audio.playlist.hint"       = "Genera automaticamente una playlist dai file mp3 nella cartella.";
+"reader.settings.default"                   = "Predefinito";
+"reader.settings.profile"                   = "Profilo delle preferenze";
+"reader.settings.profile.add"               = "Aggiungi un profilo";
+"reader.settings.profile.hint"              = "L'utente può scegliere un profilo delle preferenze specifico per ogni libro. Ad esempio, può scegliere un profilo Tecnico per una pubblicazione tecnica o scientifica o un profilo Cinese per un libro in lingua cinese. Per ogni profilo può impostare separatamente il carattere, i margini, lo stile, ecc.";
+"reader.settings.profile.names.tech"        = "Documentazione tecnica";
+"reader.settings.more"                      = "Altre configurazioni";
+"reader.settings.images"                    = "Regolazione immagini";
+"reader.settings.images.hint"               = "Adattamento delle immagini dei libri nella tavolozza del tema attuale (applicabile solo per temi chiari).\nChiudi e riapri un libro per applicare le modifiche.";
+
+// OCR
+
+"ocr.general"                   = "OCR"; // Optical character recognition
+"ocr.title"                     = "OCR per DjVu e PDF";
+"ocr.dialog.recognize.title"    = "Riconosci il testo della pagina";
+"ocr.dialog.recognize.message"  = "Sembra che questa pagina non abbia livelli di testo.\nVuoi riconoscere il testo della pagina usando l'OCR?";
+"ocr.dialog.recognize"          = "Riconosci";
+"ocr.dialog.never"              = "Mai";
+"ocr.conf.multilang"            = "Supporto multilingue";
+"ocr.conf.addlang"              = "Lingua aggiuntiva";
+"ocr.conf.quality"              = "Qualità del riconoscimento";
+"ocr.conf.langpacks"            = "Pacchetti lingue installati";
+"ocr.conf.multilang.hint"       = "Pacchetto lingua aggiuntivo utilizzato per il riconoscimento. Per un migliore riconoscimento della letteratura tecnica è utile aggiungere un pacchetto in lingua inglese o latina. KyBook utilizzerà la lingua del libro e il pacchetto linguistico aggiuntivo selezionato per il riconoscimento.";
+"ocr.conf.quality.hint"         = "La modifica della qualità comporterà il download di tutti i pacchetti lingua!";
+"ocr.conf.langpacks.hint"       = "KyBook scarica automaticamente i pacchetti lingua necessari prima di eseguire il riconoscimento.";
+"ocr.conf.quality.normal"       = "Normale";
+"ocr.conf.quality.best"         = "Migliore";
+"ocr.conf.quality.fast"         = "Veloce";
+"ocr.conf.longpress"            = "Premere a lungo sulla pagina";
+"ocr.conf.never"                = "Non chiedere mai";
+"ocr.conf.never.hint"           = "Chiedi se è necessario avviare il riconoscimento se l'utente utilizza una pressione prolungata su una pagina senza un livello di testo.";
+"ocr.status.recognition"        = "Riconoscimento";
+"ocr.footnote.tesseract"        = "KyBook utilizza per il riconoscimento il motore OCR Open Source Tesseract (github.com/tesseract-ocr).";
+
+// THEME
+
+"theme.general"             = "Temi";
+"theme.day"                 = "Giorno";
+"theme.sepia"               = "Sepia";
+"theme.night"               = "Notte";
+"theme.dusk"                = "Alba";
+"theme.dawn"                = "Tramonto";
+"theme.pastel"              = "Pastello";
+"theme.sand"                = "Sabbia";
+"theme.tango"               = "Tango";
+"theme.name"                = "Nome";
+"theme.name.hint"           = "Inserisci il nome del tema.";
+"theme.pallete"             = "Colori";
+"theme.pallete.accent"      = "Evidenziato";
+"theme.pallete.text"        = "Testo";
+"theme.pallete.background"  = "Sfondo";
+"theme.pallete.divider"     = "Separatore";
+"theme.pallete.grayed"      = "Sfondo testo";
+"theme.pallete.control"     = "Controlli";
+"theme.pallete.selection"   = "Selezione";
+"theme.pallete.secondary"   = "Testo secondario";
+"theme.warning"             = "Impossibile sostituire un tema predefinito";
+
+// FONT PICKER
+
+"font.picker.general"       = "Font";
+"font.picker.default"       = "Font predefinito";
+"font.picker.favorited"     = "Font preferiti";
+"font.picker.user"          = "Font dell'utente";
+"font.picker.downlodable"   = "Font scaricabili";
+"font.picker.system"        = "Font di sistema";
+"font.picker.add"           = "Aggiungi font";
+"font.picker.add.browse"    = "Seleziona dall'archivio file";
+"font.picker.add.import"    = "Importa con l'app File di Apple";
+"font.picker.add.download"  = "Scarica font";
+"font.picker.add.done.fmt"  = "Il font %@/%zd è stato aggiunto";
+"font.picker.add.more.hint" = "Inoltre, è possibile aggiungere i font copiando i file (.ttf or .otf) nei documenti dell'app tramite la condivisione file di iTunes.\n Sull'iPad, trascina e rilascia i file dei font nella casella in basso.";
+"font.picker.add.drop"      = "Trascina qui i file dei caratteri";
+
+// EMPTY PLACEHOLDERS
+
+"empty.page"                    = "Pagina vuota";
+"empty.outline"                 = "Nessun indice";
+"empty.outline.hint"            = "Tocca il pulsante 'Aggiungi indice' per crearne uno";
+"empty.bookmarks"               = "Nessun segnalibro";
+"empty.bookmarks.hint"          = "Tocca il pulsante a destra sul piè di pagina per aggiungere un segnalibro.";
+"empty.notes"                   = "Nessuna nota";
+"empty.notes.hint"              = "Utilizza un gesto lungo per selezionare il testo in una pagina del libro, quindi seleziona 'Evidenzia' per aggiungere una nota.";
+"empty.sketches"                = "Nessun disegno";
+"empty.sketches.hint"           = "Apri la barra degli strumenti del disegno, quindi usa Apple Pencil o il dito per disegnare sulla pagina.";
+"empty.summary"                 = "Scrivi qui il riassunto del libro";
+"empty.summary.hint"            = "KyBook supporta la formattazione Markdown e può esportare un riassunto come HTML, PDF o RTF.";
+"empty.bookindex"               = "Indice del libro vuoto";
+"empty.bookindex.none"          = "L'indice del libro non è stato ancora creato";
+"empty.reading"                 = "Nessun libro è stato letto negli ultimi trenta giorni";
+"empty.catalog.page"            = "Questa pagina è vuota";
+"empty.catalog.reviews"         = "Nessuna recensione trovata";
+"empty.summaries"               = "Nessun riassunto";
+"empty.dictionaries"            = "Nessun dizionario";
+"empty.articles"                = "Nessun articolo";
+"empty.favorites"               = "Nessun preferito";
+"empty.collections"             = "Nessuna raccolta";
+"empty.downloads"               = "Nessun download";
+
+// NOTE
+
+"note.citation"                 = "Citazione";
+"note.sticker"                  = "Etichetta";
+"note.scrap"                    = "Ritaglio";
+"note.sketch"                   = "Disegno";
+"note.color"                    = "Colore";
+"note.style"                    = "Stile";
+"note.style.fill"               = "Riempimento";
+"note.style.strikeline"         = "Barrato";
+"note.style.underline"          = "Sottolineato";
+"note.style.doubleline"         = "Doppia linea";
+"note.style.wavy"               = "Ondulato";
+"note.style.dots"               = "Punteggiato";
+"note.color.red"                = "Rosso";
+"note.color.pink"               = "Rosa";
+"note.color.purple"             = "Porpora";
+"note.color.violet"             = "Viola";
+"note.color.blue"               = "Blu";
+"note.color.green"              = "Verde";
+"note.color.yellow"             = "Giallo";
+"note.color.orange"             = "Arancione";
+"note.color.brown"              = "Marrone";
+
+// SKETCH
+
+"sketch.general"                = "Disegno";
+"sketch.brush"                  = "Pennello";
+"sketch.brush.color"            = "Colore";
+"sketch.brush.fill"             = "Colore di riempimento";
+"sketch.brush.opacity"          = "Opacità";
+"sketch.brush.thickness"        = "Spessore";
+"sketch.brush.style"            = "Stile";
+"sketch.arrow"                  = "Freccia";
+"sketch.line"                   = "Linea";
+"sketch.rectangle"              = "Rettangolo";
+"sketch.ellipse"                = "Ellisse";
+"sketch.polyline"               = "Multilinea";
+"sketch.text"                   = "Testo";
+"sketch.stiker"                 = "Etichetta";
+"sketch.emoji"                  = "Emoji";
+"brush.linestyle.solid"         = "Uniforme";
+"brush.linestyle.dotted"        = "Punteggiato";
+"brush.linestyle.dashed"        = "Tratteggiato";
+
+// SEARCH
+
+"search.scope.book"             = "Libro";
+"search.scope.dictionary"       = "Dizionario";
+"search.scope.translate"        = "Traduzione";
+"search.scope.internet"         = "Internet";
+"search.scope.wikipedia"        = "Wikipedia";
+"search.scope.wolframalpha"     = "Wolfram|Alpha";
+"search.scope.library"          = "Libreria";
+"search.scope.catalogs"         = "Cataloghi";
+"search.executing"              = "Ricerca…";
+"search.continue.fmt"           = "Sto cercando, trovato %@ risultati…"; // e.g. Searching, 2 matches found ...
+"search.done.fmt"               = "Fatto, trovato %@ risultati"; // e.g. Done, 2 matches found";
+"search.none"                   = "Spiacenti, non riusciamo a trovare quello che stai cercando";
+"search.matching"               = "Riceca";
+"search.matching.textual"       = "Testuale";
+"search.matching.regular"       = "Regolare";
+"search.matching.fuzzy"         = "Casuale";
+"search.matching.exact"         = "Esatta";
+"search.matching.substring"     = "Sottostringa";
+"search.matching.pattern"       = "Schema";
+"search.area.in"                = "Cerca per";
+"search.area.in.title"          = "Titolo";
+"search.area.in.keywords"       = "Parola chiave";
+"search.area.in.sequence"       = "Serie";
+"search.area.in.author"         = "Autore";
+"search.area.in.annotation"     = "Note";
+"search.area.in.filename"       = "Nome del file";
+"search.engine.google"          = "Ricerca Google";
+"search.bookshelf.promt"        = "Cerca in questa libreria";
+"search.widget.detail"          = "Cerca nella libreria";
+
+// TIPS
+
+"tip.reader.fullscreen.exit"    = "Tocca qui per uscire dalla modalità a schermo intero";
+
+// MISC
+
+"misc.abc"                      = "Abc";
+"image.grabbing"                = "Modalità di acquisizione delle immagini";
+"pasteboard.copy.image"         = "L'immagine è stata copiata negli appunti";
+"misc.chapter.fmt"              = "Capitolo %zd";
+"misc.start.editing"            = "Inizia modifica";
+"misc.add.books"                = "Aggiungi libri";
+"misc.some.added.fmt"           = "%@ aggiunto/i"; // 5 books were added
+"misc.addbook.duplicate"        = "Saltato perché duplicato";
+"misc.used.of.fmt"              = "%@ di %@ occupati"; // 100 mB Of 1GB occupied
+"misc.experimental.feature"     = "Funzione sperimentale. Potrebbe non funzionare correttamente. Quando abilitata consuma la potenza della CPU e lo spazio su disco.";
+
+// MARKDOWN
+
+"markdown.conf.citation"        = "Citazione";
+"markdown.conf.citation.hint"   = "Quando si incolla o si trascina una citazione da un libro.";
+"markdown.conf.citation.quote"  = "Formatta come una citazione tra virgolette";
+"markdown.conf.citation.link"   = "Inserisci un link alla fonte";
+
+// APP CONTROL
+
+"app.control"                      = "Impostazioni";
+"app.control.services"             = "Servizi";
+"app.control.prefs"                = "Preferenze";
+"app.control.advanced.ui"          = "Interfaccia avanzata";
+"app.control.advanced.ui.hint"     = "Consente diverse schede attive (come in Safari).\n\nL'attivazione dell'interfaccia avanzata avviene tramite un acquisto in-app PRO o Pemium.";
+
+// APP PREFS
+
+"app.prefs.home.backg"              = "Sfondo in modalità elenco";
+"app.prefs.home.backg.colored"      = "Colorato";
+"app.prefs.bookshelf.cover"         = "Copertina del libro";
+"app.prefs.bookshelf.tag"           = "Tag";
+"app.prefs.bookshelf.filestate"     = "Cloud/Download";
+"app.prefs.bookshelf.decor"         = "Visualizza informazioni secondarie in una cella";
+"app.prefs.bookshelf.backg.card"    = "Colore di sfondo in modalità schede";
+"app.prefs.bookshelf.backg.mini"    = "Colore di sfondo in modalità schede mini";
+"app.prefs.bookshelf.card"          = "Modalità schede";
+"app.prefs.bookshelf.card.hires"    = "Copertine ad alta risoluzione";
+"app.prefs.bookshelf.tags"          = "Stile delle etichette";
+"app.prefs.bookshelf.tags.icons"    = "Icone";
+"app.prefs.bookshelf.tags.titles"   = "Titoli";
+"app.prefs.bookshelf.search"        = "Cerca";
+"app.prefs.bookshelf.search.bar"    = "Barra di ricerca";
+"app.prefs.bookshelf.search.hint"   = "Abilita la barra di ricerca per filtrare i libri su uno scaffale.";
+"app.prefs.bookshelf.default"       = "Preferenze predefinite";
+"app.prefs.bookshelf.default.hint"  = "Modificando le preferenze predefinite verranno reimpostate anche tutte le preferenze dell'utente!";
+"app.prefs.bookshelf.bookcard.open" = "Animazione dell'apertura di una scheda libro (solo iPad)";
+"app.prefs.reader.fullscreen"       = "Modalità a tutto schermo";
+"app.prefs.reader.fullscreen.auto"  = "Cambio automatico";
+"app.prefs.reader.fullscreen.tap"   = "Toccando al centro";
+"app.prefs.reader.fullscreen.header"= "Nascondi barra di intestazione";
+"app.prefs.reader.fullscreen.footer"= "Nascondi la barra a piè di pagina";
+"app.prefs.reader.fullscreen.hint"  = "Per impostazione predefinita, KyBook passa automaticamente alla modalità a tutto schermo quando inizi a leggere. Per uscire dalla modalità a tutto schermo, tocca la barra dell'intestazione. Inoltre, puoi abilitare un tocco al centro per attivare la modalità a tutto schermo.";
+"app.prefs.reader.forcetouch.hint"  = "Force (3D) Touch può essere utilizzato per eseguire azioni preferite sul testo selezionato."; // ** Missing line in english translation
+"app.prefs.reader.fast.selection"   = "Selezione veloce";
+"app.prefs.reader.fast.selection.action"= "Azione";
+"app.prefs.reader.fast.selection.hint"  = "La selezione rapida può essere utilizzata per eseguire l'azione preferita sul testo selezionato con un solo gesto. Per attivarla, effettua una pressione prolungata su una parte di testo, seleziona il testo desiderato senza sollevare il dito, quindi alza il dito.";
+"app.prefs.reader.idletimer"        = "Disabilita il blocco automatico dello schermo";
+"app.prefs.reader.idletimer.hint"   = "Finché il libro è aperto, lo schermo rimane acceso.";
+"app.prefs.reader.rotationlock"     = "Blocco rotazione";
+"app.prefs.reader.rotationlock.hint"= "Non ruota il lettore quando il dispositivo viene girato (funziona finché il libro è in lettura a schermo intero). Il blocco della rotazione è disponibile solo su iPhone.";
+"app.prefs.reader.tts.auto"         = "Riproduzione automatica";
+"app.prefs.reader.tts.auto.header"  = "Quando avviare la riproduzione automatica";
+"app.prefs.reader.tts.auto.never"   = "Mai";
+"app.prefs.reader.tts.auto.headset" = "Cuffie collegate";
+"app.prefs.reader.tts.auto.always"  = "Sempre";
+"app.prefs.reader.tts.auto.hint"    = "Avvia automaticamente la sintesi vocale quando apri gli ebook Epub/MOBI/FB2.";
+"app.prefs.cache"                   = "Cache";
+"app.prefs.cache.clear"             = "Libera spazio";
+"app.prefs.cache.reader"            = "Cache del lettore";
+"app.prefs.cache.reader.hint"       = "KyBook memorizza i dati e-book decompressi e analizzati nella cartella cache sul dispositivo. Per liberare spazio puoi eliminare tutti i dati memorizzati nella cache.";
+"app.prefs.cache.covers"            = "Cache delle copertine dei libri";
+"app.prefs.cache.covers.hint"       = "KyBook memorizza le immagini delle copertine nella cartella cache sul dispositivo. Per liberare spazio puoi eliminare tutte le immagini memorizzate nella cache.";
+"app.prefs.misc"                    = "Misto";
+"app.prefs.spotlight"               = "Ricerca con Spotlight";
+"app.prefs.spotlight.hint"          = "Indicizza i libri aperti per renderli ricercabili utilizzando Spotlight.";
+"app.autosum.algo"                  = "Algoritmo automatico di riassunto del testo";
+"app.autosum.algo.hint"             = "La classificazione del testo richiede molte risorse, ma può produrre un risultato migliore. Prova a passare all'algoritmo 'Frasi chiave', se è atata forzata la chiusura di KyBook da iOS a causa dell'esaurimento della memoria.";
+"app.prefs.dragdrop"                = "Trascina & Rilascia";
+"app.prefs.dragdrop.hint"           = "Permette di trascinare e rilasciare oggetti su uno scaffale, una biblioteca ed altre schermate.";
+"app.prefs.dragdrop.confirm.title"  = "Attiva/disattiva Trascina & Rilascia";
+"app.prefs.dragdrop.confirm.msg"    = "La modifica di Trascina & Rilascia richiede il ripristino degli schermi di KyBook. Tutti gli schermi verranno chiusi.\nSei sicuro?";
+
+// CONTENT SERVER
+
+"contentserver.general"     = "Modalità server";
+"contentserver.activate"    = "Attiva";
+"contentserver.link"        = "Link";
+"contentserver.username"    = "Username";
+"contentserver.password"    = "Password";
+"contentserver.hint"        = "Attiva la modalità server per accedere ai tuoi file tramite la rete locale usando un browser web. Carica i libri sul dispositivo dal PC tramite WiFi (non è necessario usare iTunes, è richiesto solo un browser web).";
+"contentserver.visit"       = "Collegati a '%@' con il tuo browser web";
+
+// IMAGE PICKER
+
+"imagepicker.image"                 = "Immagine";
+"imagepicker.reset"                 = "Ripristina";
+"imagepicker.files"                 = "File";
+"imagepicker.photo"                 = "Foto";
+"imagepicker.internet"              = "Internet";
+"imagepicker.libraries"             = "Librerie";
+"imagepicker.samples"               = "Esempi";
+"imagepicker.backgrounds"           = "Sfondi";
+"imagepicker.photo.all"             = "Tutte le foto";
+"imagepicker.photo.none"            = "Nessuna foto";
+"imagepicker.files.none"            = "Nessuna immagine in questa cartella";
+"imagepicker.photos.select"         = "Seleziona da Foto";
+"imagepicker.internet.search"       = "Cerca in Internet";
+"imagepicker.libraries.search"      = "Cerca nelle librerie";
+"imagepicker.files.browse"          = "Seleziona dall'archivio file";
+"imagepicker.files.import"          = "Importa con l'app File di Apple";
+"imagepicker.download"              = "Scarica dal catalogo";
+"imagepicker.photo.fail"            = "Richiesta dell'immagine da Foto non riuscita";
+"imagepicker.photo.notdetermined"   = "Non hai ancora fatto una scelta per quanto riguarda KyBook";
+"imagepicker.photo.restricted"      = "KyBook non è autorizzato ad accedere a Foto";
+"imagepicker.photo.denied"          = "Hai negato esplicitamente l'accesso di KyBook a Foto";
+
+// TEXT 2 SPEECH
+
+"tts.general"           = "Sintesi vocale (text-to-speech)";
+"tts.completed"         = "Sintesi vocale: completata";
+"tts.unablestart"       = "Sintesi vocale: impossibile da avviare";
+"tts.pitch"             = "Tono";
+"tts.rate"              = "Velocità";
+"tts.volume"            = "Volume";
+"tts.continuable"       = "Leggi tutto";
+"tts.continuable.hint"  = "Quando il testo è selezionato tramite il menù, viene letto senza interruzione fino alla fine del libro.";
+"tts.voices"            = "Voci";
+"tts.voices.headline"   = "Seleziona la voce che preferisci per la tua lingua. KyBook utilizzerà la voce selezionata per la sintesi vocale.";
+"tts.voices.footer"     = "Per voci più avanzate, apri Impostazioni iOS -> Generali -> Accessibilità -> VoiceOver -> Voce -> Voce e scarica una voce migliorata per la tua lingua"; // ** Outdate info. To be update for iOS 13
+
+// AUTO SCROLLING
+
+"autoscrolling.general"     = "Scorrimento automatico";
+"autoscrolling.rate"        = "Velocità";
+"autoscrolling.hideslider"  = "Nascondi il cursore della velocità nella schermata di lettura";
+"autoscrolling.tunerate"    = "Regola la velocità quando scorri su o giù";
+
+// NETWORK
+
+"network.general"           = "Network";
+"network.streaming"         = "Streaming";
+"network.streaming.audio"   = "Contenuto audio";
+"network.streaming.pdf"     = "Metadati PDF";
+"network.streaming.hint"    = "Quando possibile, KyBook trasmetterà in streaming un audiolibro (o otterrà i metadati PDF) direttamente dall'archivio cloud senza precaricare l'intero file sul dispositivo.";
+"network.streaming.footer"  = "streaming";
+"network.local"             = "Network locale";
+"network.local.neighborhood"= "Network in vicinanza";
+"network.local.discovery"   = "Rilevamento della rete locale";
+"network.samba"             = "Cartelle condivise";
+"network.server"            = "Server";
+"network.sharepoint"        = "Sharepoint";
+"network.samba.add"         = "Aggiungi la cartella condivisa";
+"network.samba.settings"    = "Impostazioni di connessione";
+"network.samba.hint"        = "Immettere il nome o l'indirizzo del server, Sharepoint (facoltativo), username (facoltativo, se non specificato, verrà usato l'accesso ospite) e password (facoltativo). Se la connessione termina con l'errore 'Non autorizzato' username e password sono obbligatori!";
+"network.samba.v1.info"     = "KyBook può connettersi solo a condivisioni SMB1. SMB1 è disabilitato di default su Windows 10. Per abilitare SMB1 su Windows 10, vai al Pannello di controllo > Programmi e Funzionalità > Attiva le Funzionalità di Windows > selezionare la casella per 'SMB 1.0/CIFS Server' e riavviare. Attenzione, SMB1 non è sicuro!";
+"network.tor"               = "Network Tor";
+"network.tor.conf.header"   = "Attentione! KyBook si collega automaticamente alla rete Tor quando apre un catalogo .onion OPDS.";
+"network.tor.conf.footer"   = "KyBook si unirà *automaticamente* alla rete Tor ed effettuerà il tunnelling del traffico per i cataloghi .onion OPDS e i siti web.\n\nLa navigazione e il download sul Web attraverso la rete Tor saranno notevolmente più lenti rispetto a una connessione senza tunnel.\n\nSi prega di notare che KyBook non è destinato alla navigazione anonima! L'uso di Tor in KyBook risolve solo i problemi di raggiungibilità della rete.\n\nQuesto prodotto utilizza le reti distribuite Tor, è prodotto indipendentemente dal software di anonimato Tor, e non fornisce alcuna garanzia da parte del Progetto Tor su qualità, idoneità o altro.";
+"network.tor.bridge"        = "Bridge";
+"network.tor.bridges"       = "Bridge";
+"network.tor.bridges.add"   = "Aggiungi un bridge";
+"network.tor.bridges.reset" = "Elimina i bridge";
+"network.tor.bridges.hint"  = "I bridge sono relè Tor che ti aiutano a eludere la censura. I bridge non sono obbligatori! Solo se sospetti che il tuo accesso alla rete Tor sia bloccato, potresti voler usare i bridge. Maggiori informazioni su bridges.torproject.org.";
+"network.status"                = "Stato";
+"network.status.disconnected"   = "Scollegato";
+"network.status.connecting"     = "Connessione in corso…";
+"network.status.connected"      = "Connesso";
+"network.status.authenticated"  = "Autenticato";
+"network.status.bootstrap"      = "Bootstrap";
+"network.status.ready"          = "Pronto";
+"network.status.failure"        = "Fallito";
+"network.status.waiting"        = "In attesa";
+"network.status.suspended"      = "Sospeso";
+"network.status.loading"        = "Caricamento in corso…";
+"network.status.shutdown"       = "Chiusura";
+"network.start"                 = "Start";
+"network.stop"                  = "Stop";
+"network.restart"               = "Riavvio";
+"network.websearch.engine"      = "Motore di ricerca";
+"network.download.add"          = "Aggiungi un download";
+"network.download.file.ask"     = "Scarica un file?";
+"network.download.file.enter"   = "Inserisci l'URL per scaricare un file";
+
+// TRANSLATION
+
+"translation.general"           = "Traduzione";
+"translation.running"           = "Traduzione in corso…";
+"translation.yandex"            = "Yandex.Translate";
+"translation.yandex.copyright"  = "Realizzato da Yandex.Translate";
+"translation.target.lang"       = "Lingua di traduzione";
+"translation.target.lang.hint"  = "Di default, la lingua di traduzione è la lingua del dispositivo.";
+"translation.source.lang"       = "Lingua originale";
+"translation.source.auto"       = "Rilevamento automatico";
+"translation.source.auto.hint"  = "Quando il rilevamento automatico è disabilitato, KyBook utilizzerà la lingua definita nella scheda del libro.";
+"translation.services"          = "Servizi di traduzione";
+"translation.target.ask"        = "Seleziona la lingua di destinazione della traduzione";
+
+// MAIN
+
+"main.books"                    = "Libri";
+"main.reading"                  = "In lettura";
+"main.library"                  = "Libreria";
+"main.catalogs"                 = "Cataloghi";
+"main.dashboard"                = "Cruscotto";
+
+// CLOUD
+
+"cloud.icloud.signin"           = "Accedi a iCloud";
+"cloud.icloud.signin.message"   = "Accedi al tuo account iCloud. Nella schermata Home, avvia le impostazioni di iOS, tocca iCloud e inserisci il tuo ID Apple. Attiva iCloud Drive. Se non hai un account iCloud, tocca Crea un nuovo ID Apple."; // ** Outdate info. To be update for iOS 13
+"cloud.dropbox.link.title"      = "Connetti Dropbox";
+"cloud.dropbox.link.message"    = "Seleziona il metodo di autenticazione preferito";
+"cloud.dropbox.link.app"        = "Avvia l'app Dropbox";
+"cloud.dropbox.link.site"       = "Apri il sito Dropbox";
+"cloud.credential.required"     = "Autenticazione richiesta";
+"cloud.credential.user"         = "Utente";
+"cloud.credential.password"     = "Password";
+"cloud.webdav.add"              = "Aggiungi il server WebDAV";
+"cloud.webdav.data"             = "Impostazioni Server WebDAV";
+"cloud.webdav.known"            = "Elenco di server WebDAV";
+"cloud.webdav.hint"             = "Inserisci l'URL, il nome utente e la password per connetterti al server WebDAV.";
+"cloud.check.reachability"      = "Controllo della raggiungibilità in corso…";
+"cloud.check.fail.msg"          = "Il server non è raggiungibile o l'indirizzo non è valido";
+"cloud.check.fail.ask"          = "Connetti al server in ogni caso?";
+
+// CATALOG
+
+"catalog.general"               = "Catalogo";
+"catalog.add.to"                = "Aggiungi ai cataloghi";
+"catalog.opds"                  = "Catalogo OPDS";
+"catalog.opds.add"              = "Aggiungi il catalogo OPDS";
+"catalog.opds.add.hint"         = "Inserisci l'URL del catalogo per aggiungere un tuo catalogo OPDS.";
+"catalog.opds.add.fix"          = "Sembra che l'indirizzo del catalogo OPDS non sia stato specificato in modo completo. L'indirizzo è stato corretto. Per favore controlla attentamente.";
+"catalog.opds.localnet"         = "Cerca nella rete locale";
+"catalog.opds.localnet.hint"    = "Cerca nella rete locale cataloghi OPDS come Calibre e TinyOPDS.";
+"catalog.opds.known"            = "Elenco dei cataloghi OPDS conosciuti";
+"catalog.rel.related"           = "Correlato";
+"catalog.rel.alternate"         = "Alternato";
+"catalog.rel.subsection"        = "Sottosezione";
+"catalog.rel.acquisition"       = "Acquisito";
+"catalog.rel.openaccess"        = "Accesso libero";
+"catalog.rel.borrow"            = "Prestito";
+"catalog.rel.buy"               = "Comperare";
+"catalog.rel.sample"            = "Esempio";
+"catalog.rel.subscribe"         = "Sottoscrivi";
+"catalog.rel.new"               = "Nuovo";
+"catalog.rel.popular"           = "Popolare";
+"catalog.rel.featured"          = "In primo piano";
+"catalog.rel.recommended"       = "Consigliato";
+"catalog.rel.shelf"             = "Scaffale";
+"catalog.rel.subscriptions"     = "Sottoscrizioni";
+"catalog.rel.free"              = "Gratuito";
+"catalog.rel.basket"            = "Cestino";
+"catalog.rel.download"          = "Download";
+"catalog.rel.login"             = "Login";
+"catalog.rel.logout"            = "Logout";
+"catalog.rel.author"            = "Autore";
+"catalog.rel.sequence"          = "Serie";
+"catalog.rel.category"          = "Categoria";
+"catalog.rel.publisher"         = "Editore";
+"catalog.rel.web"               = "Web";
+"catalog.rel.search"            = "Cerca";
+"catalog.rel.up"                = "Su";
+"catalog.rel.first"             = "Primo";
+"catalog.rel.last"              = "Ultimo";
+"catalog.check.fail.msg"        = "Il catalogo non è raggiungibile o non è valido";
+"catalog.check.fail.ask"        = "Aggiungi il catalogo in ogni caso?";
+"catalog.opds.fix.path"         = "Sembra che l'indirizzo del catalogo OPDS non sia stato specificato in modo completo. L'indirizzo è stato corretto. Per favore controlla attentamente.";
+"catalog.credentials.reset"     = "Reimposta credenziali";
+"catalog.credentials.reset.hint"= "Reimposta credenziali salvate (password, token di accesso).";
+"catalog.links"                 = "Riferimenti";
+"catalog.rights"                = "Diritti";
+"catalog.source"                = "Fonte";
+"catalog.reviews"               = "Recensioni";
+"catalog.googlebooks"           = "Google Books";
+"catalog.samizdat"              = "Samizdat";
+"catalog.litres"                = "LitRes";
+"catalog.batch.download"        = "Download batch";
+"catalog.batch.collecting.fmt"  = "In raccolta %@";
+"catalog.batch.collected.fmt"   = "Raccolti %@";
+"catalog.batch.downloading.fmt" = "Downloading %zd di %@";
+"catalog.batch.added.fmt"       = "Aggiunto %zd di %@";
+
+// WIDGET
+
+"widget.title"                 = "Titolo";
+"widget.color"                 = "Colore";
+"widget.icon"                  = "Icona";
+
+// DICTIONARY
+
+"dictionary.general"                = "Dizionario";
+"dictionary.all"                    = "Dizionari";
+"dictionary.install"                = "Installa dizionario";
+"dictionary.install.free"           = "Aggiungi dizionario gratuito";
+"dictionary.install.system"         = "Aggiungi dizionario di sistema";
+"dictionary.install.all"            = "Dizionari installati";
+"dictionary.install.add"            = "Aggiungi dizionario";
+"dictionary.install.storage"        = "Seleziona dall'archivio file";
+"dictionary.install.import"         = "Importa con l'app File di Apple";
+"dictionary.install.download"       = "Scarica da Internet";
+"dictionary.install.download.hint"  = "Scegli il dizionario gratuito da scaricare e installare.";
+"dictionary.install.hint"           = "KyBook supporta dizionari nei formati StarDict, Lingvo DSL e Dictd.\n\nI dizionari sono di solito distribuiti come archivio ZIP, RAR o TAR e possono avere le estesnioni .zip, .rar, .tar, .tgz, .tbz. Il dizionario Lingvo DSL può essere distribuito come file .dsl non compresso.";
+"dictionary.history"                = "Cronologia";
+"dictionary.favorited"              = "Voci preferite";
+"dictionary.userdict"               = "Dizionario utente";
+"dictionary.activate.hint"          = "Per cercare una definizione, seleziona una parola nel libro, quindi tocca la voce di menu `Definisci`.";
+"dictionary.article"                = "Voce del dizionario";
+"dictionary.article.title.prompt"   = "Titolo della voce";
+"dictionary.article.text.prompt"    = "Inserisci il testo della voce";
+"dictionary.article.add"            = "Aggiungi una voce";
+"dictionary.article.markdown"       = "Formattazione markdown supportata";
+"dictionary.format"                 = "Formato";
+"dictionary.recordscount"           = "Numero di record";
+"dictionary.delete.ask"             = "Elimina il dizionario?";
+
+// RELAX
+
+"relax.general"                     = "Timer di relax";
+"relax.screen"                      = "Schermo";
+"relax.screen.black"                = "Nero";
+"relax.screen.blurred"              = "Sfocato";
+"relax.screen.melange"              = "Melange";
+"relax.screen.matrix"               = "The Matrix Movie";
+"relax.screen.life"                 = "Conway Life";
+"relax.screen.random"               = "Casuale";
+"relax.preparation"                 = "Azione pre-relax";
+"relax.preparation.hint"            = "Azione da eseguire prima di mostrare la schermata di relax.";
+"relax.final"                       = "Azione post relax";
+"relax.final.hint"                  = "Azioni da eseguire al completamento del relax.";
+"relax.duration"                    = "Tempo di lettura";
+"relax.duration.hint"               = "Viene indicato il tempo di lettura prima della schermata di relax.";
+"relax.flash"                       = "Flash";
+"relax.vibration"                   = "Vibrazione";
+"relax.alert"                       = "Avviso";
+"relax.countdown"                   = "Timer";
+"relax.countdown.hint"              = "Fornisce un timer prima di mostrare la schermata di relax.";
+"relax.duration.screen"             = "Durata del relax";
+"relax.screen.show"                 = "Mostra anteprima schermo";
+"relax.screen.footer"               = "Il relax verrà completato automaticamente in %@\nTocca ovunque per terminare prima";
+"relax.message.relax"               = "È tempo di rilassarsi!";
+"relax.message.read"                = "È tempo di leggere!";
+"relax.hint"                        = "Fornisce uno schermo per riposare gli occhi dopo un lungo periodo di lettura.";
+"relax.disable"                     = "Timer relax disattivato";
+"relax.enable.ask"                  = "Abilita il timer di relax?";
+"relax.intime.fmt"                  = "Relax in %@";
+
+// TIMER
+
+"timer.sleep.general"               = "Timer";
+"timer.sleep.off"                   = "Timer spento";
+"timer.sleep.off.short"             = "Spento";
+"timer.sleep.pauseplayback"         = "Pausa lettura";
+"timer.sleep.fired.message"         = "Lettura fermata dal timer";
+"timer.sleep.induration.fmt"        = "Interruzione in %@"; // Sleeping in 5 minutes
+"timer.sleep.induration.short.fmt"  = "In %@"; // in 5 minutes
+"timer.sleep.atendchapter"          = "Alla fine del capitolo";
+
+// LOGIN
+
+"login.signin"                      = "Accedi";
+"login.signup"                      = "Iscriviti";
+"login.signin.welcome"              = "Ben tornato";
+"login.signup.join"                 = "Iscriviti a KyBook";
+"login.signin.headline"             = "Accedi per esplorare e sincronizzare libri, note, riepiloghi e altro.";
+"login.signup.headline"             = "Crea un account per esplorare e sincronizzare libri, note, riepiloghi e altro.";
+"login.signin.toggle"               = "Nessun account?";
+"login.signup.toggle"               = "Hai già un account?";
+"login.signin.toggle.action"        = "Crearne uno";
+"login.signup.toggle.action"        = "Accedi";
+"login.signin.password"             = "Accedi con password";
+"login.signin.email"                = "Accedi con email";
+"login.signin.google"               = "Accedi con Google";
+"login.signin.github"               = "Accedi con GitHub";
+"login.signin.known"                = "Accedi con un accesso conosciuto";
+"login.signup.password"             = "Iscriviti con password";
+"login.signup.email"                = "Iscriviti con email";
+"login.signup.google"               = "Iscriviti con Google";
+"login.signup.github"               = "Iscriviti con GitHub";
+"login.signin.enter"                = "Inserisci User ID e password per accedere all'account";
+"login.signup.enter"                = "Inserisci User ID e password per creare un account";
+"login.setup.enter"                 = "Inserisci User ID e password";
+"login.email.enter"                 = "Facoltativamente, inserisci l'email e il nome";
+"login.login"                       = "User ID";
+"login.password"                    = "Password";
+"login.email"                       = "Email";
+"login.displayname"                 = "Nome";
+"login.login.invalid"               = "Lo User ID deve essere di almeno 4 caratteri e può essere composto di cifre, lettere latine, punti o tratti di sottolineatura.";
+"login.password.invalid"            = "La password deve essere lunga almeno 6 caratteri e può essere composta di cifre, lettere latine, punti o tratti di sottolineatura.";
+"login.response.failure"            = "User ID o password non sono validi";
+"login.invalid.email"               = "L'email non è valida";
+"login.invalid.confirm"             = "Il codice di verifica non è valido";
+"login.email.confirm.send"          = "Inserisci l'indirizzo email associato al tuo account e invieremo un codice di verifica alla tua casella di posta.";
+"login.email.confirm.enter"         = "Inserisci il codice di verifica e sarai connesso";
+"login.email.confirm.have"          = "Ho un codice di verifica";
+"login.email.confirm.just.fmt"      = "Abbiamo appena inviato un codice di verifica via email a %@.\nInserisci il codice dell'email e sarai connesso";
+"login.email.confirm.code"          = "Codice di verifica";
+"login.email.confirm.check"         = "Verifica il codice in corso, attendi…";
+"login.email.already.inuse"         = "Questo indirizzo email è già in uso da un altro utente";
+"login.email.confirm.fail"          = "Impossibile confermare l'email";
+"login.ok"                          = "Accesso OK";
+"login.failed"                      = "Accesso fallito";
+"login.user.exists"                 = "Un utente con questo User ID è già registrato";
+"login.user.notfound"               = "Utente non trovato";
+"login.change.email.confirm.send"   = "Inserisci il nuovo indirizzo email e ti invieremo un codice di verifica nella tua casella di posta";
+"login.change.email.confirm.enter"  = "Inserisci il codice di verifica e il tuo indirizzo email verrà modificato";
+"login.change.email.confirm.just.fmt"   = "Abbiamo appena inviato un codice di verifica via email a %@.\nInserisci il codice dell'email e il tuo indirizzo email verrà modificato";
+"login.change.password"             = "Cambia password";
+"login.set.password"                = "Imposta password";
+"login.password.new"                = "Nuova password";
+"login.password.old"                = "Vecchia password";
+
+// ACCOUNT
+
+"account.general"                   = "Account";
+"account.authorization"             = "Autorizzazione";
+"account.personal"                  = "Personale";
+"account.social.network"            = "Social network";
+"account.website"                   = "Sito web";
+"account.bio"                       = "Biografia";
+"account.created"                   = "Creato a";
+"account.logout"                    = "Logout";
+"account.logout.ask"                = "Logout?";
+"account.logout.message"            = "La sincronizzazione non sarà più disponibile dopo il logout. Sei sicuro?";
+"account.relogin"                   = "Re-login";
+"account.relogin.ask"               = "Re-login?";
+"account.delete"                    = "Elimina l'account";
+"account.delete.ask"                = "Elimina l'account?";
+"account.delete.message"            = "L'eliminazione dell'account eliminerà anche tutte le informazioni memorizzate su libri e note nel cloud. La sincronizzazione non sarà più disponibile. \n\nInserisci `ELIMINA` per conferma";
+"account.delete.confirmation"       = "ELIMINA";
+"account.anonymous"                 = "Anonimo";
+"account.devices"                   = "Dispositivi";
+"account.devices.detach"            = "Sconnetti il dispositivo";
+"account.profile.set"               = "Imposta";
+"account.profile.change"            = "Modifica";
+
+// SYNCHRONIZATION
+
+"sync.general"                      = "Sincronizzazione";
+"sync.donow"                        = "Sincronizza ora";
+"sync.doing"                        = "Sincronizzazione in corso…";
+"sync.automatic"                    = "Sincronizzazione automatica";
+"sync.automatic.wifi"               = "Richiede una connessione WiFi";
+"sync.automatic.lowerpower"         = "Stop in modalità di risparmio energetico";
+"sync.logging"                      = "Logging";
+"sync.logging.view"                 = "Mostra il log";
+"sync.scope"                        = "Elementi che devono essere sincronizzati";
+"sync.scope.books"                  = "Metadati del libro";
+"sync.scope.notes"                  = "Note, segnalibri";
+"sync.scope.assets"                 = "Riassunti, copertine";
+"sync.scope.files"                  = "File dei libri";
+"sync.restriction.hint"             = "La sincronizzazione richiede un abbonamento premium.\nI metadati, le note, i riassunti, ecc. dei libri vengono archiviati nel cloud senza alcuna limitazione di dimensioni e/o quantità.\nLa dimensione totale dei file di libri memorizzati nel cloud è limitata dallo spazio di archiviazione disponibile.";
+"sync.quota"                        = "Spazio di archiviazione (usato)";
+"sync.quota.empty"                  = "Vuoto";
+"sync.quota.used.fmt"               = "%@ di %@";
+"sync.push.notifications"           = "Notifiche push";
+"sync.push.notifications.hint"      = "Le notifiche sono utili per una sincronizzazione corretta tra i tuoi dispositivi.";
+"sync.state.none"                   = "Non sincronizzato";
+"sync.state.synced"                 = "Sincronizzato";
+"sync.files.title"                  = "File cloud";
+"sync.files.remove"                 = "Elimina";
+"sync.files.hint"                   = "Usa un gesto di scorrimento per rimuovere il file del libro dal cloud KyBook e liberare spazio."; // ** Swipe left|right to remove a book…
+"sync.files.empty"                  = "Nessun file è stato ancora caricato";
+
+// BIZ
+
+"biz.adman.mock.banner.title"       = "Aggiorna KyBook alla versione PRO e disabilita i banner pubblicitari!";
+"biz.adman.mock.banner.title.short" = "Aggiorna a PRO e disabilita la pubblicità!";
+"biz.adman.mock.banner.subtitle"    = "Tocca per passare alla versione Pro";
+"biz.feature.noad"                  = "Nessun banner pubblicitario";
+"biz.feature.djvu"                  = "Supporto del formato DjVu";
+"biz.feature.userdict"              = "Dizionario utente";
+"biz.feature.deckui"                = "Interfaccia utente avanzata (schede simili a Safari)";
+"biz.feature.contentserver"         = "Server dei contenuti";
+"biz.feature.themes"                = "Temi personalizzati";
+"biz.feature.tags"                  = "Etichette per libri";
+"biz.feature.downloadable"          = "Contenuti scaricabili (font, sfondi, dizionari)";
+"biz.feature.autoscroll"            = "Scorrimento automatico";
+"biz.feature.sketches"              = "Supporto per disegnare sulle pagine dei libri";
+"biz.feature.pdfreflow"             = "Modalità di riflusso PDF su iPhone";
+"biz.feature.export2pdf"            = "Esporta un e-book con le note in formato PDF";
+"biz.feature.synchronization"       = "Sincronizzazione dei metadati e dei file degli e-book";
+"biz.feature.google"                = "Google Translate e ricerca copertine in Google";
+"biz.feature.batch.edit.metadata"   = "Modifica batch dei metadati dei libri";
+"biz.feature.batch.catalog.download"= "Download batch dal catalogo OPDS";
+"biz.feature.book.trash"            = "Cestino per i libri cancellati";
+"biz.feature.book.audioplaylist"    = "Creazione automatica delle playlist degli audiolibri";
+"biz.available.free"                = "Disponibile gratuitamente";
+"biz.requires.pro"                  = "Richiede l'acquisto della versione Pro";
+"biz.requires.premium"              = "Richiede un abbonamento Premium";
+"biz.alert.iap.fmt"                 = "Ci dispiace, ma è necessario effettuare un acquisto in-app per continuare a utilizzare “%@”\nDesideri effettuare un acquisto in-app adesso?";
+"biz.buy.now"                       = "Acquista adesso";
+"biz.buy.later"                     = "Certo, lo comprerò più tardi";
+"biz.premium.sync.note"             = "Per utilizzare la sincronizzazione è necessario un abbonamento Premium.";
+"biz.trial"                         = "Versione di prova";
+"biz.trial.hint.fmt"                = "Prova le funzionalità PRO per %zd giorni gratuiti.";
+"biz.trial.noteliglbile"            = "Non disponibile durante la versione di prova";
+"biz.terms.title"                   = "Termini di servizio";
+"biz.privacy.title"                 = "Norme sulla Privacy";
+
+// IAP
+
+"iap.general"                   = "Acquisto In-App";
+"iap.restore"                   = "Ripristina gli acquisti";
+"iap.pro.upgrade"               = "Aggiorna alla versione Pro";
+"iap.premium.subscription"      = "Abbonamento Premium";
+"iap.dialog.completed"          = "Acquisti completati";
+"iap.dialog.restored"           = "Acquisti ripristinati";
+"iap.validation.issue"          = "Gli acquisti in-app non sono stati verificati!";
+"iap.validation.cancelled.fmt"  = "%@ è stato annullato"; // e.g. 'Upgrade to Pro was cancelled'
+"iap.validation.expired.fmt"    = "%@ era scaduto";
+"iap.validation.uncofirmed.fmt" = "%@ non è confermato a causa di %@"; // e.g. 'Yearly subscription is not confirmed due to some error'
+"iap.validation.note"           = "Alcune funzioni saranno disabilitate!";
+"iap.pro.title"                 = "Aggiorna alla versione Pro";
+"iap.pro.subtitle"              = "Pagamento una volta sola";
+"iap.pro.hint"              	  = "L'aggiornamento alla versione Pro sblocca tutte le funzionalità Pro.";
+"iap.pro.allfeatures"           = "Tutte le funzionalità della versione Pro";
+"iap.pro.discount.title"        = "Aggiorna ala versione Pro (Sconto)";
+"iap.pro.discount.subtitle"     = "Offerta per gli utenti della versione Pro di KyBook 2"; 
+"iap.month3.title"              = "Abbonamento trimestrale";
+"iap.month3.subtitle"           = "Pagamento trimestrale (prova gratis per 1 settimana)"; // ")" missing in EN
+"iap.yearly.title"              = "Abbonamento annuale";
+"iap.yearly.subtitle"           = "Pagamento annuale, (prova gratis per 1 settimana)";
+"iap.premium.details"           = "Dettagli dell'abbonamento";
+"iap.premium.hint"              = "L'abbonamento Premium include la funzione di sincronizzazione e tutte le funzionalità Pro.";
+"iap.manage.subscriptions"      = "Gestisci l'abbonamento";
+"iap.status.expired.fmt"        = "Scaduto il %@"; // subscription expired on 2018-01-01
+"iap.status.expires.fmt"        = "Scade il %@";
+"iap.status.paid.fmt"           = "Pagato il %@";
+"iap.status.cancelled.fmt"      = "Annullato il %@";
+"iap.error.title"               = "Errore di iTunes Store";
+"iap.error.nopurchases"         = "Ci dispiace, nessun acquisto trovato";
+"iap.error.unablepayment"       = "Ci dispiace, impossibile effettuare l'acquisto. Questo dispositivo non è in grado o non è autorizzato ad effettuare pagamenti";
+"iap.error.unreachable"         = "Ci dispiace, il server di sincronizzazione non è raggiungibile. L'abbonamento Premium è inutilizzabile senza sincronizzazione";
+"iap.subscription.none"         = "Nessun abbonamento";
+"iap.subscription.renew.ask.fmt"= "%@ è scaduto il %@. La sincronizzazione non è disponibile senza il rinnovo dell'abbonamento. Vuoi effettuare il rinnovo?";  // e.g. 'Yearly subscription expired on 19 Dec 2018.'
+"iap.subscription.renew"        = "Rinnova l'abbonamento";
+
+// SUPPORT/ABOUT
+
+"support.report.issue"          = "Segnala un problema";
+"support.about"                 = "Riguardo a";
+"support.about.rate"            = "Valuta su App Store";
+"support.about.twitter"         = "Invia un Tweet";
+"support.about.feedback"        = "Invia un feedback";
+"support.about.help"            = "Aiuto";
+"support.about.discuss"         = "Discussioni";
+"support.about.acknowledgement" = "Riconoscimenti";
+
+// Abbreviation
+
+"abbr.thousand.words.fmt"       = "%zdk parole";
+
+// SMB/CIFS AND OTHERS ERRORS
+
+"INTERNAL_ERROR"            = "Errore interno";
+"NETWORK_FAILURE"           = "Errore Network";
+"UNAUTHORIZED"              = "Non autorizzato";
+"ACCESS_DENIED"             = "Accesso negato";
+"UNABLE_RESOLVE"            = "Impossibile risolvere hostname/indirizzo";
+"UNABLE_CONNECT"            = "Impossibile connettersi a un computer in rete";
+"BAD_SHARE"                 = "Sharepoint non valido";
+"BAD_PATH"                  = "Percorso non valido";
+"FILE_IS_DIRECTORY"         = "Il file è una directory";
+"FILE_ALREADY_EXISTS"       = "File già esistente";
+"NOT_FOUND"                 = "Non trovato";
+"UNSUPPORTED"               = "Questa funzione non è supportata";
+"FILE_IO_ERROR"             = "Errore del file system";
+"OUT_OF_MEMORY"             = "Memoria esaurita";
+"UNKNOWN_FAILURE"           = "Errore sconosciuto";
+
+// WebRoKit
+
+"TOR_BOOTSTRAP_ALERT"   = "Il bootstrap della rete Tor potrebbe richiedere molto tempo. Si prega di attendere…";
+"TOR_THREAD_IS_FINISHED" = "Network Tor chiuso";
+"CANCELLED"             = "Annullato";
+"FAILURE"               = "Errore";
+"COMPLETED"             = "Completato";
+"FINISHED"              = "Terminato";
+"READY"                 = "Pronto";
+"DISCONNECTED"          = "Scollegato";
+"CONNECTING"            = "Connessione in corso…";
+"CONNECTED"             = "Connesso";
+"BOOTSTRAP"             = "Bootstrap";
+"BAD_AUTH"              = "Non autorizzato";
+"FATAL_ERROR"           = "Oops, qualcosa è andato storto!";

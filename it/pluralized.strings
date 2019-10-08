@@ -1,0 +1,77 @@
+/* 
+  pluralized.strings
+  yar
+
+  Created by Kolyvan on 24/11/2017. // ** Italian translation by Carlo Gandolfi
+  Copyright © 2017 Konstantin Bukreev. All rights reserved.
+*/
+
+"files.zero"    = "0 file";
+"files.one"     = "1 file";
+"files.two"     = "%zd file";
+"files.few"     = "%zd file";
+"files.many"    = "%zd file";
+"files.other"   = "%zd file";
+
+"folders.zero"    = "0 cartelle";
+"folders.one"     = "1 cartella";
+"folders.two"     = "%zd cartelle";
+"folders.few"     = "%zd cartelle";
+"folders.many"    = "%zd cartelle";
+"folders.other"   = "%zd cartelle";
+
+"pages.zero"    = "0 pagine";
+"pages.one"     = "1 pagina";
+"pages.two"     = "%zd pagine";
+"pages.few"     = "%zd pagine";
+"pages.many"    = "%zd pagine";
+"pages.other"   = "%zd pagine";
+
+"words.zero"    = "0 parole";
+"words.one"     = "1 parola";
+"words.two"     = "%zd parole";
+"words.few"     = "%zd parole";
+"words.many"    = "%zd parole";
+"words.other"   = "%zd parole";
+
+"notes.zero"    = "0 note";
+"notes.one"     = "1 nota";
+"notes.two"     = "%zd note";
+"notes.few"     = "%zd note";
+"notes.many"    = "%zd note";
+"notes.other"   = "%zd note";
+
+"books.zero"    = "0 libri";
+"books.one"     = "1 libro";
+"books.two"     = "%zd libri";
+"books.few"     = "%zd libri";
+"books.many"    = "%zd libri";
+"books.other"   = "%zd libri";
+
+"records.zero"    = "0 records";
+"records.one"     = "1 record";
+"records.two"     = "%zd records";
+"records.few"     = "%zd records";
+"records.many"    = "%zd records";
+"records.other"   = "%zd records";
+
+"minutes.zero"    = "0 minuti";
+"minutes.one"     = "1 minuto";
+"minutes.two"     = "%zd minuti";
+"minutes.few"     = "%zd minuti";
+"minutes.many"    = "%zd minuti";
+"minutes.other"   = "%zd minuti";
+
+"seconds.zero"    = "0 secondi";
+"seconds.one"     = "1 secondo";
+"seconds.two"     = "%zd secondi";
+"seconds.few"     = "%zd secondi";
+"seconds.many"    = "%zd secondi";
+"seconds.other"   = "%zd secondi";
+
+"matches.zero"    = "0 risultati";
+"matches.one"     = "1 risultato";
+"matches.two"     = "%zd risultati";
+"matches.few"     = "%zd risultati";
+"matches.many"    = "%zd risultati";
+"matches.other"   = "%zd risultati";
