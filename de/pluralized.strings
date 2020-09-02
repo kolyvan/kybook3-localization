@@ -1,0 +1,77 @@
+/* 
+  pluralized.strings
+  yar
+
+  Created by Kolyvan on 24/11/2017.
+  Copyright © 2017 Konstantin Bukreev. All rights reserved.
+*/
+
+"files.zero"    = "0 Dateien";
+"files.one"     = "1 Datei";
+"files.two"     = "%zd Dateien";
+"files.few"     = "%zd Dateien";
+"files.many"    = "%zd Dateien";
+"files.other"   = "%zd Dateien";
+
+"folders.zero"    = "0 Ordner";
+"folders.one"     = "1 Ordner";
+"folders.two"     = "%zd Ordner";
+"folders.few"     = "%zd Ordner";
+"folders.many"    = "%zd Ordner";
+"folders.other"   = "%zd Ordner";
+
+"pages.zero"    = "0 Seiten";
+"pages.one"     = "1 Seite";
+"pages.two"     = "%zd Seiten";
+"pages.few"     = "%zd Seiten";
+"pages.many"    = "%zd Seiten";
+"pages.other"   = "%zd Seiten";
+
+"words.zero"    = "0 Wörter";
+"words.one"     = "1 Wort";
+"words.two"     = "%zd Wörter";
+"words.few"     = "%zd Wörter";
+"words.many"    = "%zd Wörter";
+"words.other"   = "%zd Wörter";
+
+"notes.zero"    = "0 Notizen";
+"notes.one"     = "1 Notiz";
+"notes.two"     = "%zd Notizen";
+"notes.few"     = "%zd Notizen";
+"notes.many"    = "%zd Notizen";
+"notes.other"   = "%zd Notizen";
+
+"books.zero"    = "0 Bücher";
+"books.one"     = "1 Buch";
+"books.two"     = "%zd Bücher";
+"books.few"     = "%zd Bücher";
+"books.many"    = "%zd Bücher";
+"books.other"   = "%zd Bücher";
+
+"records.zero"    = "0 Datensätze";
+"records.one"     = "1 Datensatz";
+"records.two"     = "%zd Datensätze";
+"records.few"     = "%zd Datensätze";
+"records.many"    = "%zd Datensätze";
+"records.other"   = "%zd Datensätze";
+
+"minutes.zero"    = "0 Minuten";
+"minutes.one"     = "1 Minute";
+"minutes.two"     = "%zd Minuten";
+"minutes.few"     = "%zd Minuten";
+"minutes.many"    = "%zd Minuten";
+"minutes.other"   = "%zd Minuten";
+
+"seconds.zero"    = "0 Sekunden";
+"seconds.one"     = "1 Sekunde";
+"seconds.two"     = "%zd Sekunden";
+"seconds.few"     = "%zd Sekunden";
+"seconds.many"    = "%zd Sekunden";
+"seconds.other"   = "%zd Sekunden";
+
+"matches.zero"    = "0 Treffer";
+"matches.one"     = "1 Treffer";
+"matches.two"     = "%zd Treffer";
+"matches.few"     = "%zd Treffer";
+"matches.many"    = "%zd Treffer";
+"matches.other"   = "%zd Treffer";
