@@ -1,0 +1,9 @@
+/* 
+  help.strings
+  yar
+
+  Created by Konstantin on 13/09/2018.
+  Copyright © 2018 Konstantin Bukreev. All rights reserved.
+*/
+
+"synchronization" = "Hilfe zur Synchronisierung.\n\nSynchronisierung ermöglicht die Synchronisierung von E-Book-Metadaten, Lesepositionen, Lesezeichen, Notizen, Rezensionen, Zusammenfassungen und E-Book-Dateien zwischen Geräten mit Hilfe des KyBook-Synchronisationsservers (im Folgenden KyBook-Cloud).\n\nE-Book-Metadaten, Lesepositionen, Lesezeichen, Notizen, Rezensionen und Zusammenfassungen werden in der KyBook-Cloud ohne Einschränkungen hinsichtlich Größe und/oder Menge gespeichert.\n\nBook-Dateien werden von Ihrem Gerät in die KyBook-Cloud hochgeladen, nachdem Sie ein Buch zum Lesen geöffnet haben. Buchdateien werden von der KyBook-Wolke auf Ihr Gerät heruntergeladen, wenn ein Buch zum Lesen geöffnet wird. Nur auf dem Gerät gespeicherte Bücher werden in die KyBook-Cloud hochgeladen. Bücher, die sich auf dem Cloud-Speicher eines Drittanbieters befinden, werden nicht in der KyBook Cloud gespeichert.\n\n Die Gesamtgröße der in der KyBook Cloud gespeicherten Buchdateien für einen Benutzer ist auf 3 Gigabyte (3000 Megabyte) begrenzt. Die maximale Größe einer einzelnen Datei ist auf 100 Megabyte begrenzt. Begrenzungen der maximalen Gesamtgröße und der Größe einer einzelnen Datei können sich in Zukunft ändern.\n\nDer Synchronisationsstatus des Buches ist auf der Buchkarte/dem Bildschirm 'Diverse Infos' verfügbar.\n\nFür die Synchronisierung ist ein Premium-Abonnement erforderlich.";
