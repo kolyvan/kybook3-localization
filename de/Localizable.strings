@@ -751,240 +751,240 @@
 
 // NOTE
 
-"note.citation"                 = "Citation";
+"note.citation"                 = "Zitat";
 "note.sticker"                  = "Sticker";
-"note.scrap"                    = "Scrap";
-"note.sketch"                   = "Sketch";
-"note.color"                    = "Color";
-"note.style"                    = "Style";
-"note.style.fill"               = "Fill";
-"note.style.strikeline"         = "Strikethrough";
-"note.style.underline"          = "Underline";
-"note.style.doubleline"         = "Double line";
-"note.style.wavy"               = "Wavy";
-"note.style.dots"               = "Dots";
-"note.color.red"                = "Red";
+"note.scrap"                    = "Ausschuss";
+"note.sketch"                   = "Skizze";
+"note.color"                    = "Farbe";
+"note.style"                    = "Stil";
+"note.style.fill"               = "Ausgefüllt";
+"note.style.strikeline"         = "Durchgestrichen";
+"note.style.underline"          = "Unterstrichen";
+"note.style.doubleline"         = "doppelte Linie";
+"note.style.wavy"               = "Wellen";
+"note.style.dots"               = "Punkte";
+"note.color.red"                = "Rot";
 "note.color.pink"               = "Pink";
 "note.color.purple"             = "Purple";
 "note.color.violet"             = "Violet";
-"note.color.blue"               = "Blue";
-"note.color.green"              = "Green";
-"note.color.yellow"             = "Yellow";
+"note.color.blue"               = "Blau";
+"note.color.green"              = "Grün";
+"note.color.yellow"             = "Gelb";
 "note.color.orange"             = "Orange";
-"note.color.brown"              = "Brown";
+"note.color.brown"              = "Braun";
 
 // SKETCH
 
-"sketch.general"                = "Sketch";
-"sketch.brush"                  = "Brush";
-"sketch.brush.color"            = "Color";
-"sketch.brush.fill"             = "Fill color";
-"sketch.brush.opacity"          = "Opacity";
-"sketch.brush.thickness"        = "Thickness";
-"sketch.brush.style"            = "Style";
-"sketch.arrow"                  = "Arrow";
-"sketch.line"                   = "Line";
-"sketch.rectangle"              = "Rectangle";
+"sketch.general"                = "Skizze";
+"sketch.brush"                  = "Pinsel";
+"sketch.brush.color"            = "Farbe";
+"sketch.brush.fill"             = "Füllfarbe";
+"sketch.brush.opacity"          = "Deckkraft";
+"sketch.brush.thickness"        = "Dicke";
+"sketch.brush.style"            = "Stil";
+"sketch.arrow"                  = "Pfeil";
+"sketch.line"                   = "Linie";
+"sketch.rectangle"              = "Rechteck";
 "sketch.ellipse"                = "Ellipse";
-"sketch.polyline"               = "Polyline";
+"sketch.polyline"               = "Polygon";
 "sketch.text"                   = "Text";
 "sketch.stiker"                 = "Sticker";
 "sketch.emoji"                  = "Emoji";
-"brush.linestyle.solid"         = "Solid";
-"brush.linestyle.dotted"        = "Dotted";
-"brush.linestyle.dashed"        = "Dashed";
+"brush.linestyle.solid"         = "Solide";
+"brush.linestyle.dotted"        = "Gepunkted";
+"brush.linestyle.dashed"        = "Gestrichelt";
 
 // SEARCH
 
-"search.scope.book"             = "Book";
-"search.scope.dictionary"       = "Dictionary";
-"search.scope.translate"        = "Translate";
+"search.scope.book"             = "Buch";
+"search.scope.dictionary"       = "Wörterbuch";
+"search.scope.translate"        = "Übersetzung";
 "search.scope.internet"         = "Internet";
 "search.scope.wikipedia"        = "Wikipedia";
 "search.scope.wolframalpha"     = "Wolfram|Alpha";
-"search.scope.library"          = "Library";
-"search.scope.catalogs"         = "Catalogs";
-"search.executing"              = "Searching ...";
-"search.continue.fmt"           = "Searching, %@ found ..."; // e.g. Searching, 2 matches found ...
-"search.done.fmt"               = "Done, %@ found"; // e.g. Done, 2 matches found
-"search.none"                   = "Oops, we can't find what you are looking for";
-"search.matching"               = "Matching";
-"search.matching.textual"       = "Textual";
-"search.matching.regular"       = "Regular";
-"search.matching.fuzzy"         = "Fuzzy";
-"search.matching.exact"         = "Exact";
+"search.scope.library"          = "Bibliothek";
+"search.scope.catalogs"         = "Kataloge";
+"search.executing"              = "Suchen ...";
+"search.continue.fmt"           = "Suche, %@ gefunden ..."; // e.g. Searching, 2 matches found ...
+"search.done.fmt"               = "Erledigt, %@ gefunden"; // e.g. Done, 2 matches found
+"search.none"                   = "Oops, wir können nicht finden, was Sie suchen";
+"search.matching"               = "Treffer";
+"search.matching.textual"       = "Textlich";
+"search.matching.regular"       = "Regulär";
+"search.matching.fuzzy"         = "Unscharf";
+"search.matching.exact"         = "Exakt";
 "search.matching.substring"     = "Substring";
-"search.matching.pattern"       = "Pattern";
-"search.area.in"                = "Search in";
-"search.area.in.title"          = "Title";
-"search.area.in.keywords"       = "Keywords";
-"search.area.in.sequence"       = "Series";
-"search.area.in.author"         = "Author";
-"search.area.in.annotation"     = "Annotation";
-"search.area.in.filename"       = "Filename";
-"search.engine.google"          = "Google search";
-"search.bookshelf.promt"        = "Search in this bookshelf";
-"search.widget.detail"          = "Search in the library";
+"search.matching.pattern"       = "Muster";
+"search.area.in"                = "Suche in";
+"search.area.in.title"          = "Titel";
+"search.area.in.keywords"       = "Schlüsselwort";
+"search.area.in.sequence"       = "Reihen";
+"search.area.in.author"         = "Autor";
+"search.area.in.annotation"     = "Anmerkung";
+"search.area.in.filename"       = "Dateiname";
+"search.engine.google"          = "Google Suche";
+"search.bookshelf.promt"        = "Suche in diesem Buchregal";
+"search.widget.detail"          = "Suche in der Bibliothek";
 
 // TIPS
 
-"tip.reader.fullscreen.exit"    = "Tap here to exit full screen mode";
+"tip.reader.fullscreen.exit"    = "Tippen Sie hier, um den Vollbildmodus zu verlassen";
 
 // MISC
 
 "misc.abc"                      = "Abc";
-"image.grabbing"                = "Image Grabbing Mode";
-"pasteboard.copy.image"         = "Image was copied onto the clipboard";
-"misc.chapter.fmt"              = "Chapter %zd";
-"misc.start.editing"            = "Start editing";
-"misc.add.books"                = "Add books";
-"misc.some.added.fmt"           = "%@ added"; // 5 books were added
-"misc.addbook.duplicate"        = "Skipped because of a duplicate";
-"misc.used.of.fmt"              = "%@ of %@ occupied"; // 100 mB Of 1GB occupied
-"misc.experimental.feature"     = "Experimental feature. May not work properly. Consumes CPU power and disk space when enabled.";
+"image.grabbing"                = "Bilderfassungsmodus";
+"pasteboard.copy.image"         = "Bild wurde in die Zwischenablage kopiert";
+"misc.chapter.fmt"              = "Kapitel %zd";
+"misc.start.editing"            = "Start editieren";
+"misc.add.books"                = "Buch hinzufügen";
+"misc.some.added.fmt"           = "%@ hinzugefügt"; // 5 books were added
+"misc.addbook.duplicate"        = "Wegen eines Duplikats übersprungen";
+"misc.used.of.fmt"              = "%@ von %@ belegt"; // 100 mB Of 1GB occupied
+"misc.experimental.feature"     = "Experimentelle Eigenschaft. Funktioniert möglicherweise nicht richtig. Verbraucht bei Aktivierung CPU-Leistung und Festplattenspeicher.";
 
 // MARKDOWN
 
-"markdown.conf.citation"        = "Citation";
-"markdown.conf.citation.hint"   = "When pasting or dragging a citation from a book.";
-"markdown.conf.citation.quote"  = "Format as a quotation block";
-"markdown.conf.citation.link"   = "Insert a link to the source";
+"markdown.conf.citation"        = "Zitat";
+"markdown.conf.citation.hint"   = "Beim Einfügen oder Ziehen eines Zitats aus einem Buch.";
+"markdown.conf.citation.quote"  = "Formatierung als Zitatblock";
+"markdown.conf.citation.link"   = "Link zur Quelle einfügen";
 
 // APP CONTROL
 
-"app.control"                      = "Control";
-"app.control.services"             = "Services";
-"app.control.prefs"                = "Preferences";
-"app.control.advanced.ui"          = "Advanced interface";
-"app.control.advanced.ui.hint"     = "Allows several active tabs (similar to Safari).\n\nActivation of the advanced interface is via a PRO or PREMIUM in-app purchase.";
+"app.control"                      = "Steuerung";
+"app.control.services"             = "Dienste";
+"app.control.prefs"                = "Einstellungen";
+"app.control.advanced.ui"          = "Erweitertes Interface";
+"app.control.advanced.ui.hint"     = "Ermöglicht mehrere aktive Registerkarten (ähnlich wie Safari).\n\n Die Aktivierung der erweiterten Schnittstelle erfolgt über einen PRO- oder PREMIUM-In-App-Kauf.";
 
 // APP PREFS
 
-"app.prefs.home.backg"              = "Background in List mode";
-"app.prefs.home.backg.colored"      = "Colored";
-"app.prefs.bookshelf.cover"         = "Book cover";
-"app.prefs.bookshelf.tag"           = "Tag";
+"app.prefs.home.backg"              = "Hintergrund im Listenmodus";
+"app.prefs.home.backg.colored"      = "Farbig";
+"app.prefs.bookshelf.cover"         = "Buchcover";
+"app.prefs.bookshelf.tag"           = "Etikett";
 "app.prefs.bookshelf.filestate"     = "Cloud/Download";
-"app.prefs.bookshelf.decor"         = "Display secondary information in a cell";
-"app.prefs.bookshelf.backg.card"    = "Background color in card mode";
-"app.prefs.bookshelf.backg.mini"    = "Background color in mini-card mode";
-"app.prefs.bookshelf.card"          = "Card mode";
-"app.prefs.bookshelf.card.hires"    = "Hi-Res covers";
-"app.prefs.bookshelf.tags"          = "Tags style";
+"app.prefs.bookshelf.decor"         = "Sekundärinformationen in einer Zelle anzeigen";
+"app.prefs.bookshelf.backg.card"    = "Hintergrundfarbe im Kartenmodus";
+"app.prefs.bookshelf.backg.mini"    = "Hintergrundfarbe im Minikarten-Modus";
+"app.prefs.bookshelf.card"          = "Kartenmodus";
+"app.prefs.bookshelf.card.hires"    = "Hi-Res Covers";
+"app.prefs.bookshelf.tags"          = "Etikettenstil";
 "app.prefs.bookshelf.tags.icons"    = "Icons";
-"app.prefs.bookshelf.tags.titles"   = "Titles";
-"app.prefs.bookshelf.search"        = "Search";
-"app.prefs.bookshelf.search.bar"    = "Search bar";
-"app.prefs.bookshelf.search.hint"   = "Enable a search bar for filtering books on a bookshelf.";
-"app.prefs.bookshelf.default"       = "Default preferences";
-"app.prefs.bookshelf.default.hint"  = "Changing the default preferences will also reset all user preferences!";
-"app.prefs.bookshelf.bookcard.open" = "Animation of a book card opening (iPad only)";
-"app.prefs.reader.fullscreen"       = "Full-screen";
+"app.prefs.bookshelf.tags.titles"   = "Titel";
+"app.prefs.bookshelf.search"        = "Suche";
+"app.prefs.bookshelf.search.bar"    = "Suchleiste";
+"app.prefs.bookshelf.search.hint"   = "Aktivieren Sie eine Suchleiste zum Filtern von Büchern in einem Bücherregal.";
+"app.prefs.bookshelf.default"       = "Standard Einstellungen";
+"app.prefs.bookshelf.default.hint"  = "Das Ändern der Standardeinstellungen setzt auch alle Benutzereinstellungen zurück!";
+"app.prefs.bookshelf.bookcard.open" = "Animation der Öffnung einer Buchkarte (iPad only)";
+"app.prefs.reader.fullscreen"       = "Vollbild";
 "app.prefs.reader.fullscreen.auto"  = "Autoswitch";
-"app.prefs.reader.fullscreen.tap"   = "By tapping in the center";
-"app.prefs.reader.fullscreen.header"= "Hide header bar";
-"app.prefs.reader.fullscreen.footer"= "Hide footer bar";
-"app.prefs.reader.fullscreen.hint"  = "By default, KyBook automatically switches to full-screen mode when you start reading. To exit full-screen mode, tap the header bar. In addition, you can enable a central tap to toggle full-screen mode.";
-"app.prefs.reader.fast.selection"   = "Fast selection";
-"app.prefs.reader.fast.selection.action"= "Action";
-"app.prefs.reader.fast.selection.hint"  = "Fast selection can be used to perform the preferred action on the selected text with one gesture. To activate, use a long press on a piece of text, without lifting your finger, select the desired text, lift your finger.";
-"app.prefs.reader.idletimer"        = "Disable screen auto-lock";
-"app.prefs.reader.idletimer.hint"   = "As long as the book is open, the screen remains switched on.";
-"app.prefs.reader.rotationlock"     = "Rotation lock";
-"app.prefs.reader.rotationlock.hint"= "Do not rotate the reader when the device did turn (works as long as the book is reading at fullscreen). Rotation lock is available only on iPhone.";
+"app.prefs.reader.fullscreen.tap"   = "Durch Antippen in der Mitte";
+"app.prefs.reader.fullscreen.header"= "Kopfleiste ausblenden";
+"app.prefs.reader.fullscreen.footer"= "Fußleiste ausblenden";
+"app.prefs.reader.fullscreen.hint"  = "Standardmäßig schaltet KyBook automatisch in den Vollbildmodus um, wenn Sie mit dem Lesen beginnen. Um den Vollbildmodus zu verlassen, tippen Sie auf die Kopfzeile. Darüber hinaus können Sie durch Antippen der Mitte den Vollbildmodus umschalten.";
+"app.prefs.reader.fast.selection"   = "Schnell-Auswahl";
+"app.prefs.reader.fast.selection.action"= "Aktion";
+"app.prefs.reader.fast.selection.hint"  = "Die Schnellauswahl kann verwendet werden, um die bevorzugte Aktion auf den ausgewählten Text mit einer Geste auszuführen. Zum Aktivieren drücken Sie mit einem langen Druck auf ein Stück Text, ohne den Finger zu heben, wählen Sie den gewünschten Text aus und heben Sie den Finger.";
+"app.prefs.reader.idletimer"        = "Deaktivieren der automatischen Bildschirm-Sperre";
+"app.prefs.reader.idletimer.hint"   = "Solange das Buch geöffnet ist, bleibt der Bildschirm eingeschaltet.";
+"app.prefs.reader.rotationlock"     = "Drehsperre";
+"app.prefs.reader.rotationlock.hint"= "Drehen Sie den Reader nicht, wenn sich das Gerät gedreht hat (funktioniert, solange das Buch im Vollbildmodus gelesen wird). Die Drehsperre ist nur auf dem iPhone verfügbar.";
 "app.prefs.reader.tts.auto"         = "Autoplay";
-"app.prefs.reader.tts.auto.header"  = "When to start autoplay";
-"app.prefs.reader.tts.auto.never"   = "Never";
-"app.prefs.reader.tts.auto.headset" = "Headphones connected";
-"app.prefs.reader.tts.auto.always"  = "Always";
-"app.prefs.reader.tts.auto.hint"    = "Automatically start speech synthesis when open Epub/MOBI/FB2 ebook.";
+"app.prefs.reader.tts.auto.header"  = "Wann Autoplay starten";
+"app.prefs.reader.tts.auto.never"   = "Nie";
+"app.prefs.reader.tts.auto.headset" = "Kopfhörer verbunden";
+"app.prefs.reader.tts.auto.always"  = "Immer";
+"app.prefs.reader.tts.auto.hint"    = "Automatischer Start der Sprachsynthese beim öffnen Epub/MOBI/FB2 ebook.";
 "app.prefs.cache"                   = "Cache";
 "app.prefs.cache.clear"             = "Clear space";
 "app.prefs.cache.reader"            = "Reader Cache";
-"app.prefs.cache.reader.hint"       = "KyBook stores unzipped and parsed e-book data in the cache folder on the device. You can delete all cached data to free up space.";
+"app.prefs.cache.reader.hint"       = "KyBook speichert entpackte und geparste E-Book-Daten im Cache-Ordner auf dem Gerät. Sie können alle zwischengespeicherten Daten löschen, um Platz freizugeben..";
 "app.prefs.cache.covers"            = "Book Covers Cache";
-"app.prefs.cache.covers.hint"       = "KyBook stores book cover images in the cache folder on the device. You can delete all cached images to free up space.";
-"app.prefs.misc"                    = "Miscellaneous";
-"app.prefs.spotlight"               = "Spotlight Search";
-"app.prefs.spotlight.hint"          = "Index opened books to make them searchable using Spotlight Search.";
-"app.autosum.algo"                  = "Automatic Text Summarization Algorithm";
-"app.autosum.algo.hint"             = "Text rank is very resource intensive, but may produce a better result. Try switching to the 'Key phrases' algorithm, if KyBook was forced to close by iOS due to memory depletion.";
-"app.prefs.dragdrop"                = "Drag & Drop";
-"app.prefs.dragdrop.hint"           = "Allows dragging and dropping items on a bookshelf, a library and other screens.";
-"app.prefs.dragdrop.confirm.title"  = "Toggle Drag & Drop";
-"app.prefs.dragdrop.confirm.msg"    = "Changing Drag & Drop requires resetting of the KyBook's screens. All screens will be closed.\nAre you sure?";
+"app.prefs.cache.covers.hint"       = "KyBook speichert Buchcover-Bilder im Cache-Ordner auf dem Gerät. Sie können alle zwischengespeicherten Bilder löschen, um Platz freizugeben..";
+"app.prefs.misc"                    = "Verschiedenes";
+"app.prefs.spotlight"               = "Spotlight Suche";
+"app.prefs.spotlight.hint"          = "Indizieren Sie geöffnete Bücher, um sie mit der Spotlight-Suche durchsuchbar zu machen.";
+"app.autosum.algo"                  = "Automatischer Textzusammenfassungs-Algorithmus";
+"app.autosum.algo.hint"             = "Der Textrang ist sehr ressourcenintensiv, kann aber zu einem besseren Ergebnis führen. Versuchen Sie, auf den 'Key phrases'-Algorithmus umzuschalten, wenn KyBook von iOS aufgrund von Speicherschwund zum Schließen gezwungen wurde.";
+"app.prefs.dragdrop"                = "Ziehen und Ablegen";
+"app.prefs.dragdrop.hint"           = "Ermöglicht das Ziehen und Ablegen von Objekten auf einem Bücherregal, einer Bibliothek und anderen Bildschirmen.";
+"app.prefs.dragdrop.confirm.title"  = "Umschalten von Ziehen und Ablegen";
+"app.prefs.dragdrop.confirm.msg"    = "Die Änderung von Drag & Drop erfordert ein Zurücksetzen der Bildschirme des KyBooks. Alle Bildschirme werden geschlossen. \nSind Sie sicher?";
 
 // CONTENT SERVER
 
 "contentserver.general"     = "Content Server";
-"contentserver.activate"    = "Activate";
+"contentserver.activate"    = "Activieren";
 "contentserver.link"        = "Link";
 "contentserver.username"    = "Username";
-"contentserver.password"    = "Password";
-"contentserver.hint"        = "Activate the content server to access your files via the local network using a web browser. Upload books to the device from PC via WiFi (iTunes is not needed, only a web browser is required).";
-"contentserver.visit"       = "Visit '%@' in your web browser";
+"contentserver.password"    = "Passwort";
+"contentserver.hint"        = "Aktivieren Sie den Content-Server, um mit einem Web-Browser über das lokale Netzwerk auf Ihre Dateien zuzugreifen. Laden Sie Bücher vom PC über WiFi auf das Gerät hoch (iTunes ist nicht erforderlich, nur ein Webbrowser ist erforderlich).";
+"contentserver.visit"       = "Besuche '%@' in Ihrem Webbrowser";
 
 // IMAGE PICKER
 
 "imagepicker.image"                 = "Image";
 "imagepicker.reset"                 = "Reset";
-"imagepicker.files"                 = "Files";
+"imagepicker.files"                 = "Dateien";
 "imagepicker.photo"                 = "Photo";
 "imagepicker.internet"              = "Internet";
-"imagepicker.libraries"             = "Libraries";
-"imagepicker.samples"               = "Samples";
-"imagepicker.backgrounds"           = "Backgrounds";
-"imagepicker.photo.all"             = "All Photos";
-"imagepicker.photo.none"            = "No photo";
-"imagepicker.files.none"            = "No image files in this folder";
+"imagepicker.libraries"             = "Bibliotheken";
+"imagepicker.samples"               = "Beispiele";
+"imagepicker.backgrounds"           = "Hintergrund";
+"imagepicker.photo.all"             = "Alle Fotos";
+"imagepicker.photo.none"            = "Kein Foto";
+"imagepicker.files.none"            = "Keine Bilddateien in diesem Ordner";
 "imagepicker.photos.select"         = "Select from Photos";
-"imagepicker.internet.search"       = "Search the Internet";
-"imagepicker.libraries.search"      = "Search in Libraries";
-"imagepicker.files.browse"          = "Select from Storage";
-"imagepicker.files.import"          = "Import with Apple's Files app";
-"imagepicker.download"              = "Download from the catalog";
-"imagepicker.photo.fail"            = "Failed requesting an image from Photos";
-"imagepicker.photo.notdetermined"   = "You have not yet made a choice with regards to KyBook";
-"imagepicker.photo.restricted"      = "KyBook is not authorized to access Photos";
-"imagepicker.photo.denied"          = "You have explicitly denied KyBook access to Photos";
+"imagepicker.internet.search"       = "Suche im  Internet";
+"imagepicker.libraries.search"      = "Suche in Bibliotheken";
+"imagepicker.files.browse"          = "Aus Speicher auswählen";
+"imagepicker.files.import"          = "Import mit Apple's Files app";
+"imagepicker.download"              = "Download von dem Katalog";
+"imagepicker.photo.fail"            = "Misslungene Anforderung eines Bildes von Fotos";
+"imagepicker.photo.notdetermined"   = "Sie haben noch keine Entscheidung in Bezug auf KyBook getroffen";
+"imagepicker.photo.restricted"      = "KyBook ist nicht berechtigt, auf Fotos zuzugreifen";
+"imagepicker.photo.denied"          = "Sie haben KyBook ausdrücklich den Zugriff auf Fotos verweigert";
 
 // TEXT 2 SPEECH
 
-"tts.general"           = "Speech Synthesis (text-to-speech)";
-"tts.completed"         = "Text-to-Speech: completed";
-"tts.unablestart"       = "Text-to-Speech: unable to start";
+"tts.general"           = "Sprachsynthese (Text-zu-Sprache)";
+"tts.completed"         = "Text-zu-Sprache: erledigt";
+"tts.unablestart"       = "Text-zu-Sprache: unfähig zu starten";
 "tts.pitch"             = "Pitch";
 "tts.rate"              = "Rate";
-"tts.volume"            = "Volume";
-"tts.continuable"       = "Speak all";
-"tts.continuable.hint"  = "When speaking text selected via the menu, keeping speaking to the end of the book.";
-"tts.voices"            = "Voices";
-"tts.voices.headline"   = "Select the preferred voice for your language. KyBook will use the selected voice for speech synthesis";
-"tts.voices.footer"     = "For more enhanced voices please open iOS Settings -> General -> Accessibility -> Speech -> Voices and download an enhanced voice for your language";
+"tts.volume"            = "Lautstärke";
+"tts.continuable"       = "Alle sprechen";
+"tts.continuable.hint"  = "Beim Sprechen von Text, der über das Menü ausgewählt wurde, wird bis zum Ende des Buches gesprochen.";
+"tts.voices"            = "Stimmen";
+"tts.voices.headline"   = "Wählen Sie die bevorzugte Stimme für Ihre Sprache aus. KyBook wird die ausgewählte Stimme für die Sprachsynthese verwenden.";
+"tts.voices.footer"     = "Für weitere verbesserte Stimmen öffnen Sie bitte iOS-Einstellungen -> Allgemein -> Barrierefreiheit -> Sprache -> Stimmen und laden Sie eine verbesserte Stimme für Ihre Sprache herunter";
 
 // AUTO SCROLLING
 
-"autoscrolling.general"     = "Auto scrolling";
+"autoscrolling.general"     = "Auto-Scrolling";
 "autoscrolling.rate"        = "Rate";
-"autoscrolling.hideslider"  = "Hide the rate slider in the reader screen";
-"autoscrolling.tunerate"    = "Adjust the rate when scrolling up/down";
+"autoscrolling.hideslider"  = "Ausblenden des Schiebereglers im Lesebildschirm";
+"autoscrolling.tunerate"    = "Anpassen der Rate beim Scrollen nach oben/unten";
 
 // NETWORK
 
 "network.general"           = "Network";
 "network.streaming"         = "Streaming";
-"network.streaming.audio"   = "Audio content";
-"network.streaming.pdf"     = "PDF metadata";
-"network.streaming.hint"    = "When possible KyBook will stream an audiobook (or obtain the PDF metadata) directly from cloud storage without preloading the entire file to the device.";
+"network.streaming.audio"   = "Audio Inhalt";
+"network.streaming.pdf"     = "PDF Metadataén";
+"network.streaming.hint"    = "Wenn möglich streamt KyBook ein Hörbuch (oder bezieht die PDF-Metadaten) direkt vom Cloud Storage, ohne die gesamte Datei auf das Gerät vorzuladen.";
 "network.streaming.footer"  = "streaming";
-"network.local"             = "Local Network";
-"network.local.neighborhood"= "Network Neighborhood";
-"network.local.discovery"   = "Local Network Discovery";
-"network.samba"             = "Shared folders";
+"network.local"             = "Lokales Netzwerk";
+"network.local.neighborhood"= "Netzwerk Nachbarschaft";
+"network.local.discovery"   = "Lokale Netzwerk-Erkennung";
+"network.samba"             = "Freigegebene Ordner";
 "network.server"            = "Server";
 "network.sharepoint"        = "Sharepoint";
 "network.samba.add"         = "Add the shared folder";
-"network.samba.settings"    = "Connection settings";
+"network.samba.settings"    = "Verbindungseinstellungen";
 "network.samba.hint"        = "Enter the server name or address, Sharepoint (optional), username (optional, will use guest access, if not specified) and password (optional). If the connection terminates with the error 'Unauthorized' username and password are mandatory!";
 "network.samba.v1.info"     = "KyBook can only connect to SMB1 shares. SMB1 is disabled by default on Windows 10. To enable SMB1 on Windows 10, go to Control Panel > Programs and Features > Turn Windows Features on > check the box for 'SMB 1.0/CIFS Server' and reboot. Attention, SMB1 isn’t safe!";
 "network.tor"               = "Tor Network";
@@ -1398,22 +1398,22 @@
 "FILE_ALREADY_EXISTS"       = "File already exists";
 "NOT_FOUND"                 = "Not found";
 "UNSUPPORTED"               = "This feature is unsupported";
-"FILE_IO_ERROR"             = "File system error";
-"OUT_OF_MEMORY"             = "Out of memory";
+"FILE_IO_ERROR"             = "Dateisystemfehler";
+"OUT_OF_MEMORY"             = "Speicherfehler";
 "UNKNOWN_FAILURE"           = "Unbekannter Fehler";
 
 // WebRoKit
 
-"TOR_BOOTSTRAP_ALERT"   = "Bootstrapping of the Tor network may take a long time. Please wait ...";
-"TOR_THREAD_IS_FINISHED" = "Tor network closed";
-"CANCELLED"             = "Cancelled";
-"FAILURE"               = "Failure";
-"COMPLETED"             = "Completed";
-"FINISHED"              = "Finished";
-"READY"                 = "Ready";
+"TOR_BOOTSTRAP_ALERT"   = "Das Bootstrapping des Tor-Netzwerks kann sehr lange dauern. Bitte warten Sie ...";
+"TOR_THREAD_IS_FINISHED" = "Tor Netzwerk geschlossen";
+"CANCELLED"             = "Abgebrochen";
+"FAILURE"               = "Fehler";
+"COMPLETED"             = "Erledigt";
+"FINISHED"              = "Beendet";
+"READY"                 = "Fertig";
 "DISCONNECTED"          = "Disconnected";
-"CONNECTING"            = "Connecting ...";
-"CONNECTED"             = "Connected";
+"CONNECTING"            = "Verbinden ...";
+"CONNECTED"             = "Verbunden";
 "BOOTSTRAP"             = "Bootstrap";
-"BAD_AUTH"              = "Unauthorized";
-"FATAL_ERROR"           = "Oops, something went wrong!";
+"BAD_AUTH"              = "Unerlaubt";
+"FATAL_ERROR"           = "Oops, etwas ging schief!";
