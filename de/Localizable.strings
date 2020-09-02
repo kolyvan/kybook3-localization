@@ -971,7 +971,7 @@
 
 // NETWORK
 
-"network.general"           = "Network";
+"network.general"           = "Netzwerk";
 "network.streaming"         = "Streaming";
 "network.streaming.audio"   = "Audio Inhalt";
 "network.streaming.pdf"     = "PDF Metadataén";
@@ -987,7 +987,7 @@
 "network.samba.settings"    = "Verbindungseinstellungen";
 "network.samba.hint"        = "Enter the server name or address, Sharepoint (optional), username (optional, will use guest access, if not specified) and password (optional). If the connection terminates with the error 'Unauthorized' username and password are mandatory!";
 "network.samba.v1.info"     = "KyBook can only connect to SMB1 shares. SMB1 is disabled by default on Windows 10. To enable SMB1 on Windows 10, go to Control Panel > Programs and Features > Turn Windows Features on > check the box for 'SMB 1.0/CIFS Server' and reboot. Attention, SMB1 isn’t safe!";
-"network.tor"               = "Tor Network";
+"network.tor"               = "Tor Netzwerk";
 "network.tor.conf.header"   = "Attention! KyBook automatically joins the Tor network when opening .onion an OPDS catalog.";
 "network.tor.conf.footer"   = "KyBook will *automatically* join the Tor network and tunnel traffic for .onion OPDS catalogs and websites.\n\nWeb browsing and downloading through the Tor network will be significantly slower than through a non-tunneled connection.\n\nPlease note that KyBook is not intended for web surfing anonymously! Using Tor in KyBook only solves the problem of network reachability.\n\nThis product uses the Tor distributed networks, is produced independently from the Tor anonymity software, and carries no guarantee from The Tor Project about quality, suitability, or anything else.";
 "network.tor.bridge"        = "Bridge";
@@ -1010,21 +1010,21 @@
 "network.start"                 = "Start";
 "network.stop"                  = "Stop";
 "network.restart"               = "Restart";
-"network.websearch.engine"      = "Web Search Engine";
+"network.websearch.engine"      = "Web Suchmaschine";
 "network.download.add"          = "Add a download";
 "network.download.file.ask"     = "Download a file?";
 "network.download.file.enter"   = "Enter URL to download a file";
 
 // TRANSLATION
 
-"translation.general"           = "Translation";
-"translation.running"           = "Translating ...";
+"translation.general"           = "Übersetzung";
+"translation.running"           = "Übersetze ...";
 "translation.yandex"            = "Yandex.Translate";
 "translation.yandex.copyright"  = "Powered by Yandex.Translate";
-"translation.target.lang"       = "Target language";
+"translation.target.lang"       = "Ziel-Sprache";
 "translation.target.lang.hint"  = "By default the target language is the device language.";
-"translation.source.lang"       = "Source language";
-"translation.source.auto"       = "Auto detection";
+"translation.source.lang"       = "Quell-Sprache";
+"translation.source.auto"       = "Auto-Erkennung";
 "translation.source.auto.hint"  = "When automatic detection is disabled, KyBook will use the language specified in a book's card.";
 "translation.services"          = "Translation services";
 "translation.target.ask"        = "Please select the translation target language";
@@ -1116,8 +1116,8 @@
 
 // WIDGET
 
-"widget.title"                 = "Title";
-"widget.color"                 = "Color";
+"widget.title"                 = "Titel";
+"widget.color"                 = "Farbe";
 "widget.icon"                  = "Icon";
 
 // DICTIONARY
@@ -1297,8 +1297,8 @@
 
 // BIZ
 
-"biz.adman.mock.banner.title"       = "Upgrade KyBook to PRO and disable advertising banners!";
-"biz.adman.mock.banner.title.short" = "Upgrade to PRO and disable Ads!";
+"biz.adman.mock.banner.title"       = "Upgrade KyBook zu PRO and disable advertising banners!";
+"biz.adman.mock.banner.title.short" = "Upgrade zu PRO und disable Ads!";
 "biz.adman.mock.banner.subtitle"    = "Tap to upgrade to Pro";
 "biz.feature.noad"                  = "No advertising banners";
 "biz.feature.djvu"                  = "Support of DjVu format";
@@ -1325,7 +1325,7 @@
 "biz.buy.now"                       = "Buy Now";
 "biz.buy.later"                     = "Sure, I'll buy later";
 "biz.premium.sync.note"             = "Premium subscription is required to use synchronization.";
-"biz.trial"                         = "Trial version";
+"biz.trial"                         = "Trial Version";
 "biz.trial.hint.fmt"                = "Try PRO features for free %zd days.";
 "biz.trial.noteliglbile"            = "Not eligible for trial version";
 "biz.terms.title"                   = "Terms of Service";
@@ -1333,13 +1333,13 @@
 
 // IAP
 
-"iap.general"                   = "In-App Purchases";
-"iap.restore"                   = "Restore purchases";
-"iap.pro.upgrade"               = "Upgrade to Pro";
-"iap.premium.subscription"      = "Premium subscription";
-"iap.dialog.completed"          = "Completed purchases";
-"iap.dialog.restored"           = "Restored purchases";
-"iap.validation.issue"          = "In-App Purchases have not been verified!";
+"iap.general"                   = "In-App Käufe";
+"iap.restore"                   = "Käufe wiederherstellen";
+"iap.pro.upgrade"               = "Upgrade zu Pro";
+"iap.premium.subscription"      = "Premium Subscription";
+"iap.dialog.completed"          = "Completed Käufe";
+"iap.dialog.restored"           = "Restored Käufe";
+"iap.validation.issue"          = "In-App Käufe have not been verified!";
 "iap.validation.cancelled.fmt"  = "%@ was cancelled"; // e.g. 'Upgrade to Pro was cancelled'
 "iap.validation.expired.fmt"    = "%@ was expired";
 "iap.validation.uncofirmed.fmt" = "%@ is not confirmed due to %@"; // e.g. 'Yearly subscription is not confirmed due to some error'
@@ -1393,7 +1393,7 @@
 "UNABLE_RESOLVE"            = "Unable to resolve the hostname/address";
 "UNABLE_CONNECT"            = "Unable to connect to a network computer";
 "BAD_SHARE"                 = "Invalid Sharepoint";
-"BAD_PATH"                  = "Invalid path";
+"BAD_PATH"                  = "Invalid Pfad";
 "FILE_IS_DIRECTORY"         = "File is a directory";
 "FILE_ALREADY_EXISTS"       = "File already exists";
 "NOT_FOUND"                 = "Not found";
