@@ -1,0 +1,11 @@
+/* 
+  iaptexts.strings
+  yar
+
+  Created by Konstantin on 16/08/2018.
+  Copyright © 2018 Konstantin Bukreev. All rights reserved.
+*/
+
+"iap.subscription.payment" = "Die Zahlung wird Ihrem iTunes Account bei der Kaufbestätigung oder nach Abschluss eines kostenlosen Testzeitraums belastet.\Ihr Abonnement wird automatisch verlängert, es sei denn, die automatische Verlängerung wird spätestens 24 Stunden vor Ablauf des aktuellen Abonnementzeitraums deaktiviert.\Ihr Account wird für die Verlängerung innerhalb von 24 Stunden vor Ablauf des aktuellen Abonnementzeitraums belastet. \nDie automatische Verlängerung kostet den gleichen Preis, der ursprünglich für das Abonnement berechnet wurde.\nAbonnements und die automatische Verlängerung können nach dem Kauf in den iTunes Account-Einstellungen im App Store verwaltet und deaktiviert werden.\nDer nicht genutzte Teil eines kostenlosen Testzeitraums verfällt, sobald ein Abonnement erworben wird.";
+
+"iap.subscription.info" = "Das Premium-Abonnement ermöglicht es Benutzern, E-Book-Metadaten, Lesepositionen, Lesezeichen, Notizen, Rezensionen, Zusammenfassungen und E-Book-Dateien zwischen Geräten zu synchronisieren, indem sie den KyBook-Synchronisationsserver (im Folgenden KyBook Cloud) verwenden.\n\n\nE-Book-Metadaten, Lesepositionen, Lesezeichen, Notizen, Rezensionen und Zusammenfassungen, die in der KyBook Cloud gespeichert sind, ohne Einschränkungen hinsichtlich Größe und/oder Menge.\n\nBook-Dateien werden von Ihrem Gerät in die KyBook Cloud hochgeladen, nachdem Sie ein Buch zum Lesen geöffnet haben. Buchdateien werden von der KyBook-Wolke auf Ihr Gerät heruntergeladen, wenn ein Buch zum Lesen geöffnet wird. Nur auf dem Gerät gespeicherte Bücher werden in die KyBook-Cloud hochgeladen. Bücher, die sich auf dem Cloud-Speicher eines Drittanbieters befinden, werden nicht in der KyBook Cloud gespeichert.\n\n Die Gesamtgröße der in der KyBook Cloud gespeicherten Buchdateien für einen Benutzer ist auf 3 Gigabyte (3000 Megabyte) begrenzt. Die maximale Größe einer einzelnen Datei ist auf 100 Megabyte begrenzt. Begrenzungen der maximalen Gesamtgröße und der Größe einer einzelnen Datei können sich in Zukunft ändern.\n\n Zusätzlich werden mit einem Premium-Abonnement alle Pro-Funktionen freigeschaltet.";
