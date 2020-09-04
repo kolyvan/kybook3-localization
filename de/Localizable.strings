@@ -75,9 +75,9 @@
 "error.cloud.notlinked"         = "Cloud storage ist nicht verbunden";
 "error.nonetwork"               = "Keine Netzwerk Verbindung";
 "error.notresponding"           = "Host antwortet nicht";
-"error.emptyresponse"           = "Leeere Antwort";
+"error.emptyresponse"           = "Leere Antwort";
 "error.invalidresponse"         = "Falsche Antwort";
-"error.mimetype"                = "MIME type ist ungültig";
+"error.mimetype"                = "MIME Typ ist ungültig";
 "error.emptyname"               = "Leerer Name";
 "error.badname"                 = "Falscher Name";
 "error.drop"                    = "Element kann nicht abgelegt werden";
@@ -85,9 +85,9 @@
 "error.open.file"               = "Datei kann nicht geöffnet werden";
 "error.share.file.none"         = "Keine Datei zur Freigabe";
 "error.share.file.cloud"        = "Datei kann nicht aus der Cloud freigegeben werden. Laden Sie zuerst eine Datei herunter.";
-"error.book.save.review"        = "Buchbesprechung konnte nicht gespeichert werden";
-"error.book.delete.review"      = "Buchbesprechung kann nicht gelöscht werden";
-"error.book.save.metadata"      = "Buch-Metadaten können nicht gespeichert werden";
+"error.book.save.review"        = "Rezension konnte nicht gespeichert werden";
+"error.book.delete.review"      = "Rezension kann nicht gelöscht werden";
+"error.book.save.metadata"      = "Metadaten können nicht gespeichert werden";
 "error.book.save.tags"          = "Tags können nicht gespeichert werden";
 "error.book.delete.tags"        = "Tags können nicht gelöscht werden";
 "error.open.url"                = "Link konnte nicht geöffnet werden";
@@ -97,13 +97,13 @@
 "error.ebook.notsupported"      = "Dateiformat wird nicht unterstützt";
 "error.ebook.drm"               = "Buch konnte wegen DRM-Schutzes nicht geöffnet werdenn";
 "error.page.broken"             = "Kaputte Seite";
-"error.password"                = "Password fehlt oder ist inkorrekt";
+"error.password"                = "Password fehlt oder inkorrekt";
 "error.imagefile"               = "Ungültige Bilddatei";
 "error.text.toolong"            = "Maximale Textgröße überschritten";
 "error.translation.direction"   = "Angegebene Übersetzungsrichtung wird nicht unterstützt";
 "error.translation.unable"      = "Text kann nicht übersetzt werden";
 "error.translation.limit"       = "Überschreitung des Tageslimits für die Menge des übersetzten Textes";
-"error.apikey"                  = "Falscher API key";
+"error.apikey"                  = "Falscher API Key";
 "error.stylesheet"              = "Stylesheet konnte nicht geparst werden";
 "error.filebadmime.fmt"         = "Datei %@ hat nicht unterstützten MIME Type: %@";
 "error.opds.feed"               = "OPDS Katalog liefert malformed feed";
@@ -119,12 +119,12 @@
 "error.dictionary.lingvo"       = "Beschädigtes Lingvo Wörterbuch";
 "error.loadtext.encoding"       = "Text konnte nicht geladen werden, aufgrund einer falschen Textkodierung";
 "error.toomanyrequests"         = "Zu viele Anfragen";
-"error.toomanyrequests.fmt"     = "TZu viele Anfragen, erneut versuchen nach %zds";
+"error.toomanyrequests.fmt"     = "Zu viele Anfragen, erneut versuchen nach %zds";
 "error.sync.files.off"          = "Dateisynchronisierung ist deaktiviert";
 "error.sync.files.quota"        = "Dateispeicherkontingent wurde überschritten";
 "error.iap.requred"             = "In-app Einkauf ist erforderlich";
-"error.subscription.notfound"   = "Premium subscription ist erforderlich";
-"error.subscription.expired"    = "Premium subscription ist erforderlich";
+"error.subscription.notfound"   = "Premium Subscription ist erforderlich";
+"error.subscription.expired"    = "Premium Subscription ist erforderlich";
 "error.google.quotaexceeded"    = "Google Suchkontingent ist überschritten, bitte versuchen Sie es später noch einmal";
 
 // FILESTORE
@@ -138,8 +138,8 @@
 "filestore.googledrive"         = "Google Drive";
 "filestore.storages"            = "Datei Speicher";
 "filestore.unlink"              = "Unlink";
-"filestore.add.samba"           = "Add SMB/CIFS Share";
-"filestore.add.webdav"          = "Add WebDAV Server";
+"filestore.add.samba"           = "SMB/CIFS Share hinzufügen";
+"filestore.add.webdav"          = "WebDAV Server hinzufügen";
 "filestore.current.storages"    = "Aktueller Datei Speicher";
 "filestore.available.clouds"    = "Verfügbarer Cloud Speicher";
 "filestore.attach.cloud"        = "Verbinde Cloud Speicher";
@@ -151,9 +151,9 @@
 "filestore.done.deleted.fmt"    = "Gelöscht %@ in %@";
 "filestore.deletefiles.q"       = "Gelöschte Dateien?";
 "filestore.deletefile"          = "Datei löschen";
-"filestore.selectfolder"        = "Ordner auswählenr";
+"filestore.selectfolder"        = "Ordner auswählen";
 "filestore.createfolder"        = "Ordner erstellen";
-"filestore.importfile"          = "Datei Importieren";
+"filestore.importfile"          = "Datei importieren";
 "filestore.movefile"            = "Datei verschieben";
 "filestore.appendfile"          = "Datei anhängen";
 "filestore.enter.foldername"    = "Ordnername eingeben";
@@ -163,7 +163,7 @@
 "filestore.link.none"           = "Cloud-Speicher ist noch nicht angeschlossen. Bitte verbinden";
 "filestore.link.done"           = "Verbindung hergestellt";
 "filestore.relink"              = "Reconnect";
-"filestore.relink.account"      = "Reconnect account";
+"filestore.relink.account"      = "Reconnect Account";
 "filestore.relink.void"         = "Es scheint, dass die vorherige Beglaubigung ungültig geworden ist. Bitte verbinden Sie sich wieder";
 "filestore.report"              = "Report";
 "filestore.report.used"         = "Benutzt";
@@ -186,20 +186,20 @@
 
 "sort.general"          = "Sortierung";
 "sort.none"             = "Unsortiert";
-"sort.byname"           = "bei Titel";
-"sort.bydate"           = "bei Datum";
-"sort.bysize"           = "bei Größe";
-"sort.byformat"         = "bei Format";
-"sort.byprogress"       = "bei Progress";
-"sort.byrating"         = "bei Rating";
-"sort.byauthor"         = "bei Autor";
-"sort.bysubject"        = "bei Subject";
-"sort.bysequence"       = "bei Serie";
-"sort.bypublisher"      = "bei Publisher";
+"sort.byname"           = "nach Titel";
+"sort.bydate"           = "nach Datum";
+"sort.bysize"           = "nach Größe";
+"sort.byformat"         = "nach Format";
+"sort.byprogress"       = "nach Progress";
+"sort.byrating"         = "nach Rating";
+"sort.byauthor"         = "nach Autor";
+"sort.bysubject"        = "nach Subject";
+"sort.bysequence"       = "nach Serie";
+"sort.bypublisher"      = "nach Publisher";
 
 // MENU
 
-"menu.select"           = "Wählen";
+"menu.select"           = "Auswahl";
 "menu.selectall"        = "Alles wählen";
 "menu.move"             = "Verschieben";
 "menu.rename"           = "Umbenennen";
@@ -207,7 +207,7 @@
 "menu.share"            = "Freigeben";
 "menu.info"             = "Info";
 "menu.tags"             = "Etikett";
-"menu.read"             = "Gelesen";
+"menu.read"             = "Lesen";
 "menu.reorder"          = "Neuordnung";
 "menu.unload"           = "Unload";
 "menu.download"         = "Download";
@@ -254,10 +254,10 @@
 "bookshelf.sequences"       = "Reihe";
 "bookshelf.authors"         = "Autor";
 "bookshelf.subjects"        = "Thema";
-"bookshelf.publishers"      = "Publisher";
+"bookshelf.publishers"      = "Herausgeber";
 "bookshelf.tags"            = "Etikett";
-"bookshelf.recent"          = "Recent";
-"bookshelf.popular"         = "Popular";
+"bookshelf.recent"          = "Aktuell";
+"bookshelf.popular"         = "Beliebt";
 "bookshelf.new"             = "Neu";
 "bookshelf.unread"          = "Ungelesen";
 "bookshelf.reading"         = "Lesen";
@@ -291,7 +291,7 @@
 "bookshelf.collection.pick"     = "Wählen Sie eine Sammlung als Buchregal aus";
 
 "bookshelf.detail.recent"       = "Liste aktueller Bücher";
-"bookshelf.detail.popular"      = "Liste populärer Bücher";
+"bookshelf.detail.popular"      = "Liste beliebter Bücher";
 "bookshelf.detail.new"          = "Liste neuester Bücher";
 "bookshelf.detail.unread"       = "Liste ungelesener Bücher";
 "bookshelf.detail.reading"      = "Liste zur Zeit gelesenen Bücher";
@@ -308,7 +308,7 @@
 
 "bookshelf.empty"               = "Leeres Buchregal";
 "bookshelf.empty.recent"        = "Keine aktuellen Bücher in den letzten 30 Tagen";
-"bookshelf.empty.popular"       = "Liste der populären Bücher wurde noch nicht gesammelt";
+"bookshelf.empty.popular"       = "Liste der beliebten Bücher wurde noch nicht gesammelt";
 "bookshelf.empty.new"           = "Keine neuen Bücher in den letzten 30 Tagen";
 "bookshelf.empty.unread"        = "Keine ungelesenen Bücher";
 "bookshelf.empty.reading"       = "Keine Bücher";
@@ -337,7 +337,7 @@
 
 // BOOKCARD
 
-"bookcard"                      = "Buchkartei";
+"bookcard"                      = "Buchkarte";
 "bookcard.title.add"            = "Titel hinzufügen";
 "bookcard.title.prompt"         = "Title eingeben";
 "bookcard.subtitle.add"         = "Untertitel hinzufügen";
@@ -381,7 +381,7 @@
 "bookcard.action.listen"        = "Hören";
 "bookcard.action.download"      = "Download";
 "bookcard.action.sample"        = "Beispiel";
-"bookcard.mobi.pid"             = "MobiPocket PID (Kindle Serial Number)";
+"bookcard.mobi.pid"             = "MobiPocket PID (Kindle Serien Nummer)";
 "bookcard.mobi.pid.add"         = "PID hinzufügen";
 "bookcard.text.encoding"        = "Text encoding";
 "bookcard.text.encoding.add"    = "Text encoding hinzufügen";
@@ -389,9 +389,9 @@
 "bookcard.restorecover"         = "Zurück zum Original-Cover";
 "bookcard.miscinfo"             = "Diverse Infos";
 "bookcard.miscinfo.database"    = "Datenbank";
-"bookcard.miscinfo.usercontent" = "User-erstellter Content";
+"bookcard.miscinfo.usercontent" = "User-erstellter Inhalt";
 "bookcard.miscinfo.supportfiles"= "Support files";
-"bookcard.miscinfo.ebookformat" = "E-book-format";
+"bookcard.miscinfo.ebookformat" = "E-book Format";
 
 // BOOKS EDIT (BATCH MODE)
 
@@ -440,7 +440,7 @@
 "dialog.copy"               = "Kopie";
 "dialog.url.open"           = "URL öffnen";
 "dialog.url.copy"           = "URL kopieren";
-"dialog.promt.mobi.pid"     = "Enter MobiPocket PID (Kindle Serial Number)";
+"dialog.promt.mobi.pid"     = "Enter MobiPocket PID (Kindle Serien Nummer)";
 "dialog.promt.password"     = "Password für dieses Buch";
 "dialog.promt.textencoding" = "Enter Text encoding";
 "dialog.confirm.ask"        = "Sind Sie sicher?";
@@ -474,8 +474,8 @@
 
 // SHARE
 
-"share.book.info"           = "Share Info";
-"share.book.file"           = "Share Datei";
+"share.book.info"           = "Teile Info";
+"share.book.file"           = "Teile Datei";
 "share.readin.kybook"       = "Lesen in #KyBook";
 "share.notes.from"          = "Notizen von";
 "share.notes.by"            = "bei";
@@ -575,7 +575,7 @@
 "reader.settings.general"           = "Einstellungen";
 "reader.settings.theme"             = "Thema";
 "reader.settings.themes"            = "Themen";
-"reader.settings.font"              = "Schriftart (typeface)";
+"reader.settings.font"              = "Schriftart (Typeface)";
 "reader.settings.page.turn"         = "Seitenwechsel";
 "reader.settings.page.spread"       = "Seite ausgebreitet";
 "reader.settings.page.spread.full"  = "Seitenausbreitung im Querformat";
@@ -585,7 +585,7 @@
 "reader.settings.justification"     = "Ausrichtung";
 "reader.settings.readability"       = "Lesbarkeit";
 "reader.settings.styles"            = "Stile";
-"reader.settings.styles.hint.fmt"   = "Stileinstellungen werden nur auf die %@ format angewandt.";
+"reader.settings.styles.hint.fmt"   = "Stileinstellungen werden nur auf %@ Format angewandt.";
 "reader.settings.background"        = "Hintergrund";
 "reader.settings.ex.help"           = "ex - stellt die Höhe eines Kleinbuchstabens x in der ausgewählten Schriftart dar";
 "reader.settings.alignment.help"    = "Standardmäßig verwendet KyBook die im Stil eines E-Books definierte Textausrichtung";
@@ -611,7 +611,7 @@
 "reader.settings.userstyles.none"   = "Nichts";
 "reader.settings.userstyles.used"   = "Installiert";
 "reader.settings.userstyles.browse" = "Vom Speicher wählen";
-"reader.settings.userstyles.import" = "Importieren mit Apple's Files app";
+"reader.settings.userstyles.import" = "Importieren mit Apple's Datei-App";
 "reader.settings.userstyles.edit"   = "Editiere Formatvorlage";
 "reader.settings.userstyles.sample" = "Basis Formatvorlage ansehen";
 "reader.settings.userstyles.reset"  = "Zurücksetzen Formatvorlage";
@@ -668,7 +668,7 @@
 "ocr.dialog.recognize.message"  = "Anscheinend hat diese Seite keine Textebene.\nMöchten Sie Seitentext mittels OCR erkennen?";
 "ocr.dialog.recognize"          = "Erkennen";
 "ocr.dialog.never"              = "Niemals";
-"ocr.conf.multilang"            = "Multilingual Support";
+"ocr.conf.multilang"            = "Multilinguale Unterstützung";
 "ocr.conf.addlang"              = "Weitere Sprache";
 "ocr.conf.quality"              = "Quality der Erkennung";
 "ocr.conf.langpacks"            = "Installierte Sprachen";
@@ -705,7 +705,7 @@
 "theme.pallete.grayed"      = "Grayed";
 "theme.pallete.control"     = "Kontrollen";
 "theme.pallete.selection"   = "Auswahl";
-"theme.pallete.secondary"   = "Sekondärer Text";
+"theme.pallete.secondary"   = "Sekundärer Text";
 "theme.warning"             = "Standard-Thema kann nicht ersetzt werden";
 
 // FONT PICKER
@@ -718,7 +718,7 @@
 "font.picker.system"        = "System Schriften";
 "font.picker.add"           = "Schrift hinzufügen";
 "font.picker.add.browse"    = "Schrift vom Speicher wählen";
-"font.picker.add.import"    = "Import mit Apple's Files app";
+"font.picker.add.import"    = "Import mit Apple's Datei-App";
 "font.picker.add.download"  = "Schrift laden";
 "font.picker.add.done.fmt"  = "Schrift %@/%zd hinzugefügt";
 "font.picker.add.more.hint" = "Darüber hinaus können Sie Schriftarten hinzufügen, indem Sie Schriftartendateien (.ttf oder .otf) über iTunes File Sharing in App Documents kopieren.\n Ziehen Sie die Schriftartendateien auf dem iPad in das Feld unten.";
@@ -917,7 +917,7 @@
 // CONTENT SERVER
 
 "contentserver.general"     = "Content Server";
-"contentserver.activate"    = "Activieren";
+"contentserver.activate"    = "Aktivieren";
 "contentserver.link"        = "Link";
 "contentserver.username"    = "Username";
 "contentserver.password"    = "Passwort";
@@ -926,7 +926,7 @@
 
 // IMAGE PICKER
 
-"imagepicker.image"                 = "Image";
+"imagepicker.image"                 = "Bild";
 "imagepicker.reset"                 = "Reset";
 "imagepicker.files"                 = "Dateien";
 "imagepicker.photo"                 = "Photo";
@@ -937,11 +937,11 @@
 "imagepicker.photo.all"             = "Alle Fotos";
 "imagepicker.photo.none"            = "Kein Foto";
 "imagepicker.files.none"            = "Keine Bilddateien in diesem Ordner";
-"imagepicker.photos.select"         = "Select from Photos";
+"imagepicker.photos.select"         = "Auswahl von Fotos";
 "imagepicker.internet.search"       = "Suche im  Internet";
 "imagepicker.libraries.search"      = "Suche in Bibliotheken";
 "imagepicker.files.browse"          = "Aus Speicher auswählen";
-"imagepicker.files.import"          = "Import mit Apple's Files app";
+"imagepicker.files.import"          = "Import mit Apple's Datei-App";
 "imagepicker.download"              = "Download von dem Katalog";
 "imagepicker.photo.fail"            = "Misslungene Anforderung eines Bildes von Fotos";
 "imagepicker.photo.notdetermined"   = "Sie haben noch keine Entscheidung in Bezug auf KyBook getroffen";
@@ -983,37 +983,37 @@
 "network.samba"             = "Freigegebene Ordner";
 "network.server"            = "Server";
 "network.sharepoint"        = "Sharepoint";
-"network.samba.add"         = "Add the shared folder";
+"network.samba.add"         = "Gemeinsamen Ordner hinzufügen";
 "network.samba.settings"    = "Verbindungseinstellungen";
-"network.samba.hint"        = "Enter the server name or address, Sharepoint (optional), username (optional, will use guest access, if not specified) and password (optional). If the connection terminates with the error 'Unauthorized' username and password are mandatory!";
-"network.samba.v1.info"     = "KyBook can only connect to SMB1 shares. SMB1 is disabled by default on Windows 10. To enable SMB1 on Windows 10, go to Control Panel > Programs and Features > Turn Windows Features on > check the box for 'SMB 1.0/CIFS Server' and reboot. Attention, SMB1 isn’t safe!";
+"network.samba.hint"        = "Servername oder Addresse eingeben, Sharepoint (optional), Username (optional, nutzt Gast Zugang, wenn nicht angegeben) und Passwor (optional). Wenn die Verbindung mit dem Fehler 'Unauthorized' abbricht, sind Benutzername und Passwort zwingend erforderlich!";
+"network.samba.v1.info"     = "KyBook kann nur mit SMB1-Aktien verbunden werden. SMB1 ist unter Windows 10 standardmäßig deaktiviert. Um SMB1 unter Windows 10 zu aktivieren, gehen Sie zu Systemsteuerung > Programme und Funktionen > Windows-Funktionen einschalten > markieren Sie das Kästchen für 'SMB 1.0/CIFS Server' und starten Sie neu. Achtung, SMB1 ist nicht sicher!";
 "network.tor"               = "Tor Netzwerk";
-"network.tor.conf.header"   = "Attention! KyBook automatically joins the Tor network when opening .onion an OPDS catalog.";
-"network.tor.conf.footer"   = "KyBook will *automatically* join the Tor network and tunnel traffic for .onion OPDS catalogs and websites.\n\nWeb browsing and downloading through the Tor network will be significantly slower than through a non-tunneled connection.\n\nPlease note that KyBook is not intended for web surfing anonymously! Using Tor in KyBook only solves the problem of network reachability.\n\nThis product uses the Tor distributed networks, is produced independently from the Tor anonymity software, and carries no guarantee from The Tor Project about quality, suitability, or anything else.";
-"network.tor.bridge"        = "Bridge";
-"network.tor.bridges"       = "Bridges";
-"network.tor.bridges.add"   = "Add a bridge";
-"network.tor.bridges.reset" = "Delete bridges";
-"network.tor.bridges.hint"  = "Bridges are Tor relays that help you circumvent censorship. Bridges are not mandatory! Only if you suspect your access to the Tor network is being blocked, you may want to use bridges. More info at bridges.torproject.org.";
+"network.tor.conf.header"   = "Achtung! KyBook schließt sich automatisch dem Tor-Netzwerk an, wenn .onion einen OPDS-Katalog öffnet.";
+"network.tor.conf.footer"   = "KyBook wird *automatisch* dem Tor-Netzwerk beitreten und den Datenverkehr für .onion OPDS-Kataloge und Webseiten tunneln.\n\nDas Surfen und Herunterladen  über das Tor-Netzwerk wird wesentlich langsamer sein als über eine nicht getunnelte Verbindung.\n\n Beachten Sie bitte, dass KyBook nicht zum anonymen Surfen im Internet gedacht ist! Die Verwendung von Tor in KyBook löst nur das Problem der Erreichbarkeit im Netzwerk.\n\n\nDieses Produkt nutzt die verteilten Tornetzwerke, wird unabhängig von der Anonymitätssoftware von Tor produziert und trägt keine Garantie des Tor-Projekts über Qualität, Eignung oder irgendetwas anderes.";
+"network.tor.bridge"        = "Brücke";
+"network.tor.bridges"       = "Brücken";
+"network.tor.bridges.add"   = "Brücke hinzufügen";
+"network.tor.bridges.reset" = "Brücke löschen";
+"network.tor.bridges.hint"  = "Brücken sind Tor-Relais, die Ihnen helfen, die Zensur zu umgehen. Brücken sind nicht zwingend erforderlich! Nur wenn Sie den Verdacht haben, dass Ihr Zugang zum Tor-Netzwerk blockiert wird, können Sie Brücken benutzen. Mehr Informationen unter bridges.torproject.org.";
 "network.status"                = "Status";
-"network.status.disconnected"   = "Disconnected";
-"network.status.connecting"     = "Connecting ...";
-"network.status.connected"      = "Connected";
+"network.status.disconnected"   = "Getrennt";
+"network.status.connecting"     = "Verbinden ...";
+"network.status.connected"      = "Verbunden";
 "network.status.authenticated"  = "Authenticated";
 "network.status.bootstrap"      = "Bootstrap";
-"network.status.ready"          = "Ready";
-"network.status.failure"        = "Failure";
-"network.status.waiting"        = "Waiting";
+"network.status.ready"          = "Fertig";
+"network.status.failure"        = "Fehler";
+"network.status.waiting"        = "Warten";
 "network.status.suspended"      = "Suspended";
-"network.status.loading"        = "Loading";
+"network.status.loading"        = "Laden";
 "network.status.shutdown"       = "Shutdown";
 "network.start"                 = "Start";
 "network.stop"                  = "Stop";
 "network.restart"               = "Restart";
 "network.websearch.engine"      = "Web Suchmaschine";
-"network.download.add"          = "Add a download";
-"network.download.file.ask"     = "Download a file?";
-"network.download.file.enter"   = "Enter URL to download a file";
+"network.download.add"          = "Download hinzufügen";
+"network.download.file.ask"     = "Download eine Datei?";
+"network.download.file.enter"   = "URL zum Download einer Datei";
 
 // TRANSLATION
 
@@ -1022,97 +1022,97 @@
 "translation.yandex"            = "Yandex.Translate";
 "translation.yandex.copyright"  = "Powered by Yandex.Translate";
 "translation.target.lang"       = "Ziel-Sprache";
-"translation.target.lang.hint"  = "By default the target language is the device language.";
+"translation.target.lang.hint"  = "Zielsprache ist standardmäßig die Gerätesprache.";
 "translation.source.lang"       = "Quell-Sprache";
 "translation.source.auto"       = "Auto-Erkennung";
-"translation.source.auto.hint"  = "When automatic detection is disabled, KyBook will use the language specified in a book's card.";
-"translation.services"          = "Translation services";
-"translation.target.ask"        = "Please select the translation target language";
+"translation.source.auto.hint"  = "Wenn die automatische Erkennung deaktiviert ist, verwendet KyBook die auf der Buchkarte angegebene Sprache.";
+"translation.services"          = "Übersetzungs Services";
+"translation.target.ask"        = "Bitte wählen Sie die Zielsprache der Übersetzung";
 
 // MAIN
 
-"main.books"                    = "Books";
-"main.reading"                  = "Reading Now";
-"main.library"                  = "Library";
-"main.catalogs"                 = "Catalogs";
+"main.books"                    = "Bücher";
+"main.reading"                  = "Lese Jetzt";
+"main.library"                  = "Bibliothek";
+"main.catalogs"                 = "Kataloge";
 "main.dashboard"                = "Dashboard";
 
 // CLOUD
 
-"cloud.icloud.signin"           = "Sign in to iCloud";
-"cloud.icloud.signin.message"   = "Sign in to your iCloud account. On the Home screen, launch iOS settings, tap iCloud, and enter your Apple ID. Turn iCloud Drive on. If you don't have an iCloud account, tap Create a new Apple ID.";
-"cloud.dropbox.link.title"      = "Connect Dropbox";
-"cloud.dropbox.link.message"    = "Select preferred authentication method";
-"cloud.dropbox.link.app"        = "Start Dropbox app";
-"cloud.dropbox.link.site"       = "Open Dropbox site ";
-"cloud.credential.required"     = "Authentication required";
+"cloud.icloud.signin"           = "Bei iCloud anmelden";
+"cloud.icloud.signin.message"   = "Melden Sie sich bei Ihrem iCloud-Konto an. Starten Sie auf dem Startbildschirm die iOS-Einstellungen, tippen Sie auf iCloud und geben Sie Ihre Apple-ID ein. Schalten Sie das iCloud-Laufwerk ein. Wenn Sie keinen iCloud-Account haben, tippen Sie auf Eine neue Apple ID erstellen.";
+"cloud.dropbox.link.title"      = "Verbinde Dropbox";
+"cloud.dropbox.link.message"    = "Wählen Sie die bevorzugte Anmeldemethode";
+"cloud.dropbox.link.app"        = "Start Dropbox App";
+"cloud.dropbox.link.site"       = "Dropbox Seite öffnen ";
+"cloud.credential.required"     = "Anmeldung erforderlich";
 "cloud.credential.user"         = "User";
-"cloud.credential.password"     = "Password";
-"cloud.webdav.add"              = "Add the WebDAV server";
-"cloud.webdav.data"             = "WebDAV Server Settings";
-"cloud.webdav.known"            = "List of known WebDAV servers";
-"cloud.webdav.hint"             = "Enter the URL, username, and password to connect to the WebDAV server.";
-"cloud.check.reachability"      = "Checking reachability ...";
-"cloud.check.fail.msg"          = "Server is not reachable or is invalid";
-"cloud.check.fail.ask"          = "Connect the server anyway?";
+"cloud.credential.password"     = "Passwort";
+"cloud.webdav.add"              = "WebDAV Server hinzufügen";
+"cloud.webdav.data"             = "WebDAV Server Einstellungen";
+"cloud.webdav.known"            = "Liste bekannter WebDAV Server";
+"cloud.webdav.hint"             = "URL, username, und Passwort eingeben zur Verbindung zum WebDAV Server.";
+"cloud.check.reachability"      = "Prüfe Verfügbarkeit ...";
+"cloud.check.fail.msg"          = "Server ist nicht verfügbar oder falsch";
+"cloud.check.fail.ask"          = "Server trotzdem verbinden?";
 
 // CATALOG
 
-"catalog.general"               = "Catalog";
-"catalog.add.to"                = "Add to Catalogs";
-"catalog.opds"                  = "OPDS Catalog";
-"catalog.opds.add"              = "Add OPDS Catalog";
-"catalog.opds.add.hint"         = "Enter the catalog's URL into the field to add a custom OPDS Сatalog.";
-"catalog.opds.add.fix"          = "It seems that the OPDS catalog address was not fully specified. The address was corrected. Please check carefully.";
-"catalog.opds.localnet"         = "Search the local network";
-"catalog.opds.localnet.hint"    = "Search the local network for OPDS catalogs such as Calibre and TinyOPDS.";
-"catalog.opds.known"            = "List of known OPDS Catalogs";
-"catalog.rel.related"           = "Related";
-"catalog.rel.alternate"         = "Alternate";
-"catalog.rel.subsection"        = "Subsection";
+"catalog.general"               = "Katalog";
+"catalog.add.to"                = "Katalog hinzufügen";
+"catalog.opds"                  = "OPDS Katalog";
+"catalog.opds.add"              = "OPDS Katalog hinzufügen";
+"catalog.opds.add.hint"         = "URL des Katalog's  eingeben, um einen benutzerdefinierten OPDS Katalog hinzuzufügen.";
+"catalog.opds.add.fix"          = "Es scheint, dass die Adresse des OPDS-Katalogs nicht vollständig angegeben wurde. Die Adresse wurde korrigiert. Bitte überprüfen Sie dies sorgfältig.";
+"catalog.opds.localnet"         = "Suche im lokalen Netzwerk";
+"catalog.opds.localnet.hint"    = "Suche im lokalen Netzwerk nach OPDS Katalogen wie Calibre oder TinyOPDS.";
+"catalog.opds.known"            = "Liste bekannter OPDS Kataloge";
+"catalog.rel.related"           = "Verwandte";
+"catalog.rel.alternate"         = "Alternative";
+"catalog.rel.subsection"        = "UnterSektion";
 "catalog.rel.acquisition"       = "Acquisition";
-"catalog.rel.openaccess"        = "Open access";
-"catalog.rel.borrow"            = "Borrow";
-"catalog.rel.buy"               = "Buy";
-"catalog.rel.sample"            = "Sample";
+"catalog.rel.openaccess"        = "Freier Zugang";
+"catalog.rel.borrow"            = "Leihen";
+"catalog.rel.buy"               = "Kaufen";
+"catalog.rel.sample"            = "Beispiel";
 "catalog.rel.subscribe"         = "Subscribe";
-"catalog.rel.new"               = "New";
-"catalog.rel.popular"           = "Popular";
+"catalog.rel.new"               = "Neu";
+"catalog.rel.popular"           = "Beliebt";
 "catalog.rel.featured"          = "Featured";
 "catalog.rel.recommended"       = "Recommended";
-"catalog.rel.shelf"             = "Shelf";
+"catalog.rel.shelf"             = "Regal";
 "catalog.rel.subscriptions"     = "Subscriptions";
-"catalog.rel.free"              = "Free";
+"catalog.rel.free"              = "Frei";
 "catalog.rel.basket"            = "Basket";
 "catalog.rel.download"          = "Download";
 "catalog.rel.login"             = "Login";
 "catalog.rel.logout"            = "Logout";
-"catalog.rel.author"            = "Author";
-"catalog.rel.sequence"          = "Series";
-"catalog.rel.category"          = "Category";
-"catalog.rel.publisher"         = "Publisher";
+"catalog.rel.author"            = "Autor";
+"catalog.rel.sequence"          = "Reihe";
+"catalog.rel.category"          = "Kategorie";
+"catalog.rel.publisher"         = "Herausgeber";
 "catalog.rel.web"               = "Web";
-"catalog.rel.search"            = "Search";
-"catalog.rel.up"                = "Up";
-"catalog.rel.first"             = "First";
-"catalog.rel.last"              = "Last";
-"catalog.check.fail.msg"        = "Catalog is not reachable or is invalid";
-"catalog.check.fail.ask"        = "Anyway add the catalog?";
-"catalog.opds.fix.path"         = "It seems that the OPDS catalog address was not fully specified. The address was corrected. Please check carefully.";
-"catalog.credentials.reset"     = "Reset credentials";
-"catalog.credentials.reset.hint"= "Reset saved credentials (passwords, access tokens).";
+"catalog.rel.search"            = "Suche";
+"catalog.rel.up"                = "Hoch";
+"catalog.rel.first"             = "Erste";
+"catalog.rel.last"              = "Letzte";
+"catalog.check.fail.msg"        = "Katalog ist nicht verfügbar oder falsch";
+"catalog.check.fail.ask"        = "Trotzdem Katalog hinzufügen?";
+"catalog.opds.fix.path"         = "Es scheint, dass die Adresse des OPDS-Katalogs nicht vollständig angegeben wurde. Die Adresse wurde korrigiert. Bitte überprüfen Sie dies sorgfältig.";
+"catalog.credentials.reset"     = "Anmeldedaten zurücksetzen";
+"catalog.credentials.reset.hint"= "Gespeicherte Anmeldedaten (Passwörter, Zugriffstoken) zurücksetzen.";
 "catalog.links"                 = "References";
-"catalog.rights"                = "Rights";
-"catalog.source"                = "Source";
+"catalog.rights"                = "Rechte";
+"catalog.source"                = "Quelle";
 "catalog.reviews"               = "Reviews";
 "catalog.googlebooks"           = "Google Books";
 "catalog.samizdat"              = "Samizdat";
 "catalog.litres"                = "LitRes";
-"catalog.batch.download"        = "Batch download";
-"catalog.batch.collecting.fmt"  = "Collecting %@";
-"catalog.batch.collected.fmt"   = "Collected %@";
+"catalog.batch.download"        = "Hintergrund Download";
+"catalog.batch.collecting.fmt"  = "Sammeln %@";
+"catalog.batch.collected.fmt"   = "Gesammelt %@";
 "catalog.batch.downloading.fmt" = "Downloading %zd of %@";
-"catalog.batch.added.fmt"       = "Added %zd of %@";
+"catalog.batch.added.fmt"       = "Hinzugefügt %zd of %@";
 
 // WIDGET
 
@@ -1122,34 +1122,34 @@
 
 // DICTIONARY
 
-"dictionary.general"                = "Dictionary";
-"dictionary.all"                    = "Dictionaries";
-"dictionary.install"                = "Install Dictionary";
-"dictionary.install.free"           = "Add Free Dictionary";
-"dictionary.install.system"         = "Add System Dictionary";
-"dictionary.install.all"            = "Installed dictionaries";
-"dictionary.install.add"            = "Add dictionary";
-"dictionary.install.storage"        = "Select from the Storage";
-"dictionary.install.import"         = "Import with Apple's Files App";
-"dictionary.install.download"       = "Download from the Internet";
-"dictionary.install.download.hint"  = "Choose free dictionary to download and install.";
-"dictionary.install.hint"           = "KyBook supports dictionaries in StarDict, Lingvo DSL and Dictd formats.\n\nDictionaries are usually distributed as ZIP, RAR or TAR archive and may have .zip, .rar, .tar, .tgz, .tbz extension. Lingvo DSL dictionary can be distributed as an uncompressed .dsl file.";
-"dictionary.history"                = "Lookup History";
-"dictionary.favorited"              = "Favorite Entries";
-"dictionary.userdict"               = "User Dictionary";
-"dictionary.activate.hint"          = "To search for a definition, select a word in the book, and then tap the `Define` menu item.";
-"dictionary.article"                = "Dictionary entry";
-"dictionary.article.title.prompt"   = "Title of the entry";
-"dictionary.article.text.prompt"    = "Enter the text of the entry";
-"dictionary.article.add"            = "Add an entry";
-"dictionary.article.markdown"       = "Markdown formatting supported";
+"dictionary.general"                = "Lexikon";
+"dictionary.all"                    = "Lexika";
+"dictionary.install"                = "Lexikon installieren";
+"dictionary.install.free"           = "Freies Lexikon hinzufügen";
+"dictionary.install.system"         = "System Lexikon hinzufügen";
+"dictionary.install.all"            = "Installierte Lexika";
+"dictionary.install.add"            = "Lexikon hinzufügen";
+"dictionary.install.storage"        = "Wähle vom Speicher";
+"dictionary.install.import"         = "Import with Apple's Datei-App";
+"dictionary.install.download"       = "Download vom Internet";
+"dictionary.install.download.hint"  = "Wähle freies Lexikon zum download und installieren.";
+"dictionary.install.hint"           = "KyBook unterstützt Wörterbücher in den Formaten StarDict, Lingvo DSL und Dictd.\n\n Wörterbücher werden normalerweise als ZIP-, RAR- oder TAR-Archiv vertrieben und können die Erweiterung .zip, .rar, .tar, .tgz, .tbz haben. Das Lingvo DSL-Wörterbuch kann als unkomprimierte .dsl-Datei vertrieben werden.";
+"dictionary.history"                = "Historie nachschlagen";
+"dictionary.favorited"              = "Favoriten-Einträge";
+"dictionary.userdict"               = "User Lexikon";
+"dictionary.activate.hint"          = "Um nach einer Definition zu suchen, wählen Sie ein Wort im Buch aus und tippen Sie dann auf den Menüpunkt `Definieren`.";
+"dictionary.article"                = "Lexikon Eintrag";
+"dictionary.article.title.prompt"   = "Titel des Eintrags";
+"dictionary.article.text.prompt"    = "Text des Eintrags";
+"dictionary.article.add"            = "Eintrag hinzufügen";
+"dictionary.article.markdown"       = "Markdown Format unterstützt";
 "dictionary.format"                 = "Format";
-"dictionary.recordscount"           = "Number of records";
-"dictionary.delete.ask"             = "Delete the dictionary?";
+"dictionary.recordscount"           = "Nummer der Datensätze";
+"dictionary.delete.ask"             = "Lexikon löschen?";
 
 // RELAX
 
-"relax.general"                     = "Relaxation timer";
+"relax.general"                     = "Relaxation Timer";
 "relax.screen"                      = "Screen";
 "relax.screen.black"                = "Black";
 "relax.screen.blurred"              = "Blurred";
@@ -1157,177 +1157,177 @@
 "relax.screen.matrix"               = "The Matrix Movie";
 "relax.screen.life"                 = "Conway Life";
 "relax.screen.random"               = "Random";
-"relax.preparation"                 = "Pre-relaxation action";
-"relax.preparation.hint"            = "Action to be taken before showing the relaxation screen.";
-"relax.final"                       = "Post-relaxation action";
-"relax.final.hint"                  = "Action to be taken upon completion of relaxation.";
-"relax.duration"                    = "Reading Duration";
-"relax.duration.hint"               = "The duration of reading before the relaxation screen is shown.";
+"relax.preparation"                 = "Pre-relaxation Aktion";
+"relax.preparation.hint"            = "Vor dem Zeigen des Entspannungsbildschirms zu ergreifende Maßnahmen.";
+"relax.final"                       = "Post-relaxation Aktion";
+"relax.final.hint"                  = "Maßnahmen, die nach Abschluss der Entspannung zu ergreifen sind.";
+"relax.duration"                    = "Lesedauer";
+"relax.duration.hint"               = "Die Lesedauer vor dem Entspannungsbildschirm wird angezeigt.";
 "relax.flash"                       = "Flash";
 "relax.vibration"                   = "Vibration";
 "relax.alert"                       = "Alert";
 "relax.countdown"                   = "Countdown";
-"relax.countdown.hint"              = "Provide a countdown before showing the relaxation screen.";
-"relax.duration.screen"             = "Relaxation duration";
+"relax.countdown.hint"              = "Geben Sie einen Countdown ein, bevor Sie den Entspannungsbildschirm anzeigen.";
+"relax.duration.screen"             = "Dauer der Relaxation";
 "relax.screen.show"                 = "Show screen";
-"relax.screen.footer"               = "Relaxation will be automatically completed in %@\nTap anywhere to finish earlier";
-"relax.message.relax"               = "Time to relax!";
-"relax.message.read"                = "Time to read!";
-"relax.hint"                        = "Provides a screen to rest your eyes after lengthy reading.";
-"relax.disable"                     = "Relaxation timer off";
-"relax.enable.ask"                  = "Enable Relaxation timer?";
+"relax.screen.footer"               = "Die Entspannung wird automatisch abgeschlossen in %@\nTippen Sie auf eine beliebige Stelle, um früher zu beenden";
+"relax.message.relax"               = "Zeit zum Relaxen!";
+"relax.message.read"                = "Zeit zum Lesen!";
+"relax.hint"                        = "Bietet einen Bildschirm, um Ihre Augen nach langem Lesen auszuruhen.";
+"relax.disable"                     = "Relaxation Timer aus";
+"relax.enable.ask"                  = "Relaxation Timer ein?";
 "relax.intime.fmt"                  = "Relax in %@";
 
 // TIMER
 
-"timer.sleep.general"               = "Sleep timer";
-"timer.sleep.off"                   = "Off sleep timer";
-"timer.sleep.off.short"             = "Off";
-"timer.sleep.pauseplayback"         = "Pause playback";
-"timer.sleep.fired.message"         = "Playback stopped by Sleep timer";
-"timer.sleep.induration.fmt"        = "Sleeping in %@"; // Sleeping in 5 minutes
+"timer.sleep.general"               = "Schlaf Timer";
+"timer.sleep.off"                   = "Schlaf Timer aus";
+"timer.sleep.off.short"             = "Aus";
+"timer.sleep.pauseplayback"         = "Wiedergabe Pause";
+"timer.sleep.fired.message"         = "Wiedergabe gestoppt durch by Schlaf Timer";
+"timer.sleep.induration.fmt"        = "Schlafen in %@"; // Sleeping in 5 minutes
 "timer.sleep.induration.short.fmt"  = "In %@"; // in 5 minutes
-"timer.sleep.atendchapter"          = "At end of chapter";
+"timer.sleep.atendchapter"          = "Am Ende des Kapitels";
 
 // LOGIN
 
-"login.signin"                      = "Sign in";
+"login.signin"                      = "Anmelden";
 "login.signup"                      = "Sign up";
-"login.signin.welcome"              = "Welcome back";
+"login.signin.welcome"              = "Willkommen zurück";
 "login.signup.join"                 = "Join KyBook";
-"login.signin.headline"             = "Sign in to explore and synchronize your books, notes, summaries and more.";
-"login.signup.headline"             = "Create an account to explore and synchronize your books, notes, summaries and more.";
-"login.signin.toggle"               = "No account?";
-"login.signup.toggle"               = "Already have an account?";
-"login.signin.toggle.action"        = "Create one";
-"login.signup.toggle.action"        = "Sign in";
-"login.signin.password"             = "Sign in with password";
-"login.signin.email"                = "Sign in with email";
-"login.signin.google"               = "Sign in with Google";
-"login.signin.github"               = "Sign in with GitHub";
-"login.signin.known"                = "Sign in with a known login";
-"login.signup.password"             = "Sign up with password";
-"login.signup.email"                = "Sign up with email";
-"login.signup.google"               = "Sign up with Google";
-"login.signup.github"               = "Sign up with GitHub";
-"login.signin.enter"                = "Enter the login and password to sign in to account";
-"login.signup.enter"                = "Enter the login and password to create an account";
-"login.setup.enter"                 = "Enter your login and password credentials";
-"login.email.enter"                 = "Optionally enter the email and display name";
+"login.signin.headline"             = "Melden Sie sich an, um Ihre Bücher, Notizen, Zusammenfassungen und mehr zu erkunden und zu synchronisieren.";
+"login.signup.headline"             = "Erstellen Sie ein Konto, um Ihre Bücher, Notizen, Zusammenfassungen und mehr zu erkunden und zu synchronisieren.";
+"login.signin.toggle"               = "Kein Konto?";
+"login.signup.toggle"               = "Haben Sie bereits ein Konto?";
+"login.signin.toggle.action"        = "Konto erstellen";
+"login.signup.toggle.action"        = "Anmelden";
+"login.signin.password"             = "Anmelden mit password";
+"login.signin.email"                = "Anmelden mit email";
+"login.signin.google"               = "Anmelden mit Google";
+"login.signin.github"               = "Anmelden mit GitHub";
+"login.signin.known"                = "Anmelden mit login";
+"login.signup.password"             = "Anmelden mit password";
+"login.signup.email"                = "Anmelden mit email";
+"login.signup.google"               = "Anmelden mit Google";
+"login.signup.github"               = "Anmelden mit GitHub";
+"login.signin.enter"                = "Benutzernamen und das Passwort eingeben, um sich am Konto anzumelden";
+"login.signup.enter"                = "Login und Passwort ein, um ein Konto zu erstellen";
+"login.setup.enter"                 = "Geben Sie Ihre Anmeldedaten und Ihr Passwort ein";
+"login.email.enter"                 = "Geben Sie optional die E-Mail und den Anzeigenamen ein";
 "login.login"                       = "Login";
-"login.password"                    = "Password";
+"login.password"                    = "Passwort";
 "login.email"                       = "Email";
-"login.displayname"                 = "Display name";
-"login.login.invalid"               = "Login should be at least 4 characters long and consist of digits, latin letters, dots, or underscores.";
-"login.password.invalid"            = "Password should be at least 6 characters long and should consist of digits, latin letters, dots, or underscores.";
-"login.response.failure"            = "Login or password is invalid";
-"login.invalid.email"               = "Email is invalid";
-"login.invalid.confirm"             = "Verification code is invalid";
-"login.email.confirm.send"          = "Enter the email address associated with your account, and we’ll send a verification code to your inbox.";
-"login.email.confirm.enter"         = "Enter a verification code and you'll be signed in";
-"login.email.confirm.have"          = "I have a verification code";
-"login.email.confirm.just.fmt"      = "We just emailed a verification code to %@.\nEnter the code from the email and you'll be signed in";
-"login.email.confirm.code"          = "Verification code";
-"login.email.confirm.check"         = "Checking the code, please wait ...";
-"login.email.already.inuse"         = "This email address is already in use by another user";
-"login.email.confirm.fail"          = "Unable to confirm an email";
+"login.displayname"                 = "Anzeigenamen";
+"login.login.invalid"               = "Die Anmeldung sollte mindestens 4 Zeichen lang sein und aus Ziffern, lateinischen Buchstaben, Punkten oder Unterstrichen bestehen..";
+"login.password.invalid"            = "Das Passwort sollte mindestens 6 Zeichen lang sein und aus Ziffern, lateinischen Buchstaben, Punkten oder Unterstrichen bestehen.";
+"login.response.failure"            = "Login oderr password ist invalid";
+"login.invalid.email"               = "Email ist invalid";
+"login.invalid.confirm"             = "Verification code ist invalid";
+"login.email.confirm.send"          = "Die mit Ihrem Konto verknüpfte E-Mail-Adresse eingeben, und wir senden Ihnen einen Verifizierungscode in Ihren Posteingang.";
+"login.email.confirm.enter"         = "Verifizierungscode eingeben und Sie werden angemeldet";
+"login.email.confirm.have"          = "Ich habe einen Verifizierungscode";
+"login.email.confirm.just.fmt"      = "Wir haben gerade einen Verifizierungscode an %@.\nGeben Sie den Code aus der E-Mail ein und Sie werden angemeldet";
+"login.email.confirm.code"          = "Verifizierungscode";
+"login.email.confirm.check"         = "Überprüfung des Codes, bitte warten ...";
+"login.email.already.inuse"         = "Diese E-Mail-Adresse wird bereits von einem anderen Benutzer verwendet.";
+"login.email.confirm.fail"          = "E-Mail kann nicht bestätigt werden";
 "login.ok"                          = "Login OK";
-"login.failed"                      = "Login failed";
-"login.user.exists"                 = "User with the following login is already registered";
-"login.user.notfound"               = "User not found";
-"login.change.email.confirm.send"       = "Enter the new email address, and we’ll send a verification code to your inbox";
-"login.change.email.confirm.enter"      = "Enter the verification code and your email address will be changed";
-"login.change.email.confirm.just.fmt"   = "We just emailed a verification code to %@.\nEnter the code from the email and your email address will be changed";
-"login.change.password"             = "Change password";
-"login.set.password"                = "Set password";
-"login.password.new"                = "New password";
-"login.password.old"                = "Old password";
+"login.failed"                      = "Login falsch";
+"login.user.exists"                 = "User mit dem folgenden Login ist bereits registriert";
+"login.user.notfound"               = "User nicht gefunden";
+"login.change.email.confirm.send"       = "Neue E-Mail-Adresse eingeben, und wir senden Ihnen einen Verifizierungscode in Ihren Posteingang.";
+"login.change.email.confirm.enter"      = "Den Verifizierungscode eingeben und Ihre E-Mail-Adresse wird geändert.";
+"login.change.email.confirm.just.fmt"   = "Wir haben gerade einen Verifizierungscode an %@.\nGeben Sie den Code aus der E-Mail ein und Ihre E-Mail-Adresse wird geändert.";
+"login.change.password"             = "Passwort ändern";
+"login.set.password"                = "Passwort setzen";
+"login.password.new"                = "Neues Passwort";
+"login.password.old"                = "Altes Passwort";
 
 // ACCOUNT
 
-"account.general"                   = "Account";
+"account.general"                   = "Konto";
 "account.authorization"             = "Authorization";
 "account.personal"                  = "Personal";
 "account.social.network"            = "Social network";
 "account.website"                   = "Website";
 "account.bio"                       = "Bio";
-"account.created"                   = "Created at";
+"account.created"                   = "Erstellt am";
 "account.logout"                    = "Logout";
 "account.logout.ask"                = "Logout?";
-"account.logout.message"            = "Synchronization will no longer be available after logout. Are you sure?";
+"account.logout.message"            = "Nach der Abmeldung ist die Synchronisierung nicht mehr verfügbar. Sind Sie sicher?";
 "account.relogin"                   = "Re-login";
 "account.relogin.ask"               = "Re-login?";
-"account.delete"                    = "Delete account";
-"account.delete.ask"                = "Delete account?";
-"account.delete.message"            = "Deleting the account will also delete all stored information about books and notes in the cloud. Synchronization will no longer be available. \n\nPlease enter `DELETE` for confirmation";
+"account.delete"                    = "Konto löschen";
+"account.delete.ask"                = "Konto löschen?";
+"account.delete.message"            = "Mit der Löschung des Kontos werden auch alle gespeicherten Informationen über Bücher und Notizen in der Cloud gelöscht. Die Synchronisierung wird nicht mehr verfügbar sein. \n\nBitte geben Sie `DELETE` zur Bestätigung ein";
 "account.delete.confirmation"       = "DELETE";
 "account.anonymous"                 = "Anonymous";
-"account.devices"                   = "Devices";
-"account.devices.detach"            = "Detach device";
+"account.devices"                   = "Gerät";
+"account.devices.detach"            = "Gerät abmelden";
 "account.profile.set"               = "Set";
-"account.profile.change"            = "Change";
+"account.profile.change"            = "Ändern";
 
 // SYNCHRONIZATION
 
-"sync.general"                      = "Synchronization";
-"sync.donow"                        = "Synchronize now";
-"sync.doing"                        = "Synchronizing ...";
-"sync.automatic"                    = "Automatic synchronization";
-"sync.automatic.wifi"               = "Require a WiFi connection";
+"sync.general"                      = "Synchronisation";
+"sync.donow"                        = "Synchronisiere jetzt";
+"sync.doing"                        = "Synchronisierung ...";
+"sync.automatic"                    = "Automatische Synchronisation";
+"sync.automatic.wifi"               = "WiFi Verbindung erforderlich";
 "sync.automatic.lowerpower"         = "Stop in Lower Power Mode";
 "sync.logging"                      = "Logging";
 "sync.logging.view"                 = "View log";
-"sync.scope"                        = "Items that need to be synchronized";
-"sync.scope.books"                  = "Book metadata";
-"sync.scope.notes"                  = "Notes, bookmarks";
-"sync.scope.assets"                 = "Summaries, covers";
-"sync.scope.files"                  = "Book files";
-"sync.restriction.hint"             = "Synchronization requires a premium subscription.\nBook metadata, notes, summaries, etc are stored in the cloud without any restrictions on the size and/or quantity.\nThe total size of stored book files in the cloud is limited by the available storage quota.";
-"sync.quota"                        = "Storage quota (used)";
-"sync.quota.empty"                  = "Empty";
-"sync.quota.used.fmt"               = "%@ of %@";
-"sync.push.notifications"           = "Push notifications";
-"sync.push.notifications.hint"      = "Notifications are useful for stable synchronization between your devices.";
-"sync.state.none"                   = "Not synchronized";
-"sync.state.synced"                 = "Synced";
-"sync.files.title"                  = "Cloud files";
-"sync.files.remove"                 = "Remove";
-"sync.files.hint"                   = "Use a swipe gesture to remove the book file from the KyBook cloud and free up space.";
-"sync.files.empty"                  = "No files have been uploaded yet";
+"sync.scope"                        = "Elemente, die synchronisiert werden müssen";
+"sync.scope.books"                  = "Buch Metadaten";
+"sync.scope.notes"                  = "Notizen, Lesezeichen";
+"sync.scope.assets"                 = "Zusammenfassungen, Cover";
+"sync.scope.files"                  = "Buch Dateien";
+"sync.restriction.hint"             = "Für die Synchronisierung ist ein Premium-Abonnement erforderlich.\nBuch-Metadaten, Notizen, Zusammenfassungen usw. werden in der Cloud ohne Größen- und/oder Mengenbeschränkungen gespeichert.\nDie Gesamtgröße der gespeicherten Buchdateien in der Cloud ist durch das verfügbare Speicherkontingent begrenzt.";
+"sync.quota"                        = "Speicher Quota (benutzt)";
+"sync.quota.empty"                  = "Leer";
+"sync.quota.used.fmt"               = "%@ von %@";
+"sync.push.notifications"           = "Push Mitteilungen";
+"sync.push.notifications.hint"      = "Mitteilungen sind nützlich für eine stabile Synchronisierung zwischen Ihren Geräten.";
+"sync.state.none"                   = "Nicht Synchronisiert";
+"sync.state.synced"                 = "Synchronisiert";
+"sync.files.title"                  = "Cloud Dateien";
+"sync.files.remove"                 = "Entfernen";
+"sync.files.hint"                   = "Verwenden Sie eine Streichbewegung, um die Buchdatei aus der KyBook-Wolke zu entfernen und Platz freizugeben.";
+"sync.files.empty"                  = "Es wurden noch keine Dateien hochgeladen";
 
 // BIZ
 
-"biz.adman.mock.banner.title"       = "Upgrade KyBook zu PRO and disable advertising banners!";
-"biz.adman.mock.banner.title.short" = "Upgrade zu PRO und disable Ads!";
-"biz.adman.mock.banner.subtitle"    = "Tap to upgrade to Pro";
-"biz.feature.noad"                  = "No advertising banners";
-"biz.feature.djvu"                  = "Support of DjVu format";
-"biz.feature.userdict"              = "User dictionary";
-"biz.feature.deckui"                = "Advanced UI (Safari-like tabs)";
-"biz.feature.contentserver"         = "Content server";
-"biz.feature.themes"                = "Customizable themes";
-"biz.feature.tags"                  = "Tags for books";
-"biz.feature.downloadable"          = "Downloadable content (fonts, backgrounds, dictionaries)";
+"biz.adman.mock.banner.title"       = "Upgrade KyBook zu PRO und deaktivieren Sie Werbebanner!";
+"biz.adman.mock.banner.title.short" = "Upgrade auf PRO und Werbung deaktivieren!";
+"biz.adman.mock.banner.subtitle"    = "Zum Upgrade auf Pro tippen";
+"biz.feature.noad"                  = "Keine Werbebanner";
+"biz.feature.djvu"                  = "Support des DjVu Format";
+"biz.feature.userdict"              = "User Lexikon";
+"biz.feature.deckui"                = "Erweiterte UI (Safari-like Tabs)";
+"biz.feature.contentserver"         = "Content Server";
+"biz.feature.themes"                = "Anpassbare Themen";
+"biz.feature.tags"                  = "Etiketten für Bücher";
+"biz.feature.downloadable"          = "Herunterladbare Inhalte (Schriftarten, Hintergründe, Wörterbücher)";
 "biz.feature.autoscroll"            = "Auto scrolling";
-"biz.feature.sketches"              = "Support for drawing on book pages";
+"biz.feature.sketches"              = "Unterstützung für das Zeichnen auf Buchseiten";
 "biz.feature.pdfreflow"             = "PDF Reflow mode on iPhone";
-"biz.feature.export2pdf"            = "Export an e-book with annotations as a PDF";
-"biz.feature.synchronization"       = "Synchronization of e-books metadata and files";
-"biz.feature.google"                = "Google Translator and Google cover search";
-"biz.feature.batch.edit.metadata"   = "Batch editing of books metadata";
-"biz.feature.batch.catalog.download"= "Batch download from OPDS Catalog";
-"biz.feature.book.trash"            = "Trash for deleted books";
-"biz.feature.book.audioplaylist"    = "Automatically created playlists of audiobooks";
-"biz.available.free"                = "Available for free";
-"biz.requires.pro"                  = "Requires Pro purchase";
-"biz.requires.premium"              = "Requires Premium Subscription";
-"biz.alert.iap.fmt"                 = "Sorry, but you need to make an in-app purchase to continue using “%@”\nDo you want to make an in-app purchase now?";
-"biz.buy.now"                       = "Buy Now";
-"biz.buy.later"                     = "Sure, I'll buy later";
-"biz.premium.sync.note"             = "Premium subscription is required to use synchronization.";
-"biz.trial"                         = "Trial Version";
-"biz.trial.hint.fmt"                = "Try PRO features for free %zd days.";
-"biz.trial.noteliglbile"            = "Not eligible for trial version";
+"biz.feature.export2pdf"            = "Exportieren Sie ein E-Book mit Anmerkungen als PDF";
+"biz.feature.synchronization"       = "Synchronisierung von E-Buch-Metadaten und Dateien";
+"biz.feature.google"                = "Google Translator und Google Cover Suche";
+"biz.feature.batch.edit.metadata"   = "Batch-Bearbeitung von Buch-Metadaten";
+"biz.feature.batch.catalog.download"= "Batch Download vom OPDS Katalog";
+"biz.feature.book.trash"            = "Papierkorb für gelöschte Bücher";
+"biz.feature.book.audioplaylist"    = "Automatisch erstellte Wiedergabelisten von Hörbüchern";
+"biz.available.free"                = "Kostenlos verfügbar";
+"biz.requires.pro"                  = "Erfordert Pro-Kauf";
+"biz.requires.premium"              = "Erfordert Premium-Abonnement";
+"biz.alert.iap.fmt"                 = "Tut mir leid, aber Sie müssen eine Anwendung kaufen, um weiterhin "%@"\nMöchten Sie jetzt eine Anwendung kaufen?";
+"biz.buy.now"                       = "Jetzt Kaufen";
+"biz.buy.later"                     = "Klar, ich kaufe später";
+"biz.premium.sync.note"             = "Für die Nutzung der Synchronisierung ist ein Premium-Abonnement erforderlich.";
+"biz.trial"                         = "Test Version";
+"biz.trial.hint.fmt"                = "Testen Sie die PRO-Funktionen kostenlos %zd Tage.";
+"biz.trial.noteliglbile"            = "Nicht für Testversion geeignet";
 "biz.terms.title"                   = "Terms of Service";
 "biz.privacy.title"                 = "Privacy Policy";
 
@@ -1337,67 +1337,67 @@
 "iap.restore"                   = "Käufe wiederherstellen";
 "iap.pro.upgrade"               = "Upgrade zu Pro";
 "iap.premium.subscription"      = "Premium Subscription";
-"iap.dialog.completed"          = "Completed Käufe";
+"iap.dialog.completed"          = "Kompletierte Käufe";
 "iap.dialog.restored"           = "Restored Käufe";
-"iap.validation.issue"          = "In-App Käufe have not been verified!";
-"iap.validation.cancelled.fmt"  = "%@ was cancelled"; // e.g. 'Upgrade to Pro was cancelled'
-"iap.validation.expired.fmt"    = "%@ was expired";
-"iap.validation.uncofirmed.fmt" = "%@ is not confirmed due to %@"; // e.g. 'Yearly subscription is not confirmed due to some error'
-"iap.validation.note"           = "Some features will be disabled!";
-"iap.pro.title"                 = "Upgrade to Pro";
-"iap.pro.subtitle"              = "One-time payment";
-"iap.pro.hint"              	  = "Upgrade to Pro unlocks all Pro features.";
-"iap.pro.allfeatures"           = "All Pro features";
-"iap.pro.discount.title"        = "Upgrade to Pro (Discount)";
-"iap.pro.discount.subtitle"     = "The offer to KyBook 2 Pro users";
+"iap.validation.issue"          = "In-App Käufe noch nicht verifiziert!";
+"iap.validation.cancelled.fmt"  = "%@ abgebrochen"; // e.g. 'Upgrade to Pro was cancelled'
+"iap.validation.expired.fmt"    = "%@ abgelaufen";
+"iap.validation.uncofirmed.fmt" = "%@ ist nicht bestätigt aufgrund von %@"; // e.g. 'Yearly subscription is not confirmed due to some error'
+"iap.validation.note"           = "Einige Funktionen werden deaktiviert!";
+"iap.pro.title"                 = "Upgrade zu Pro";
+"iap.pro.subtitle"              = "One-time Zahlung";
+"iap.pro.hint"              	  = "Mit einem Upgrade auf Pro werden alle Pro-Funktionen freigeschaltet.";
+"iap.pro.allfeatures"           = "Alle Pro-Funktionen";
+"iap.pro.discount.title"        = "Upgrade zu Pro (Discount)";
+"iap.pro.discount.subtitle"     = "Das Angebot für Benutzer von KyBook 2 Pro";
 "iap.month3.title"              = "3-Month Subscription";
-"iap.month3.subtitle"           = "Paid every 3 months (try free for 1 week";
-"iap.yearly.title"              = "Yearly Subscription";
-"iap.yearly.subtitle"           = "Paid every year, (try free for 1 week)";
-"iap.premium.details"           = "Subscription details";
-"iap.premium.hint"              = "Premium subscription includes the synchronization feature and all Pro features.";
-"iap.manage.subscriptions"      = "Manage subscriptions";
-"iap.status.expired.fmt"        = "Expired on %@"; // subscription expired on 2018-01-01
-"iap.status.expires.fmt"        = "Expires on %@";
-"iap.status.paid.fmt"           = "Paid in %@";
+"iap.month3.subtitle"           = "Zahlung jede 3 Manate (try free for 1 week";
+"iap.yearly.title"              = "Jährliche Subscription";
+"iap.yearly.subtitle"           = "Zahlung jedes Jahr, (try free for 1 week)";
+"iap.premium.details"           = "Subscription Details";
+"iap.premium.hint"              = "Das Premium-Abonnement umfasst die Synchronisierungsfunktion und alle Pro-Funktionen.";
+"iap.manage.subscriptions"      = "Manage Subscriptions";
+"iap.status.expired.fmt"        = "Abgelaufen am %@"; // subscription expired on 2018-01-01
+"iap.status.expires.fmt"        = "Abgelaufen on %@";
+"iap.status.paid.fmt"           = "Zahlung in %@";
 "iap.status.cancelled.fmt"      = "Cancelled in %@";
-"iap.error.title"               = "iTunes Store error";
-"iap.error.nopurchases"         = "Sorry, no purchases were found";
-"iap.error.unablepayment"       = "Sorry, unable to make a purchase. This device is not able or allowed to make payments";
-"iap.error.unreachable"         = "Sorry, synchronization server is unreachable. Premium subscription is unusable without synchronization";
-"iap.subscription.none"         = "No subscription";
-"iap.subscription.renew.ask.fmt"= "%@ expired on %@. Synchronization is not available until the subscription is renewed. Renew?";  // e.g. 'Yearly subscription expired on 19 Dec 2018.'
-"iap.subscription.renew"        = "Renew subscription";
+"iap.error.title"               = "iTunes Store Fehler";
+"iap.error.nopurchases"         = "Leider wurden keine Einkäufe gefunden";
+"iap.error.unablepayment"       = "Es tut mir leid, ich kann nicht einkaufen. Dieses Gerät kann oder darf keine Zahlungen vornehmen";
+"iap.error.unreachable"         = "Tut mir leid, der Synchronisierungsserver ist nicht erreichbar. Premium-Abonnement ist ohne Synchronisierung unbenutzbar.";
+"iap.subscription.none"         = "Keine Subscription";
+"iap.subscription.renew.ask.fmt"= "%@ abgelaufen am %@. Die Synchronisierung ist erst verfügbar, wenn das Abonnement erneuert wird. Erneuern?";  // e.g. 'Yearly subscription expired on 19 Dec 2018.'
+"iap.subscription.renew"        = "Subscription erneuern";
 
 // SUPPORT/ABOUT
 
-"support.report.issue"          = "Report an issue";
-"support.about"                 = "About";
-"support.about.rate"            = "Rate on the App Store";
-"support.about.twitter"         = "Tweet on Twitter";
-"support.about.feedback"        = "Send feedback";
-"support.about.help"            = "Help";
-"support.about.discuss"         = "Discuss";
-"support.about.acknowledgement" = "Acknowledgement";
+"support.report.issue"          = "Ein Problem melden";
+"support.about"                 = "Über";
+"support.about.rate"            = "Bewerte auf dem App Store";
+"support.about.twitter"         = "Tweet auf Twitter";
+"support.about.feedback"        = "Sende ein Feedback";
+"support.about.help"            = "Hilfe";
+"support.about.discuss"         = "Diskussion";
+"support.about.acknowledgement" = "Anerkennung";
 
 // Abbreviation
 
-"abbr.thousand.words.fmt"       = "%zdk words";
+"abbr.thousand.words.fmt"       = "%zdk Wörter";
 
 // SMB/CIFS AND OTHERS ERRORS
 
 "INTERNAL_ERROR"            = "Interner Fehler";
 "NETWORK_FAILURE"           = "Netzwerk Fehler";
-"UNAUTHORIZED"              = "Unauthorized";
-"ACCESS_DENIED"             = "Access Denied";
-"UNABLE_RESOLVE"            = "Unable to resolve the hostname/address";
-"UNABLE_CONNECT"            = "Unable to connect to a network computer";
-"BAD_SHARE"                 = "Invalid Sharepoint";
-"BAD_PATH"                  = "Invalid Pfad";
-"FILE_IS_DIRECTORY"         = "File is a directory";
-"FILE_ALREADY_EXISTS"       = "File already exists";
-"NOT_FOUND"                 = "Not found";
-"UNSUPPORTED"               = "This feature is unsupported";
+"UNAUTHORIZED"              = "Unautorisiert";
+"ACCESS_DENIED"             = "Zugang verweigert";
+"UNABLE_RESOLVE"            = "Kann den Hostnamen/die Hostadresse nicht auflösen";
+"UNABLE_CONNECT"            = "Verbindung zu einem Netzwerkcomputer nicht möglich";
+"BAD_SHARE"                 = "Invalider Sharepoint";
+"BAD_PATH"                  = "Invalider Pfad";
+"FILE_IS_DIRECTORY"         = "Datei ist ein Verzeichnis";
+"FILE_ALREADY_EXISTS"       = "Datei existier bereits";
+"NOT_FOUND"                 = "Nicht gefunden";
+"UNSUPPORTED"               = "Diese Funktion wird nicht unterstützt.";
 "FILE_IO_ERROR"             = "Dateisystemfehler";
 "OUT_OF_MEMORY"             = "Speicherfehler";
 "UNKNOWN_FAILURE"           = "Unbekannter Fehler";
